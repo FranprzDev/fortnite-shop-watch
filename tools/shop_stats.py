@@ -1,5 +1,6 @@
 import json
 import sys
+from datetime import datetime, timezone
 from enum import Enum
 
 import numpy as np
@@ -204,6 +205,8 @@ def compute_stats(snapshot):
 
     chosen_bundles = [offer for offer in chosen_offers if len(offer["items"]) > 1]
     chosen_singles = [offer for offer in chosen_offers if len(offer["items"]) == 1]
+    chosen_named_bundles = [offer for offer in chosen_bundles if offer["namedBundle"]]
+    chosen_combo_offers = [offer for offer in chosen_bundles if not offer["namedBundle"]]
 
     categories = {category.value: {"paVos": 0, "purchases": 0} for category in Category}
     items_obtained = {key: 0 for key in ITEM_OBTAINED_KEYS.values()}
@@ -223,11 +226,13 @@ def compute_stats(snapshot):
         "purchases": len(chosen_offers),
         "categories": categories,
         "namedBundlesInCatalog": sum(1 for offer in offers if offer["namedBundle"]),
-        "chosenNamedBundles": sum(1 for offer in chosen_offers if offer["namedBundle"]),
-        "chosenComboOffers": sum(1 for offer in chosen_bundles if not offer["namedBundle"]),
+        "chosenNamedBundles": len(chosen_named_bundles),
+        "chosenComboOffers": len(chosen_combo_offers),
         "chosenSingles": len(chosen_singles),
         "itemsCovered": len(obtained),
         "itemsObtained": items_obtained,
+        "namedBundlePaVos": sum(offer["finalPrice"] for offer in chosen_named_bundles),
+        "comboPaVos": sum(offer["finalPrice"] for offer in chosen_combo_offers),
         "bundlePaVos": sum(offer["finalPrice"] for offer in chosen_bundles),
         "singlePaVos": sum(offer["finalPrice"] for offer in chosen_singles),
         "overlapItems": len(overlap),
@@ -261,6 +266,7 @@ def upsert_totals(path, snapshot, stats):
     days[date_key] = day
     totals["days"] = days
     totals["method"] = Method.ID.value
+    totals["updatedAt"] = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     with open(path, "w", encoding="utf-8") as handle:
         json.dump(totals, handle, indent=2, ensure_ascii=False)
         handle.write("\n")
@@ -277,7 +283,8 @@ def main(argv):
     universe_size = stats["itemsCovered"]
     print(
         f"stats: date={date_key} totalMin={stats['totalMinPaVos']} purchases={stats['purchases']} "
-        f"bundles={stats['chosenNamedBundles']}/{stats['bundlePaVos']} combos={stats['chosenComboOffers']} "
+        f"bundles={stats['chosenNamedBundles']}/{stats['namedBundlePaVos']} "
+        f"combos={stats['chosenComboOffers']}/{stats['comboPaVos']} "
         f"singles={stats['chosenSingles']} covered={stats['itemsCovered']}/{universe_size} "
         f"overlap={stats['overlapItems']}"
     )

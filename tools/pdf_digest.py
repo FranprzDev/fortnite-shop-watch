@@ -1,9 +1,12 @@
 import json
 import os
 import re
+import subprocess
 import sys
+import tempfile
 import time
 import urllib.request
+from enum import Enum
 from io import BytesIO
 
 from PIL import Image
@@ -13,6 +16,11 @@ from reportlab.lib.units import mm
 from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.pdfgen.canvas import Canvas
+
+try:
+    from svglib.svglib import svg2rlg
+except ImportError as error:
+    raise SystemExit('error: svglib is required to draw stats charts (pip install svglib): ' + str(error))
 
 TITLE = "Tienda de Fortnite: cambios del día"
 SUBTITLE = "Tienda del {shop} comparada con la del {previous}"
@@ -30,6 +38,46 @@ FOOTER = (
 )
 PENDING_IMAGE = "Imagen pendiente"
 USER_AGENT = "fortnite-shop-watch/1.0"
+
+STATS_TITLE = "Estadisticas de la tienda"
+STATS_HEADLINE = "Costo teórico del catálogo ({date}): {total} PaVos a precios publicados"
+STATS_COVERAGE = "{purchases} compras cubren los {items} articulos de la tienda"
+STATS_UNIQUE = ", cada uno una sola vez (hoy)"
+STATS_OVERLAP = " - {overlap} articulos vienen repetidos entre las compras elegidas (cobertura verificada)"
+STATS_LOTS = "La tienda tiene {catalog} lotes y la combinación mínima usa {chosen}."
+STATS_SERIES_TITLE = "Serie diaria de costo teórico (PaVos)"
+STATS_SERIES_SINGLE = "Primer registro de la serie"
+STATS_SERIES_NOTE = "Serie diaria de costo teórico del catálogo (PaVos por fecha)."
+STATS_METHOD_PRICES = (
+    "Precios publicados del dia segun fortnite-api.com (terceros), sin cuenta: calculo teorico "
+    "del catalogo, no una cotizacion de tu cuenta ni una recomendacion de compra."
+)
+STATS_METHOD_NO_PRORATE = "El precio de cada compra entra completo en una sola categoria, sin prorrateos."
+STATS_CHART_TITLE = "Costo teórico del catálogo ({date}): {total} PaVos a precios publicados"
+RENDER_CHART = os.path.join(os.path.dirname(os.path.abspath(__file__)), "render_chart.js")
+
+
+class StatsCategory(Enum):
+    SONGS = "songs"
+    BUNDLES = "bundles"
+    SKINS = "skins"
+    ACCESSORIES = "accessories"
+    EMOTES = "emotes"
+    OTHER = "other"
+
+
+STATS_ORDER = [
+    (StatsCategory.SONGS, "Canciones"),
+    (StatsCategory.BUNDLES, "Lotes"),
+    (StatsCategory.SKINS, "Skins"),
+    (StatsCategory.ACCESSORIES, "Accesorios"),
+    (StatsCategory.EMOTES, "Gestos"),
+    (StatsCategory.OTHER, "Otros"),
+]
+
+
+class StatsError(Exception):
+    pass
 
 INK = HexColor("#14142b")
 MUTED = HexColor("#5c5c72")
@@ -120,6 +168,103 @@ def format_price(value):
         value = int(value)
     text = f"{value:,}".replace(",", ".")
     return f"{text} PaVos"
+
+
+def format_count(value):
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        return "0"
+    return f"{int(value):,}".replace(",", ".")
+
+
+def display_date(value):
+    text = clean_text(value)
+    match = re.match(r"^(\d{4})-(\d{2})-(\d{2})", text)
+    if match:
+        return f"{match.group(3)}/{match.group(2)}/{match.group(1)}"
+    return text
+
+
+def load_totals(path):
+    with open(path, "r", encoding="utf-8") as handle:
+        totals = json.load(handle)
+    if not isinstance(totals, dict) or not isinstance(totals.get("days"), dict):
+        raise StatsError("totals file has unexpected schema")
+    dates = sorted(key for key in totals["days"] if re.match(r"^\d{4}-\d{2}-\d{2}$", key))
+    if not dates:
+        raise StatsError("totals file has no daily entries")
+    current_key = dates[-1]
+    current = totals["days"][current_key]
+    if not isinstance(current, dict):
+        raise StatsError("totals day entry has unexpected schema")
+    for field in ("totalMinPaVos", "purchases", "itemsCovered", "overlapItems", "chosenNamedBundles", "namedBundlesInCatalog"):
+        if not isinstance(current.get(field), (int, float)) or isinstance(current.get(field), bool):
+            raise StatsError(f"totals day entry is missing {field}")
+    if not isinstance(current.get("categories"), dict) or not isinstance(current.get("itemsObtained"), dict):
+        raise StatsError("totals day entry is missing category breakdowns")
+    series = []
+    for key in dates:
+        entry = totals["days"][key]
+        if isinstance(entry, dict) and isinstance(entry.get("totalMinPaVos"), (int, float)) and not isinstance(entry.get("totalMinPaVos"), bool):
+            series.append((key, int(entry["totalMinPaVos"])))
+    return current_key, current, series
+
+
+def stats_rows(day):
+    rows = []
+    for category, label in STATS_ORDER:
+        data = day["categories"].get(category.value)
+        if not isinstance(data, dict):
+            continue
+        purchases = int(data.get("purchases") or 0)
+        if purchases <= 0:
+            continue
+        rows.append((category, label, int(data.get("paVos") or 0), purchases))
+    if not rows:
+        raise StatsError("totals day entry has no category purchases")
+    return rows
+
+
+def chart_max(values):
+    peak = max(values) if values else 0
+    if peak <= 0:
+        return 1
+    magnitude = 10 ** (len(str(int(peak))) - 1)
+    step = magnitude
+    for candidate in (magnitude, 2 * magnitude, 5 * magnitude, 10 * magnitude):
+        step = candidate
+        if peak % step == 0 and peak // step <= 6:
+            return peak
+    return ((peak // step) + 1) * step
+
+
+def quoted(value):
+    return '"' + str(value).replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def render_chart(source, workdir, name):
+    source_path = os.path.join(workdir, f"{name}.mmd")
+    svg_path = os.path.join(workdir, f"{name}.svg")
+    with open(source_path, "w", encoding="utf-8") as handle:
+        handle.write(source + "\n")
+    try:
+        result = subprocess.run(
+            ["node", RENDER_CHART, source_path, svg_path],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+    except FileNotFoundError as error:
+        raise StatsError(f"node is required to render stats charts: {error}")
+    if result.returncode != 0:
+        detail = clean_text(result.stderr) or clean_text(result.stdout) or f"exit {result.returncode}"
+        raise StatsError(f"render_chart failed for {name}: {detail}")
+    try:
+        drawing = svg2rlg(svg_path)
+    except Exception as error:
+        raise StatsError(f"svglib could not parse {name} chart: {error}")
+    if drawing is None:
+        raise StatsError(f"svglib returned no drawing for {name} chart")
+    return drawing
 
 
 def wrap_lines(text, font, size, width, max_lines):
@@ -428,6 +573,151 @@ class Digest:
         self.y = top - ROW_H - 1.6 * mm
         self.row_index += 1
 
+    def stats_heading(self, title):
+        self.ensure_space(16 * mm)
+        canvas = self.canvas
+        if self.y > PAGE_H - MARGIN:
+            self.new_page()
+        band_h = 11 * mm
+        top = self.y
+        canvas.saveState()
+        canvas.setFillColor(BAND)
+        canvas.roundRect(MARGIN, top - band_h, self.content_w, band_h, 2.5 * mm, stroke=0, fill=1)
+        canvas.setFillColor(white)
+        canvas.setFont(FONT_BOLD, SECTION_SIZE)
+        canvas.drawString(MARGIN + 5 * mm, top - band_h + 3.6 * mm, title)
+        canvas.restoreState()
+        self.y = top - band_h - 4 * mm
+
+    def stats_paragraph(self, text, size=BODY, bold=False):
+        font = FONT_BOLD if bold else FONT
+        lines = wrap_lines(text, font, size, self.content_w - 4 * mm, 12)
+        height = len(lines) * size * 1.24 + 3 * mm
+        self.ensure_space(height)
+        self.canvas.setFillColor(INK if bold else MUTED)
+        self.canvas.setFont(font, size)
+        base = self.y - size
+        for index, line in enumerate(lines):
+            self.canvas.drawString(MARGIN, base - index * size * 1.24, line)
+        self.y -= height
+
+    def stats_table_row(self, cells, widths, bold=False):
+        size = BODY
+        font = FONT_BOLD if bold else FONT
+        height = size * 1.5
+        self.ensure_space(height)
+        x = MARGIN
+        self.canvas.setFont(font, size)
+        for index, cell in enumerate(cells):
+            width = widths[index]
+            if index == len(cells) - 1:
+                self.canvas.setFillColor(INK if bold else MUTED)
+                self.canvas.drawRightString(x + width, self.y - size, cell)
+            else:
+                self.canvas.setFillColor(INK if bold else MUTED)
+                self.canvas.drawString(x, self.y - size, cell)
+            x += width
+        self.y -= height
+
+    def stats_chart(self, drawing, caption):
+        size = META
+        if drawing.width <= 0 or drawing.height <= 0:
+            raise StatsError("chart has no size")
+        scale = self.content_w / drawing.width
+        height = drawing.height * scale
+        self.ensure_space(height + size * 1.4 + 4 * mm)
+        drawing.scale(scale, scale)
+        drawing.width *= scale
+        drawing.height *= scale
+        drawing.drawOn(self.canvas, MARGIN, self.y - height)
+        self.y -= height + 2 * mm
+        self.canvas.setFillColor(MUTED)
+        self.canvas.setFont(FONT, size)
+        lines = wrap_lines(caption, FONT, size, self.content_w, 2)
+        for index, line in enumerate(lines):
+            self.canvas.drawString(MARGIN, self.y - size - index * size * 1.22, line)
+        self.y -= len(lines) * size * 1.22 + 4 * mm
+
+    def draw_stats(self, totals):
+        date_key, day, series = load_totals(totals)
+        rows = stats_rows(day)
+        total = int(day["totalMinPaVos"])
+        date_label = display_date(date_key)
+        self.stats_heading(STATS_TITLE)
+        self.stats_paragraph(STATS_HEADLINE.format(date=date_label, total=format_count(total)), bold=True)
+        obtained = day["itemsObtained"]
+        breakdown = (
+            f"{format_count(obtained.get('songs', 0))} canciones, "
+            f"{format_count(obtained.get('accessories', 0))} accesorios, "
+            f"{format_count(obtained.get('skins', 0))} skins, "
+            f"{format_count(obtained.get('emotes', 0))} gestos y "
+            f"{format_count(obtained.get('other', 0))} vehiculos e instrumentos"
+        )
+        coverage = STATS_COVERAGE.format(
+            purchases=format_count(day["purchases"]),
+            items=format_count(day["itemsCovered"]),
+        )
+        coverage += f" ({breakdown})"
+        overlap = int(day["overlapItems"])
+        if overlap == 0:
+            coverage += STATS_UNIQUE
+        else:
+            coverage += STATS_OVERLAP.format(overlap=format_count(overlap))
+        self.stats_paragraph(coverage)
+        self.stats_paragraph(STATS_LOTS.format(
+            catalog=format_count(day["namedBundlesInCatalog"]),
+            chosen=format_count(day["chosenNamedBundles"]),
+        ))
+        row_widths = [self.content_w * 0.4, self.content_w * 0.3, self.content_w * 0.3]
+        self.stats_table_row(["Categoria", "PaVos", "Compras"], row_widths, bold=True)
+        for category, label, pa_vos, purchases in rows:
+            if category == StatsCategory.SKINS:
+                label_text = f"Skins ({self.skins_label(day, purchases)})"
+            else:
+                label_text = label
+            self.stats_table_row([label_text, format_count(pa_vos), format_count(purchases)], row_widths)
+
+        workdir = tempfile.mkdtemp(prefix="fortnite-stats-")
+        chart_title = STATS_CHART_TITLE.format(date=date_label, total=format_count(total))
+        x_labels = [f"{label} ({format_count(purchases)})" for _, label, _, purchases in rows]
+        bar_values = [pa_vos for _, _, pa_vos, _ in rows]
+        bar_source = "\n".join([
+            "xychart-beta",
+            f"    title {quoted(chart_title)}",
+            f"    x-axis [{', '.join(quoted(label) for label in x_labels)}]",
+            f"    y-axis {quoted('Costo teórico en PaVos')} 0 --> {chart_max(bar_values)}",
+            f"    bar [{', '.join(str(value) for value in bar_values)}]",
+        ])
+        bar_chart = render_chart(bar_source, workdir, f"categories-{date_key}")
+        self.stats_chart(bar_chart, chart_title)
+
+        if len(series) <= 1:
+            self.stats_paragraph(STATS_SERIES_SINGLE, bold=True)
+        else:
+            line_labels = [display_date(key)[:5] for key, _ in series]
+            line_values = [value for _, value in series]
+            line_source = "\n".join([
+                "xychart-beta",
+                f"    title {quoted(STATS_SERIES_TITLE)}",
+                f"    x-axis [{', '.join(quoted(label) for label in line_labels)}]",
+                f"    y-axis {quoted('Costo teórico en PaVos')} 0 --> {chart_max(line_values)}",
+                f"    line [{', '.join(str(value) for value in line_values)}]",
+            ])
+            line_chart = render_chart(line_source, workdir, f"series-{date_key}")
+            self.stats_chart(line_chart, STATS_SERIES_NOTE)
+
+        self.stats_paragraph(STATS_METHOD_PRICES, size=META)
+        self.stats_paragraph(STATS_METHOD_NO_PRORATE, size=META)
+        return total, overlap, 2 if len(series) > 1 else 1
+
+    def skins_label(self, day, skin_purchases):
+        singles = int(day.get("chosenSingles") or 0)
+        combos = int(day.get("chosenComboOffers") or 0)
+        combo_skins = max(skin_purchases - singles, 0)
+        if combos <= 0 or combo_skins <= 0:
+            return f"{format_count(skin_purchases)} sueltas"
+        return f"{format_count(singles)} sueltas + {format_count(combo_skins)} ofertas de skin con extras"
+
     def draw_footer(self):
         if self.y < MARGIN + 22 * mm:
             self.new_page()
@@ -462,10 +752,11 @@ def unique_by_id(items):
 
 
 def main():
-    if len(sys.argv) != 4:
-        print("usage: python3 tools/pdf_digest.py <changes.json> <snapshot.json> <out.pdf>", file=sys.stderr)
+    if len(sys.argv) not in (4, 5):
+        print("usage: python3 tools/pdf_digest.py <changes.json> <snapshot.json> <out.pdf> [totals.json]", file=sys.stderr)
         sys.exit(1)
     changes_path, snapshot_path, out_path = sys.argv[1], sys.argv[2], sys.argv[3]
+    totals_path = sys.argv[4] if len(sys.argv) == 5 else None
     with open(changes_path, "r", encoding="utf-8") as handle:
         changes_data = json.load(handle)
     with open(snapshot_path, "r", encoding="utf-8") as handle:
@@ -558,9 +849,18 @@ def main():
     if unverified_ids:
         digest.wrapped_note(f"Se excluyeron {len(unverified_ids)} ofertas cuya moneda no pudo verificarse en fortnite-api.com.")
 
+    try:
+        stats_result = digest.draw_stats(totals_path) if totals_path else None
+    except StatsError as error:
+        print(f"error: {error}", file=sys.stderr)
+        sys.exit(1)
+
     digest.draw_footer()
     digest.save()
 
+    if stats_result is not None:
+        total, overlap, charts = stats_result
+        print(f"stats section: totalMin={total} overlap={overlap} charts={charts}")
     print(f"PDF written: {out_path} ({len(changes)} changes, {len(unchanged)} unchanged)")
     print(f"images: {digest.images_ok}/{digest.images_total} visible, {digest.images_pending} pendientes")
     print(f"excluded non-V-Bucks: {len(non_vbucks_ids)}")
