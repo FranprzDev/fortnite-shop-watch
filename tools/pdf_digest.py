@@ -17,6 +17,9 @@ from reportlab.pdfgen.canvas import Canvas
 TITLE = "Tienda de Fortnite: cambios del día"
 SUBTITLE = "Tienda del {shop} comparada con la del {previous}"
 UNCHANGED_TITLE = "Siguen en la tienda (sin cambios)"
+BASELINE_TITLE = "Tienda de Fortnite: catálogo actual"
+BASELINE_SUBTITLE = "Primera base de la tienda del {shop}; la comparación diaria empieza con la próxima rotación"
+BASELINE_CATALOG_TITLE = "Catálogo actual"
 ADDED_TITLE = "Nuevos"
 REMOVED_TITLE = "Salieron"
 PRICE_TITLE = "Cambios de precio"
@@ -255,7 +258,6 @@ def draw_pending_image(canvas, x, y, size, radius):
 class Digest:
     def __init__(self, path, changes_data):
         self.canvas = Canvas(path, pagesize=A4)
-        self.canvas.setTitle(TITLE)
         self.margin = MARGIN
         self.content_w = PAGE_W - MARGIN * 2
         self.y = PAGE_H - HEADER_H - 8 * mm
@@ -265,6 +267,8 @@ class Digest:
         self.images_pending = 0
         self.shop_date = changes_data.get("shopDate")
         self.previous_date = changes_data.get("previousDate")
+        self.baseline = not (changes_data.get("changes") or []) and not clean_text(self.previous_date)
+        self.canvas.setTitle(BASELINE_TITLE if self.baseline else TITLE)
         self._draw_header()
 
     def _draw_header(self):
@@ -276,6 +280,15 @@ class Digest:
         canvas.rect(0, PAGE_H - HEADER_H, PAGE_W, 1.8 * mm, stroke=0, fill=1)
         canvas.setFillColor(white)
         canvas.setFont(FONT_BOLD, TITLE_SIZE)
+        if self.baseline:
+            canvas.drawString(self.margin, PAGE_H - HEADER_H + 15 * mm, BASELINE_TITLE)
+            canvas.setFillColor(HexColor("#c9cbe6"))
+            canvas.setFont(FONT, SUBTITLE_SIZE)
+            subtitle = BASELINE_SUBTITLE.format(shop=self.shop_date or "hoy")
+            for index, line in enumerate(wrap_lines(subtitle, FONT, SUBTITLE_SIZE, self.content_w, 2)):
+                canvas.drawString(self.margin, PAGE_H - HEADER_H + (9 * mm) - index * SUBTITLE_SIZE * 1.2, line)
+            canvas.restoreState()
+            return
         canvas.drawString(self.margin, PAGE_H - HEADER_H + 15 * mm, TITLE)
         canvas.setFillColor(HexColor("#c9cbe6"))
         canvas.setFont(FONT, SUBTITLE_SIZE)
@@ -465,14 +478,15 @@ def main():
     digest = Digest(out_path, changes_data)
 
     unchanged_rows = [{"kind": "unchanged", "offer": item["offer"]} for item in unique_by_id([{"offer": offer} for offer in unchanged])]
-    digest.start_section("unchanged", UNCHANGED_TITLE, len(unchanged_rows))
+    section_title = BASELINE_CATALOG_TITLE if digest.baseline else UNCHANGED_TITLE
+    digest.start_section("unchanged", section_title, len(unchanged_rows))
     if unchanged_rows:
         for entry in unchanged_rows:
             digest.draw_row(entry["offer"], entry, resolve_name(entry["offer"]))
     else:
         digest.empty_note("Ninguna oferta se mantuvo exactamente igual.")
 
-    sections = [
+    sections = [] if digest.baseline else [
         ("added", ADDED_TITLE, by_kind["added"], "No hubo ofertas nuevas."),
         ("removed", REMOVED_TITLE, by_kind["removed"], "No salió ninguna oferta."),
         ("priceChanged", PRICE_TITLE, by_kind["priceChanged"], "No hubo cambios de precio."),
