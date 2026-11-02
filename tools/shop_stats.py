@@ -208,6 +208,9 @@ def compute_stats(snapshot):
     chosen_named_bundles = [offer for offer in chosen_bundles if offer["namedBundle"]]
     chosen_combo_offers = [offer for offer in chosen_bundles if not offer["namedBundle"]]
 
+    skins_singles = sum(1 for offer in chosen_offers if offer_category(offer) == Category.SKINS and len(offer["items"]) == 1)
+    skins_combo_offers = sum(1 for offer in chosen_offers if offer_category(offer) == Category.SKINS and len(offer["items"]) > 1)
+
     categories = {category.value: {"paVos": 0, "purchases": 0} for category in Category}
     items_obtained = {key: 0 for key in ITEM_OBTAINED_KEYS.values()}
     obtained_by_category = {category: set() for category in ITEM_OBTAINED_KEYS}
@@ -229,6 +232,8 @@ def compute_stats(snapshot):
         "chosenNamedBundles": len(chosen_named_bundles),
         "chosenComboOffers": len(chosen_combo_offers),
         "chosenSingles": len(chosen_singles),
+        "skinsSingles": skins_singles,
+        "skinsComboOffers": skins_combo_offers,
         "itemsCovered": len(obtained),
         "itemsObtained": items_obtained,
         "namedBundlePaVos": sum(offer["finalPrice"] for offer in chosen_named_bundles),
@@ -259,6 +264,8 @@ def upsert_totals(path, snapshot, stats):
         "chosenNamedBundles": stats["chosenNamedBundles"],
         "chosenComboOffers": stats["chosenComboOffers"],
         "chosenSingles": stats["chosenSingles"],
+        "skinsSingles": stats["skinsSingles"],
+        "skinsComboOffers": stats["skinsComboOffers"],
         "itemsCovered": stats["itemsCovered"],
         "itemsObtained": stats["itemsObtained"],
         "overlapItems": stats["overlapItems"],

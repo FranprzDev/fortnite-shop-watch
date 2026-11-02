@@ -711,12 +711,13 @@ class Digest:
         return total, overlap, 2 if len(series) > 1 else 1
 
     def skins_label(self, day, skin_purchases):
-        singles = int(day.get("chosenSingles") or 0)
-        combos = int(day.get("chosenComboOffers") or 0)
-        combo_skins = max(skin_purchases - singles, 0)
-        if combos <= 0 or combo_skins <= 0:
-            return f"{format_count(skin_purchases)} sueltas"
-        return f"{format_count(singles)} sueltas + {format_count(combo_skins)} ofertas de skin con extras"
+        singles = day.get("skinsSingles")
+        combos = day.get("skinsComboOffers")
+        if isinstance(singles, int) and not isinstance(singles, bool) and isinstance(combos, int) and not isinstance(combos, bool):
+            if combos > 0:
+                return f"{format_count(singles)} sueltas + {format_count(combos)} ofertas de skin con extras"
+            return f"{format_count(singles + combos)} sueltas"
+        return f"{format_count(skin_purchases)} sueltas"
 
     def draw_footer(self):
         if self.y < MARGIN + 22 * mm:
