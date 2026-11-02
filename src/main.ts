@@ -42,10 +42,12 @@ async function main(): Promise<void> {
     logger.info(`baseline seeded: ${snapshot.offers.length} offers`);
   } else {
     const changes = diffSnapshots(previous, snapshot);
+    const changesJsonPath = `${REPORTS_DIR}/${shopDateKey(snapshot.date)}.json`;
     if (changes.length === 0 && existsSync(reportPath)) {
       logger.info("added=0 removed=0 priceChanged=0 (existing report kept)");
     } else {
       await writeFile(reportPath, buildReport(displayDate, previousDisplayDate, changes));
+      await writeFile(changesJsonPath, JSON.stringify({ shopDate: displayDate, previousDate: previousDisplayDate, changes }, null, 2) + "\n");
       const added = changes.filter((c) => c.kind === ChangeKind.Added).length;
       const removed = changes.filter((c) => c.kind === ChangeKind.Removed).length;
       const priceChanged = changes.filter((c) => c.kind === ChangeKind.PriceChanged).length;
