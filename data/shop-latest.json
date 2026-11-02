@@ -12,7 +12,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_704_athena_commando_f_lollipoptrickster/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/fd32a1861a3483a3/renderimage_1.png"
     },
     {
       "offerId": "v2:/28cd738cfba7e3cc28fdc4c855ff7ffa15ef2cc0ef7428dde2ee4aeded158537",
@@ -27,27 +27,31 @@
       "finalPrice": 2000,
       "regularPrice": 2900,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_altogorgon/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ebecc2bb80d1a7db/renderimage_0.png"
     },
     {
       "offerId": "v2:/4f0082b446d14ff8c7d3898d7a8e02b520174fa0bd6f7597581a72e22a05a7dd",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Everlong for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Everlong - Foo Fighters",
+      "itemNames": [
+        "Everlong - Foo Fighters"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/d5675af68c30fd90.jpg"
     },
     {
       "offerId": "v2:/8b1b14fe261555919864369afe5ad2c9a01ef32da52eb7b54cfd4500a2b5abfc",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Less Than for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Less Than - Nine Inch Nails",
+      "itemNames": [
+        "Less Than - Nine Inch Nails"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/6f72cb9e6eb4bea2.jpg"
     },
     {
       "offerId": "v2:/529433cb16ffe67eadbd9f86e9f269b2fac29a74127c4c3404ddc581f24c589d",
@@ -59,17 +63,19 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/wrap_calavera/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/25cd353d0ea85f5e/renderimage_0.png"
     },
     {
       "offerId": "v2:/c2e3a649d8d847904277a8b9af1873c124a9329a8a41dd02ec6e7c14c695d4da",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_500) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "The Emptiness Machine - Linkin Park",
+      "itemNames": [
+        "The Emptiness Machine - Linkin Park"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/9a95b07e32db4fc7.jpg"
     },
     {
       "offerId": "v2:/c55749947dbe7f6567bd71b7747c33b16f51da041b7662fb9353e4d2218449ed",
@@ -81,7 +87,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_brokenspot/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8c8480dd41421eba/renderimage_0.png"
     },
     {
       "offerId": "v2:/d1ed3f2e859b742c10441982d3cb285cb34c627928ebf57905acf31d2b33d228",
@@ -93,17 +99,19 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_cargolying/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/be5f033e0d620605/renderimage_0.png"
     },
     {
       "offerId": "v2:/c49c4ee013be8e1b4c6b23a701f63d4abb3c3ad220aa692dd4345ebba0f73173",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Battery for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Battery - Metallica",
+      "itemNames": [
+        "Battery - Metallica"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/33917ae3de42b0c3.jpg"
     },
     {
       "offerId": "v2:/e17da5c7cced62e4ff6e708f07bbf86f24cccfff1977126369eb7bcef7201458",
@@ -120,12 +128,14 @@
     {
       "offerId": "v2:/04f0f418fd9e7e086d22f5e0f4e9e8c2842dccb5cfe7a9075ae85ad535f71b37",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Sad But True for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Sad But True - Metallica",
+      "itemNames": [
+        "Sad But True - Metallica"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/f2f1bf998dea1f75.jpg"
     },
     {
       "offerId": "v2:/3289ceb25b93bec6c69d1e52913b81cac15d6e22d9ccb836c04283c3619c1e04",
@@ -138,7 +148,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_prongcling/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/51687a62bf279eae/renderimage_0.png"
     },
     {
       "offerId": "v2:/c07a0d295c6f075582b6ccba3aaa6744d48933dbe7d3849e789c5769882f7b3f",
@@ -151,7 +161,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_ivorydwell/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ed82ad67fe53dc17/renderimage_0.png"
     },
     {
       "offerId": "v2:/2e93d2ff65704038507bee40a6e090bddbfb894adf989e78874ce42aea778bf4",
@@ -168,12 +178,14 @@
     {
       "offerId": "v2:/5887e0b1444086ac0b7ee321666aeb144518695db8c346965ec731e05590641c",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_326) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "September - Earth, Wind & Fire",
+      "itemNames": [
+        "September - Earth, Wind & Fire"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/29d0dda23d0d1dc2.jpg"
     },
     {
       "offerId": "v2:/677e0c9ffa49ae3d5aed63c064b76b37e8195880957fbafcab69c84c6c2f333c",
@@ -185,57 +197,70 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_slugripple/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7120680a94e937b2/renderimage_0.png"
     },
     {
       "offerId": "v2:/86b1a1af1cb065687ebc49cfe3d4e03b897f720e2e83ab8174cd496df0a23870",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Wolves for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Wolves - Selena Gomez w/ Marshmello",
+      "itemNames": [
+        "Wolves - Selena Gomez w/ Marshmello"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/3b2d1f0ba5b25a97.jpg"
     },
     {
       "offerId": "v2:/38bb820287bd73b04a8f50ddd8511ea638c0fc9c4773f532b2dcefadb355c8cb",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Song 2 for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Song 2 - Blur",
+      "itemNames": [
+        "Song 2 - Blur"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/c2939db9c0b77283.jpg"
     },
     {
       "offerId": "v2:/2522f21b0160a6d911de092581aa9d63e633ddc82907956ac136ab7a4cf27048",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Fat Lip for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Fat Lip - Sum 41",
+      "itemNames": [
+        "Fat Lip - Sum 41"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/002f769e1e855822.jpg"
     },
     {
       "offerId": "v2:/b98d1f4216b6ea519b000ce38ad2f405302773bfb27db0e1bc8b3cb8011257ec",
       "section": "Insidio",
-      "name": "[VIRTUAL]1 x Insidio, 1 x Insidio, 1 x Insidio, 1 x Insidio, 1 x Insidio, 1 x Insidio, 1 x Insidio, 1 x Insidio, 1 x Insidio, 1 x Insidio, 1 x Insidio, 1 x Insidio, 1 x Insidio, 1 x Insidio, 1 x Metro, 1 x Chequered Past, 1 x Stripes, 1 x Supercool for -1 MtxCurrency",
-      "itemNames": [],
+      "name": "Insidio",
+      "itemNames": [
+        "Metropolitano",
+        "Chequered Past",
+        "Rayas",
+        "Supermolón"
+      ],
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-03T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/fa1dc36a81e178ce/renderimage_0.png"
     },
     {
       "offerId": "v2:/d6bc108a55327d2b0113b159bcd42596ba5f0eb733d9b0e854669e83ba4ca98b",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_687) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Celebrate Happy - Jonas Brothers",
+      "itemNames": [
+        "Celebrate Happy - Jonas Brothers"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/69a9275e5692eacf.jpg"
     },
     {
       "offerId": "v2:/609205fe84f913f56a971ba7ec672ad108d4dcc17a133595a84e1688c581e51c",
@@ -244,12 +269,13 @@
       "itemNames": [
         "Dante",
         "Acordes de alebrije",
+        "Acordes de alebrije",
         "Acordes de alebrije"
       ],
       "finalPrice": 1800,
       "regularPrice": 2300,
       "outDate": "2026-11-07T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/companion_triododge/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/778b85416f153371/renderimage_0.png"
     },
     {
       "offerId": "v2:/caccb6ef5e08efaf83a8c744abc3bbed1f22bddc5c7f99027b04b1d2c7024f8d",
@@ -264,7 +290,7 @@
       "finalPrice": 1800,
       "regularPrice": 1800,
       "outDate": "2026-12-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_celerystitch/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9af63ea860febe11/renderimage_0.png"
     },
     {
       "offerId": "v2:/3ec56d630cf09d040d6926a39191cb41fc1f27eca45c4ec62a72246a3a43039d",
@@ -272,12 +298,13 @@
       "name": "Micrófono de Mariah",
       "itemNames": [
         "Micrófono de Mariah",
+        "Micrófono de Mariah",
         "Micrófono de Mariah"
       ],
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_pastelglaze_mic/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/484f05a110e6c34a/renderimage_0.png"
     },
     {
       "offerId": "v2:/bb99173d548378761bf171a4f4b419212bb2668a1521e87c562015970b7c9c54",
@@ -289,27 +316,31 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/wrap_asidedepot/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/105bcbbdabd2509b/renderimage_0.png"
     },
     {
       "offerId": "v2:/a89f4ef5ed8341eafda5601c0015c17ea4027a94ce8ab7fab5b7cd2a0c727c44",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Mi Gente for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Mi Gente - J Balvin & Willy William",
+      "itemNames": [
+        "Mi Gente - J Balvin & Willy William"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/6f90537ce93d25dd.jpg"
     },
     {
       "offerId": "v2:/567d4be6f8ee7ab370431b4d825e82bed89740665dbc5dc33234e8e68e842602",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Your Love (9pm) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Your Love (9pm) - ATB, Topic, A7S",
+      "itemNames": [
+        "Your Love (9pm) - ATB, Topic, A7S"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/e718e9d68a0845e2.jpg"
     },
     {
       "offerId": "v2:/6cc836b56c3aa64b338c4647b9619a76315935ba514d7a40968657ef70ce2e62",
@@ -321,27 +352,31 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_llamabell/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b5c1bd1078375c2b/renderimage_0.png"
     },
     {
       "offerId": "v2:/43bff5e794fe67fba3967b323b77c7f16393ecef26da507ad62c207d0b5e79b1",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x All I Do Is Win for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "All I Do Is Win - DJ Khaled ft. T-Pain, Ludacris, Snoop Dogg & Rick Ross",
+      "itemNames": [
+        "All I Do Is Win - DJ Khaled ft. T-Pain, Ludacris, Snoop Dogg & Rick Ross"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/b6299811284bf862.jpg"
     },
     {
       "offerId": "v2:/2d01ea42e53d136bfbfc664870371913d224b74d8c7ccbd671df199fe118c774",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_492) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Fell In Love With A Girl - The White Stripes",
+      "itemNames": [
+        "Fell In Love With A Girl - The White Stripes"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/32201817e0621acd.jpg"
     },
     {
       "offerId": "v2:/b4799ae28c41bc03c54f6fe7c51c1ec1a63461807f3603f24978bde9500d5973",
@@ -354,7 +389,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_043_athena_commando_f_stealth/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1cfebed363f7db19/renderimage_0.png"
     },
     {
       "offerId": "v2:/6be6715f73312505aac0b7990ac2026e3980335bb207238ec4862c91f8a6be5f",
@@ -367,7 +402,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_329_athena_commando_f_snowninja/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/20b121ab47ffc226/renderimage_0.png"
     },
     {
       "offerId": "v2:/267e07d2534ff824a01c4f36cad65dabe577829e527639c78cf6b0848783ec40",
@@ -379,7 +414,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-12-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_celerystitch/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1266e355c813ea76/renderimage_0.png"
     },
     {
       "offerId": "v2:/1a1168fbec7c92579bd3df4c943245df2d7330878e9a801e9849d3d678d4909c",
@@ -391,7 +426,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_016_athena_commando_f/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/06a145e679047545/renderimage_0.png"
     },
     {
       "offerId": "v2:/80bbeff463e53b6c860b49ab50563128c8c57649427b944446f4e5eef47e6637",
@@ -405,17 +440,19 @@
       "finalPrice": 1100,
       "regularPrice": 1500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_rainbowsplash/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b94fd3dd18507531/renderimage_0.png"
     },
     {
       "offerId": "v2:/491e22787c896cb0e9a969bdafbd010cca7e6a8e3caf397366a4a03146d1ed02",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Lovin On Me for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Lovin On Me - Jack Harlow",
+      "itemNames": [
+        "Lovin On Me - Jack Harlow"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/45665a92d5454e72.jpg"
     },
     {
       "offerId": "v2:/3054b5b564a836d7d9d78908e8d39b0928a033a41b9233138a2453f6bdc9760e",
@@ -427,7 +464,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/glider_puzzleshed/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/19469c0d8abc3821/renderimage_0.png"
     },
     {
       "offerId": "v2:/b9eceb6da0a0ab505c7c2b1d58837f8b755e99d6cfcd2600862a88ef91fbb0de",
@@ -435,12 +472,13 @@
       "name": "Gusano de arena de seis cuerdas",
       "itemNames": [
         "Gusano de arena de seis cuerdas",
+        "Gusano de arena de seis cuerdas",
         "Gusano de arena de seis cuerdas"
       ],
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_asidedepot_guitar/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/57526bd81715726f/renderimage_0.png"
     },
     {
       "offerId": "v2:/d03f00afe32b5292e6032316b6475fb950625b96f0e843fb5e7e5e60166f292e",
@@ -452,7 +490,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-07T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/companion_triododge/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8c568a2653165964/renderimage_0.png"
     },
     {
       "offerId": "v2:/2a02811ae5c812df823d9af7957dc2c4cc81d8045942c0167d1bb1befc5400c3",
@@ -464,7 +502,7 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-12-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_celerystitch/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e608dd301d24f0f3/renderimage_0.png"
     },
     {
       "offerId": "v2:/5d60074adfacd0d3a0ab40afb39057eb711abd459fdcff1919997ba435489d35",
@@ -472,32 +510,37 @@
       "name": "Ariete acústico",
       "itemNames": [
         "Ariete acústico",
+        "Ariete acústico",
         "Ariete acústico"
       ],
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_113_muertos/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e831dd6c852cbd65/renderimage_0.png"
     },
     {
       "offerId": "v2:/c50980b7016d221342fcb59004249620e5587e57f06e3bb9b42b48706697a6bf",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Kids for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Kids - MGMT",
+      "itemNames": [
+        "Kids - MGMT"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/c2426c41a3c554db.jpg"
     },
     {
       "offerId": "v2:/c56464961d30ffe7fc414af7a368294bf6c18e8e4d7a29d3f73e609f393f56bb",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Whenever, Wherever for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Whenever, Wherever - Shakira",
+      "itemNames": [
+        "Whenever, Wherever - Shakira"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/267a7748dbd363a8.jpg"
     },
     {
       "offerId": "v2:/e00e113bc653f5d104eb977018f0603ca4b86869405178f6da55753554571789",
@@ -509,7 +552,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_creaturecomfort/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/32a6f53bc337aab7/renderimage_0.png"
     },
     {
       "offerId": "v2:/1b99c0498c206b3483ffe05135a3bd3032b19b3354aa3360ee87770fa150e942",
@@ -526,22 +569,26 @@
     {
       "offerId": "v2:/0d7adb402328d0f7d11093445a9a00fc6e0d88eac6f1945022859eef79364ef5",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Basket Case for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Basket Case - Green Day",
+      "itemNames": [
+        "Basket Case - Green Day"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/b309b26aa025c56f.jpg"
     },
     {
       "offerId": "v2:/65916a34e7300f5e85856861891cb3316c8e2e2d0ab287e1d2578894ffece9f8",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_477) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Mambo No. 5 (A Little Bit of...) - Lou Bega",
+      "itemNames": [
+        "Mambo No. 5 (A Little Bit of...) - Lou Bega"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/c6605b576fbba351.jpg"
     },
     {
       "offerId": "v2:/b1dfbbf98640ebf00279f9721f887a9910636026ef43effad78879aa5ad05c6e",
@@ -553,7 +600,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_sonnetspirit/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c7e63514550d1ebd/renderimage_0.png"
     },
     {
       "offerId": "v2:/3937aa9e6c8385b792e623a0286fa3cfd7f81f94d8409648704836cbfb2972ad",
@@ -566,27 +613,31 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_616_athena_commando_f_cavalrybandit/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1cfd51a6f64b24cc/renderimage_0.png"
     },
     {
       "offerId": "v2:/9847be6960604041fd6c3f92dc0f3760b8d5f8566a0e0181c9b0e2998783d511",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_798) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "WHERE IS MY HUSBAND! - RAYE",
+      "itemNames": [
+        "WHERE IS MY HUSBAND! - RAYE"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/a347d5351e42e199.jpg"
     },
     {
       "offerId": "v2:/2ad345d90668e1659e81a140e49c7b4920273d707edfc89f6b1c0eb2220d9c1f",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x All The Small Things for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "All The Small Things - blink-182",
+      "itemNames": [
+        "All The Small Things - blink-182"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/b52758a8d3514025.jpg"
     },
     {
       "offerId": "v2:/38f3f6763fe40bc244b4b01423cd9c1e7ba01ee50d937b559be65397af2a7052",
@@ -598,7 +649,7 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_slopetramp/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f291250441225c9f/renderimage_0.png"
     },
     {
       "offerId": "v2:/929b7340a4d6c29c9268df708931cb596ab7b0bfaf987412878136f34a7805d4",
@@ -610,7 +661,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_chiveflake/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/42b098d5f45bff11/renderimage_0.png"
     },
     {
       "offerId": "v2:/c24de3495dcbd0da999d8fab9bbc4f0ade72767ffa7ff50fcbc40cb45d00c3a7",
@@ -622,7 +673,7 @@
       "finalPrice": 400,
       "regularPrice": 400,
       "outDate": "2026-12-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_celerystitch/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d8cae9b555f8ac8b/renderimage_0.png"
     },
     {
       "offerId": "v2:/16b8e81194510643a7573f6b1df8cd7fae36b39b716c1aa0c9f4cbc2a8107be8",
@@ -639,42 +690,50 @@
     {
       "offerId": "v2:/d9be0e90a7e25d838ba7408de9eb6a03d64b0c4023f9ce567967b84675830465",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Changes for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Changes - 2Pac ft. Talent",
+      "itemNames": [
+        "Changes - 2Pac ft. Talent"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-12T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/908b029d2af640c2.jpg"
     },
     {
       "offerId": "v2:/23c1496c0de25f478a299f8aa0bdf48f8720a5ab141d53eeb8c0fe58b7276a03",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_450) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Somebody That I Used To Know - Gotye ft. Kimbra",
+      "itemNames": [
+        "Somebody That I Used To Know - Gotye ft. Kimbra"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/7a055d834f2845d6.jpg"
     },
     {
       "offerId": "v2:/8402b7cb05fcb7c7562b209b1aa6b582a108fba92abb730f514e15d536e33e5a",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x March Of The Pigs for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "March Of The Pigs - Nine Inch Nails",
+      "itemNames": [
+        "March Of The Pigs - Nine Inch Nails"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/98b9792add76ec63.jpg"
     },
     {
       "offerId": "v2:/b07d5dfc0593c23bf5cec3a8daf39cfe2545bee7218041f0e82db582452432af",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Say It Ain't So for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Say It Ain't So - Weezer",
+      "itemNames": [
+        "Say It Ain't So - Weezer"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/6402f5c2a59afac1.jpg"
     },
     {
       "offerId": "v2:/11f93b881134076088152732e404cda336fb0d1cd1bfd40823d5ccf583fa0cbc",
@@ -687,17 +746,19 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_252_athena_commando_m_muertos/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/efd1fd3a37f579a7/renderimage_0.png"
     },
     {
       "offerId": "v2:/91201b64fc23088fbcf8cf3cf8440de03843ea1a9d34cdfdf456454836ea49c3",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Happy for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Happy - Pharrell Williams",
+      "itemNames": [
+        "Happy - Pharrell Williams"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/8c23d73e2a32bc9b.jpg"
     },
     {
       "offerId": "v2:/2c2ca75b198cbaad6669df79af9139e20bc7a4cc58f4297c06b1a935ac42fe52",
@@ -709,7 +770,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_puzzleshed/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/601c0e2a6b687522/renderimage_0.png"
     },
     {
       "offerId": "v2:/59969f4374c78f3d88b0addb1d7fcb5835568a4499dace78bfeb9f3cbc3dc382",
@@ -730,12 +791,13 @@
         "Carne asada",
         "Carne gigante",
         "Cuerdas de los Sombrero de paja",
+        "Cuerdas de los Sombrero de paja",
         "Cuerdas de los Sombrero de paja"
       ],
       "finalPrice": 4000,
       "regularPrice": 8200,
       "outDate": "2026-12-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_celerystitch/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d5ad5f42d4062e78/renderimage_0.png"
     },
     {
       "offerId": "v2:/1abbace332ac89b7f473f8d17d2ded5b049971e551cf04a058f164af68d64c42",
@@ -748,7 +810,7 @@
       "finalPrice": 1600,
       "regularPrice": 1600,
       "outDate": "2026-11-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_025_athena_commando_m_kepler_uen6v/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1c24328987e2349d/renderimage_0.png"
     },
     {
       "offerId": "v2:/edb959c97ac61d2f1ca9e0cf34c99f0f8ae1db33ddb3a167de0bd890387ea502",
@@ -773,7 +835,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_subtlesilly/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/02db3b12a54793d3/renderimage_0.png"
     },
     {
       "offerId": "v2:/eaa21bfc06852c13289a08fdb25e1b7cc4d60ff210aebd8356fa660df06f8ff9",
@@ -785,7 +847,7 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-11-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_keplerfemale_c98jd/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a4927e86037e150d/renderimage_0.png"
     },
     {
       "offerId": "v2:/2fe3b127c6545b8a1924047af3a44817ee916db4b3f16482f6b3029b429e27bd",
@@ -797,7 +859,7 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_prongcling/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/243c1cca646b031b/renderimage_0.png"
     },
     {
       "offerId": "v2:/7345ae03154c4bd8866832aa6b2e592d21e3fe007b417a465cf6c8f0e326b6e6",
@@ -821,7 +883,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_pastelglaze/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/835d07fa8311ebb5/renderimage_0.png"
     },
     {
       "offerId": "v2:/d3281057b555afcdea4b84ce3a7e04ececed0384348d3456f997a6d85e3307a5",
@@ -833,27 +895,31 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_brassspar/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a052bfa1a4d7a7ba/renderimage_0.png"
     },
     {
       "offerId": "v2:/cad89a74272ee6608b1082fae0c4109df3d615e311130c812e5fec367650f632",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x LUNCH for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "LUNCH - Billie Eilish",
+      "itemNames": [
+        "LUNCH - Billie Eilish"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/757663086a417e80.jpg"
     },
     {
       "offerId": "v2:/feedeba99d26fa49ca92fe0da07e221f804a1640f40760e874adfc32e0bc4d97",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_425) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Break From Toronto - PARTYNEXTDOOR",
+      "itemNames": [
+        "Break From Toronto - PARTYNEXTDOOR"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/a0ed31a5b6470282.jpg"
     },
     {
       "offerId": "v2:/ef1198eb5629cac530e79b9bdc7e6477f882cc09f49c5fbf47ca71cfc098872c",
@@ -866,7 +932,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_pastelglazegift/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0f3edbf0b4ecbf50/renderimage_0.png"
     },
     {
       "offerId": "v2:/45d7a8b39a9e5be708683a3076b88713482a725bebd1fd53142a235aa8faa2c9",
@@ -878,7 +944,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rainbowsplash/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/99a100d539e381f6/renderimage_0.png"
     },
     {
       "offerId": "v2:/c2a5d01467807e588b37450fe8809d062670972f444f03a888b76e37b3d97f97",
@@ -890,17 +956,19 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_300_mastermind/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7a2d1da0858830fa/renderimage_0.png"
     },
     {
       "offerId": "v2:/0d8ff4d5b6f821bde3bd1669caf2ed74da6af88e28c151b9b49ee8105d46d459",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Side To Side for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Side To Side - Ariana Grande ft. Nicki Minaj",
+      "itemNames": [
+        "Side To Side - Ariana Grande ft. Nicki Minaj"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/c6ce86147cd65ef9.jpg"
     },
     {
       "offerId": "v2:/52fcdf7f9c05eb3acd8836920e5dabe629350f6e8de3b628e09dec6b6a6980d1",
@@ -916,7 +984,7 @@
       "finalPrice": 2000,
       "regularPrice": 3400,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_ivorydwell/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8e5f7749a0e22141/renderimage_0.png"
     },
     {
       "offerId": "v2:/7515ad6c7e1fc7dee3ea0e31c606992d3c9a4261430c7159e6c2e1985215b7cf",
@@ -928,7 +996,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_rainbowsplash/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cd24b3e261013c98/renderimage_0.png"
     },
     {
       "offerId": "v2:/c91ce7041f1fc625c1300e896de6844e12a877933e8214b6570e82428f353453",
@@ -941,7 +1009,7 @@
       "finalPrice": 1500,
       "regularPrice": 2000,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_094_athena_commando_f_cavern_33lmc/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b1c43c6a2cb9cecd/renderimage_0.png"
     },
     {
       "offerId": "v2:/b51d280a8c1146805e87bb943ed52f1ea4eb8edfafcc66468a64e111dc1fda53",
@@ -954,7 +1022,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_251_athena_commando_f_muertos/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4b1423405aba9bb1/renderimage_0.png"
     },
     {
       "offerId": "v2:/ca05b5463a2cec51e1070cdcb1e358a43b9694f0486c31b328af40bdb42ebb14",
@@ -990,27 +1058,31 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-12-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_loomrise/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1ee2767c8db118a8/renderimage_0.png"
     },
     {
       "offerId": "v2:/b410eb3590319539b108e09720f8e95a5a12c651b90910bbcdbd4e4dde26efb0",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x positions for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "positions - Ariana Grande",
+      "itemNames": [
+        "positions - Ariana Grande"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/68c0a17aa313fd98.jpg"
     },
     {
       "offerId": "v2:/28f1833dd1e1239c8e74b51aaa1cfc6eb9ae15ede339d4091293993175da8789",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Fly for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Fly - Quavo and Lenny Kravitz",
+      "itemNames": [
+        "Fly - Quavo and Lenny Kravitz"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/5c491a51fd22065d.jpg"
     },
     {
       "offerId": "v2:/e71b8573987ad01131e9ca018c9d617df2f7548ee5df15d9656aaadd56ffbaf6",
@@ -1022,7 +1094,7 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_fairymochi/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/454c8142f88ce548/renderimage_0.png"
     },
     {
       "offerId": "v2:/3b856362ca95113029373648e548ba269f79ba96248ef404903cb23623ca55a0",
@@ -1034,17 +1106,19 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_prongcling/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f1b92c65d8787f5a/renderimage_0.png"
     },
     {
       "offerId": "v2:/78dd1adb1ae59e0117d9cfd5dd3c4811e94a8bd6d8fbc004e01ac742541b4816",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Sandstorm for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Sandstorm - Darude",
+      "itemNames": [
+        "Sandstorm - Darude"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-12T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/8409f18d83f96ee8.jpg"
     },
     {
       "offerId": "v2:/c2da74e41d91dec607e2f3073fbd45b47fc8c554bbaa916f46501cf628f7eb26",
@@ -1056,7 +1130,7 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/glider_id_276_kepler_beuup/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2ef0e6cce06eb1f2/renderimage_0.png"
     },
     {
       "offerId": "v2:/dd6aee0ca76052a5c0665c765f1dae756f7c5d31276b2ac0185a37b28f57a22e",
@@ -1068,7 +1142,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/companion_bitterdolly/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d8e9b8de9a38a557/renderimage_0.png"
     },
     {
       "offerId": "v2:/ec88cff66398eda31f4272b5589eb0dc2e25cc35100cc0d602f0603978aaf774",
@@ -1081,7 +1155,7 @@
       "finalPrice": 1400,
       "regularPrice": 1400,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_072_athena_commando_m_buffcatcomic_xg5xc/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2bd4177c8c22d6e2/renderimage_0.png"
     },
     {
       "offerId": "v2:/c5178325e4ab1bf1b33800397632093b5d140574844d0cba21399c7a8ef21802",
@@ -1093,7 +1167,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_ivorydwell/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f8240cfb33a60691/renderimage_0.png"
     },
     {
       "offerId": "v2:/a20411b669a5a782e3aa024dac2f4e215a515806a99eedd31abc81f24207e77e",
@@ -1105,27 +1179,31 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_sonnetspirit/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1f04e6a525270078/renderimage_0.png"
     },
     {
       "offerId": "v2:/9d12c296ea3b76a58b70da3ce61f9acf461f14decdf123364f9af3ea6c562558",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_826) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "I Run - HAVEN., Kaitlin Aragon",
+      "itemNames": [
+        "I Run - HAVEN., Kaitlin Aragon"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/089ceca8e29f18a8.jpg"
     },
     {
       "offerId": "v2:/33cfb64a86cce3f5426a8ec9c48edb5f05cc3300b90a0360f62d2f0c23cdfecd",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Don't Let Me Down for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Don't Let Me Down - The Chainsmokers ft. Daya",
+      "itemNames": [
+        "Don't Let Me Down - The Chainsmokers ft. Daya"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/3264bbb66eba7cd9.jpg"
     },
     {
       "offerId": "v2:/f1fdda92deb758c6fa8998983d37d9fe03869a760729f710c59149d3cd9145bc",
@@ -1137,7 +1215,7 @@
       "finalPrice": 200,
       "regularPrice": 200,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_hotstuff/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cd0b826d992bdbb3/renderimage_0.png"
     },
     {
       "offerId": "v2:/afa928e171fa04914bb45fc64aa0680a29534a1c23c008e4bd942beceb7ddf72",
@@ -1149,7 +1227,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cargolying/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8e6562459933b8a0/renderimage_0.png"
     },
     {
       "offerId": "v2:/f1d991d9c4f2b39bdc4ec07de16e102ea9ddd6970536c4f1b1c07b4fdb97b7de",
@@ -1162,7 +1240,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_125_athena_commando_m_firecracker/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/22c7cc4817bfadee/renderimage_0.png"
     },
     {
       "offerId": "v2:/12ddca1fad40cf6c83df1df53a586413eb01723dad23e0a44e72cf9b4943e9be",
@@ -1186,17 +1264,19 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_slugripple/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/15e989437d7ecab1/renderimage_0.png"
     },
     {
       "offerId": "v2:/d9c535ccfbba8fd18c479b3323b9d7ed5f66ef93754c928d4eb4e457c7dde800",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Gangnam Style for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Gangnam Style - PSY",
+      "itemNames": [
+        "Gangnam Style - PSY"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/d74499515df37724.jpg"
     },
     {
       "offerId": "v2:/36f11a6cfc0ae160d825944463bb6954d24e200144f7d27017b69066d0216217",
@@ -1208,7 +1288,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_chiveflake/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e5accd04980adc2b/renderimage_0.png"
     },
     {
       "offerId": "v2:/e5bd41765cd9d7829bb4ab0339e82825b60fa2cc824664715ece4d32bb829d50",
@@ -1220,37 +1300,43 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/wrap_brassspar/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7e1673f06d079751/renderimage_0.png"
     },
     {
       "offerId": "v2:/d5b78f04d6abffc98a7509076dcef386d394cfc2d0b2796c0f7697b94545f06a",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Right Round for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Right Round - Flo Rida, Kesha",
+      "itemNames": [
+        "Right Round - Flo Rida, Kesha"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/00d87e546885444d.jpg"
     },
     {
       "offerId": "v2:/2f73d47f6f0d21d0decfb0ba5447802b0a613d085415d1fee9f7420cf5840853",
       "section": "Bitelchús",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_943) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Banana Boat (Day-O) - Harry Belafonte",
+      "itemNames": [
+        "Banana Boat (Day-O) - Harry Belafonte"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/46cb74ee8e12c7d1.jpg"
     },
     {
       "offerId": "v2:/acfebbcdeb4350a76343fe1f094eee3016b416b06f6b1a9c8e1d411f9b192caa",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_794) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Folded - Kehlani",
+      "itemNames": [
+        "Folded - Kehlani"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/d116e94dd9d239f0.jpg"
     },
     {
       "offerId": "v2:/04b32874bde264359cfa6a63bb2f5d4a2ebf7ff246ab9b50c7115fd82fa03087",
@@ -1262,27 +1348,31 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_asidedepot/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/dd9e32f399c685f0/renderimage_0.png"
     },
     {
       "offerId": "v2:/590ffe6d51ecd6422d0728d1d1a3a38b7428157d68eef91d0a2c479fc4af8512",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_594) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Sunflower - Spider-Man: Into the Spider-Verse - Post Malone w/ Swae Lee",
+      "itemNames": [
+        "Sunflower - Spider-Man: Into the Spider-Verse - Post Malone w/ Swae Lee"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-12-10T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/ad6fa2ab41e8a472.jpg"
     },
     {
       "offerId": "v2:/48d52e2ea0ba501c0c8339abacf51168b6ae8a42233a4125cee24931d6243988",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x When I Come Around for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "When I Come Around - Green Day",
+      "itemNames": [
+        "When I Come Around - Green Day"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/753b8c2f30e0a5b9.jpg"
     },
     {
       "offerId": "v2:/76f4e73835bb2463feebb5c7832cbafb7a438c53130ae1d3c33142b468d4aee0",
@@ -1294,7 +1384,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_prongcling/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a5b34bd2b36e5db8/renderimage_0.png"
     },
     {
       "offerId": "v2:/c30a53385e00c82ac0e3065ac6b1ea0dcb640562bfdabd6e5ce7c05f89bdc998",
@@ -1306,7 +1396,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_551_keplerfemale_aoyi5/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/032dac14a2a76aa5/renderimage_0.png"
     },
     {
       "offerId": "v2:/32501817ff74727c63c448ba8ce7ea6ab58a58a2f8446fe3343197517eae7d12",
@@ -1314,12 +1404,13 @@
       "name": "Kit del Rey Hielo",
       "itemNames": [
         "Kit del Rey Hielo",
+        "Kit del Rey Hielo",
         "Kit del Rey Hielo"
       ],
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_sonnetspirit_drumstick/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c8e3a8d66af04ef8/renderimage_0.png"
     },
     {
       "offerId": "v2:/79133e93bbe65acb63f99a948ac07b71f4689b95150f996b256cebd638a22e50",
@@ -1331,17 +1422,19 @@
       "finalPrice": 1000,
       "regularPrice": 1000,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_asidedepot/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f4c91ea9bed6db2d/renderimage_0.png"
     },
     {
       "offerId": "v2:/47ddd633ca18914a8fe3646cfb9371365268fbf33a443749e72f970a712eb1e1",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Bloody Mary for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Bloody Mary - Lady Gaga",
+      "itemNames": [
+        "Bloody Mary - Lady Gaga"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/b7eda787bf78b873.jpg"
     },
     {
       "offerId": "v2:/26b85553542f54a4b77f1c41979b7fb8450b6fe7a67c96f218e4340b2629e8da",
@@ -1355,7 +1448,7 @@
       "finalPrice": 1600,
       "regularPrice": 1600,
       "outDate": "2026-12-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_boastjoint/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/764245f1c0535262/renderimage_0.png"
     },
     {
       "offerId": "v2:/201d90433532cfd6f60b7c43e130820cb73141d70921bb0558a2dab19a5c0da5",
@@ -1367,7 +1460,7 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-12-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_loomrise/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/15b9c6582ec17a78/renderimage_0.png"
     },
     {
       "offerId": "v2:/c034cc14806a6455be06125ccdf273d4abf89bcd156e8cf4d8a97edd6ab1bbb5",
@@ -1379,7 +1472,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_362_lollipopfemale/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/52e1734891726097/renderimage_0.png"
     },
     {
       "offerId": "v2:/e11ddcaeeb8c581cc3a02a71786f9bb28ab43a0ee0a10c372cea1e3a07e613c6",
@@ -1392,7 +1485,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_calavera/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/09536fb45315f48d/renderimage_0.png"
     },
     {
       "offerId": "v2:/0cfc55ad9b6cea0722f08238376a050f1e582c383ed9f8476b20e114be96ad5f",
@@ -1408,47 +1501,55 @@
       "finalPrice": 2200,
       "regularPrice": 3300,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_slugripple/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3ca87688fad01999/renderimage_0.png"
     },
     {
       "offerId": "v2:/3ab999c10b16c07bb96726fcb3d122ab755748b63d20cc1b3845e0eeddddc2ea",
       "section": "Bitelchús",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_944) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Jump in the Line - Harry Belafonte",
+      "itemNames": [
+        "Jump in the Line - Harry Belafonte"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/b23634c6cbfd1fa4.jpg"
     },
     {
       "offerId": "v2:/e103efc3abc2de6b4ce0380bd848a393a5690797403a4f18ffda0b09d62d6196",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_329) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Who Let The Dogs Out - Baha Men",
+      "itemNames": [
+        "Who Let The Dogs Out - Baha Men"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/f190d33166964268.jpg"
     },
     {
       "offerId": "v2:/f1792cb7b6b208f39c7b5ee132260bde82232f8a4e769d51c0b550e4558fe91a",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x get him back! for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "get him back! - Olivia Rodrigo",
+      "itemNames": [
+        "get him back! - Olivia Rodrigo"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/76a5efec368ff66b.jpg"
     },
     {
       "offerId": "v2:/55600d892a0b5e5bf215883a40b9ccd7e7b1042669d306cab0716a10f28f8663",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Hysteria for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Hysteria - Muse",
+      "itemNames": [
+        "Hysteria - Muse"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/61375ab9e15a578c.jpg"
     },
     {
       "offerId": "v2:/0569b27698929e4d6d93b5c07debb1115841fa99587cbba3d6a69f5b82fbc784",
@@ -1460,17 +1561,22 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/wrap_slugripple/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/315c1ac8722d4bd2/renderimage_0.png"
     },
     {
       "offerId": "v2:/9d10339db8dd0ec16c378e938fb0e936671e675d97e67139798cded5840f935e",
       "section": "Corvette Stingray",
-      "name": "[VIRTUAL]1 x Stingray Pink, 1 x Chevrolet Corvette Stingray, 1 x Chevrolet Corvette Stingray, 1 x Silver Assassin for -1 MtxCurrency",
-      "itemNames": [],
+      "name": "Chevrolet Corvette Stingray",
+      "itemNames": [
+        "Stingray rosa",
+        "Chevrolet Corvette Stingray",
+        "Chevrolet Corvette Stingray",
+        "Asesino plateado"
+      ],
       "finalPrice": 2200,
       "regularPrice": 2200,
       "outDate": "2026-11-08T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b4f8f8d575609532/renderimage_0.png"
     },
     {
       "offerId": "v2:/a689767981b3222668a474c63bd599846dff7bd3030d9c332eba9e3a9ec82a06",
@@ -1478,12 +1584,13 @@
       "name": "Hacha bajo de Marceline",
       "itemNames": [
         "Hacha bajo de Marceline",
+        "Hacha bajo de Marceline",
         "Hacha bajo de Marceline"
       ],
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_cajuntaco_bass/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b860e2defa8f042b/renderimage_0.png"
     },
     {
       "offerId": "v2:/3adb2469b4a2257ff128482d1e9f76e1bb057c214fd8a217c12e709b5d096ab7",
@@ -1510,7 +1617,7 @@
       "finalPrice": 2000,
       "regularPrice": 2700,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_cargolying/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a4cad4e5595428f4/renderimage_0.png"
     },
     {
       "offerId": "v2:/ecef46d97821cf064b4ae8c61da4097a895f57abc0878746b12d13abc82cd13c",
@@ -1522,17 +1629,19 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_calavera/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b631421c488e8a55/renderimage_0.png"
     },
     {
       "offerId": "v2:/acb2d34c15d48a0ae9212778e333dd5901a342d0b438fb989a041672fad3b88e",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_792) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Rottweiler - EsDeeKid",
+      "itemNames": [
+        "Rottweiler - EsDeeKid"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/dbb7019ee8200194.jpg"
     },
     {
       "offerId": "v2:/6fe6d0004fdf274f50fa8c1b9d97612b15f6303a9bc78d4189c17edcfb429407",
@@ -1545,7 +1654,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_598_athena_commando_m_mastermind/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7a3603f562aca8ba/renderimage_0.png"
     },
     {
       "offerId": "v2:/e3fae283d6d7a1c43fe04f919bb5f0f404517bfdf266fba2b0adfd86fd713589",
@@ -1559,17 +1668,19 @@
       "finalPrice": 1600,
       "regularPrice": 1600,
       "outDate": "2026-12-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_loomrise/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8d18a7d0a6c5be85/renderimage_0.png"
     },
     {
       "offerId": "v2:/450080c772665a8513c7eeffadced5068b5a5b983dcf0cfbb373c27c1f666553",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_750) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Beanie - Chezile",
+      "itemNames": [
+        "Beanie - Chezile"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/c8189f3e190ce416.jpg"
     },
     {
       "offerId": "v2:/0168c4330eafbc46a4a36732e904ad08ce4b3fb209edd0be02c9df6ad11b1e06",
@@ -1581,17 +1692,19 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_altogorgon/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/bcce109efe1997ff/renderimage_0.png"
     },
     {
       "offerId": "v2:/3ae4c6a2b8e38f7bfadbb36d040d564569b7d45445855bd803dc35fa13ece071",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_629) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Cheguei - LUDMILLA",
+      "itemNames": [
+        "Cheguei - LUDMILLA"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/88bbf94a498679e5.jpg"
     },
     {
       "offerId": "v2:/fb0908eafb5c54c3d38b88972e58528a720d63f51f4794cc23f4a47f2468a15a",
@@ -1603,7 +1716,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_672_athena_commando_f_arcticcamo_gray/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/48b6ce380f0e5776/renderimage_0.png"
     },
     {
       "offerId": "v2:/c224dd5f4fc6d81671123db39c3331873ef0de14ad5a21bda1e629bbc84971f6",
@@ -1615,7 +1728,7 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_asidedepot/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/217ae968ba7e9365/renderimage_0.png"
     },
     {
       "offerId": "v2:/dac5c93f45a16e613f5c8c3d65b62dd031e5d854799bbf9a3e6e364d241d9697",
@@ -1627,17 +1740,19 @@
       "finalPrice": 400,
       "regularPrice": 400,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_fairymochi/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e29f9d9605374941/renderimage_0.png"
     },
     {
       "offerId": "v2:/ee24ce31d52bb12cc59451090b0cdc42090673f97cb5e1fd62d5c6dd390a4a3c",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Tubthumping for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Tubthumping - Chumbawamba",
+      "itemNames": [
+        "Tubthumping - Chumbawamba"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/efbfcf1a6747a89a.jpg"
     },
     {
       "offerId": "v2:/4a8a02b2eebe5b6b9d329a841212f4c032e6c4713f2b92fdc76e1709eebeac36",
@@ -1652,32 +1767,37 @@
         "Letrero lacerante",
         "Espirales de Bitelchús",
         "Gusano de arena de seis cuerdas",
+        "Gusano de arena de seis cuerdas",
         "Gusano de arena de seis cuerdas"
       ],
       "finalPrice": 2400,
       "regularPrice": 5300,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_asidedepot/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/009edf37c7f64355/renderimage_0.png"
     },
     {
       "offerId": "v2:/38fd68a299e8ccf046d4548aa83a33ce354e84c1098312d0bd55dde7578591ee",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x With Or Without You for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "With Or Without You - U2",
+      "itemNames": [
+        "With Or Without You - U2"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/92f43e9cc0029717.jpg"
     },
     {
       "offerId": "v2:/9f5590d0fa2327578e40720044b7fae441ce7cb8f5de41ed824a35628fcab24e",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_619) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Monster - YOASOBI",
+      "itemNames": [
+        "Monster - YOASOBI"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/31fdc758226a4b61.jpg"
     },
     {
       "offerId": "v2:/c2d4955d9c54a947e9e93873f5da84bc17f9e4720c6abbcec01f01c5781e33d0",
@@ -1689,47 +1809,55 @@
       "finalPrice": 600,
       "regularPrice": 600,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_sonnetspirit/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/30b9a2e65eeea947/renderimage_0.png"
     },
     {
       "offerId": "v2:/8d69f1b5b49f4ef34d446d6872879e3db44a1f64c8afd639072d7714d8e73c7c",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_575) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "A Bar Song - Shaboozey",
+      "itemNames": [
+        "A Bar Song - Shaboozey"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/a11dff4b7ab69b7d.jpg"
     },
     {
       "offerId": "v2:/dcb65c9f35aae1890d347dc547a7c7b596b4d200b238d721b60a839a6f88bb3d",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Africa for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Africa - Toto",
+      "itemNames": [
+        "Africa - Toto"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/e0380fd0733eea9d.jpg"
     },
     {
       "offerId": "v2:/9f4fa6d2a3b93164194a68550cf69c8cfd46ca0c7da2eeb187b130c63e57b5b6",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_521) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Faint - Linkin Park",
+      "itemNames": [
+        "Faint - Linkin Park"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/1d28b2a3c26c0308.jpg"
     },
     {
       "offerId": "v2:/9d671543e1bf9e6c3c9670398d4f5ffe7f64342584aa21d38a55d29a8a50e81b",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_585) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Free Bird - Lynyrd Skynyrd",
+      "itemNames": [
+        "Free Bird - Lynyrd Skynyrd"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/39a3d8ac933ab07f.jpg"
     },
     {
       "offerId": "v2:/2a3003daf83b3d8ec4c426068d70b5533d47b54259a5004df6b4c582d9f57c73",
@@ -1745,7 +1873,7 @@
       "finalPrice": 2200,
       "regularPrice": 3100,
       "outDate": "2026-11-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_025_athena_commando_m_kepler_uen6v/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e9f1780fa8a38d12/renderimage_0.png"
     },
     {
       "offerId": "v2:/3799b2ab40908c063cd8d9fea1dbe330120b0fa60e2970ce82230dd00e100226",
@@ -1757,17 +1885,19 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_toughpack/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cf075919ae693bec/renderimage_0.png"
     },
     {
       "offerId": "v2:/1b31799f32ba3e8d54a2c0619037a4c976d223b847eb696f04c0f25d9c22a249",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_847) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Fabienk - Angine de Poitrine",
+      "itemNames": [
+        "Fabienk - Angine de Poitrine"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/2b753d72b3229b39.jpg"
     },
     {
       "offerId": "v2:/4c09e86b10f941658f528159048feb54e4f23cb35b6e64d6870db98cce157caa",
@@ -1779,17 +1909,19 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_chaostheory/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6c55d4b7f94701bc/renderimage_0.png"
     },
     {
       "offerId": "v2:/47c90b0c082d6f5a50cf34e18e8aeaa9de135636cb96d2186e97cef58f52cd86",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_484) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Melt - ryo (supercell) ft. Hatsune Miku",
+      "itemNames": [
+        "Melt - ryo (supercell) ft. Hatsune Miku"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/254989db6ec42921.jpg"
     },
     {
       "offerId": "v2:/bdf440d5bdb4dfebfbe5e02b2f3f088236ea21d11ebeb9fe42bb0068051456e7",
@@ -1802,7 +1934,7 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_773_athena_commando_m_beacon/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7ee5430c2aed1044/renderimage_0.png"
     },
     {
       "offerId": "v2:/fb9b969aace23a6b74c7d201722bce5217af25c2ed72a3f343f2917103c18c40",
@@ -1814,7 +1946,7 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_slopetramp/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0103291f7138124f/renderimage_0.png"
     },
     {
       "offerId": "v2:/4530ff5723dfda90e847d57108ed01d1a71a95c8a4dc4ffff59063e82256fb32",
@@ -1827,7 +1959,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_pastelglazegrain/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2862bfae8bccb42e/renderimage_0.png"
     },
     {
       "offerId": "v2:/68ce96e47aee741010887976dac2758a8f6241e2e4322110df7c6d0d25e55f5f",
@@ -1846,12 +1978,14 @@
         "Piano de Princesa del Espacio Bultos",
         "Piano de Princesa del Espacio Bultos",
         "Hacha bajo de Marceline",
+        "Hacha bajo de Marceline",
+        "Piano de Princesa del Espacio Bultos",
         "Hacha bajo de Marceline"
       ],
       "finalPrice": 3800,
       "regularPrice": 10300,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_puzzleshed/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/21a8112a2c9e5e57/renderimage_0.png"
     },
     {
       "offerId": "v2:/1381af6b6d9023523273f7f4443f769d63c0057325989d1540bec4764cff544d",
@@ -1863,47 +1997,55 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_cargolying/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7c2d92dfbd78b9ad/renderimage_0.png"
     },
     {
       "offerId": "v2:/b962527b106889fe92e04339c5f41a63f3f915b4a60685f83b54563d7a753bf2",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Into You for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Into You - Ariana Grande",
+      "itemNames": [
+        "Into You - Ariana Grande"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-12T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/7dcebcc32b818887.jpg"
     },
     {
       "offerId": "v2:/6e56c22cf826284087e9f86cf0f936d22f8e8a1a9c021cca8aa4155176bd31d3",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_560) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Wild Ones - Jessie Murph ft. Jelly Roll",
+      "itemNames": [
+        "Wild Ones - Jessie Murph ft. Jelly Roll"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-12T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/15219429859a072c.jpg"
     },
     {
       "offerId": "v2:/38f136961e8efabaeebd33bfe24e85c68b6565bf5a66ebcc2298fe8ed19712d7",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x all the good girls go to hell for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "all the good girls go to hell - Billie Eilish",
+      "itemNames": [
+        "all the good girls go to hell - Billie Eilish"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/8ed907e86fea3592.jpg"
     },
     {
       "offerId": "v2:/350f406f6e38d0671cbc48e20fcd7921d63fba978e61955cf8e2081a164b696e",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Ruby Soho for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Ruby Soho - Rancid",
+      "itemNames": [
+        "Ruby Soho - Rancid"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/1b3e710b6d5ce4ee.jpg"
     },
     {
       "offerId": "v2:/86be8be8962ea2936a4282677ee28d26a9d1f7bafc88da028c1c2a1e2737c02b",
@@ -1915,17 +2057,19 @@
       "finalPrice": 1000,
       "regularPrice": 1000,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_whiskercaesarchomp/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d48e5a449d9bedef/renderimage_0.png"
     },
     {
       "offerId": "v2:/381b173c4f922ef26115b38ffc0173b222d57d84507408f93b2ebd2d5220e1e8",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Unholy for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Unholy - Sam Smith w/ Kim Petras",
+      "itemNames": [
+        "Unholy - Sam Smith w/ Kim Petras"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/1c19c97d7f0861a4.jpg"
     },
     {
       "offerId": "v2:/e14aa74329e2fc83abb236de430e771eaa998222ae59322c5be717884191a754",
@@ -1937,7 +2081,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tulipglory/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/29cbf1cfe550466c/renderimage_0.png"
     },
     {
       "offerId": "v2:/292e7519e4f7f134bde320722cb5ffc37e8541a33f708d9dd29303272f450ca4",
@@ -1949,7 +2093,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_403_athena_commando_f_rebirthfresh_b/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/116cee3d6f126009/renderimage_0.png"
     },
     {
       "offerId": "v2:/6babe089ab2435bb4ab51bbf951e8256a4e81baf146d03fced3e0a07ba7b568f",
@@ -1961,7 +2105,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_glittermane/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0188e03ff482a03c/renderimage_0.png"
     },
     {
       "offerId": "v2:/4c8966f993c04f9d13534b474d30497e2396b74cd8edb6bdbce036acc8b7a14e",
@@ -1985,47 +2129,62 @@
       "finalPrice": 400,
       "regularPrice": 400,
       "outDate": "2026-11-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_tulipglory/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/75fb4c3a70f8f3bf/renderimage_0.png"
     },
     {
       "offerId": "v2:/1a045bf6568860c0a622187b742170ec131204546fbec9b4d0c9ecc36ae8702a",
       "section": "NASCAR Ford Mustang",
-      "name": "[VIRTUAL]1 x NASCAR Next Gen Ford Mustang, 1 x NASCAR Classic, 1 x Team Penske, 1 x Wood Brothers Racing, 1 x Front Row Motorsports, 1 x RFK Racing, 1 x NASCAR Next Gen Ford Mustang , 1 x Next Gen Goodyear Racing for -1 MtxCurrency",
-      "itemNames": [],
+      "name": "NASCAR Next Gen Ford Mustang",
+      "itemNames": [
+        "NASCAR Next Gen Ford Mustang",
+        "NASCAR Classic",
+        "Team Penske",
+        "Wood Brothers Racing",
+        "Front Row Motorsports",
+        "RFK Racing",
+        "NASCAR Next Gen Ford Mustang",
+        "Next Gen Goodyear Racing"
+      ],
       "finalPrice": 2200,
       "regularPrice": 2200,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8b091b010b16a59a/renderimage_0.png"
     },
     {
       "offerId": "v2:/12f0eadef7e73bc039175bbabec7ccd2876c90122d87c782919b2baa5cc2a378",
       "section": "alc.0",
-      "name": "[VIRTUAL]1 x Chevrolet Corvette Stingray for 400 MtxCurrency",
-      "itemNames": [],
+      "name": "Chevrolet Corvette Stingray",
+      "itemNames": [
+        "Chevrolet Corvette Stingray"
+      ],
       "finalPrice": 400,
       "regularPrice": 400,
       "outDate": "2026-11-08T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/cars/wheel_cutie/large.png"
     },
     {
       "offerId": "v2:/5392f85f3bbea3561ed1d90585ec82afc5d61119ee243b12f89f9629ed67f370",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_480) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Whine Up - Kat DeLuna ft. Elephant Man",
+      "itemNames": [
+        "Whine Up - Kat DeLuna ft. Elephant Man"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/f00f64cacbd1b3c1.jpg"
     },
     {
       "offerId": "v2:/b50cbab8f24de94a49cd4c97e55c17a6b52a7edb6004da37e66d24ea0d443e04",
       "section": "alc.0",
-      "name": "[VIRTUAL]1 x Silver Assassin for 400 MtxCurrency",
-      "itemNames": [],
+      "name": "Asesino plateado",
+      "itemNames": [
+        "Asesino plateado"
+      ],
       "finalPrice": 400,
       "regularPrice": 400,
       "outDate": "2026-11-08T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/cars/wheel_cutieextra/large.png"
     },
     {
       "offerId": "v2:/2d48364fcd852e3e416429a6ec9c18c60355aca30f5a3726754cb284120a7a7a",
@@ -2038,7 +2197,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_sonnetspirit/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4630059b3b684ceb/renderimage_0.png"
     },
     {
       "offerId": "v2:/b59b31e4b28287f501586461da71fcfe17b951c8f0129cbe2e70a869e51f4bc7",
@@ -2052,7 +2211,7 @@
       "finalPrice": 1600,
       "regularPrice": 1600,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_subtlesilly/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5259eb5824a7ff2a/renderimage_0.png"
     },
     {
       "offerId": "v2:/eebdf08c9990edf3ba6b5d1fee126880e384932422778e0570f0096f429fbc45",
@@ -2065,7 +2224,7 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_372_athena_commando_f_pirate01/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/50dfe0ed4f655686/renderimage_0.png"
     },
     {
       "offerId": "v2:/c6d961168bb445835391cad143196fa3a30b8e2e80a783fb28b179553f35062c",
@@ -2077,7 +2236,7 @@
       "finalPrice": 1000,
       "regularPrice": 1000,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_clapfrothscrunch/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d82bc24016323c43/renderimage_0.png"
     },
     {
       "offerId": "v2:/28d1dfd1bd6f18de3d58823e31b8936af6e104d55af117ebdcd95260f5043916",
@@ -2085,12 +2244,13 @@
       "name": "Acordes de alebrije",
       "itemNames": [
         "Acordes de alebrije",
+        "Acordes de alebrije",
         "Acordes de alebrije"
       ],
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-07T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_triododge_guitar/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ff24cfa2ce65f7dd/renderimage_0.png"
     },
     {
       "offerId": "v2:/21888bdc3a4dde63cdf546338bf10382d17cdf0bdea3412549acf3a0333000b1",
@@ -2102,7 +2262,7 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/companion_comictabby/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7affb34555a4d886/renderimage_0.png"
     },
     {
       "offerId": "v2:/4a11cd979c8638b60a58a9b8a23f84561ce3ab656d52196b9c45f2feeef05797",
@@ -2114,17 +2274,19 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_rallyshinychunk/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/05135d876fa12398/renderimage_0.png"
     },
     {
       "offerId": "v2:/af0406382971f2f8d63355bb7c3484ed31400381cbda91694866d06f1f7dd8c2",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Feel It Still for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Feel It Still - Portugal. The Man",
+      "itemNames": [
+        "Feel It Still - Portugal. The Man"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/87721ee1c273b477.jpg"
     },
     {
       "offerId": "v2:/1f651554f7481add4c97e5d822daf16058f6579e9e517b457b9eb07c555aecdb",
@@ -2136,37 +2298,43 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ivorydwell/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a8e50f3e261403ea/renderimage_0.png"
     },
     {
       "offerId": "v2:/5cdf83fca77c6b53f1b9402cd3a0ad80b96f6db3bb3c88445d5b88ab168c3d6d",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x abcdefu for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "abcdefu - GAYLE",
+      "itemNames": [
+        "abcdefu - GAYLE"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/ef685e81f15802e7.jpg"
     },
     {
       "offerId": "v2:/70326fc65f65d20ef55f19b68be15a6d009f2725fc23b6775d1275fc1e543b40",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Creatures In Heaven for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Creatures In Heaven - Glass Animals",
+      "itemNames": [
+        "Creatures In Heaven - Glass Animals"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/e32de4e41867fbca.jpg"
     },
     {
       "offerId": "v2:/63101a5bbdcd23a14f5fcaffbe6a85a69003d60b5178537d01cfbc572001a833",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x THE DINER for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "THE DINER - Billie Eilish",
+      "itemNames": [
+        "THE DINER - Billie Eilish"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/f8f1d43489cafdf3.jpg"
     },
     {
       "offerId": "v2:/a24df367a542649197501844ea389c5d43eb4a8cfd0cd4a5a73e3c8c2a86d8bb",
@@ -2178,27 +2346,31 @@
       "finalPrice": 600,
       "regularPrice": 600,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_altogorgon/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/01c237117c57e58a/renderimage_0.png"
     },
     {
       "offerId": "v2:/6ac585d86ef9fcb1499e7edeeef565cab961703d44aebbe53428724e1ad34f43",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Bust A Move for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Bust A Move - Young MC",
+      "itemNames": [
+        "Bust A Move - Young MC"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/73f64860f9003209.jpg"
     },
     {
       "offerId": "v2:/fe1547b91e646139905d54e033ce6e73ec81465a737b33a5009e1ea06aa71b8d",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Stick Season for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Stick Season - Noah Kahan",
+      "itemNames": [
+        "Stick Season - Noah Kahan"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/9f50a7282c82ed20.jpg"
     },
     {
       "offerId": "v2:/64cb0ef45952b00e793490bad5ab92ce2ca34e3047a5958bfcb89dbf12893c78",
@@ -2210,17 +2382,19 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-12-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_boastjoint/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3ae6b56d744af2d6/renderimage_0.png"
     },
     {
       "offerId": "v2:/b909f5882f44b51c240f386e5675c41e928148e691cadef8f7e47b69dfde5ed8",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x NIGHT DANCER for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "NIGHT DANCER - imase",
+      "itemNames": [
+        "NIGHT DANCER - imase"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/86c0ae5fb3dfc0ac.jpg"
     },
     {
       "offerId": "v2:/b6ed689e3a5df7e407ccf221beafe2ffbc2084db8fc848e881b8575cf479663c",
@@ -2232,7 +2406,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_pocketscrunchie/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6bccce1fc8e00744/renderimage_0.png"
     },
     {
       "offerId": "v2:/ab3349d2ad2320f46868fa64fba6d98992b1007983ad03e314e118d5d58e8336",
@@ -2244,7 +2418,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_twinkleloop/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/72e4366d3cf0dc83/renderimage_0.png"
     },
     {
       "offerId": "v2:/6be3148d3cf0bb28f968d53a608575dd510df69e27b958468841ab8f0f9f74d2",
@@ -2257,7 +2431,7 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_373_athena_commando_m_pirate01/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/fd8f33f9438fa7a2/renderimage_0.png"
     },
     {
       "offerId": "v2:/8a5d10e4696c0cf3114b37fad89f738411f7c196bd7d5946385a318d72cef0ff",
@@ -2269,7 +2443,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_puzzleshed/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/079816eb3bddaa59/renderimage_0.png"
     },
     {
       "offerId": "v2:/48812a20a116c5be645b1b57708a380542996bb8819589bf2e7f7a4b30d45541",
@@ -2286,22 +2460,26 @@
     {
       "offerId": "v2:/624b31a28434f0cd941195140298885bbf08ac2ca9be01627fc61b655cc13223",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_909) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Hot Blooded - New Constellations",
+      "itemNames": [
+        "Hot Blooded - New Constellations"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/4964a9b11ac3d54e.jpg"
     },
     {
       "offerId": "v2:/754545398c8b9b3b2a728eaa5c637e97d0fec3435fc60b25791cee1324e3b010",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_551) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Nonsense - Sabrina Carpenter",
+      "itemNames": [
+        "Nonsense - Sabrina Carpenter"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/a6915404f1c3bbb4.jpg"
     },
     {
       "offerId": "v2:/2ba2dca1d18328c9d28452d7d25cb12ed5255bb8596ec202efcdb4a90f777303",
@@ -2325,27 +2503,31 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_phonecharger/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b37137f7b15165eb/renderimage_0.png"
     },
     {
       "offerId": "v2:/6d4ff309f52f483e1a8c73e3cf2562fae76d1e44fe02b117453a524779e38714",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Dynamite for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Dynamite - Taio Cruz",
+      "itemNames": [
+        "Dynamite - Taio Cruz"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/9c7c0f6319df3403.jpg"
     },
     {
       "offerId": "v2:/263f541ae72138a8d3baac175c3104840a2e634ef30c94168712c147d6fdef87",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_777) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Today is Gonna be a Great Day  - Bowling For Soup",
+      "itemNames": [
+        "Today is Gonna be a Great Day  - Bowling For Soup"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/68e34b52f7f16b6e.jpg"
     },
     {
       "offerId": "v2:/97dc2f82568324103d1a49e608b33c1a6b14543b7cf223517323f422871c729b",
@@ -2359,27 +2541,31 @@
       "finalPrice": 1500,
       "regularPrice": 2300,
       "outDate": "2026-11-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_keplerfemale_c98jd/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/44e9b52f9a8314af/renderimage_0.png"
     },
     {
       "offerId": "v2:/be6c13dbc852963b68ae93cc73cc6da27c5f0734eeb0f1eef9af203eb8d7c0fd",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Therefore I Am for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Therefore I Am - Billie Eilish",
+      "itemNames": [
+        "Therefore I Am - Billie Eilish"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/5490d3a354f6f6c9.jpg"
     },
     {
       "offerId": "v2:/0c54c052518d8e19e6b4ddfe217b55f4dcb65ebdbe08a1c135745ea3a5cae0cc",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x I Wanna Get Better for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "I Wanna Get Better - Bleachers",
+      "itemNames": [
+        "I Wanna Get Better - Bleachers"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/cd16816664a9d447.jpg"
     },
     {
       "offerId": "v2:/c6ace24929df39f8e3d432f3546e38bf3e2639e85460fc4b42a96190efb0a77e",
@@ -2391,27 +2577,31 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_bluephoto_jsg4d/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c80dade78cbdf390/renderimage_0.png"
     },
     {
       "offerId": "v2:/1cd0713cc06ccf0feef0916053e57091adf11071836fa780ae258d1f8cb9894c",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x PROVENZA (REMIX) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "PROVENZA (REMIX) - Karol G ft. Tiësto",
+      "itemNames": [
+        "PROVENZA (REMIX) - Karol G ft. Tiësto"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/a7ee9312ee568df6.jpg"
     },
     {
       "offerId": "v2:/f53503f821cf0a16b355f905da6b6312a14b07e5b5e7bc8fac71ccb9f89c7c57",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Single Soon for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Single Soon - Selena Gomez",
+      "itemNames": [
+        "Single Soon - Selena Gomez"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/c4cb22de31ac03f4.jpg"
     },
     {
       "offerId": "v2:/d94f5b9844f608de060bb3429a1e3e435d861492e397eb30ba2082b89fb357f7",
@@ -2423,17 +2613,19 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cajuntaco/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a4ca13ed310cc250/renderimage_0.png"
     },
     {
       "offerId": "v2:/b87ea74b14af4a9e3c69d9553685e56d061f934146941dc1e6625a4e1665a662",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Firework for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Firework - Katy Perry",
+      "itemNames": [
+        "Firework - Katy Perry"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/d5065b901ed9fd41.jpg"
     },
     {
       "offerId": "v2:/350b3ab799d4e43c57020f067e9f437930e4ac90436f218eca6daa106230a82a",
@@ -2445,7 +2637,7 @@
       "finalPrice": 600,
       "regularPrice": 600,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_ivorydwell/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/91c032eff35b1cca/renderimage_0.png"
     },
     {
       "offerId": "v2:/ecf10e81a7375b539fa913c171d5a8f021b22e87b23664c31488be9428adaf1d",
@@ -2457,7 +2649,7 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/glider_id_089_muertos/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a01d99927558d2f5/renderimage_0.png"
     },
     {
       "offerId": "v2:/2d4ff6d3a97aa06495089ce6f5a3dd6a38764ed4cc34e1013b28111b249645ae",
@@ -2469,7 +2661,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_makeitrainv2/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8996c5aed9f3655f/renderimage_0.png"
     },
     {
       "offerId": "v2:/1e938046e7bf53cd023f18189226a82991e56958a8a4dde93fe6fd1620b7fb61",
@@ -2481,47 +2673,55 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_cajuntaco/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/69d3c4e7187936cd/renderimage_0.png"
     },
     {
       "offerId": "v2:/bf3f052fb686747eb646cd70a02153d7a3aa830fd60ba70e6a83572c9c2902c8",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x It Takes Two for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "It Takes Two - Rob Base & DJ EZ Rock",
+      "itemNames": [
+        "It Takes Two - Rob Base & DJ EZ Rock"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/b419543b5807175c.jpg"
     },
     {
       "offerId": "v2:/a268dc252c0f86de4ecb8cb044afbcb23ffea85df50b996468be347ee6b0c7a3",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_493) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "On The Floor - Jennifer Lopez ft. Pitbull",
+      "itemNames": [
+        "On The Floor - Jennifer Lopez ft. Pitbull"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/8f46a7823001c6c8.jpg"
     },
     {
       "offerId": "v2:/72879c0c116408853a4e3718c10cc4f8e58528b7b4d8ff64937be7388ac65ad7",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Poison for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Poison - Bell Biv DeVoe",
+      "itemNames": [
+        "Poison - Bell Biv DeVoe"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/c186df232665ff32.jpg"
     },
     {
       "offerId": "v2:/adda48df9d9fa10fa656fcb709636cfd1548383aa0ed9c233e781771259a2d7e",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_763) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Tough Luck - Laufey",
+      "itemNames": [
+        "Tough Luck - Laufey"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/b8b33224cba0e156.jpg"
     },
     {
       "offerId": "v2:/b0ed3b1f215089475b411915969e8304a1c060cdc96b9c8ce278659468ef52cf",
@@ -2533,7 +2733,7 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-12-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_boastjoint/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c7cff4370be426d7/renderimage_0.png"
     },
     {
       "offerId": "v2:/2b0afb1217f0910a7cf62def62e7f0a5a4920f29b735e7f9952d61a602083ec4",
@@ -2550,12 +2750,14 @@
     {
       "offerId": "v2:/5ab60b7e118d29c7c0c6356a277cef53a2093014ccc6c55fab467d3a6aac65fc",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_663) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "I Feel It Coming - The Weeknd ft. Daft Punk",
+      "itemNames": [
+        "I Feel It Coming - The Weeknd ft. Daft Punk"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/1a02d78d6f1b3db4.jpg"
     },
     {
       "offerId": "v2:/0a551129d26412765e8eb882cd912b2cc5a8f4afac3e25fe46a97309a6b18dbd",
@@ -2568,12 +2770,13 @@
         "Alas angelicales",
         "Alas de miel doradas",
         "Micrófono de Mariah",
+        "Micrófono de Mariah",
         "Micrófono de Mariah"
       ],
       "finalPrice": 2800,
       "regularPrice": 4300,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_pastelglazegift/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f926aa6282c8c303/renderimage_0.png"
     },
     {
       "offerId": "v2:/797c23daa760c4b61838532447180a5e85f61fed5a715cc12e6015fa64871b36",
@@ -2585,7 +2788,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/wrap_167_mastermind/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/354ae70790d345b3/renderimage_0.png"
     },
     {
       "offerId": "v2:/1abab4ab3054cd0adca63416815a09054f0d686465968d6c389c7295067b64f9",
@@ -2597,37 +2800,43 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_cajuntaco/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1673124adc24f933/renderimage_0.png"
     },
     {
       "offerId": "v2:/1b517733173ba020e48987696cbaf8c9afcf01c1f8f3e67e21db1f5053cd4064",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_720) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Kill Bill - SZA",
+      "itemNames": [
+        "Kill Bill - SZA"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/bf15db19e2b045ee.jpg"
     },
     {
       "offerId": "v2:/58e1d75648493ce4eadf47cdc74b32c23a8a709da329c8a95f31684bcdbe5f16",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_571) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Basic Being Basic - Djo",
+      "itemNames": [
+        "Basic Being Basic - Djo"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/1522a9350d8d3661.jpg"
     },
     {
       "offerId": "v2:/efa007304c22fbccd32448054d12b4db1b90b9eed798021818c6ce3f2266805c",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x High Hopes for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "High Hopes - Panic! At The Disco",
+      "itemNames": [
+        "High Hopes - Panic! At The Disco"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/3648be6fba3c4a3a.jpg"
     },
     {
       "offerId": "v2:/9f79f2a129249e0e02602ec6dd0d6e4e3dce5ec957024efb5a302af5eb43334e",
@@ -2651,17 +2860,19 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_brassspar/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0e0d436e2d45922a/renderimage_0.png"
     },
     {
       "offerId": "v2:/556cdf410d26cd62a2afc5b3e2626eea61ed9618342aa0fd69f4f32214c075d1",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Young, Wild & Free for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Young, Wild & Free - Snoop Dogg & Wiz Khalifa ft. Bruno Mars",
+      "itemNames": [
+        "Young, Wild & Free - Snoop Dogg & Wiz Khalifa ft. Bruno Mars"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/95d2ddb796684fd4.jpg"
     },
     {
       "offerId": "v2:/b459eb78de614adb7d823d3a9a801af1f088d7eb8b56170463959f79209150d0",
@@ -2673,7 +2884,7 @@
       "finalPrice": 600,
       "regularPrice": 600,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_chiveflake/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c02680675cfd04e2/renderimage_0.png"
     },
     {
       "offerId": "v2:/af5489855202f1ba76c72d376c609e20e5216dc98f6c2fc680d57c16c3e37e58",
@@ -2688,7 +2899,7 @@
       "finalPrice": 2000,
       "regularPrice": 2800,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_598_athena_commando_m_mastermind/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0891bbdab9a96109/renderimage_0.png"
     },
     {
       "offerId": "v2:/68e23f2985dd8956a5d4b2f07516456aef9108119b75509a5f23e2193f4d8e71",
@@ -2705,12 +2916,14 @@
     {
       "offerId": "v2:/db8d8583f6101ded5c3525519342c9a7325d19ba325c867c254999f0249a0c2a",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_752) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Love Me Not - Ravyn Lenae",
+      "itemNames": [
+        "Love Me Not - Ravyn Lenae"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/2e77ceceadbf708d.jpg"
     },
     {
       "offerId": "v2:/3ac50b8bf4afd5edd69f2510eee8c2f0b1cdef62141506376a7f387cae7b7c1e",
@@ -2727,12 +2940,14 @@
     {
       "offerId": "v2:/a158ed477d811a0d3d46d7972edc3ec2c98a23d9f3c8628f43808e996a9fa7a4",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x I Wish for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "I Wish - Skee-Lo",
+      "itemNames": [
+        "I Wish - Skee-Lo"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/39388a3ea0f73e93.jpg"
     },
     {
       "offerId": "v2:/b7416338e4a2810484d5800560bc63acd3897e5ca514c465b4cfd9b63a13d6ed",
@@ -2744,17 +2959,19 @@
       "finalPrice": 600,
       "regularPrice": 600,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_twinkleloop/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c2b00c9d86098da1/renderimage_0.png"
     },
     {
       "offerId": "v2:/9db1b749c4130e42b051ea24178555c354221b70309ad4396cf989178dea910a",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Stargazing for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Stargazing - Myles Smith",
+      "itemNames": [
+        "Stargazing - Myles Smith"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/69e31f4821e13123.jpg"
     },
     {
       "offerId": "v2:/557cb8f45c76ff3086707251f5097dd0ea6108516a7d2fe459932d74722ad86c",
@@ -2769,27 +2986,31 @@
       "finalPrice": 2000,
       "regularPrice": 2700,
       "outDate": "2026-11-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_tulipglory/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/84018a03509c82de/renderimage_0.png"
     },
     {
       "offerId": "v2:/666e0d8ab5b610dd03cc3cd16a6045785c5cf966b9952d4283869ece000c8042",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Savage for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Savage - Megan Thee Stallion",
+      "itemNames": [
+        "Savage - Megan Thee Stallion"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/9c545217224b1377.jpg"
     },
     {
       "offerId": "v2:/9b3897e650d01d50b2a80193518ce84c643d7e9bad098b75f55cf26dd6b055fd",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x good 4 u for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "good 4 u - Olivia Rodrigo",
+      "itemNames": [
+        "good 4 u - Olivia Rodrigo"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/9674ac61a37e9f52.jpg"
     },
     {
       "offerId": "v2:/763d79975ff45fd82378dfc2db04664600649a097564c81954e4db875b3a45c0",
@@ -2801,7 +3022,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_heartthrobs/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0e1d62583bbe350d/renderimage_0.png"
     },
     {
       "offerId": "v2:/3d8037dff1c6b5614fe4a12684891baf5ce6020a97975f5d4169f6da31ba587b",
@@ -2814,7 +3035,7 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_627_athena_commando_f_snufflesleader/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d266467bd344ee35/renderimage_0.png"
     },
     {
       "offerId": "v2:/6976ac9bdbc5ad5a231f9d0f0a0d5b79dd20efaabaf2411a59e8c91e4e204564",
@@ -2826,7 +3047,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_599_cavernfemale/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a2b5da78071ef83b/renderimage_0.png"
     },
     {
       "offerId": "v2:/c57a2b6e04c2911546669f1181770beb7d87454e75c73f5bf793971acc4270d9",
@@ -2839,7 +3060,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_asidedepot/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2ecca4113b4451f6/renderimage_0.png"
     },
     {
       "offerId": "v2:/6e1eca3ca463721794fd374c0055bc775ffdbe64e06bfa9cd86aad8fbc125fcb",
@@ -2852,7 +3073,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_slugripple/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f153b05768ccd966/renderimage_0.png"
     },
     {
       "offerId": "v2:/a7cd6367ea82d349d5cb7ffc20d8da62e364ce1c5e8690e8c823a8de76e0eccb",
@@ -2864,7 +3085,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_frostmystery/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3dc88e2eb4ebfd48/renderimage_0.png"
     },
     {
       "offerId": "v2:/e5f41e61375db9a922024116d0b0a54edcff0830ead705ca5be7df0066be7ce2",
@@ -2877,7 +3098,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_026_athena_commando_f_kepler_2g59m/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/868b925748e94fd3/renderimage_0.png"
     },
     {
       "offerId": "v2:/0a7810d52c19945bf81dea6c0c9a5c4deab208ef0f9ef3d23a189bfd4580af44",
@@ -2892,17 +3113,19 @@
       "finalPrice": 1800,
       "regularPrice": 2800,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_calavera/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/36812f26ba28b359/renderimage_0.png"
     },
     {
       "offerId": "v2:/3cb561221f48680936e00cd5b6430685067a3e6617387aaaee7302e38a1cde0f",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Boulevard of Broken Dreams for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Boulevard of Broken Dreams - Green Day",
+      "itemNames": [
+        "Boulevard of Broken Dreams - Green Day"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/6986baec90c0df80.jpg"
     },
     {
       "offerId": "v2:/cd75572af5d9058531c6e1545f3f3737a3efaa0d02f436f72c001496dfaf1bb2",
@@ -2919,12 +3142,14 @@
     {
       "offerId": "v2:/d5ecfb58caf0779a9e776ade4c670f19c959c8503e02bf36c85da42efb7757d5",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Lucid Dreams for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Lucid Dreams - Juice WRLD",
+      "itemNames": [
+        "Lucid Dreams - Juice WRLD"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/800a642356f1957b.jpg"
     },
     {
       "offerId": "v2:/4366b6ec762b3d67e82bf32d4146a9aecbdef3c9c116cbd1c4a208a047ca5e6c",
@@ -2936,7 +3161,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_deceiver/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4eaeb4a8315df99f/renderimage_0.png"
     },
     {
       "offerId": "v2:/e02cbbbabfe06a5a233f31de1ad208191e0e966e7cfaa6ca7e909981a133b22a",
@@ -2948,7 +3173,7 @@
       "finalPrice": 400,
       "regularPrice": 400,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_cajuntaco/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f44d8f0edd52a0d7/renderimage_0.png"
     },
     {
       "offerId": "v2:/1a0ea7545eedec3fdee8e658d3fe24743d30c9d5af21911e65c024e4bebd6d78",
@@ -2960,17 +3185,19 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_asidedepot/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7cbe41c85147a1a0/renderimage_0.png"
     },
     {
       "offerId": "v2:/a8dc33046fc75786862c2997b212845907192245069514ec5a2bf537d3175637",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Santeria for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Santeria - Sublime",
+      "itemNames": [
+        "Santeria - Sublime"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/a639ffe8671b12ab.jpg"
     },
     {
       "offerId": "v2:/58772f33d10da1ceca6e15eed94e5420455ffb77f112e0cb1ad67794b2a55b69",
@@ -2982,17 +3209,19 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-12-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/glider_celerystitch/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b59d99f835501268/renderimage_0.png"
     },
     {
       "offerId": "v2:/8aca5d82dee0b83197408dfc7036509cf7988dc4fd6d961afec125cdb3e6c1fb",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Bulls On Parade for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Bulls On Parade - Rage Against The Machine",
+      "itemNames": [
+        "Bulls On Parade - Rage Against The Machine"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/f2b7b374b8336422.jpg"
     },
     {
       "offerId": "v2:/70100c2704ff7f264191814820e5899275b9d516468df2f1498a96d45587ea44",
@@ -3004,17 +3233,19 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_094_athena_commando_f_cavern_33lmc/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/19408fec34a079cf/renderimage_0.png"
     },
     {
       "offerId": "v2:/965f397718146246faee4815f9102285f8e7c7a60ec5fed24f7fb9a6cfeefab4",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Misery Business for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Misery Business - Paramore",
+      "itemNames": [
+        "Misery Business - Paramore"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/f092ec1bed88c8cb.jpg"
     },
     {
       "offerId": "v2:/adc38534f3880a8dd64ed3bae10308692fb8d310088b892e1669983051a0efbc",
@@ -3030,22 +3261,25 @@
         "Amigo de nieve",
         "¡INACEPTABLE!",
         "Kit del Rey Hielo",
+        "Kit del Rey Hielo",
         "Kit del Rey Hielo"
       ],
       "finalPrice": 3200,
       "regularPrice": 5400,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_sonnetspirit/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a232a2c0e9b4bc6e/renderimage_0.png"
     },
     {
       "offerId": "v2:/bd17ccb3cc693e6b8eecf82f0dedd963539acd380462b59207873e2d530716d0",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_673) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "PPAP (Pen Pineapple Apple Pen) [Long Version] - Pikotaro",
+      "itemNames": [
+        "PPAP (Pen Pineapple Apple Pen) [Long Version] - Pikotaro"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/8e9a41a387b530af.jpg"
     },
     {
       "offerId": "v2:/82757c675c7f9003d4ca0e116a50a4e3930fe8233cf93d43f3d30a8b2f741a2f",
@@ -3062,12 +3296,14 @@
     {
       "offerId": "v2:/9be1aad8410f0cf3bf2f213a25d5b48dfd33ce24fdeabe12468e66c729f6e6e6",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_503) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Hot In Herre - Nelly",
+      "itemNames": [
+        "Hot In Herre - Nelly"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/a590988722909edb.jpg"
     },
     {
       "offerId": "v2:/4708441f2330769a8df922f2eab504851c3e167065995a6ade3900f82e93c2c5",
@@ -3075,12 +3311,13 @@
       "name": "Piano de Princesa del Espacio Bultos",
       "itemNames": [
         "Piano de Princesa del Espacio Bultos",
+        "Piano de Princesa del Espacio Bultos",
         "Piano de Princesa del Espacio Bultos"
       ],
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_chiveflake_keytar/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/27a3b5b8eede56a6/renderimage_0.png"
     },
     {
       "offerId": "v2:/31808143011ecee1c0143c8dd16c9484bc053b94c0191b35dee867fe6615d34a",
@@ -3092,17 +3329,19 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_commandospy/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/fd3078e9b8cb33f0/renderimage_0.png"
     },
     {
       "offerId": "v2:/5611c2a3405d8c48829f78a1e6212f92e277fbcc85b80409f7d2ffdd8e5932cd",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Mood for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Mood - 24kGoldn ft. iann dior",
+      "itemNames": [
+        "Mood - 24kGoldn ft. iann dior"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/cf09829e48343b0d.jpg"
     },
     {
       "offerId": "v2:/d4987635f31046a8270942b81b9dfbe495cd735dbd213dc7570a36710a37ce80",
@@ -3114,7 +3353,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_407_athena_commando_m_rebirthfresh_b/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c3ed385dca9eeb17/renderimage_0.png"
     },
     {
       "offerId": "v2:/b999dc4459da43550c0c2fca3a7b34d82ef909a7c10fe932ced097488f25fbaa",
@@ -3126,17 +3365,19 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_asidedepotstair/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3e06af8cc76280e8/renderimage_0.png"
     },
     {
       "offerId": "v2:/f5d7564ad2aba5e566bca9ac35ff57a10bf51f27e33c3caa8fed2f762db31334",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_569) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Die With A Smile - Lady Gaga, Bruno Mars",
+      "itemNames": [
+        "Die With A Smile - Lady Gaga, Bruno Mars"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/5e3f7c960a5fa2ea.jpg"
     },
     {
       "offerId": "v2:/2396c0dc576f6ab1bd35c08f9b61bacd819d8fc675b225e8d0b701a9f4f98fe1",
@@ -3149,17 +3390,19 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_ichorincisor/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7f8b2b63c0dff427/renderimage_0.png"
     },
     {
       "offerId": "v2:/68a606fd462b893081f66ceeb4e5d17fb879698667f7e324358dfacda1b41817",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x The Middle for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "The Middle - Zedd, Maren Morris & Grey",
+      "itemNames": [
+        "The Middle - Zedd, Maren Morris & Grey"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/c537c4d3a38212e5.jpg"
     },
     {
       "offerId": "v2:/12597cc480c825f15761c5a7539a49b802da074d0615b87d875153db575b73d3",
@@ -3171,7 +3414,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_363_lollipoptricksterfemale/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5d7d0bfd10d8483c/renderimage_0.png"
     },
     {
       "offerId": "v2:/9559a2b9dc4402e02ade41f8186e30cee8116ee240d5991da2945329bac47009",
@@ -3184,17 +3427,19 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_altogorgon/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/321c049d851f423b/renderimage_0.png"
     },
     {
       "offerId": "v2:/a70b416f78001827b925b83f2a4255be83139a4c0a5f6fed8b3db49da1fc4c3c",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Blitzkrieg Bop for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Blitzkrieg Bop - Ramones",
+      "itemNames": [
+        "Blitzkrieg Bop - Ramones"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/9603260e3386723a.jpg"
     },
     {
       "offerId": "v2:/90262f12a17c96f4e6657b9725cae867b073aaf471957fed3f67b09862bf589f",
@@ -3206,57 +3451,67 @@
       "finalPrice": 400,
       "regularPrice": 400,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_cargolying/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cd6c364780fb58d4/renderimage_0.png"
     },
     {
       "offerId": "v2:/3bb49d41fc1fc6213102caa02923f9ad167310b9d764c7cb475a68045426c774",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Next Semester for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Next Semester - Twenty One Pilots",
+      "itemNames": [
+        "Next Semester - Twenty One Pilots"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/a7fcd8d0d965e6a3.jpg"
     },
     {
       "offerId": "v2:/78c3deec1720bec36276f9733c56acc20bf2d23860503464c3293e80eeb52643",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Sucker for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Sucker - Jonas Brothers",
+      "itemNames": [
+        "Sucker - Jonas Brothers"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/199ef013f959e17e.jpg"
     },
     {
       "offerId": "v2:/fd62d1e2bf5739b54001f416b11f2f44e01451cdad7e486302ba8dd43578c9cb",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Ballin' for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Ballin' - Mustard ft. Roddy Ricch",
+      "itemNames": [
+        "Ballin' - Mustard ft. Roddy Ricch"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/a8ed66580bd3092d.jpg"
     },
     {
       "offerId": "v2:/eee6c0f254867160ffd007b047f7d83dc1483d812cb4bfda3fd70731b0edefca",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Hips Don't Lie for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Hips Don't Lie - Shakira ft. Wyclef Jean",
+      "itemNames": [
+        "Hips Don't Lie - Shakira ft. Wyclef Jean"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/40b9c1fea3632a60.jpg"
     },
     {
       "offerId": "v2:/9fc6c44d5c6ed57e8a82c93d2f210893119a76f4e3dfeae1fc5f4a363ac94fb4",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Get Busy for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Get Busy - Sean Paul",
+      "itemNames": [
+        "Get Busy - Sean Paul"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/b65df786960f64d0.jpg"
     },
     {
       "offerId": "v2:/6fa1770c51a0885db0ecba5561c9427de63d5bb476f589fe5713b7f7d1bf1933",
@@ -3268,7 +3523,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_camouflage/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2bcf4f7415e16748/renderimage_0.png"
     },
     {
       "offerId": "v2:/f42a45674b9489c93a3d1027605a43a08eb01262b2a20c2c62c3067bb1a52b54",
@@ -3281,7 +3536,7 @@
       "finalPrice": 2000,
       "regularPrice": 2000,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_199_athena_commando_f_bluesamurai/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/49d7addc8370ea46/renderimage_0.png"
     },
     {
       "offerId": "v2:/7ba4922f679ae65a17e68e98cf87aed53a05cab7b4e932905be15af40b7a56c6",
@@ -3294,27 +3549,31 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_bananaadventure/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/31676a0c46a37260/renderimage_0.png"
     },
     {
       "offerId": "v2:/a3dc6b3162f1413eb9c6a65542576c2ae7924698cabab44968ba7e39172bb865",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Fireball  for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Fireball - Pitbull ft. John Ryan",
+      "itemNames": [
+        "Fireball - Pitbull ft. John Ryan"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/fbf614afdc3e7209.jpg"
     },
     {
       "offerId": "v2:/5a2b5a7513461c3d9efe44b10e115d7eee88113764cf1741067f4e61999975f4",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_804) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "FLAMMABLE - Swae Lee",
+      "itemNames": [
+        "FLAMMABLE - Swae Lee"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/044033416a044b72.jpg"
     },
     {
       "offerId": "v2:/6711db34d7a0e16580cd9915d4fb829491045640cc266f05d861733e3f949a5c",
@@ -3331,12 +3590,14 @@
     {
       "offerId": "v2:/38e7abc53620d191d9fd5af198083463ed1a39654f81581dfacb27bb46f1e8b7",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x TBD (SID_Placeholder_658) for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Wildberry Lillet - Nina Chuba",
+      "itemNames": [
+        "Wildberry Lillet - Nina Chuba"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/f075187351f1d5a4.jpg"
     },
     {
       "offerId": "v2:/5feee243fef2d9af264e773a3a30c0b234d13d1c331d66f57a80a74179d4ab75",
@@ -3350,47 +3611,55 @@
       "finalPrice": 1600,
       "regularPrice": 2500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_brassspar/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e942e6639be1e9b4/renderimage_0.png"
     },
     {
       "offerId": "v2:/87d8eb53a0e55067603d69ff123281622f46b2a461d443e8addce6205923a6db",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x The Brave for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "The Brave - YOASOBI",
+      "itemNames": [
+        "The Brave - YOASOBI"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/912d64f4dff4ac6c.jpg"
     },
     {
       "offerId": "v2:/8fcfbf879334f40adf83b5a4ad9dbca86026c907603aac6a3cd932f7b8d02e88",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Feather for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Feather - Sabrina Carpenter",
+      "itemNames": [
+        "Feather - Sabrina Carpenter"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/d1b9812e0ad70ce4.jpg"
     },
     {
       "offerId": "v2:/df4c0e41b42771ad56768f767c23861dab5ab92800e5f703928a70f24c4d27b4",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Maps for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Maps - Maroon 5",
+      "itemNames": [
+        "Maps - Maroon 5"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/43e4d4080fca102c.jpg"
     },
     {
       "offerId": "v2:/80e1e4893eadc343ee31974b359600b54c79f34975c3c372dbc85f58ed290155",
       "section": "alc.0",
-      "name": "[VIRTUAL]1 x Next Gen Goodyear Racing for 200 MtxCurrency",
-      "itemNames": [],
+      "name": "Next Gen Goodyear Racing",
+      "itemNames": [
+        "Next Gen Goodyear Racing"
+      ],
       "finalPrice": 200,
       "regularPrice": 200,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/cars/wheel_scar/large.png"
     },
     {
       "offerId": "v2:/2bc2afd06f310091de618fd68559f1724f2f73f6b076df3ef30165320a9c2b56",
@@ -3402,7 +3671,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_397_athena_commando_f_treasurehunterfashion/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/063ef93d017300ce/renderimage_0.png"
     },
     {
       "offerId": "v2:/0e0f13c645df2487289aac3152ce197978bcfecaec50facc7a2be43b89de39c5",
@@ -3415,7 +3684,7 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_315_athena_commando_m_teriyakifish/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d9ba0fad6e9dc557/renderimage_0.png"
     },
     {
       "offerId": "v2:/5dce674b9b70d04fd44b17b1e7036ab2377948e877884b328bd1b52c282fa1c7",
@@ -3427,7 +3696,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chiveflake/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1c7b7bf9e5f792f4/renderimage_0.png"
     },
     {
       "offerId": "v2:/228d2eb349125429ebb10a8781c16158812453c228a7692774cf8cca98d2a694",
@@ -3441,7 +3710,7 @@
       "finalPrice": 2000,
       "regularPrice": 3100,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_704_athena_commando_f_lollipoptrickster/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a5d4c301c2244b6e/renderimage_0.png"
     },
     {
       "offerId": "v2:/8f5b9900d21174a1240a649ff05e7e8f34931971f7b1c780c754fb1bf344dd06",
@@ -3467,7 +3736,7 @@
       "finalPrice": 1600,
       "regularPrice": 1600,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_slopetramp/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/13297bf88524241e/renderimage_0.png"
     },
     {
       "offerId": "v2:/bba959166b14246f2d4f86d3583479b914e49a1105e920a6c160c4939aa1565b",
@@ -3475,12 +3744,13 @@
       "name": "Cuerdas de los Sombrero de paja",
       "itemNames": [
         "Cuerdas de los Sombrero de paja",
+        "Cuerdas de los Sombrero de paja",
         "Cuerdas de los Sombrero de paja"
       ],
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-12-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_celerystitch_guitar/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5eb28f7e18991c73/renderimage_0.png"
     },
     {
       "offerId": "v2:/2920af4a4d3399691aeb0edcc52a7aac01fac1369137d1bfe86a41f79eec6fe1",
@@ -3492,27 +3762,31 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_altogorgon/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1ceb88cdf2588f46/renderimage_0.png"
     },
     {
       "offerId": "v2:/d693407755fc8d25be31e7996ad1d05f344c81d69e5dd3a903ab987051bf4748",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Ghost for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Ghost - Justin Bieber",
+      "itemNames": [
+        "Ghost - Justin Bieber"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/8ca7d0865d008c81.jpg"
     },
     {
       "offerId": "v2:/907cfa567254c32d218b1cc4f490948a7ef08aebaabedee096bd949141b3711b",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Holiday for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Holiday - Green Day",
+      "itemNames": [
+        "Holiday - Green Day"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/8dafcce4df7e99c7.jpg"
     },
     {
       "offerId": "v2:/96838c695c5da243590d6584382dde3855a187dfd3a2c58866bd9e7c070073f4",
@@ -3524,7 +3798,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/wrap_ivorydwell/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/bafcd3ad7c42e300/renderimage_0.png"
     },
     {
       "offerId": "v2:/3f79432ab1f617561e648c9ccd17ca538f78dbbbae24b6611c4a79e69b050910",
@@ -3548,7 +3822,7 @@
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-04T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_gracious/icon.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/23bfa6d58834d0de/renderimage_0.png"
     },
     {
       "offerId": "v2:/d2fe8cb49861e0f5703deff7d0ef33e8f419153a1b2fa1365421b7364116148f",
@@ -3560,7 +3834,7 @@
       "finalPrice": 800,
       "regularPrice": 800,
       "outDate": "2026-11-05T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_pearltote/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/68d5bed707436eb0/renderimage_0.png"
     },
     {
       "offerId": "v2:/3d724ede99e29ae485eac886f28178f0c2fe29c87ae3fee5c7aceee2042ed37a",
@@ -3573,7 +3847,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_fairymochi/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5a62c7f439961b9b/renderimage_0.png"
     },
     {
       "offerId": "v2:/bfbb24380e24582007e294bf05b7844051f6c224c5382992de3e8da3c4e0ebb7",
@@ -3585,7 +3859,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_tulipglory/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0acc26b63aced80d/renderimage_0.png"
     },
     {
       "offerId": "v2:/38e1bd7220e7a4a1d7283de6829fc7045f5d5844c1e972e0d22fbace6d3d3682",
@@ -3597,17 +3871,19 @@
       "finalPrice": 300,
       "regularPrice": 300,
       "outDate": "2026-11-03T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_tulipglory/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/bfeb1913860b499f/renderimage_0.png"
     },
     {
       "offerId": "v2:/a121852426bc724c06e74a1fcaf2825b5074497b948f7dcdcf3e393a40af62e3",
       "section": "Pistas de improvisación",
-      "name": "[VIRTUAL]1 x Don't You Worry Child for 500 MtxCurrency",
-      "itemNames": [],
+      "name": "Don't You Worry Child - Swedish House Mafia ft. John Martin",
+      "itemNames": [
+        "Don't You Worry Child - Swedish House Mafia ft. John Martin"
+      ],
       "finalPrice": 500,
       "regularPrice": 500,
       "outDate": "2026-11-30T23:59:59.999Z",
-      "imageUrl": null
+      "imageUrl": "https://cdn.fortnite-api.com/tracks/cc99d7a91551cc5b.jpg"
     },
     {
       "offerId": "v2:/e1d1922a8ea2224bc0a4c4e693d166c14c2be43323f65a9dbff9bcfdbedf72cb",
@@ -3620,7 +3896,7 @@
       "finalPrice": 1500,
       "regularPrice": 1500,
       "outDate": "2026-11-06T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_puzzleshed/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2595337d62310bd8/renderimage_0.png"
     },
     {
       "offerId": "v2:/48d08171b8c61178fb11f33ae68ecccfda10fe89a78d9b7e5be0c3200f82aaac",
@@ -3632,7 +3908,7 @@
       "finalPrice": 1200,
       "regularPrice": 1200,
       "outDate": "2026-11-02T23:59:59.999Z",
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/companion_sitplant/featured.png"
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/476459dfd92de60d/renderimage_0.png"
     }
   ]
 }
