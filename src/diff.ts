@@ -1,4 +1,4 @@
-import { ChangeKind, isVbucksVerified, type Change, type ShopOffer, type Snapshot } from "./types.ts";
+import { ChangeKind, CurrencyStatus, currencyStatus, type Change, type ShopOffer, type Snapshot } from "./types.ts";
 
 function indexByOfferId(offers: ShopOffer[]): Map<string, ShopOffer> {
   const map = new Map<string, ShopOffer>();
@@ -13,7 +13,7 @@ export function diffSnapshots(previous: Snapshot, next: Snapshot): Change[] {
   const previousById = indexByOfferId(previous.offers);
   const nextById = indexByOfferId(next.offers);
   for (const offer of next.offers) {
-    if (!isVbucksVerified(offer)) {
+    if (currencyStatus(offer) !== CurrencyStatus.Verified) {
       continue;
     }
     const before = previousById.get(offer.offerId);
@@ -24,7 +24,7 @@ export function diffSnapshots(previous: Snapshot, next: Snapshot): Change[] {
     }
   }
   for (const offer of previous.offers) {
-    if (isVbucksVerified(offer) && !nextById.has(offer.offerId)) {
+    if (currencyStatus(offer) === CurrencyStatus.Verified && !nextById.has(offer.offerId)) {
       changes.push({ kind: ChangeKind.Removed, offer });
     }
   }
