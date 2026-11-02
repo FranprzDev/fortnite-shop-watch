@@ -132,6 +132,24 @@ def wrap_lines(text, font, size, width, max_lines):
     return lines
 
 
+THUMB_MAX_PX = 160
+THUMB_QUALITY = 70
+
+
+def shrink_thumbnail(image):
+    longest = max(image.size)
+    if longest > THUMB_MAX_PX:
+        scale = THUMB_MAX_PX / longest
+        size = (max(1, round(image.width * scale)), max(1, round(image.height * scale)))
+        image = image.resize(size, Image.LANCZOS)
+    if image.mode != "RGB":
+        image = image.convert("RGB")
+    buffer = BytesIO()
+    image.save(buffer, format="JPEG", quality=THUMB_QUALITY, optimize=True)
+    buffer.seek(0)
+    return buffer
+
+
 def fetch_thumb(url):
     if not url:
         return None
@@ -145,8 +163,8 @@ def fetch_thumb(url):
                 rgba = raw.convert("RGBA")
                 canvas = Image.new("RGB", rgba.size, (255, 255, 255))
                 canvas.paste(rgba, mask=rgba.split()[-1])
-                return canvas
-            return raw.convert("RGB")
+                return shrink_thumbnail(canvas)
+            return shrink_thumbnail(raw.convert("RGB"))
         except Exception:
             if attempt < 2:
                 time.sleep(0.5 * (attempt + 1))
