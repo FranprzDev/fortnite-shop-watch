@@ -36,8 +36,14 @@ jobs:
           git add data reports
           git commit -m "Shop update ${SHOP_DATE}"
           git push -u origin "$BRANCH" --force
-          if gh pr create --base main --head "$BRANCH" --title "Shop update ${SHOP_DATE}" --body-file "reports/${SHOP_DATE}.md"; then
-            echo "pull request opened"
+          if ! PR_OUT=$(gh pr create --base main --head "$BRANCH" --title "Shop update ${SHOP_DATE}" --body-file "reports/${SHOP_DATE}.md" 2>&1); then
+            if printf '%s' "$PR_OUT" | grep -qi "already exists"; then
+              echo "pull request already exists, skipping"
+            else
+              printf '%s
+' "$PR_OUT"
+              exit 1
+            fi
           else
-            echo "pull request already exists, skipping"
+            echo "pull request opened"
           fi
