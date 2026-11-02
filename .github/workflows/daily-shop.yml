@@ -1,0 +1,30 @@
+name: daily-shop-watch
+
+on:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node --experimental-transform-types src/main.ts
+      - name: Commit snapshot and report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add data reports
+            git commit -m "Update shop snapshot and report"
+            git push
+          else
+            echo "no changes"
+          fi
