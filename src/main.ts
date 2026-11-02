@@ -3,7 +3,7 @@ import { existsSync } from "node:fs";
 import { fetchShopSnapshot } from "./shopClient.ts";
 import { diffSnapshots } from "./diff.ts";
 import { buildBaselineReport, buildReport } from "./report.ts";
-import { ChangeKind, type Snapshot } from "./types.ts";
+import { ChangeKind, isVbucksVerified, type Snapshot } from "./types.ts";
 
 const logger = {
   info(message: string): void {
@@ -37,21 +37,31 @@ async function main(): Promise<void> {
   const reportPath = `${REPORTS_DIR}/${shopDateKey(snapshot.date)}.md`;
   const displayDate = shopDateKey(snapshot.date).split("-").reverse().join("/");
   const previousDisplayDate = previous === null ? null : shopDateKey(previous.date).split("-").reverse().join("/");
+  const excludedNonVbucks = snapshot.offers
+    .filter((offer) => !isVbucksVerified(offer))
+    .map((offer) => ({ name: offer.name, offerId: offer.offerId, currency: offer.currency }));
+  const excludedNote = excludedNonVbucks.length > 0 ? `\nOfertas excluidas por no comprarse con PaVos: ${excludedNonVbucks.length}\n` : "";
   if (previous === null) {
-    await writeFile(reportPath, buildBaselineReport(displayDate, snapshot.offers));
+    await writeFile(reportPath, buildBaselineReport(displayDate, snapshot.offers) + excludedNote);
     logger.info(`baseline seeded: ${snapshot.offers.length} offers`);
+    if (excludedNote) {
+      logger.info(excludedNote);
+    }
   } else {
     const changes = diffSnapshots(previous, snapshot);
     const changesJsonPath = `${REPORTS_DIR}/${shopDateKey(snapshot.date)}.json`;
     if (changes.length === 0 && existsSync(reportPath)) {
       logger.info("added=0 removed=0 priceChanged=0 (existing report kept)");
     } else {
-      await writeFile(reportPath, buildReport(displayDate, previousDisplayDate, changes));
-      await writeFile(changesJsonPath, JSON.stringify({ shopDate: displayDate, previousDate: previousDisplayDate, changes }, null, 2) + "\n");
+      await writeFile(reportPath, buildReport(displayDate, previousDisplayDate, changes) + excludedNote);
+      await writeFile(changesJsonPath, JSON.stringify({ shopDate: displayDate, previousDate: previousDisplayDate, changes, excludedNonVbucks }, null, 2) + "\n");
       const added = changes.filter((c) => c.kind === ChangeKind.Added).length;
       const removed = changes.filter((c) => c.kind === ChangeKind.Removed).length;
       const priceChanged = changes.filter((c) => c.kind === ChangeKind.PriceChanged).length;
       logger.info(`added=${added} removed=${removed} priceChanged=${priceChanged}`);
+      if (excludedNote) {
+        logger.info(excludedNote);
+      }
     }
   }
   await writeFile(SNAPSHOT_PATH, JSON.stringify(snapshot, null, 2) + "\n");

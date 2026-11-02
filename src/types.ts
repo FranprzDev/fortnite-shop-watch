@@ -1,3 +1,9 @@
+export const VBUCKS_CURRENCY = "MtxCurrency";
+
+export function isVbucksVerified(offer: { currency?: string }): boolean {
+  return offer.currency === undefined || offer.currency === VBUCKS_CURRENCY;
+}
+
 export interface ShopOffer {
   offerId: string;
   section: string;
@@ -8,6 +14,7 @@ export interface ShopOffer {
   regularPrice: number;
   outDate: string | null;
   imageUrl: string | null;
+  currency: string;
 }
 
 export interface Snapshot {

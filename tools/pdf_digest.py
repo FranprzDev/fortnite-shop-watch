@@ -73,6 +73,11 @@ def clean_text(value):
     return re.sub(r"\s+", " ", value).strip()
 
 
+def is_vbucks_verified(offer):
+    currency = offer.get("currency")
+    return currency is None or currency == "MtxCurrency"
+
+
 def resolve_name(offer):
     name = clean_text(offer.get("name"))
     if name:
@@ -354,7 +359,7 @@ class Digest:
                 parts.append(price)
         out_date = short_date(offer.get("outDate"))
         if out_date:
-            parts.append(f"sale aprox. {out_date}")
+            parts.append(f"Se retira aprox. {out_date}")
         return "  |  ".join(parts)
 
     def draw_row(self, offer, entry, name):
@@ -452,6 +457,25 @@ def main():
     changes = changes_data.get("changes") or []
     offers = snapshot.get("offers") or []
 
+    excluded_ids = set()
+    verified_offers = []
+    for offer in offers:
+        if is_vbucks_verified(offer):
+            verified_offers.append(offer)
+        else:
+            excluded_ids.add(offer.get("offerId"))
+    offers = verified_offers
+    verified_changes = []
+    for entry in changes:
+        if is_vbucks_verified(entry.get("offer") or {}):
+            verified_changes.append(entry)
+        else:
+            excluded_ids.add((entry.get("offer") or {}).get("offerId"))
+    changes = verified_changes
+    for entry in changes_data.get("excludedNonVbucks") or []:
+        excluded_ids.add(entry.get("offerId"))
+    excluded_count = len(excluded_ids)
+
     by_kind = {"added": [], "removed": [], "priceChanged": []}
     for entry in changes:
         kind = entry.get("kind")
@@ -500,11 +524,15 @@ def main():
         else:
             digest.empty_note(empty_text)
 
+    if excluded_count > 0:
+        digest.empty_note(f"Se excluyeron {excluded_count} ofertas que no se compran con PaVos, según el marcador de moneda de fortnite-api.com.")
+
     digest.draw_footer()
     digest.save()
 
     print(f"PDF written: {out_path} ({len(changes)} changes, {len(unchanged)} unchanged)")
     print(f"images: {digest.images_ok}/{digest.images_total} visible, {digest.images_pending} pendientes")
+    print(f"excluded non-V-Bucks: {excluded_count}")
 
 
 if __name__ == "__main__":
