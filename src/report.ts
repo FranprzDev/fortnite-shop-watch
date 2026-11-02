@@ -22,7 +22,7 @@ function offerLine(offer: ShopOffer): string {
 }
 
 function priceChangeLine(change: Change): string {
-  const parts = [`- ${change.offer.name} (${change.offer.section})`, `${change.previousPrice ?? "?"} -> ${change.offer.finalPrice} PaVos`];
+  const parts = [`- ${change.offer.name} (${change.offer.section})`, `${change.oldPrice ?? "?"} -> ${change.newPrice ?? change.offer.finalPrice} PaVos`];
   if (change.offer.imageUrl) {
     parts.push(change.offer.imageUrl);
   }

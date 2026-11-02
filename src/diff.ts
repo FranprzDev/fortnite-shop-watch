@@ -17,7 +17,7 @@ export function diffSnapshots(previous: Snapshot, next: Snapshot): Change[] {
     if (!before) {
       changes.push({ kind: ChangeKind.Added, offer });
     } else if (before.finalPrice !== offer.finalPrice) {
-      changes.push({ kind: ChangeKind.PriceChanged, offer, previousPrice: before.finalPrice });
+      changes.push({ kind: ChangeKind.PriceChanged, offer, oldPrice: before.finalPrice, newPrice: offer.finalPrice });
     }
   }
   for (const offer of previous.offers) {

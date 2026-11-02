@@ -84,6 +84,7 @@ function normalizeEntry(entry: RawShopEntry): ShopOffer | null {
     offerId: entry.offerId,
     section: entry.layout?.name ?? entry.layoutId ?? "unknown",
     name: resolveName(entry),
+    devName: entry.devName ?? "",
     itemNames: collectItemNames(entry),
     finalPrice: entry.finalPrice ?? 0,
     regularPrice: entry.regularPrice ?? 0,
