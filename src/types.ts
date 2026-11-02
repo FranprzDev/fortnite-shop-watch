@@ -1,7 +1,19 @@
 export const VBUCKS_CURRENCY = "MtxCurrency";
 
-export function isVbucksVerified(offer: { currency?: string }): boolean {
-  return offer.currency === undefined || offer.currency === VBUCKS_CURRENCY;
+export enum CurrencyStatus {
+  Verified = "verified",
+  NonVbucks = "nonVbucks",
+  Unverified = "unverified",
+}
+
+export function currencyStatus(offer: { currency?: string }): CurrencyStatus {
+  if (offer.currency === VBUCKS_CURRENCY) {
+    return CurrencyStatus.Verified;
+  }
+  if (offer.currency === undefined || offer.currency === "unknown") {
+    return CurrencyStatus.Unverified;
+  }
+  return CurrencyStatus.NonVbucks;
 }
 
 export interface ShopOffer {

@@ -3,7 +3,7 @@ import { existsSync } from "node:fs";
 import { fetchShopSnapshot } from "./shopClient.ts";
 import { diffSnapshots } from "./diff.ts";
 import { buildBaselineReport, buildReport } from "./report.ts";
-import { ChangeKind, isVbucksVerified, type Snapshot } from "./types.ts";
+import { ChangeKind, CurrencyStatus, currencyStatus, type Snapshot } from "./types.ts";
 
 const logger = {
   info(message: string): void {
@@ -38,12 +38,18 @@ async function main(): Promise<void> {
   const displayDate = shopDateKey(snapshot.date).split("-").reverse().join("/");
   const previousDisplayDate = previous === null ? null : shopDateKey(previous.date).split("-").reverse().join("/");
   const excludedNonVbucks = snapshot.offers
-    .filter((offer) => !isVbucksVerified(offer))
+    .filter((offer) => currencyStatus(offer) === CurrencyStatus.NonVbucks)
     .map((offer) => ({ name: offer.name, offerId: offer.offerId, currency: offer.currency }));
-  const excludedNote = excludedNonVbucks.length > 0 ? `\nOfertas excluidas por no comprarse con PaVos: ${excludedNonVbucks.length}\n` : "";
+  const excludedUnverified = snapshot.offers
+    .filter((offer) => currencyStatus(offer) === CurrencyStatus.Unverified)
+    .map((offer) => ({ name: offer.name, offerId: offer.offerId }));
+  const nonVbucksNote = excludedNonVbucks.length > 0 ? `\nOfertas excluidas por no comprarse con PaVos: ${excludedNonVbucks.length}\n` : "";
+  const unverifiedNote = excludedUnverified.length > 0 ? `\nOfertas excluidas por moneda no verificada: ${excludedUnverified.length}\n` : "";
+  const excludedNote = nonVbucksNote + unverifiedNote;
   if (previous === null) {
-    await writeFile(reportPath, buildBaselineReport(displayDate, snapshot.offers) + excludedNote);
-    logger.info(`baseline seeded: ${snapshot.offers.length} offers`);
+    const verifiedOffers = snapshot.offers.filter((offer) => currencyStatus(offer) === CurrencyStatus.Verified);
+    await writeFile(reportPath, buildBaselineReport(displayDate, verifiedOffers) + excludedNote);
+    logger.info(`baseline seeded: ${verifiedOffers.length} offers`);
     if (excludedNote) {
       logger.info(excludedNote);
     }
@@ -54,7 +60,7 @@ async function main(): Promise<void> {
       logger.info("added=0 removed=0 priceChanged=0 (existing report kept)");
     } else {
       await writeFile(reportPath, buildReport(displayDate, previousDisplayDate, changes) + excludedNote);
-      await writeFile(changesJsonPath, JSON.stringify({ shopDate: displayDate, previousDate: previousDisplayDate, changes, excludedNonVbucks }, null, 2) + "\n");
+      await writeFile(changesJsonPath, JSON.stringify({ shopDate: displayDate, previousDate: previousDisplayDate, changes, excludedNonVbucks, excludedUnverified }, null, 2) + "\n");
       const added = changes.filter((c) => c.kind === ChangeKind.Added).length;
       const removed = changes.filter((c) => c.kind === ChangeKind.Removed).length;
       const priceChanged = changes.filter((c) => c.kind === ChangeKind.PriceChanged).length;

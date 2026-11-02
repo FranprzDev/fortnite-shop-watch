@@ -73,9 +73,13 @@ def clean_text(value):
     return re.sub(r"\s+", " ", value).strip()
 
 
-def is_vbucks_verified(offer):
+def currency_status(offer):
     currency = offer.get("currency")
-    return currency is None or currency == "MtxCurrency"
+    if currency == "MtxCurrency":
+        return "verified"
+    if currency is None or currency == "unknown":
+        return "unverified"
+    return "non_vbucks"
 
 
 def resolve_name(offer):
@@ -336,6 +340,18 @@ class Digest:
         self.canvas.drawString(MARGIN + 2 * mm, self.y - 5 * mm, text)
         self.y -= 10 * mm
 
+    def wrapped_note(self, text, max_lines=3):
+        size = BODY
+        lines = wrap_lines(text, FONT, size, self.content_w, max_lines)
+        height = len(lines) * size * 1.22 + 4 * mm
+        self.ensure_space(height)
+        self.canvas.setFillColor(MUTED)
+        self.canvas.setFont(FONT, size)
+        base = self.y - 5 * mm
+        for index, line in enumerate(lines):
+            self.canvas.drawString(MARGIN + 2 * mm, base - index * size * 1.22, line)
+        self.y -= height
+
     def meta_line(self, offer, entry):
         parts = []
         section = clean_text(offer.get("section"))
@@ -457,24 +473,35 @@ def main():
     changes = changes_data.get("changes") or []
     offers = snapshot.get("offers") or []
 
-    excluded_ids = set()
+    non_vbucks_ids = set()
+    unverified_ids = set()
     verified_offers = []
     for offer in offers:
-        if is_vbucks_verified(offer):
+        status = currency_status(offer)
+        if status == "verified":
             verified_offers.append(offer)
+        elif status == "unverified":
+            unverified_ids.add(offer.get("offerId"))
         else:
-            excluded_ids.add(offer.get("offerId"))
+            non_vbucks_ids.add(offer.get("offerId"))
     offers = verified_offers
     verified_changes = []
     for entry in changes:
-        if is_vbucks_verified(entry.get("offer") or {}):
+        offer = entry.get("offer") or {}
+        status = currency_status(offer)
+        if status == "verified":
             verified_changes.append(entry)
+        elif status == "unverified":
+            unverified_ids.add(offer.get("offerId"))
         else:
-            excluded_ids.add((entry.get("offer") or {}).get("offerId"))
+            non_vbucks_ids.add(offer.get("offerId"))
     changes = verified_changes
     for entry in changes_data.get("excludedNonVbucks") or []:
-        excluded_ids.add(entry.get("offerId"))
-    excluded_count = len(excluded_ids)
+        non_vbucks_ids.add(entry.get("offerId"))
+    for entry in changes_data.get("excludedUnverified") or []:
+        unverified_ids.add(entry.get("offerId"))
+    unverified_ids -= non_vbucks_ids
+    excluded_ids = non_vbucks_ids | unverified_ids
 
     by_kind = {"added": [], "removed": [], "priceChanged": []}
     for entry in changes:
@@ -493,6 +520,8 @@ def main():
         if offer_id in seen_ids:
             continue
         seen_ids.add(offer_id)
+        if offer_id in excluded_ids:
+            continue
         if not resolve_name(offer):
             unresolved.append(offer_id)
     if unresolved:
@@ -524,15 +553,18 @@ def main():
         else:
             digest.empty_note(empty_text)
 
-    if excluded_count > 0:
-        digest.empty_note(f"Se excluyeron {excluded_count} ofertas que no se compran con PaVos, según el marcador de moneda de fortnite-api.com.")
+    if non_vbucks_ids:
+        digest.wrapped_note(f"Se excluyeron {len(non_vbucks_ids)} ofertas que no se compran con PaVos, según el marcador de moneda de fortnite-api.com.")
+    if unverified_ids:
+        digest.wrapped_note(f"Se excluyeron {len(unverified_ids)} ofertas cuya moneda no pudo verificarse en fortnite-api.com.")
 
     digest.draw_footer()
     digest.save()
 
     print(f"PDF written: {out_path} ({len(changes)} changes, {len(unchanged)} unchanged)")
     print(f"images: {digest.images_ok}/{digest.images_total} visible, {digest.images_pending} pendientes")
-    print(f"excluded non-V-Bucks: {excluded_count}")
+    print(f"excluded non-V-Bucks: {len(non_vbucks_ids)}")
+    print(f"excluded unverified: {len(unverified_ids)}")
 
 
 if __name__ == "__main__":
