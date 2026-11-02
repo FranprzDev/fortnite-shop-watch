@@ -2,6 +2,7 @@ export interface ShopOffer {
   offerId: string;
   section: string;
   name: string;
+  devName: string;
   itemNames: string[];
   finalPrice: number;
   regularPrice: number;
@@ -24,7 +25,8 @@ export enum ChangeKind {
 export interface Change {
   kind: ChangeKind;
   offer: ShopOffer;
-  previousPrice?: number;
+  oldPrice?: number;
+  newPrice?: number;
 }
 
 export interface RawShopImageSet {
