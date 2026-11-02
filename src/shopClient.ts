@@ -10,21 +10,85 @@ function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function resolveName(entry: RawShopEntry): string {
+  const firstItem = entry.brItems?.[0];
+  if (firstItem?.name) {
+    return firstItem.name;
+  }
+  if (entry.bundle?.name) {
+    return entry.bundle.name;
+  }
+  const track = entry.tracks?.[0];
+  if (track?.title) {
+    return track.artist ? `${track.title} - ${track.artist}` : track.title;
+  }
+  const named = entry.instruments?.[0]?.name ?? entry.cars?.[0]?.name ?? entry.legoKits?.[0]?.name;
+  if (named) {
+    return named;
+  }
+  return entry.devName ?? entry.offerId ?? "unknown";
+}
+
+function resolveImageUrl(entry: RawShopEntry): string | null {
+  const renderImage = entry.newDisplayAsset?.renderImages?.[0]?.image;
+  if (renderImage) {
+    return renderImage;
+  }
+  const firstItem = entry.brItems?.[0];
+  const brImage = firstItem?.images?.featured ?? firstItem?.images?.icon ?? firstItem?.images?.smallIcon;
+  if (brImage) {
+    return brImage;
+  }
+  const trackArt = entry.tracks?.[0]?.albumArt;
+  if (trackArt) {
+    return trackArt;
+  }
+  const sizedImage = entry.instruments?.[0]?.images?.large ?? entry.instruments?.[0]?.images?.small ?? entry.cars?.[0]?.images?.large ?? entry.cars?.[0]?.images?.small;
+  if (sizedImage) {
+    return sizedImage;
+  }
+  const legoImage = entry.legoKits?.[0]?.images?.featured ?? entry.legoKits?.[0]?.images?.icon;
+  if (legoImage) {
+    return legoImage;
+  }
+  return entry.bundle?.image ?? null;
+}
+
+function collectItemNames(entry: RawShopEntry): string[] {
+  const names: string[] = [];
+  for (const item of entry.brItems ?? []) {
+    if (item.name) {
+      names.push(item.name);
+    }
+  }
+  for (const track of entry.tracks ?? []) {
+    if (track.title) {
+      names.push(track.artist ? `${track.title} - ${track.artist}` : track.title);
+    }
+  }
+  for (const group of [entry.instruments ?? [], entry.cars ?? [], entry.legoKits ?? []]) {
+    for (const item of group) {
+      if (item.name) {
+        names.push(item.name);
+      }
+    }
+  }
+  return names;
+}
+
 function normalizeEntry(entry: RawShopEntry): ShopOffer | null {
   if (!entry.offerId) {
     return null;
   }
-  const firstItem = entry.brItems?.[0];
-  const name = firstItem?.name ?? entry.devName ?? entry.offerId;
   return {
     offerId: entry.offerId,
     section: entry.layout?.name ?? entry.layoutId ?? "unknown",
-    name,
-    itemNames: (entry.brItems ?? []).map((item) => item.name).filter((n): n is string => typeof n === "string" && n.length > 0),
+    name: resolveName(entry),
+    itemNames: collectItemNames(entry),
     finalPrice: entry.finalPrice ?? 0,
     regularPrice: entry.regularPrice ?? 0,
     outDate: entry.outDate ?? null,
-    imageUrl: firstItem?.images?.featured ?? firstItem?.images?.icon ?? firstItem?.images?.smallIcon ?? null,
+    imageUrl: resolveImageUrl(entry),
   };
 }
 

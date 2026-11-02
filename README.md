@@ -2,7 +2,7 @@
 
 Registra los cambios diarios de la tienda de Fortnite.
 
-- Todos los días a las 21:15 (hora de Argentina) un workflow de GitHub Actions consulta la tienda y guarda las diferencias en `reports/`: qué entró, qué salió y qué cambió de precio, con nombres, precios, fechas de salida e imágenes.
+- Todos los días a las 21:15 (hora de Argentina) un workflow de GitHub Actions consulta la tienda y abre un PR diario con las diferencias: qué entró, qué salió y qué cambió de precio, con nombres, precios, fechas de salida e imágenes. Nunca escribe directo en `main`: los cambios quedan en un PR para revisar y mergear.
 - Fuente de datos: https://fortnite-api.com (API pública gratuita, no oficial de Epic).
 - La rotación de la tienda ocurre a las 21:00 (hora de Argentina); la corrida de las 21:15 captura la tienda nueva.
 

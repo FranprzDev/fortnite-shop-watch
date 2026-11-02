@@ -7,24 +7,37 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   watch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 24
       - run: node --experimental-transform-types src/main.ts
-      - name: Commit snapshot and report
+      - name: Open PR with snapshot and report
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "no changes"
+            exit 0
+          fi
+          SHOP_DATE=$(jq -r '.date' data/shop-latest.json | cut -c1-10)
+          BRANCH="shop-update/${SHOP_DATE}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain)" ]; then
-            git add data reports
-            git commit -m "Update shop snapshot and report"
-            git push
+          git checkout -b "$BRANCH"
+          git add data reports
+          git commit -m "Shop update ${SHOP_DATE}"
+          git push -u origin "$BRANCH" --force
+          if gh pr create --base main --head "$BRANCH" --title "Shop update ${SHOP_DATE}" --body-file "reports/${SHOP_DATE}.md"; then
+            echo "pull request opened"
           else
-            echo "no changes"
+            echo "pull request already exists, skipping"
           fi
