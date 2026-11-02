@@ -340,6 +340,18 @@ class Digest:
         self.canvas.drawString(MARGIN + 2 * mm, self.y - 5 * mm, text)
         self.y -= 10 * mm
 
+    def wrapped_note(self, text, max_lines=3):
+        size = BODY
+        lines = wrap_lines(text, FONT, size, self.content_w, max_lines)
+        height = len(lines) * size * 1.22 + 4 * mm
+        self.ensure_space(height)
+        self.canvas.setFillColor(MUTED)
+        self.canvas.setFont(FONT, size)
+        base = self.y - 5 * mm
+        for index, line in enumerate(lines):
+            self.canvas.drawString(MARGIN + 2 * mm, base - index * size * 1.22, line)
+        self.y -= height
+
     def meta_line(self, offer, entry):
         parts = []
         section = clean_text(offer.get("section"))
@@ -542,9 +554,9 @@ def main():
             digest.empty_note(empty_text)
 
     if non_vbucks_ids:
-        digest.empty_note(f"Se excluyeron {len(non_vbucks_ids)} ofertas que no se compran con PaVos, según el marcador de moneda de fortnite-api.com.")
+        digest.wrapped_note(f"Se excluyeron {len(non_vbucks_ids)} ofertas que no se compran con PaVos, según el marcador de moneda de fortnite-api.com.")
     if unverified_ids:
-        digest.empty_note(f"Se excluyeron {len(unverified_ids)} ofertas cuya moneda no pudo verificarse en fortnite-api.com.")
+        digest.wrapped_note(f"Se excluyeron {len(unverified_ids)} ofertas cuya moneda no pudo verificarse en fortnite-api.com.")
 
     digest.draw_footer()
     digest.save()
