@@ -457,21 +457,24 @@ def main():
     changes = changes_data.get("changes") or []
     offers = snapshot.get("offers") or []
 
-    excluded_count = len(changes_data.get("excludedNonVbucks") or [])
+    excluded_ids = set()
     verified_offers = []
     for offer in offers:
         if is_vbucks_verified(offer):
             verified_offers.append(offer)
         else:
-            excluded_count += 1
+            excluded_ids.add(offer.get("offerId"))
     offers = verified_offers
     verified_changes = []
     for entry in changes:
         if is_vbucks_verified(entry.get("offer") or {}):
             verified_changes.append(entry)
         else:
-            excluded_count += 1
+            excluded_ids.add((entry.get("offer") or {}).get("offerId"))
     changes = verified_changes
+    for entry in changes_data.get("excludedNonVbucks") or []:
+        excluded_ids.add(entry.get("offerId"))
+    excluded_count = len(excluded_ids)
 
     by_kind = {"added": [], "removed": [], "priceChanged": []}
     for entry in changes:
