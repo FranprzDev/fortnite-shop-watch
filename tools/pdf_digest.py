@@ -134,6 +134,9 @@ def wrap_lines(text, font, size, width, max_lines):
 
 THUMB_MAX_PX = 160
 THUMB_QUALITY = 70
+DARK_TILE = (26, 26, 46)
+VISIBILITY_SIZE = 48
+VISIBILITY_MIN_STDDEV = 6.0
 
 
 def shrink_thumbnail(image):
@@ -150,6 +153,27 @@ def shrink_thumbnail(image):
     return buffer
 
 
+def is_visible(image, bbox=None):
+    sample = image.convert("L")
+    if bbox is None:
+        bbox = sample.getbbox()
+    if bbox is not None and bbox != (0, 0, sample.width, sample.height):
+        sample = sample.crop(bbox)
+    sample = sample.resize((VISIBILITY_SIZE, VISIBILITY_SIZE), Image.LANCZOS)
+    pixels = list(sample.getdata())
+    if not pixels:
+        return False
+    mean = sum(pixels) / len(pixels)
+    variance = sum((value - mean) ** 2 for value in pixels) / len(pixels)
+    return variance ** 0.5 >= VISIBILITY_MIN_STDDEV
+
+
+def composite_rgba(rgba, background):
+    tile = Image.new("RGB", rgba.size, background)
+    tile.paste(rgba, mask=rgba.split()[-1])
+    return tile
+
+
 def fetch_thumb(url):
     if not url:
         return None
@@ -161,10 +185,20 @@ def fetch_thumb(url):
                 raw.load()
             if raw.mode in ("RGBA", "LA") or (raw.mode == "P" and "transparency" in raw.info):
                 rgba = raw.convert("RGBA")
-                canvas = Image.new("RGB", rgba.size, (255, 255, 255))
-                canvas.paste(rgba, mask=rgba.split()[-1])
-                return shrink_thumbnail(canvas)
-            return shrink_thumbnail(raw.convert("RGB"))
+                composed = composite_rgba(rgba, DARK_TILE)
+                if not is_visible(composed, rgba.split()[-1].getbbox()):
+                    if attempt < 2:
+                        time.sleep(0.5 * (attempt + 1))
+                        continue
+                    return None
+                return shrink_thumbnail(composed)
+            composed = raw.convert("RGB")
+            if not is_visible(composed):
+                if attempt < 2:
+                    time.sleep(0.5 * (attempt + 1))
+                    continue
+                return None
+            return shrink_thumbnail(composed)
         except Exception:
             if attempt < 2:
                 time.sleep(0.5 * (attempt + 1))
@@ -189,6 +223,8 @@ def draw_rounded_image(canvas, image, x, y, size, radius):
     path.close()
     canvas.saveState()
     canvas.clipPath(path, stroke=0, fill=0)
+    canvas.setFillColor(HexColor("#1a1a2e"))
+    canvas.rect(x, y, size, size, stroke=0, fill=1)
     canvas.drawImage(ImageReader(image), x, y, size, size, preserveAspectRatio=True, anchor="c", mask="auto")
     canvas.restoreState()
     canvas.saveState()
@@ -226,6 +262,7 @@ class Digest:
         self.row_index = 0
         self.images_total = 0
         self.images_ok = 0
+        self.images_pending = 0
         self.shop_date = changes_data.get("shopDate")
         self.previous_date = changes_data.get("previousDate")
         self._draw_header()
@@ -316,6 +353,8 @@ class Digest:
         image = load_thumbnail(offer)
         if image is not None:
             self.images_ok += 1
+        else:
+            self.images_pending += 1
         if self.row_index % 2 == 1:
             canvas.saveState()
             canvas.setFillColor(ROW_ALT)
@@ -451,7 +490,7 @@ def main():
     digest.save()
 
     print(f"PDF written: {out_path} ({len(changes)} changes, {len(unchanged)} unchanged)")
-    print(f"images: {digest.images_ok}/{digest.images_total}")
+    print(f"images: {digest.images_ok}/{digest.images_total} visible, {digest.images_pending} pendientes")
 
 
 if __name__ == "__main__":
