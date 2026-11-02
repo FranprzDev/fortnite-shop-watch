@@ -1,4 +1,4 @@
-import type { RawShopEntry, RawShopResponse, ShopOffer, Snapshot } from "./types.ts";
+import { VBUCKS_CURRENCY, type RawShopEntry, type RawShopResponse, type ShopOffer, type Snapshot } from "./types.ts";
 
 const SHOP_URL = "https://fortnite-api.com/v2/shop?language=es";
 const USER_AGENT = "fortnite-shop-watch/1.0";
@@ -76,20 +76,39 @@ function collectItemNames(entry: RawShopEntry): string[] {
   return names;
 }
 
+function resolveCurrency(devName: string): string {
+  const currencies: string[] = [];
+  for (const match of devName.matchAll(/for\s+-?\d+\s+(\w+)/g)) {
+    const currency = match[1];
+    if (currency !== undefined && !currencies.includes(currency)) {
+      currencies.push(currency);
+    }
+  }
+  if (currencies.length === 0) {
+    return "unknown";
+  }
+  if (currencies.length === 1 && currencies[0] === VBUCKS_CURRENCY) {
+    return VBUCKS_CURRENCY;
+  }
+  return currencies.join(",");
+}
+
 function normalizeEntry(entry: RawShopEntry): ShopOffer | null {
   if (!entry.offerId) {
     return null;
   }
+  const devName = entry.devName ?? "";
   return {
     offerId: entry.offerId,
     section: entry.layout?.name ?? entry.layoutId ?? "unknown",
     name: resolveName(entry),
-    devName: entry.devName ?? "",
+    devName,
     itemNames: collectItemNames(entry),
     finalPrice: entry.finalPrice ?? 0,
     regularPrice: entry.regularPrice ?? 0,
     outDate: entry.outDate ?? null,
     imageUrl: resolveImageUrl(entry),
+    currency: resolveCurrency(devName),
   };
 }
 
