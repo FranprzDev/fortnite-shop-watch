@@ -46,8 +46,9 @@ const SECTION_TITLES: Record<ChangeKind, string> = {
   [ChangeKind.PriceChanged]: "### Cambios de precio",
 };
 
-export function buildReport(shopDate: string, changes: Change[]): string {
-  const lines: string[] = [`## Cambios en la tienda — ${shopDate}`, ""];
+export function buildReport(shopDate: string, previousDate: string | null, changes: Change[]): string {
+  const comparison = previousDate ? ` (vs ${previousDate})` : "";
+  const lines: string[] = [`## Cambios en la tienda — ${shopDate}${comparison}`, ""];
   if (changes.length === 0) {
     lines.push("Sin cambios respecto a la rotación anterior.");
     return lines.join("\n") + "\n";

@@ -35,12 +35,13 @@ async function main(): Promise<void> {
   await mkdir(REPORTS_DIR, { recursive: true });
   const reportPath = `${REPORTS_DIR}/${shopDateKey(snapshot.date)}.md`;
   const displayDate = shopDateKey(snapshot.date).split("-").reverse().join("/");
+  const previousDisplayDate = previous === null ? null : shopDateKey(previous.date).split("-").reverse().join("/");
   if (previous === null) {
     await writeFile(reportPath, buildBaselineReport(displayDate, snapshot.offers));
     logger.info(`baseline seeded: ${snapshot.offers.length} offers`);
   } else {
     const changes = diffSnapshots(previous, snapshot);
-    await writeFile(reportPath, buildReport(displayDate, changes));
+    await writeFile(reportPath, buildReport(displayDate, previousDisplayDate, changes));
     const added = changes.filter((c) => c.kind === ChangeKind.Added).length;
     const removed = changes.filter((c) => c.kind === ChangeKind.Removed).length;
     const priceChanged = changes.filter((c) => c.kind === ChangeKind.PriceChanged).length;

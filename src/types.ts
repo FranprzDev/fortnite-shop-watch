@@ -38,6 +38,40 @@ export interface RawShopItem {
   images?: RawShopImageSet;
 }
 
+export interface RawTrack {
+  title?: string;
+  artist?: string;
+  albumArt?: string;
+}
+
+export interface RawSizedImages {
+  small?: string;
+  large?: string;
+}
+
+export interface RawNamedCosmetic {
+  name?: string;
+  images?: RawSizedImages;
+}
+
+export interface RawLegoKit {
+  name?: string;
+  images?: RawShopImageSet;
+}
+
+export interface RawBundle {
+  name?: string;
+  image?: string;
+}
+
+export interface RawRenderImage {
+  image?: string;
+}
+
+export interface RawDisplayAsset {
+  renderImages?: RawRenderImage[];
+}
+
 export interface RawShopLayout {
   id?: string;
   name?: string;
@@ -52,6 +86,12 @@ export interface RawShopEntry {
   layoutId?: string;
   layout?: RawShopLayout;
   brItems?: RawShopItem[];
+  tracks?: RawTrack[];
+  instruments?: RawNamedCosmetic[];
+  cars?: RawNamedCosmetic[];
+  legoKits?: RawLegoKit[];
+  bundle?: RawBundle;
+  newDisplayAsset?: RawDisplayAsset;
 }
 
 export interface RawShopResponse {
