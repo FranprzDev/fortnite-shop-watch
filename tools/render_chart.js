@@ -60,6 +60,18 @@ function replaceCssVars(svg) {
   return withFallbacks.replace(REFERENCE_PATTERN, (whole, name) => resolveValue(whole, definitions));
 }
 
+const DROPPED_DECLARATIONS = new Set(["height:auto", "max-width:100%"]);
+
+function stripSvgIncompatibleStyles(svg) {
+  return svg.replace(/style="([^"]*)"/g, (whole, body) => {
+    const kept = body
+      .split(";")
+      .map((declaration) => declaration.trim())
+      .filter((declaration) => declaration && !DROPPED_DECLARATIONS.has(declaration));
+    return `style="${kept.join(";")}"`;
+  });
+}
+
 function main(argv) {
   if (argv.length !== 3) {
     fail("usage: node tools/render_chart.js <source.mmd> <output.svg>");
@@ -81,7 +93,7 @@ function main(argv) {
   if (!rendered || typeof rendered.svg !== "string") {
     fail(`pele.render returned no svg for ${sourcePath}`);
   }
-  const svg = replaceCssVars(rendered.svg);
+  const svg = stripSvgIncompatibleStyles(replaceCssVars(rendered.svg));
   try {
     writeFileSync(outputPath, svg, "utf8");
   } catch (error) {
