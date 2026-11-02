@@ -1,4 +1,5 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import { fetchShopSnapshot } from "./shopClient.ts";
 import { diffSnapshots } from "./diff.ts";
 import { buildBaselineReport, buildReport } from "./report.ts";
@@ -41,11 +42,15 @@ async function main(): Promise<void> {
     logger.info(`baseline seeded: ${snapshot.offers.length} offers`);
   } else {
     const changes = diffSnapshots(previous, snapshot);
-    await writeFile(reportPath, buildReport(displayDate, previousDisplayDate, changes));
-    const added = changes.filter((c) => c.kind === ChangeKind.Added).length;
-    const removed = changes.filter((c) => c.kind === ChangeKind.Removed).length;
-    const priceChanged = changes.filter((c) => c.kind === ChangeKind.PriceChanged).length;
-    logger.info(`added=${added} removed=${removed} priceChanged=${priceChanged}`);
+    if (changes.length === 0 && existsSync(reportPath)) {
+      logger.info("added=0 removed=0 priceChanged=0 (existing report kept)");
+    } else {
+      await writeFile(reportPath, buildReport(displayDate, previousDisplayDate, changes));
+      const added = changes.filter((c) => c.kind === ChangeKind.Added).length;
+      const removed = changes.filter((c) => c.kind === ChangeKind.Removed).length;
+      const priceChanged = changes.filter((c) => c.kind === ChangeKind.PriceChanged).length;
+      logger.info(`added=${added} removed=${removed} priceChanged=${priceChanged}`);
+    }
   }
   await writeFile(SNAPSHOT_PATH, JSON.stringify(snapshot, null, 2) + "\n");
 }
