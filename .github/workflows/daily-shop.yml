@@ -20,6 +20,8 @@ jobs:
         with:
           node-version: 24
       - run: node --experimental-transform-types src/main.ts
+      - run: python3 -m pip install --quiet scipy
+      - run: python3 tools/shop_stats.py data/shop-latest.json data/shop-totals.json
       - name: Open PR with snapshot and report
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

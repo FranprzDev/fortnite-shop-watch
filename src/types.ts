@@ -16,6 +16,34 @@ export function currencyStatus(offer: { currency?: string }): CurrencyStatus {
   return CurrencyStatus.NonVbucks;
 }
 
+export enum ShopItemType {
+  Outfit = "outfit",
+  Backpack = "backpack",
+  Pickaxe = "pickaxe",
+  Emote = "emote",
+  Glider = "glider",
+  Wrap = "wrap",
+  Shoe = "shoe",
+  Sidekick = "sidekick",
+  LoadingScreen = "loadingscreen",
+  Contrail = "contrail",
+  Spray = "spray",
+  Emoticon = "emoticon",
+  Toy = "toy",
+  Umbrella = "umbrella",
+  Track = "track",
+  Instrument = "instrument",
+  Car = "car",
+  Lego = "lego",
+  Other = "other",
+}
+
+export interface ShopItem {
+  id: string;
+  name: string;
+  type: ShopItemType;
+}
+
 export interface ShopOffer {
   offerId: string;
   section: string;
@@ -27,6 +55,8 @@ export interface ShopOffer {
   outDate: string | null;
   imageUrl: string | null;
   currency: string;
+  items: ShopItem[];
+  namedBundle: boolean;
 }
 
 export interface Snapshot {
@@ -54,12 +84,19 @@ export interface RawShopImageSet {
   smallIcon?: string;
 }
 
+export interface RawValue {
+  value?: string;
+}
+
 export interface RawShopItem {
+  id?: string;
   name?: string;
+  type?: RawValue;
   images?: RawShopImageSet;
 }
 
 export interface RawTrack {
+  id?: string;
   title?: string;
   artist?: string;
   albumArt?: string;
@@ -71,11 +108,13 @@ export interface RawSizedImages {
 }
 
 export interface RawNamedCosmetic {
+  id?: string;
   name?: string;
   images?: RawSizedImages;
 }
 
 export interface RawLegoKit {
+  id?: string;
   name?: string;
   images?: RawShopImageSet;
 }

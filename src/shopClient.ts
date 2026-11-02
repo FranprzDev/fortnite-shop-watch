@@ -1,4 +1,4 @@
-import { VBUCKS_CURRENCY, type RawShopEntry, type RawShopResponse, type ShopOffer, type Snapshot } from "./types.ts";
+import { ShopItemType, VBUCKS_CURRENCY, type RawShopEntry, type RawShopResponse, type ShopItem, type ShopOffer, type Snapshot } from "./types.ts";
 
 const SHOP_URL = "https://fortnite-api.com/v2/shop?language=es";
 const USER_AGENT = "fortnite-shop-watch/1.0";
@@ -93,6 +93,62 @@ function resolveCurrency(devName: string): string {
   return currencies.join(",");
 }
 
+function resolveBrItemType(value: string | undefined): ShopItemType {
+  switch (value) {
+    case ShopItemType.Outfit:
+    case ShopItemType.Backpack:
+    case ShopItemType.Pickaxe:
+    case ShopItemType.Emote:
+    case ShopItemType.Glider:
+    case ShopItemType.Wrap:
+    case ShopItemType.Shoe:
+    case ShopItemType.Sidekick:
+    case ShopItemType.LoadingScreen:
+    case ShopItemType.Contrail:
+    case ShopItemType.Spray:
+    case ShopItemType.Emoticon:
+    case ShopItemType.Toy:
+    case ShopItemType.Umbrella:
+      return value;
+    default:
+      return ShopItemType.Other;
+  }
+}
+
+function collectItems(entry: RawShopEntry): ShopItem[] {
+  const items: ShopItem[] = [];
+  for (const item of entry.brItems ?? []) {
+    if (item.id) {
+      items.push({ id: item.id, name: item.name ?? "", type: resolveBrItemType(item.type?.value) });
+    }
+  }
+  for (const track of entry.tracks ?? []) {
+    if (track.id) {
+      items.push({ id: track.id, name: track.title ?? "", type: ShopItemType.Track });
+    }
+  }
+  for (const item of entry.instruments ?? []) {
+    if (item.id) {
+      items.push({ id: item.id, name: item.name ?? "", type: ShopItemType.Instrument });
+    }
+  }
+  for (const item of entry.cars ?? []) {
+    if (item.id) {
+      items.push({ id: item.id, name: item.name ?? "", type: ShopItemType.Car });
+    }
+  }
+  for (const item of entry.legoKits ?? []) {
+    if (item.id) {
+      items.push({ id: item.id, name: item.name ?? "", type: ShopItemType.Lego });
+    }
+  }
+  return items;
+}
+
+function isNamedBundle(entry: RawShopEntry): boolean {
+  return typeof entry.bundle === "object" && entry.bundle !== null && typeof entry.bundle.name === "string" && entry.bundle.name.length > 0;
+}
+
 function normalizeEntry(entry: RawShopEntry): ShopOffer | null {
   if (!entry.offerId) {
     return null;
@@ -109,6 +165,8 @@ function normalizeEntry(entry: RawShopEntry): ShopOffer | null {
     outDate: entry.outDate ?? null,
     imageUrl: resolveImageUrl(entry),
     currency: resolveCurrency(devName),
+    items: collectItems(entry),
+    namedBundle: isNamedBundle(entry),
   };
 }
 
