@@ -354,7 +354,7 @@ class Digest:
                 parts.append(price)
         out_date = short_date(offer.get("outDate"))
         if out_date:
-            parts.append(f"sale aprox. {out_date}")
+            parts.append(f"Se retira aprox. {out_date}")
         return "  |  ".join(parts)
 
     def draw_row(self, offer, entry, name):
