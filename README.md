@@ -8,8 +8,14 @@ Registra los cambios diarios de la tienda de Fortnite.
 
 ## Correr a mano
 
+Requiere Python 3.12 e instalar las dependencias:
+
 ```
-node --experimental-transform-types src/main.ts
+pip install reportlab pillow scipy numpy
+```
+
+```
+python -m shopwatch
 ```
 
 Guarda el último estado en `data/shop-latest.json` y el reporte del día en `reports/`.
