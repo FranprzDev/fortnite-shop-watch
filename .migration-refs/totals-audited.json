@@ -1,0 +1,52 @@
+{
+  "days": {
+    "2026-11-03": {
+      "snapshotHash": "641776a933375548+official-audit",
+      "totalMinPaVos": 179550,
+      "purchases": 214,
+      "categories": {
+        "songs": {
+          "paVos": 58000,
+          "purchases": 116
+        },
+        "bundles": {
+          "paVos": 51300,
+          "purchases": 25
+        },
+        "skins": {
+          "paVos": 45700,
+          "purchases": 37
+        },
+        "accessories": {
+          "paVos": 14600,
+          "purchases": 16
+        },
+        "emotes": {
+          "paVos": 7500,
+          "purchases": 16
+        },
+        "other": {
+          "paVos": 2450,
+          "purchases": 4
+        }
+      },
+      "namedBundlesInCatalog": 28,
+      "chosenNamedBundles": 25,
+      "chosenComboOffers": 17,
+      "chosenSingles": 172,
+      "skinsSingles": 21,
+      "skinsComboOffers": 16,
+      "itemsCovered": 346,
+      "itemsObtained": {
+        "songs": 116,
+        "skins": 64,
+        "emotes": 27,
+        "accessories": 112,
+        "other": 27
+      },
+      "overlapItems": 0
+    }
+  },
+  "method": "setcover-min-list-price-v2",
+  "updatedAt": "2026-11-03T03:18:12Z"
+}
