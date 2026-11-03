@@ -1,3 +1,5 @@
 node_modules/
 tools/.tmp/
 __pycache__/
+.shop-watch-*
+__pycache__/
