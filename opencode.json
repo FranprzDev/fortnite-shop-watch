@@ -1,6 +1,17 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "provider": {
+    "tokenharbor": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "TokenHarbor",
+      "options": {
+        "baseURL": "https://tokenharbor.ai/v1",
+        "apiKey": "{env:TOKENHARBOR_API_KEY}"
+      },
+      "models": {
+        "deepseek-v4.1-flash:free": { "name": "DeepSeek v4.1 Flash (free)" }
+      }
+    },
     "tokenfactory": {
       "npm": "@ai-sdk/openai-compatible",
       "name": "TokenFactory",
@@ -13,5 +24,5 @@
       }
     }
   },
-  "model": "tokenfactory/deepseek-v4.1-flash-1017-ultrafast"
+  "model": "tokenharbor/deepseek-v4.1-flash:free"
 }
