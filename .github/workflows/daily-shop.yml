@@ -16,10 +16,12 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-python@v5
         with:
-          node-version: 24
-      - run: node --experimental-transform-types src/main.ts
+          python-version: "3.12"
+          cache: pip
+      - run: pip install reportlab pillow scipy numpy
+      - run: python -m shopwatch
       - name: Open PR with snapshot and report
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
