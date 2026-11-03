@@ -14,6 +14,8 @@ from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.pdfgen.canvas import Canvas
 
+from .charts import draw_stats_bars
+
 TITLE = "Tienda de Fortnite: cambios del día"
 SUBTITLE = "Tienda del {shop} comparada con la del {previous}"
 UNCHANGED_TITLE = "Siguen en la tienda (sin cambios)"
@@ -24,11 +26,25 @@ ADDED_TITLE = "Nuevos"
 REMOVED_TITLE = "Salieron"
 PRICE_TITLE = "Cambios de precio"
 FOOTER = (
-    "Datos de fortnite-api.com. Las fechas de salida son estimadas por esa API "
-    "(no garantizadas); la fecha exacta de cada objeto se ve dentro del juego, "
-    "en la propia tienda."
+    "Catálogo corregido contra la tienda oficial de Fortnite (fortnite.com/item-shop), con apoyo "
+    "de fortnite-api.com. Corrección de omisión: esa API no traía 3 ofertas (Masato, Incantor, "
+    "Electrólico), listadas en la sección \"Corrección\" del catálogo actual, sin afirmar que ya "
+    "estuvieran el 02/11 (esa base no es retro-verificable); Epic las marca en tienda desde el 31/10. Nombres de lotes "
+    "= nombre oficial. Las fechas de salida son estimadas; la fecha exacta se ve dentro del juego."
 )
 PENDING_IMAGE = "Imagen pendiente"
+CORRECTION_TITLE = "Corrección: ofertas que la API omitía"
+CORRECTION_NOTE = (
+    "Están en el catálogo actual, verificado contra la tienda oficial. No se afirma que ya "
+    "estuvieran el 02/11: esa base no es retro-verificable. Por eso no figuran en \"Siguen\" "
+    "ni en \"Nuevos\"."
+)
+CORRECTION_IDS = {
+    "v2:/90329410612be6f8d4030340d0cc482e7f8ebb405c38035487f6a195a56ad62a",
+    "v2:/28c319871ff2979d772c672066b366c379b7a6e10dd09518fbcb7b8e0e4ef3be",
+    "v2:/e5c4a10d248d443e88124333c8ce7e1a6083b56e59d63e9ac3b105b76af1552b",
+}
+
 USER_AGENT = "fortnite-shop-watch/1.0"
 
 INK = HexColor("#14142b")
@@ -428,6 +444,45 @@ class Digest:
         self.y = top - ROW_H - 1.6 * mm
         self.row_index += 1
 
+
+    def draw_stats(self, stats):
+        self.new_page()
+        canvas = self.canvas
+        canvas.saveState()
+        canvas.setFillColor(BAND)
+        band_h = 13 * mm
+        top = self.y
+        canvas.roundRect(MARGIN, top - band_h, self.content_w, band_h, 2.5 * mm, stroke=0, fill=1)
+        canvas.setFillColor(white)
+        canvas.setFont(FONT_BOLD, SECTION_SIZE + 2)
+        canvas.drawString(MARGIN + 5 * mm, top - band_h + 4.2 * mm, "Estadísticas del catálogo (corregidas)")
+        canvas.restoreState()
+        y = top - band_h - 8 * mm
+        canvas.setFillColor(MUTED)
+        canvas.setFont(FONT, META)
+        for chunk in wrap_lines("Combinación de compras más barata para conseguir todo el catálogo (cobertura exacta a precios publicados).", FONT, META, self.content_w, 3):
+            canvas.drawString(MARGIN, y, chunk)
+            y -= 5.2 * mm
+        y -= 6 * mm
+        canvas.setFillColor(INK)
+        canvas.setFont(FONT_BOLD, 20)
+        canvas.drawString(MARGIN, y, stats["headline"])
+        y -= 12 * mm
+        y = draw_stats_bars(canvas, stats, MARGIN, y, self.content_w)
+        y -= 4 * mm
+        canvas.setFillColor(BAND)
+        canvas.setFont(FONT_BOLD, BODY)
+        canvas.drawString(MARGIN, y, "Comparación con el 02/11 (universos separados)")
+        y -= 6.5 * mm
+        canvas.setFillColor(INK)
+        canvas.setFont(FONT, META)
+        for line in stats["comparison"]:
+            for chunk in wrap_lines(line, FONT, META, self.content_w, 4):
+                canvas.drawString(MARGIN, y, chunk)
+                y -= 5.2 * mm
+            y -= 1.5 * mm
+        self.y = y
+
     def draw_footer(self):
         if self.y < MARGIN + 22 * mm:
             self.new_page()
@@ -461,11 +516,7 @@ def unique_by_id(items):
     return result
 
 
-def main():
-    if len(sys.argv) != 4:
-        print("usage: python3 tools/pdf_digest.py <changes.json> <snapshot.json> <out.pdf>", file=sys.stderr)
-        sys.exit(1)
-    changes_path, snapshot_path, out_path = sys.argv[1], sys.argv[2], sys.argv[3]
+def generate_pdf(changes_path, snapshot_path, out_path, stats_path=None):
     with open(changes_path, "r", encoding="utf-8") as handle:
         changes_data = json.load(handle)
     with open(snapshot_path, "r", encoding="utf-8") as handle:
@@ -511,6 +562,8 @@ def main():
 
     changed_ids = {entry["offer"]["offerId"] for entry in by_kind["added"] + by_kind["priceChanged"] if (entry.get("offer") or {}).get("offerId")}
     unchanged = [offer for offer in offers if offer.get("offerId") not in changed_ids]
+    correction_offers = [offer for offer in unchanged if offer.get("offerId") in CORRECTION_IDS]
+    unchanged = [offer for offer in unchanged if offer.get("offerId") not in CORRECTION_IDS]
 
     unresolved = []
     all_offers = list(offers) + [entry.get("offer") or {} for entry in changes]
@@ -539,6 +592,13 @@ def main():
     else:
         digest.empty_note("Ninguna oferta se mantuvo exactamente igual.")
 
+    correction_rows = [{"kind": "correction", "offer": offer} for offer in correction_offers]
+    if correction_rows:
+        digest.start_section("correction", CORRECTION_TITLE, len(correction_rows))
+        for entry in correction_rows:
+            digest.draw_row(entry["offer"], entry, resolve_name(entry["offer"]))
+        digest.wrapped_note(CORRECTION_NOTE, max_lines=4)
+
     sections = [] if digest.baseline else [
         ("added", ADDED_TITLE, by_kind["added"], "No hubo ofertas nuevas."),
         ("removed", REMOVED_TITLE, by_kind["removed"], "No salió ninguna oferta."),
@@ -558,6 +618,11 @@ def main():
     if unverified_ids:
         digest.wrapped_note(f"Se excluyeron {len(unverified_ids)} ofertas cuya moneda no pudo verificarse en fortnite-api.com.")
 
+    stats_path = stats_path or os.environ.get("STATS_JSON")
+    if stats_path and os.path.exists(stats_path):
+        with open(stats_path, "r", encoding="utf-8") as handle:
+            digest.draw_stats(json.load(handle))
+
     digest.draw_footer()
     digest.save()
 
@@ -565,6 +630,14 @@ def main():
     print(f"images: {digest.images_ok}/{digest.images_total} visible, {digest.images_pending} pendientes")
     print(f"excluded non-V-Bucks: {len(non_vbucks_ids)}")
     print(f"excluded unverified: {len(unverified_ids)}")
+    return digest
+
+
+def main():
+    if len(sys.argv) != 4:
+        print("usage: python3 -m shopwatch.pdf <changes.json> <snapshot.json> <out.pdf>", file=sys.stderr)
+        sys.exit(1)
+    generate_pdf(sys.argv[1], sys.argv[2], sys.argv[3])
 
 
 if __name__ == "__main__":
