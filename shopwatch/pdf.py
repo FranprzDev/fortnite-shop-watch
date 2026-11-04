@@ -25,25 +25,22 @@ BASELINE_CATALOG_TITLE = "Catálogo actual"
 ADDED_TITLE = "Nuevos"
 REMOVED_TITLE = "Salieron"
 PRICE_TITLE = "Cambios de precio"
-FOOTER = (
+FOOTER_BASE = (
     "Catálogo corregido contra la tienda oficial de Fortnite (fortnite.com/item-shop), con apoyo "
-    "de fortnite-api.com. Corrección de omisión: esa API no traía 3 ofertas (Masato, Incantor, "
-    "Electrólico), listadas en la sección \"Corrección\" del catálogo actual, sin afirmar que ya "
-    "estuvieran el 02/11 (esa base no es retro-verificable); Epic las marca en tienda desde el 31/10. Nombres de lotes "
-    "= nombre oficial. Las fechas de salida son estimadas; la fecha exacta se ve dentro del juego."
+    "de fortnite-api.com. Nombres de lotes = nombre oficial. Las fechas de salida son estimadas; "
+    "la fecha exacta se ve dentro del juego."
+)
+CORRECTION_FOOTER = (
+    "Corrección de omisión: fortnite-api.com no traía {n} oferta(s) ({names}), listadas en la "
+    "sección \"Corrección\"."
 )
 PENDING_IMAGE = "Imagen pendiente"
 CORRECTION_TITLE = "Corrección: ofertas que la API omitía"
 CORRECTION_NOTE = (
-    "Están en el catálogo actual, verificado contra la tienda oficial. No se afirma que ya "
-    "estuvieran el 02/11: esa base no es retro-verificable. Por eso no figuran en \"Siguen\" "
-    "ni en \"Nuevos\"."
+    "Están en el catálogo actual, verificado contra la tienda oficial. No se afirma desde qué "
+    "rotación estaban disponibles: la base anterior no es retro-verificable. Por eso no figuran "
+    "en \"Siguen\" ni en \"Nuevos\"."
 )
-CORRECTION_IDS = {
-    "v2:/90329410612be6f8d4030340d0cc482e7f8ebb405c38035487f6a195a56ad62a",
-    "v2:/28c319871ff2979d772c672066b366c379b7a6e10dd09518fbcb7b8e0e4ef3be",
-    "v2:/e5c4a10d248d443e88124333c8ce7e1a6083b56e59d63e9ac3b105b76af1552b",
-}
 
 USER_AGENT = "fortnite-shop-watch/1.0"
 
@@ -116,6 +113,16 @@ def resolve_name(offer):
             if text:
                 return text
     return ""
+
+
+def build_footer(correction_offers):
+    if not correction_offers:
+        return FOOTER_BASE
+    names = ", ".join(resolve_name(offer) for offer in correction_offers)
+    note = CORRECTION_FOOTER.format(n=len(correction_offers), names=names)
+    marker = "de fortnite-api.com."
+    index = FOOTER_BASE.index(marker) + len(marker)
+    return FOOTER_BASE[:index] + " " + note + FOOTER_BASE[index:]
 
 
 def short_date(value):
@@ -290,6 +297,7 @@ class Digest:
         self.images_total = 0
         self.images_ok = 0
         self.images_pending = 0
+        self.footer = FOOTER_BASE
         self.shop_date = changes_data.get("shopDate")
         self.previous_date = changes_data.get("previousDate")
         self.baseline = not (changes_data.get("changes") or []) and not clean_text(self.previous_date)
@@ -472,7 +480,12 @@ class Digest:
         y -= 4 * mm
         canvas.setFillColor(BAND)
         canvas.setFont(FONT_BOLD, BODY)
-        canvas.drawString(MARGIN, y, "Comparación con el 02/11 (universos separados)")
+        previous = short_date(self.previous_date)
+        if previous:
+            header = f"Comparación con el {previous}"
+        else:
+            header = "Comparación con la rotación anterior"
+        canvas.drawString(MARGIN, y, header)
         y -= 6.5 * mm
         canvas.setFillColor(INK)
         canvas.setFont(FONT, META)
@@ -493,7 +506,7 @@ class Digest:
         canvas.line(MARGIN, MARGIN + 16 * mm, PAGE_W - MARGIN, MARGIN + 16 * mm)
         canvas.setFillColor(MUTED)
         canvas.setFont(FONT, FOOTER_SIZE)
-        lines = wrap_lines(FOOTER, FONT, FOOTER_SIZE, self.content_w, 6)
+        lines = wrap_lines(self.footer, FONT, FOOTER_SIZE, self.content_w, 6)
         base = MARGIN + 11 * mm
         for index, line in enumerate(lines):
             canvas.drawString(MARGIN, base - index * FOOTER_SIZE * 1.22, line)
@@ -562,8 +575,8 @@ def generate_pdf(changes_path, snapshot_path, out_path, stats_path=None):
 
     changed_ids = {entry["offer"]["offerId"] for entry in by_kind["added"] + by_kind["priceChanged"] if (entry.get("offer") or {}).get("offerId")}
     unchanged = [offer for offer in offers if offer.get("offerId") not in changed_ids]
-    correction_offers = [offer for offer in unchanged if offer.get("offerId") in CORRECTION_IDS]
-    unchanged = [offer for offer in unchanged if offer.get("offerId") not in CORRECTION_IDS]
+    correction_offers = [offer for offer in unchanged if offer.get("provenance") == "official-web"]
+    unchanged = [offer for offer in unchanged if offer.get("provenance") != "official-web"]
 
     unresolved = []
     all_offers = list(offers) + [entry.get("offer") or {} for entry in changes]
@@ -582,6 +595,7 @@ def generate_pdf(changes_path, snapshot_path, out_path, stats_path=None):
         sys.exit(2)
 
     digest = Digest(out_path, changes_data)
+    digest.footer = build_footer(correction_offers)
 
     unchanged_rows = [{"kind": "unchanged", "offer": item["offer"]} for item in unique_by_id([{"offer": offer} for offer in unchanged])]
     section_title = BASELINE_CATALOG_TITLE if digest.baseline else UNCHANGED_TITLE
