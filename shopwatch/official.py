@@ -92,7 +92,7 @@ def cross_check(snapshot_offers: Any, official_tiles: list[dict]) -> dict[str, A
 
 def _normalize_official_tile(tile: dict) -> dict[str, Any]:
     offer_id = tile["offerId"]
-    name = tile.get("name") or offer_id
+    name = tile.get("name") or tile.get("title") or offer_id
     price = tile.get("price")
     return {
         "offerId": offer_id,
@@ -101,9 +101,9 @@ def _normalize_official_tile(tile: dict) -> dict[str, Any]:
         "finalPrice": price,
         "regularPrice": price,
         "currency": VBUCKS_CURRENCY,
-        "section": tile.get("section"),
+        "section": tile.get("section") or tile.get("sec"),
         "itemNames": [name],
-        "imageUrl": tile.get("imageUrl"),
+        "imageUrl": tile.get("imageUrl") or tile.get("img"),
         "outDate": tile.get("outDate"),
         "items": copy.deepcopy(tile.get("items") or []),
         "namedBundle": False,
@@ -125,6 +125,9 @@ def merge_official(snapshot: Any, official_tiles: list[dict]) -> tuple[Any, list
     for tile in official_tiles or []:
         offer_id = tile.get("offerId")
         if not offer_id or offer_id in existing_ids:
+            continue
+        cur = tile.get("cur") or tile.get("currency")
+        if isinstance(cur, str) and cur and cur != VBUCKS_CURRENCY:
             continue
         normalized = _normalize_official_tile(tile)
         normalized["provenance"] = PROVENANCE
