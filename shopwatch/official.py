@@ -126,7 +126,9 @@ def merge_official(snapshot: Any, official_tiles: list[dict]) -> tuple[Any, list
         offer_id = tile.get("offerId")
         if not offer_id or offer_id in existing_ids:
             continue
-        offers.append(_normalize_official_tile(tile))
+        normalized = _normalize_official_tile(tile)
+        normalized["provenance"] = PROVENANCE
+        offers.append(normalized)
         existing_ids.add(offer_id)
         merged_ids.append(offer_id)
 
