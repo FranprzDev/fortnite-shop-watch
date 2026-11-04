@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install reportlab pillow scipy numpy
+      - run: pip install -r requirements.txt
       - run: python -m shopwatch
       - name: Open PR with snapshot and report
         env:
