@@ -1,0 +1,2198 @@
+{
+  "shopDate": "05/11/2026",
+  "previousDate": "04/11/2026",
+  "changes": [
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/67cfd4ff30f99662983089717d56da84ff66c992e1046fe8d5cf5ddd2dd51ead",
+        "section": "Invencible",
+        "name": "Lote de Guardianes de la Tierra",
+        "devName": "[VIRTUAL]1 x Omni-Man, 1 x The Immortal's Head, 1 x Omni-Man's Cape, 1 x Omni-Man Emblem Cape, 1 x Invincible, 1 x Burger Mart Bag, 1 x Atom Eve, 1 x Atom Eve Emblem, 1 x Eve's Cape, 1 x Atom Eve Emblem Cape for -1 MtxCurrency",
+        "itemNames": [
+          "Omni-Man",
+          "Cabeza de Inmortal",
+          "Capa de Omni-Man",
+          "Capa con emblema de Omni-Man",
+          "Invencible",
+          "Bolsa de Burger Mart",
+          "Atom Eve",
+          "Emblema de Atom Eve",
+          "Capa de Eve",
+          "Capa con emblema de Atom Eve"
+        ],
+        "finalPrice": 2800,
+        "regularPrice": 4500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/851e9778b6f2fc39/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/da572255d2381339a9a48581659fc9234e22d235d0f3ec5be79c75c3e6631288",
+        "section": "Cazatesoros ",
+        "name": "Monitor vital diurno",
+        "devName": "[VIRTUAL]1 x Day Shift Monitor for 400 MtxCurrency",
+        "itemNames": [
+          "Monitor vital diurno"
+        ],
+        "finalPrice": 400,
+        "regularPrice": 400,
+        "outDate": "2026-11-07T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7153bd73a60cee32/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/c0265074e72e3265d8ea22ef5d896db6fc8e09fcee0c60fcd622587d549ac1ab",
+        "section": "alc.0",
+        "name": "Gomichila",
+        "devName": "[VIRTUAL]1 x Barry Pinkums for 400 MtxCurrency",
+        "itemNames": [
+          "Gomichila"
+        ],
+        "finalPrice": 400,
+        "regularPrice": 400,
+        "outDate": "2026-11-06T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_sweetcuddle/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/945c49af0caa7c01076a8789fb19351046692b9727b1050074921379071cb16a",
+        "section": "Escuadrón del subidón",
+        "name": "Aperture",
+        "devName": "[VIRTUAL]1 x Aperture for 500 MtxCurrency",
+        "itemNames": [
+          "Aperture"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/faa89a611dea0bf1/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/9db9a1949bb06ed688f0ed7211841bf21b25b8dce5a4b61b4aa5ffe3fce4fca4",
+        "section": "Invencible",
+        "name": "Lote de Allen el alien",
+        "devName": "[VIRTUAL]1 x Allen the Alien, 1 x C.O.P. Axe, 1 x Allen's Tracking Device, 1 x Allen's Snack for -1 MtxCurrency",
+        "itemNames": [
+          "Allen el alien",
+          "Hacha de la Coalición",
+          "Rastreador de Allen",
+          "Aperitivo de Allen"
+        ],
+        "finalPrice": 2000,
+        "regularPrice": 2900,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f5d2846209735620/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/55c4161ae6c15b5a3b21f4c1222f498d655f6af29722b84b7dc89f506f7b2a9b",
+        "section": "Invencible",
+        "name": "Duplikación",
+        "devName": "[VIRTUAL]1 x Dupli-Kation for 500 MtxCurrency",
+        "itemNames": [
+          "Duplikación"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9963ee77d2b21270/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/d1eee3137e7a6f1ebf0f1d1792e78f5bf2271e226b37bff50a45878867bb3bd8",
+        "section": "alc.0",
+        "name": "Bolsa de Burger Mart",
+        "devName": "[VIRTUAL]1 x Burger Mart Bag for 200 MtxCurrency",
+        "itemNames": [
+          "Bolsa de Burger Mart"
+        ],
+        "finalPrice": 200,
+        "regularPrice": 200,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_openended/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/4df2291e56546144eff733dbe398e0d93d36d5ab0f61d87a304754e085618c56",
+        "section": "Invencible",
+        "name": "Brazo de Reanimen",
+        "devName": "[VIRTUAL]1 x Reaniman Arm for 800 MtxCurrency",
+        "itemNames": [
+          "Brazo de Reanimen"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/064ef9396d520be3/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/89fe1bdf9381c15da685291a53e6e575d280bd3bef913f32f8384db76b2cc5c7",
+        "section": "alc.0",
+        "name": "Capa con emblema de Omni-Man",
+        "devName": "[VIRTUAL]1 x Omni-Man Emblem Cape for 300 MtxCurrency",
+        "itemNames": [
+          "Capa con emblema de Omni-Man"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_sharpmagnetuniversal/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/acb434ec01ed597a81cc3fa5e492115032c4f54e4924c19a956b25fbe6f6470d",
+        "section": "Invencible",
+        "name": "Invencible",
+        "devName": "[VIRTUAL]1 x Invincible, 1 x Burger Mart Bag for -1 MtxCurrency",
+        "itemNames": [
+          "Invencible",
+          "Bolsa de Burger Mart"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/92b4b1868bd2b4fe/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/30d959b6357242d7c5cd44e8d10a019370934bf6916fe2cca8f1a3da28de7902",
+        "section": "Invencible",
+        "name": "Maza de War Woman",
+        "devName": "[VIRTUAL]1 x War Woman's Mace for 500 MtxCurrency",
+        "itemNames": [
+          "Maza de War Woman"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f5f66223f8263d88/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/a9bacab72843eeca6e52fd1402dbdfa8448a261828fe8d6a4f602e8055fbff98",
+        "section": "Potenciador de señal",
+        "name": "Kado Thorne de la Élite",
+        "devName": "[VIRTUAL]1 x Elite Kado Thorne, 1 x Psyonic Elite Cloak for -1 MtxCurrency",
+        "itemNames": [
+          "Kado Thorne de la Élite",
+          "Capa de élite psiónica"
+        ],
+        "finalPrice": 1200,
+        "regularPrice": 1200,
+        "outDate": "2026-11-11T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b5e1ed05c979c25d/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/8b6e5d291fa4c72b912e49c4e09ccaa25f8fd47d00c3154b9f3da42c6eb29d94",
+        "section": "Potenciador de señal",
+        "name": "Lote de Kado Thorne de la Élite",
+        "devName": "[VIRTUAL]1 x Elite Kado Thorne, 1 x Psyonic Elite Cloak, 1 x Psyonic Spear, 1 x Kado Elite for -1 MtxCurrency",
+        "itemNames": [
+          "Kado Thorne de la Élite",
+          "Capa de élite psiónica",
+          "Lanza psiónica",
+          "Kado de la Élite"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 2200,
+        "outDate": "2026-11-11T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3775c63b7afe978e/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/2aead35ac6e50c7b6345100b2bbf27d6d95734e49396f771b33c22f1f9d3b934",
+        "section": "Estilo de élite",
+        "name": "Lote de Líder del equipo golosina",
+        "devName": "[VIRTUAL]1 x Gummi Team Leader, 1 x Barry Pinkums, 1 x Gummi Thumper, 1 x Gummi Double for -1 MtxCurrency",
+        "itemNames": [
+          "Líder del equipo golosina",
+          "Gomichila",
+          "Gomimartillo",
+          "Degradado dulce"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 2000,
+        "outDate": "2026-11-06T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8792899e24a5ef83/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/5074f3596bd85e377c73e4b295852f83ca2fb3e29ce73237edf2ed55a07a2c4b",
+        "section": "Invencible",
+        "name": "Hacha de la Coalición",
+        "devName": "[VIRTUAL]1 x C.O.P. Axe for 800 MtxCurrency",
+        "itemNames": [
+          "Hacha de la Coalición"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a368986eea378733/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/142b046ffbf59b4509fdf5e8f0fd000979ca4a283e1cfd9c89c91a7104a9c360",
+        "section": "Estilo de élite",
+        "name": "Maniháchico",
+        "devName": "[VIRTUAL]1 x Maniaxe for 500 MtxCurrency",
+        "itemNames": [
+          "Maniháchico"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-05T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/90e1056589e2b740/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/e3118ab257f106f5f8d7386d7506d235a741fd4146f51cac0e5538e33ca58fec",
+        "section": "alc.0",
+        "name": "Pincho portátil",
+        "devName": "[VIRTUAL]1 x Pokey Pack for 300 MtxCurrency",
+        "itemNames": [
+          "Pincho portátil"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-05T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_532_hardcoresportzmale/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/37dcb818d5dab01b035ffae53605e4f853df9457e6bf0e08f8098aa58ea01359",
+        "section": "Estilo de élite",
+        "name": "Ave afilada",
+        "devName": "[VIRTUAL]1 x Bladey Bird for 800 MtxCurrency",
+        "itemNames": [
+          "Ave afilada"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-05T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f75d0474f912a8fd/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/aac1c7676bcf1fa10bf6584238c9faa63a03a59ddef1bdb61114a5b849b29a3e",
+        "section": "Invencible",
+        "name": "Shrinking Rae",
+        "devName": "[VIRTUAL]1 x Shrinking Rae for 400 MtxCurrency",
+        "itemNames": [
+          "Shrinking Rae"
+        ],
+        "finalPrice": 400,
+        "regularPrice": 400,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d81dcdc9cf39a47f/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/19bac98dfb634d543f5e3e7f67f2e3619c336968096df1166a1403f7186aada5",
+        "section": "Invencible",
+        "name": "Tygris + Invencible",
+        "devName": "[VIRTUAL]1 x Invincible, 1 x Omni-Man, 1 x Atom Eve, 1 x Tygris, 1 x Tygris, 1 x Tygris, 1 x Tygris, 1 x Tygris, 1 x Tygris, 1 x Tygris, 1 x Tygris, 1 x Tygris, 1 x Tygris, 1 x Tygris, 1 x Tygris, 1 x Tygris, 1 x Platformer, 1 x Flames, 1 x Lightning, 1 x Mister Rad, 1 x Full Speed, 1 x Stripes for -1 MtxCurrency",
+        "itemNames": [
+          "Invencible",
+          "Omni-Man",
+          "Atom Eve",
+          "Platformer",
+          "Llamas",
+          "Rayo",
+          "Mister Rad",
+          "Velocidad máxima",
+          "Rayas"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6eaa5010cfa29494/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/1f7f04a274f1961a24c089e8025657558dea16fe187faffd3396605d368098e1",
+        "section": "Cazatesoros ",
+        "name": "Miyako enfermera",
+        "devName": "[VIRTUAL]1 x Nurse Miyako, 1 x Night Shift Monitor for -1 MtxCurrency",
+        "itemNames": [
+          "Miyako enfermera",
+          "Monitor vital nocturno"
+        ],
+        "finalPrice": 1200,
+        "regularPrice": 1200,
+        "outDate": "2026-11-07T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/254b2637a20cf83b/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/de9b1e2f3c1c47cf51565cbcfde6c980d3e121dc60559a53e30989331e8073db",
+        "section": "Potenciador de señal",
+        "name": "Lanza psiónica",
+        "devName": "[VIRTUAL]1 x Psyonic Spear for 500 MtxCurrency",
+        "itemNames": [
+          "Lanza psiónica"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-11T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/77919585b1f3426e/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/74e464d2a578876dd87e38a2e29e439b4fda56efa7d38b44d48789bebc506f86",
+        "section": "alc.0",
+        "name": "Cabeza de Inmortal",
+        "devName": "[VIRTUAL]1 x The Immortal's Head for 400 MtxCurrency",
+        "itemNames": [
+          "Cabeza de Inmortal"
+        ],
+        "finalPrice": 400,
+        "regularPrice": 400,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_sharpmagnet/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/14b2c124a79c1433fa77ff7f36405b1bc2b583efe07c7dacd4687fdfc37522c8",
+        "section": "Potenciador de señal",
+        "name": "Capa de élite psiónica",
+        "devName": "[VIRTUAL]1 x Psyonic Elite Cloak for 300 MtxCurrency",
+        "itemNames": [
+          "Capa de élite psiónica"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-11T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/408dac86813479e3/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/ce76c89737a2002e6c778dca30c2d90a0166f85ca120969ed62603fb3e53afa7",
+        "section": "Invencible",
+        "name": "Azul invencible",
+        "devName": "[VIRTUAL]1 x Invincible Blue for 500 MtxCurrency",
+        "itemNames": [
+          "Azul invencible"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/eaf45801d90f4735/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/5ee2aa60a827e3df41dc04354de43ec8aabc8440a5b7be522e14bede2d1e90d6",
+        "section": "Cazatesoros ",
+        "name": "Electrocardiófono",
+        "devName": "[VIRTUAL]1 x ElectroCardioJammer, 1 x ElectroCardioJammer, 1 x ElectroCardioJammer for 800 MtxCurrency",
+        "itemNames": [
+          "Electrocardiófono",
+          "Electrocardiófono",
+          "Electrocardiófono"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-07T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ab8197e713352d5c/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/aab3db13783ef2fc1c03d2f9af9a29025ab9e222b9b7b3826b3d0860e680f62c",
+        "section": "Invencible",
+        "name": "Allen el alien",
+        "devName": "[VIRTUAL]1 x Allen the Alien for 1500 MtxCurrency",
+        "itemNames": [
+          "Allen el alien"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c1938e37302cc066/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/3983d95fa27f639463dafe6f1d44c46807842e8e4b68f235b176a9dd3570bdf0",
+        "section": "Invencible",
+        "name": "Guitarra de Invencible",
+        "devName": "[VIRTUAL]1 x Invincible Shredder, 1 x Invincible Shredder, 1 x Invincible Shredder for 800 MtxCurrency",
+        "itemNames": [
+          "Guitarra de Invencible",
+          "Guitarra de Invencible",
+          "Guitarra de Invencible"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/77f126b64d865c8d/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/0a4d344ba252d2e24af2574764bfe744a9a23c838a03ebd375583f3cb8cb42b5",
+        "section": "Invencible",
+        "name": "Bola rapidísima",
+        "devName": "[VIRTUAL]1 x Fastest Fastball for 500 MtxCurrency",
+        "itemNames": [
+          "Bola rapidísima"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d38e8c38a4acc9b2/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/7fe00d26815b8129e6186155cd3c5a6693999d7bf35e05a53f648356b16b98f4",
+        "section": "Invencible",
+        "name": "Bastones dobles",
+        "devName": "[VIRTUAL]1 x Duplicating Batons for 800 MtxCurrency",
+        "itemNames": [
+          "Bastones dobles"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d4f94c4e95b9371a/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/32967a4ea21f0c429c0f51715d4e0df459bbf0dc16058b1008e4db35e3b53424",
+        "section": "Estilo de élite",
+        "name": "Degradado dulce",
+        "devName": "[VIRTUAL]1 x Gummi Double for 300 MtxCurrency",
+        "itemNames": [
+          "Degradado dulce"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-06T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8fc90aa1882d45e2/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/39afc0514f8dfe2ca6c7f1244aef1d7043be7e2e03aee300ce964b833b80076b",
+        "section": "Estilo de élite",
+        "name": "Raptoriano el Valiente",
+        "devName": "[VIRTUAL]1 x Raptorian The Brave, 1 x Raptor's Way for -1 MtxCurrency",
+        "itemNames": [
+          "Raptoriano el Valiente",
+          "Sendero del velocirraptor"
+        ],
+        "finalPrice": 1200,
+        "regularPrice": 1200,
+        "outDate": "2026-11-05T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0e40442b9f8425d6/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/bc52e5b10d0ca20edfc5c92e0f40996f07be1b9f13cb83c202d3ef7a1ea20edd",
+        "section": "Cazatesoros ",
+        "name": "Sana sana",
+        "devName": "[VIRTUAL]1 x Big Bandage Chase for 500 MtxCurrency",
+        "itemNames": [
+          "Sana sana"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-07T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/514b53075e1ba4af/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/1e25d6ed178d8a3ec5c31c831a40c9dd878d248df3e320ba723808c17f899447",
+        "section": "Invencible",
+        "name": "Bajo de Omni-Man",
+        "devName": "[VIRTUAL]1 x Omni-Man Bass, 1 x Omni-Man Bass, 1 x Omni-Man Bass for 800 MtxCurrency",
+        "itemNames": [
+          "Bajo de Omni-Man",
+          "Bajo de Omni-Man",
+          "Bajo de Omni-Man"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/08591d985bf02b8b/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/77c22ce9a2d4a17cea5ac569176eb5bf8315f29b2b7c1e398159b298b85ed3ba",
+        "section": "Invencible",
+        "name": "Omni-Man",
+        "devName": "[VIRTUAL]1 x Omni-Man, 1 x The Immortal's Head, 1 x Omni-Man's Cape, 1 x Omni-Man Emblem Cape for -1 MtxCurrency",
+        "itemNames": [
+          "Omni-Man",
+          "Cabeza de Inmortal",
+          "Capa de Omni-Man",
+          "Capa con emblema de Omni-Man"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/efe8f50be4e28f5d/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/10bf249a9d321d7c765ba43eaf12153676a8ae7ebec96b51ae8d2c684c8f231c",
+        "section": "alc.0",
+        "name": "Emblema de Atom Eve",
+        "devName": "[VIRTUAL]1 x Atom Eve Emblem for 300 MtxCurrency",
+        "itemNames": [
+          "Emblema de Atom Eve"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_timeinterval/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/c91f78b1c4e5fc62568c0935da2e944b3b3fd9090b329d682cd7d33188afd416",
+        "section": "alc.0",
+        "name": "Lote de Combatiente del destino",
+        "devName": "[VIRTUAL]1 x Elowen, 1 x Carver of Fate for -1 MtxCurrency",
+        "itemNames": [
+          "Elowen",
+          "Talladora del destino"
+        ],
+        "finalPrice": 1000,
+        "regularPrice": 1000,
+        "outDate": "2026-11-09T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7b08a1d48afccd35/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/fe60d7fcf4822e52c2167721f38bb81fbd170cc61e2e1ce7899f9ab40d802097",
+        "section": "Escuadrón del subidón",
+        "name": "LA CHONA",
+        "devName": "[VIRTUAL]1 x LA CHONA for 500 MtxCurrency",
+        "itemNames": [
+          "LA CHONA"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/783dadcb680f28e2/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/b2e87f718f18ac99f1bee97571bc3b18122e065eeac7ab8a73d05c2205978902",
+        "section": "Invencible",
+        "name": "Atom Eve",
+        "devName": "[VIRTUAL]1 x Atom Eve, 1 x Atom Eve Emblem, 1 x Eve's Cape, 1 x Atom Eve Emblem Cape for -1 MtxCurrency",
+        "itemNames": [
+          "Atom Eve",
+          "Emblema de Atom Eve",
+          "Capa de Eve",
+          "Capa con emblema de Atom Eve"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2256b0545922a4c1/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/b6477391597e362318ece927d2b5a46b00b3bf2e8ea033ff47e0dc2e3b08ee4c",
+        "section": "Cazatesoros ",
+        "name": "Marcapasos",
+        "devName": "[VIRTUAL]1 x Pacemaker, 1 x Pacemaker, 1 x Pacemaker for 800 MtxCurrency",
+        "itemNames": [
+          "Marcapasos",
+          "Marcapasos",
+          "Marcapasos"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-07T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6456d8e7c888d7a3/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/a04587a99d7719afdaca02d022f34ec8c8c529f55f1244bdcf7a5e2ea30801e5",
+        "section": "Potenciador de señal",
+        "name": "Kado de la Élite",
+        "devName": "[VIRTUAL]1 x Kado Elite for 500 MtxCurrency",
+        "itemNames": [
+          "Kado de la Élite"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-11T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4dd6c21c9665516e/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/fe3516e6c9c738b9df3d34129c9c70bcdf8698dc62791d9da5fa2c73233ed1e0",
+        "section": "Invencible",
+        "name": "Dupli-Kate",
+        "devName": "[VIRTUAL]1 x Dupli-Kate for 1500 MtxCurrency",
+        "itemNames": [
+          "Dupli-Kate"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/474127248604f0c7/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/c3c90a8df3819b627be2517a53a57c2a77fe9574c110ce577cb8305bc7d48662",
+        "section": "Cazatesoros ",
+        "name": "Monitor vital nocturno",
+        "devName": "[VIRTUAL]1 x Night Shift Monitor for 400 MtxCurrency",
+        "itemNames": [
+          "Monitor vital nocturno"
+        ],
+        "finalPrice": 400,
+        "regularPrice": 400,
+        "outDate": "2026-11-07T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7967ef2a618d0dfc/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/87d84b1f469544c14cd624f15252cb158c0ae506abee0671077b921660f347db",
+        "section": "Escuadrón del subidón",
+        "name": "Mystical Magical",
+        "devName": "[VIRTUAL]1 x Mystical Magical for 500 MtxCurrency",
+        "itemNames": [
+          "Mystical Magical"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0984300f74ebe16a/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/73575c2890667f304699244b6802a985a2a43afe03dcbf9bc8b3d83291cfef82",
+        "section": "Invencible",
+        "name": "Duplí-kate",
+        "devName": "[VIRTUAL]1 x Duplikates for 300 MtxCurrency",
+        "itemNames": [
+          "Duplí-kate"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8088ca5ebb44005d/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/90ffb4d37e2b59caaf86b116eab657b92250f103fdaaebe30895c0cae26fdf3c",
+        "section": "alc.0",
+        "name": "Sendero del velocirraptor",
+        "devName": "[VIRTUAL]1 x Raptor's Way for 200 MtxCurrency",
+        "itemNames": [
+          "Sendero del velocirraptor"
+        ],
+        "finalPrice": 200,
+        "regularPrice": 200,
+        "outDate": "2026-11-05T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_750_raptorknight/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/f4853208a2963a55087d84906dbd38517e24914ce01678f6cfba191d68539d4f",
+        "section": "Estilo de élite",
+        "name": "Líder del equipo golosina",
+        "devName": "[VIRTUAL]1 x Gummi Team Leader, 1 x Barry Pinkums for -1 MtxCurrency",
+        "itemNames": [
+          "Líder del equipo golosina",
+          "Gomichila"
+        ],
+        "finalPrice": 1200,
+        "regularPrice": 1200,
+        "outDate": "2026-11-06T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ee9f7b8014588ab4/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/d099060f89aefde867a22c5b9fce13204cd21034ed019965383ac298a0d12bf7",
+        "section": "Escuadrón del subidón",
+        "name": "Rather Lie",
+        "devName": "[VIRTUAL]1 x Rather Lie for 500 MtxCurrency",
+        "itemNames": [
+          "Rather Lie"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/186b63827c22fab7/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/ea154b9039091850ba76bd3a01c4b434246a306de63884c8adc3cde3803773bd",
+        "section": "Invencible",
+        "name": "Sables subatómicos",
+        "devName": "[VIRTUAL]1 x Subatomic Swords for 800 MtxCurrency",
+        "itemNames": [
+          "Sables subatómicos"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/fcb448c86ca685a1/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/eac12cf246b3d75c732d617b9c692e356de7400e7e9a2ac9dfc3f8e5f51b9ae9",
+        "section": "Invencible",
+        "name": "Rastreador de Allen",
+        "devName": "[VIRTUAL]1 x Allen's Tracking Device for 300 MtxCurrency",
+        "itemNames": [
+          "Rastreador de Allen"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c266f7965a5edd85/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/bc3036a2db6dacf785dd15423d0dc462ab01835d277cae3b1c9eaf7abf19f1bb",
+        "section": "Invencible",
+        "name": "Lote de equipamiento de Guardianes de la Tierra",
+        "devName": "[VIRTUAL]1 x Fastest Fastball, 1 x War Woman's Mace, 1 x Reaniman Arm, 1 x Subatomic Swords, 1 x Iconically Invincible, 1 x Guardians of the Island for -1 MtxCurrency",
+        "itemNames": [
+          "Bola rapidísima",
+          "Maza de War Woman",
+          "Brazo de Reanimen",
+          "Sables subatómicos",
+          "Icónicamente Invencible",
+          "Guardianes de la isla"
+        ],
+        "finalPrice": 1800,
+        "regularPrice": 2900,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/56c5ba757865d960/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/58368f64bf2202b81c32a6b909ebd289216e9957b819c850dda1472c777183de",
+        "section": "Invencible",
+        "name": "Aperitivo de Allen",
+        "devName": "[VIRTUAL]1 x Allen's Snack for 300 MtxCurrency",
+        "itemNames": [
+          "Aperitivo de Allen"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/893af370436cf4ce/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/57943620ae76e1661cd3268855d802374e7f46751220b31d5c43d7e69b51cf22",
+        "section": "Cazatesoros ",
+        "name": "El día y la noche",
+        "devName": "[VIRTUAL]1 x Day and Night for 500 MtxCurrency",
+        "itemNames": [
+          "El día y la noche"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-07T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/18e174c060aa23dd/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/a3bd63c5db50b05f7b37e7b2ea0329195cec53f9d420a50635f71c23a7ac07a6",
+        "section": "alc.0",
+        "name": "Capa con emblema de Atom Eve",
+        "devName": "[VIRTUAL]1 x Atom Eve Emblem Cape for 300 MtxCurrency",
+        "itemNames": [
+          "Capa con emblema de Atom Eve"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_timeintervaluniversal/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/65043c618ae37e2a9dbdaa82174f30a115ffeeb69ed8f208e260ed96ae81f457",
+        "section": "Estilo de élite",
+        "name": "Gomimartillo",
+        "devName": "[VIRTUAL]1 x Gummi Thumper for 500 MtxCurrency",
+        "itemNames": [
+          "Gomimartillo"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-06T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/afd239552904ddaf/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/2f659915bcd7685f495576dcbde2129478665ee443ae365c7baef70cc34d246f",
+        "section": "alc.0",
+        "name": "Guerrero mandaloriano",
+        "devName": "[VIRTUAL]1 x Mandalorian Warrior for -1 MtxCurrency",
+        "itemNames": [
+          "Guerrero mandaloriano"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-07T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/39b59ba1f961f9f6/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/7e8bdb9bf2c46695add813bf21faa0a44f03f59887beb2c132cf53a40efe86dc",
+        "section": "Invencible",
+        "name": "Icónicamente Invencible",
+        "devName": "[VIRTUAL]1 x Iconically Invincible for 300 MtxCurrency",
+        "itemNames": [
+          "Icónicamente Invencible"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-08T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7cf79b7efe56bf29/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/40144d3428f76f6dd0ea4680a53a4e57b5b306b188665c2f08ca70237e3534c1",
+        "section": "Cazatesoros ",
+        "name": "Lote de Urgencia hospitalaria",
+        "devName": "[VIRTUAL]1 x Nurse Miyako, 1 x Night Shift Monitor, 1 x Nurse Hikari, 1 x Day Shift Monitor, 1 x Big Bandage Chase, 1 x Pacemaker, 1 x Pacemaker, 1 x Pacemaker, 1 x ElectroCardioJammer, 1 x ElectroCardioJammer, 1 x ElectroCardioJammer, 1 x Day and Night for -1 MtxCurrency",
+        "itemNames": [
+          "Miyako enfermera",
+          "Monitor vital nocturno",
+          "Hikari enfermera",
+          "Monitor vital diurno",
+          "Sana sana",
+          "Marcapasos",
+          "Marcapasos",
+          "Electrocardiófono",
+          "Electrocardiófono",
+          "El día y la noche",
+          "Marcapasos",
+          "Electrocardiófono"
+        ],
+        "finalPrice": 2200,
+        "regularPrice": 5000,
+        "outDate": "2026-11-07T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/98e27e56f6374e46/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/e0195e0d93473e3697d67828db9c3f0959899a802361276e00896385fd202b20",
+        "section": "Cazatesoros ",
+        "name": "Hikari enfermera",
+        "devName": "[VIRTUAL]1 x Nurse Hikari, 1 x Day Shift Monitor for -1 MtxCurrency",
+        "itemNames": [
+          "Hikari enfermera",
+          "Monitor vital diurno"
+        ],
+        "finalPrice": 1200,
+        "regularPrice": 1200,
+        "outDate": "2026-11-07T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6fc7546231414524/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "added",
+      "offer": {
+        "offerId": "v2:/2ae6ed1278b700f2bad2115b1e17213dfa96afced5219c91683b6341c784a6ff",
+        "section": "Estilo de élite",
+        "name": "Enfrentamiento",
+        "devName": "[VIRTUAL]1 x Showdown, 1 x Pokey Pack for -1 MtxCurrency",
+        "itemNames": [
+          "Enfrentamiento",
+          "Pincho portátil"
+        ],
+        "finalPrice": 1200,
+        "regularPrice": 1200,
+        "outDate": "2026-11-05T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5c66b2e9ed6827b9/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/28cd738cfba7e3cc28fdc4c855ff7ffa15ef2cc0ef7428dde2ee4aeded158537",
+        "section": "Predator",
+        "name": "Depredador: Lote del Erial desolado",
+        "devName": "[VIRTUAL]1 x Dek, 1 x Predator's Sword Slash, 1 x Thia, 1 x Dek's Plasma Sword for -1 MtxCurrency",
+        "itemNames": [
+          "Dek",
+          "Corte de espada de depredador",
+          "Thia",
+          "Espada de plasma de Dek"
+        ],
+        "finalPrice": 2000,
+        "regularPrice": 2900,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ebecc2bb80d1a7db/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/529433cb16ffe67eadbd9f86e9f269b2fac29a74127c4c3404ddc581f24c589d",
+        "section": "Día de Muertos",
+        "name": "Calaverita",
+        "devName": "[VIRTUAL]1 x Sugar Skull for 500 MtxCurrency",
+        "itemNames": [
+          "Calaverita"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/25cd353d0ea85f5e/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/c55749947dbe7f6567bd71b7747c33b16f51da041b7662fb9353e4d2218449ed",
+        "section": "Escuadrón del subidón",
+        "name": "KEHLANI",
+        "devName": "[VIRTUAL]1 x KEHLANI for 500 MtxCurrency",
+        "itemNames": [
+          "KEHLANI"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8c8480dd41421eba/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/2e93d2ff65704038507bee40a6e090bddbfb894adf989e78874ce42aea778bf4",
+        "section": "alc.0",
+        "name": "Capa espiritual",
+        "devName": "[VIRTUAL]1 x Spirit Cape for 400 MtxCurrency",
+        "itemNames": [
+          "Capa espiritual"
+        ],
+        "finalPrice": 400,
+        "regularPrice": 400,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_136_muertosmale/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/a8333f4a9fcff7df16d7dce04d42a5dbfc3889aa5c48ef83abda27172e124feb",
+        "section": "Cazatesoros ",
+        "name": "Aprendiz audaz",
+        "devName": "[VIRTUAL]1 x Striker Senpai for 1500 MtxCurrency",
+        "itemNames": [
+          "Aprendiz audaz"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ca501c956431bb59/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/0d3f8828908504f4fb6beb6992f121e6b90486eb556c9d0c2928c792ccf2d56c",
+        "section": "Cazatesoros ",
+        "name": "Discípulo deportista",
+        "devName": "[VIRTUAL]1 x Varsity Vanguard for 1500 MtxCurrency",
+        "itemNames": [
+          "Discípulo deportista"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2882a5eaa35ed319/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/3ec56d630cf09d040d6926a39191cb41fc1f27eca45c4ec62a72246a3a43039d",
+        "section": "Mariah Carey",
+        "name": "Micrófono de Mariah",
+        "devName": "[VIRTUAL]1 x Mariah's Mic, 1 x Mariah's Mic, 1 x Mariah's Mic for 800 MtxCurrency",
+        "itemNames": [
+          "Micrófono de Mariah",
+          "Micrófono de Mariah",
+          "Micrófono de Mariah"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/484f05a110e6c34a/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/80bbeff463e53b6c860b49ab50563128c8c57649427b944446f4e5eef47e6637",
+        "section": "Día de Muertos",
+        "name": "Lote de Salvador de los recuerdos",
+        "devName": "[VIRTUAL]1 x Remembrance Salvador, 1 x Calavera Case, 1 x Calavera Club for -1 MtxCurrency",
+        "itemNames": [
+          "Salvador de los recuerdos",
+          "Calavera festiva",
+          "Maza calavera"
+        ],
+        "finalPrice": 1100,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b94fd3dd18507531/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/5d60074adfacd0d3a0ab40afb39057eb711abd459fdcff1919997ba435489d35",
+        "section": "Día de Muertos",
+        "name": "Ariete acústico",
+        "devName": "[VIRTUAL]1 x Six String Striker, 1 x Six String Striker, 1 x Six String Striker for 1200 MtxCurrency",
+        "itemNames": [
+          "Ariete acústico",
+          "Ariete acústico",
+          "Ariete acústico"
+        ],
+        "finalPrice": 1200,
+        "regularPrice": 1200,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e831dd6c852cbd65/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/a7096dc29f499f2b0f7a568cf32ec53e478c1f6d6c60e89f3ced003066eda133",
+        "section": "Estilo de élite",
+        "name": "Atención completa",
+        "devName": "[VIRTUAL]1 x Focused for 200 MtxCurrency",
+        "itemNames": [
+          "Atención completa"
+        ],
+        "finalPrice": 200,
+        "regularPrice": 200,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/32239cd408723bdb/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/eb8c7eb02a46c9d9b5a263da44bdbba6e88bde6102adb073d7ae1e860827fd92",
+        "section": "Estilo de élite",
+        "name": "Visión de acero",
+        "devName": "[VIRTUAL]1 x Steelsight, 1 x Steelcast for -1 MtxCurrency",
+        "itemNames": [
+          "Visión de acero",
+          "Acero fundido"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3916a4a9e67fef07/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/11f93b881134076088152732e404cda336fb0d1cd1bfd40823d5ccf583fa0cbc",
+        "section": "Día de Muertos",
+        "name": "Matador",
+        "devName": "[VIRTUAL]1 x Dante, 1 x Spirit Cape for -1 MtxCurrency",
+        "itemNames": [
+          "Matador",
+          "Capa espiritual"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/efd1fd3a37f579a7/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/f58993a9d06024029305e0fdb41e108296619169f2d7ce79fe8f8d279fabce1f",
+        "section": "Mariah Carey",
+        "name": "All I Want For Christmas Is You",
+        "devName": "[VIRTUAL]1 x All I Want For Christmas Is You for 500 MtxCurrency",
+        "itemNames": [
+          "All I Want For Christmas Is You"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/835d07fa8311ebb5/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/d3281057b555afcdea4b84ce3a7e04ececed0384348d3456f997a6d85e3307a5",
+        "section": "Potenciador de señal",
+        "name": "Parasol pestilente",
+        "devName": "[VIRTUAL]1 x Pestilent Parasol for 800 MtxCurrency",
+        "itemNames": [
+          "Parasol pestilente"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a052bfa1a4d7a7ba/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/9587d6180a736508fd4f71675a7815dae13190986db02d77f542ba8139b93fd7",
+        "section": "Estilo de élite",
+        "name": "Lanzahechizos",
+        "devName": "[VIRTUAL]1 x Spellslinger for 800 MtxCurrency",
+        "itemNames": [
+          "Lanzahechizos"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1173a11494bf2e00/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/ef1198eb5629cac530e79b9bdc7e6477f882cc09f49c5fbf47ca71cfc098872c",
+        "section": "Mariah Carey",
+        "name": "Mariah traje de Santa",
+        "devName": "[VIRTUAL]1 x Santa Suit Mariah, 1 x Angelic Wings for -1 MtxCurrency",
+        "itemNames": [
+          "Mariah traje de Santa",
+          "Alas angelicales"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0f3edbf0b4ecbf50/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/c2a5d01467807e588b37450fe8809d062670972f444f03a888b76e37b3d97f97",
+        "section": "Potenciador de señal",
+        "name": "Guadaña del caos",
+        "devName": "[VIRTUAL]1 x Chaos Scythe for 800 MtxCurrency",
+        "itemNames": [
+          "Guadaña del caos"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7a2d1da0858830fa/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/45d7a8b39a9e5be708683a3076b88713482a725bebd1fd53142a235aa8faa2c9",
+        "section": "Día de Muertos",
+        "name": "Maza calavera",
+        "devName": "[VIRTUAL]1 x Calavera Club for 500 MtxCurrency",
+        "itemNames": [
+          "Maza calavera"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/99a100d539e381f6/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/79df1b43fb7d4e597a0ef97e9d01de3a77f149df92e45197ef4bcdb89c34aedf",
+        "section": "Estilo de élite",
+        "name": "Gata salvaje Primigenia",
+        "devName": "[VIRTUAL]1 x Wildstreak One for 800 MtxCurrency",
+        "itemNames": [
+          "Gata salvaje Primigenia"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/aa3f1ad03fbf2c42/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/7515ad6c7e1fc7dee3ea0e31c606992d3c9a4261430c7159e6c2e1985215b7cf",
+        "section": "Día de Muertos",
+        "name": "Salvador de los recuerdos",
+        "devName": "[VIRTUAL]1 x Remembrance Salvador for 800 MtxCurrency",
+        "itemNames": [
+          "Salvador de los recuerdos"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cd24b3e261013c98/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/b51d280a8c1146805e87bb943ed52f1ea4eb8edfafcc66468a64e111dc1fda53",
+        "section": "Día de Muertos",
+        "name": "Rosa",
+        "devName": "[VIRTUAL]1 x Rosa, 1 x Calavera for -1 MtxCurrency",
+        "itemNames": [
+          "Rosa",
+          "Calavera"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4b1423405aba9bb1/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/152562aa5131e43cee02289d504334639948eb60c8fa3be9c9ce7bd62c64c6b6",
+        "section": "Cazatesoros ",
+        "name": "Exploradora estudiosa",
+        "devName": "[VIRTUAL]1 x Studious Scout for 1500 MtxCurrency",
+        "itemNames": [
+          "Exploradora estudiosa"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a3d3d0265e770974/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/e09d6b3a1c014082cda7c31d2a98f167783a929f77b12cefac2a8984d77d2be9",
+        "section": "Cazatesoros ",
+        "name": "Campeones de 8 bits",
+        "devName": "[VIRTUAL]1 x 8-bit Champions for 400 MtxCurrency",
+        "itemNames": [
+          "Campeones de 8 bits"
+        ],
+        "finalPrice": 400,
+        "regularPrice": 400,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a058de81babafdbd/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/e5bd41765cd9d7829bb4ab0339e82825b60fa2cc824664715ece4d32bb829d50",
+        "section": "Potenciador de señal",
+        "name": "Corazón envenenado",
+        "devName": "[VIRTUAL]1 x Poisoned Heart for 500 MtxCurrency",
+        "itemNames": [
+          "Corazón envenenado"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7e1673f06d079751/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/cdfef87d17f84729c38f7130e2c43f472161d655e9827615b8c7ed1059e8f654",
+        "section": "Cazatesoros ",
+        "name": "Lote de equipamiento de Campeones de la academia",
+        "devName": "[VIRTUAL]1 x 8-bit Champions, 1 x Scholar Slashers, 1 x Banner Bearer, 1 x Clash of the Academies for -1 MtxCurrency",
+        "itemNames": [
+          "Campeones de 8 bits",
+          "Cuchillas colegiales",
+          "Portaestandarte",
+          "Enfrentamiento entre academias"
+        ],
+        "finalPrice": 1200,
+        "regularPrice": 1700,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/887e6116eaf2b1ff/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/17dbe1ad684b6c733b8411334d7dd481a8553c1e4b12b8df1f27e4c166ab693a",
+        "section": "Cazatesoros ",
+        "name": "Rival rebelde",
+        "devName": "[VIRTUAL]1 x Rebel Rival for 1500 MtxCurrency",
+        "itemNames": [
+          "Rival rebelde"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/16c1062b68773d5f/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/e11ddcaeeb8c581cc3a02a71786f9bb28ab43a0ee0a10c372cea1e3a07e613c6",
+        "section": "Día de Muertos",
+        "name": "Salvador",
+        "devName": "[VIRTUAL]1 x Salvador, 1 x Vihuela de los Muertos for -1 MtxCurrency",
+        "itemNames": [
+          "Salvador",
+          "Vihuela de los muertos"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/09536fb45315f48d/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/ecef46d97821cf064b4ae8c61da4097a895f57abc0878746b12d13abc82cd13c",
+        "section": "Día de Muertos",
+        "name": "Melodía del más allá",
+        "devName": "[VIRTUAL]1 x Baleful Bellow for 800 MtxCurrency",
+        "itemNames": [
+          "Melodía del más allá"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b631421c488e8a55/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/6fe6d0004fdf274f50fa8c1b9d97612b15f6303a9bc78d4189c17edcfb429407",
+        "section": "Potenciador de señal",
+        "name": "Agente del caos",
+        "devName": "[VIRTUAL]1 x Chaos Agent, 1 x Ooze Chamber for -1 MtxCurrency",
+        "itemNames": [
+          "Agente del caos",
+          "Cámara de goteo"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7a3603f562aca8ba/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/0168c4330eafbc46a4a36732e904ad08ce4b3fb209edd0be02c9df6ad11b1e06",
+        "section": "Predator",
+        "name": "Corte de espada de depredador",
+        "devName": "[VIRTUAL]1 x Predator's Sword Slash for 300 MtxCurrency",
+        "itemNames": [
+          "Corte de espada de depredador"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/bcce109efe1997ff/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/49c258cac83e8929630564746cecaeba6e5b8d83bc5e58ba82e0433b3897e61f",
+        "section": "Cazatesoros ",
+        "name": "Maleante matemático",
+        "devName": "[VIRTUAL]1 x Midterm Maverick for 1500 MtxCurrency",
+        "itemNames": [
+          "Maleante matemático"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/dada35707f06c05e/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/553543f6c259b75e90bf516b9f7b3c71617ba5b3449de59fbe1ca94b6cf6985f",
+        "section": "alc.0",
+        "name": "Acero fundido",
+        "devName": "[VIRTUAL]1 x Steelcast for 200 MtxCurrency",
+        "itemNames": [
+          "Acero fundido"
+        ],
+        "finalPrice": 200,
+        "regularPrice": 200,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_044_robo/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/4530ff5723dfda90e847d57108ed01d1a71a95c8a4dc4ffff59063e82256fb32",
+        "section": "Mariah Carey",
+        "name": "Mariah Carey",
+        "devName": "[VIRTUAL]1 x Mariah Carey, 1 x Gilded Honey Wings for -1 MtxCurrency",
+        "itemNames": [
+          "Mariah Carey",
+          "Alas de miel doradas"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2862bfae8bccb42e/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/4c8966f993c04f9d13534b474d30497e2396b74cd8edb6bdbce036acc8b7a14e",
+        "section": "alc.0",
+        "name": "Alas de miel doradas",
+        "devName": "[VIRTUAL]1 x Gilded Honey Wings for 300 MtxCurrency",
+        "itemNames": [
+          "Alas de miel doradas"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_pastelglazegrain/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/4a11cd979c8638b60a58a9b8a23f84561ce3ab656d52196b9c45f2feeef05797",
+        "section": "Día de Muertos",
+        "name": "Converse Chuck 70 \"Day Of The Dead\"",
+        "devName": "[VIRTUAL]1 x Converse Chuck 70 'Day Of The Dead' for 800 MtxCurrency",
+        "itemNames": [
+          "Converse Chuck 70 \"Day Of The Dead\""
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/05135d876fa12398/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/a24df367a542649197501844ea389c5d43eb4a8cfd0cd4a5a73e3c8c2a86d8bb",
+        "section": "Predator",
+        "name": "Thia",
+        "devName": "[VIRTUAL]1 x Thia for 600 MtxCurrency",
+        "itemNames": [
+          "Thia"
+        ],
+        "finalPrice": 600,
+        "regularPrice": 600,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/01c237117c57e58a/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/93553a55a405baae1e9638b4af9926d956e40d31d8a1987e3d2eb8f8d4823192",
+        "section": "Cazatesoros ",
+        "name": "Graduada ganadora",
+        "devName": "[VIRTUAL]1 x Victory Valedictorian for 1500 MtxCurrency",
+        "itemNames": [
+          "Graduada ganadora"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2634eaf2d7d26128/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/48812a20a116c5be645b1b57708a380542996bb8819589bf2e7f7a4b30d45541",
+        "section": "alc.0",
+        "name": "Vihuela de los muertos",
+        "devName": "[VIRTUAL]1 x Vihuela de los Muertos for 400 MtxCurrency",
+        "itemNames": [
+          "Vihuela de los muertos"
+        ],
+        "finalPrice": 400,
+        "regularPrice": 400,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_calavera/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/2ba2dca1d18328c9d28452d7d25cb12ed5255bb8596ec202efcdb4a90f777303",
+        "section": "alc.0",
+        "name": "Calavera",
+        "devName": "[VIRTUAL]1 x Calavera for 300 MtxCurrency",
+        "itemNames": [
+          "Calavera"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_135_muertosfemale/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/4dd78738fa16026e5230c939825311d97c9b9928cf263a9540b1e85812cf6fba",
+        "section": "Escuadrón del subidón",
+        "name": "bad guy",
+        "devName": "[VIRTUAL]1 x bad guy for 500 MtxCurrency",
+        "itemNames": [
+          "bad guy"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b37137f7b15165eb/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/c6ace24929df39f8e3d432f3546e38bf3e2639e85460fc4b42a96190efb0a77e",
+        "section": "Escuadrón del subidón",
+        "name": "No soy para ti",
+        "devName": "[VIRTUAL]1 x Build Up for 500 MtxCurrency",
+        "itemNames": [
+          "No soy para ti"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c80dade78cbdf390/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/ecf10e81a7375b539fa913c171d5a8f021b22e87b23664c31488be9428adaf1d",
+        "section": "Día de Muertos",
+        "name": "Alebrije",
+        "devName": "[VIRTUAL]1 x Spirit for 1200 MtxCurrency",
+        "itemNames": [
+          "Alebrije"
+        ],
+        "finalPrice": 1200,
+        "regularPrice": 1200,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a01d99927558d2f5/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/0a551129d26412765e8eb882cd912b2cc5a8f4afac3e25fe46a97309a6b18dbd",
+        "section": "Mariah Carey",
+        "name": "Lote de Mariah Carey",
+        "devName": "[VIRTUAL]1 x Santa Suit Mariah, 1 x Mariah Carey, 1 x All I Want For Christmas Is You, 1 x Mariah's Mic, 1 x Angelic Wings, 1 x Gilded Honey Wings, 1 x Mariah's Mic, 1 x Mariah's Mic for -1 MtxCurrency",
+        "itemNames": [
+          "Mariah traje de Santa",
+          "Mariah Carey",
+          "All I Want For Christmas Is You",
+          "Alas angelicales",
+          "Alas de miel doradas",
+          "Micrófono de Mariah",
+          "Micrófono de Mariah",
+          "Micrófono de Mariah"
+        ],
+        "finalPrice": 2800,
+        "regularPrice": 4300,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f926aa6282c8c303/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/797c23daa760c4b61838532447180a5e85f61fed5a715cc12e6015fa64871b36",
+        "section": "Potenciador de señal",
+        "name": "Goteo negro",
+        "devName": "[VIRTUAL]1 x Black Ooze for 500 MtxCurrency",
+        "itemNames": [
+          "Goteo negro"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/354ae70790d345b3/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/d9290137fe92d7d4f7dd426690d5ae3605843d6479ba35722c29930b3c0755cb",
+        "section": "Cazatesoros ",
+        "name": "Portaestandarte",
+        "devName": "[VIRTUAL]1 x Banner Bearer for 500 MtxCurrency",
+        "itemNames": [
+          "Portaestandarte"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/89d0b0a4ada72b3e/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/9f79f2a129249e0e02602ec6dd0d6e4e3dce5ec957024efb5a302af5eb43334e",
+        "section": "alc.0",
+        "name": "Alas angelicales",
+        "devName": "[VIRTUAL]1 x Angelic Wings for 300 MtxCurrency",
+        "itemNames": [
+          "Alas angelicales"
+        ],
+        "finalPrice": 300,
+        "regularPrice": 300,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_pastelglazegift/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/053b73cea0fbb7aaf35f27dd78673b9bc86c675541361016bbdd4f8236e5f79e",
+        "section": "Potenciador de señal",
+        "name": "Miasma",
+        "devName": "[VIRTUAL]1 x Miasma for 1200 MtxCurrency",
+        "itemNames": [
+          "Miasma"
+        ],
+        "finalPrice": 1200,
+        "regularPrice": 1200,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0e0d436e2d45922a/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/af5489855202f1ba76c72d376c609e20e5216dc98f6c2fc680d57c16c3e37e58",
+        "section": "Potenciador de señal",
+        "name": "Lote de Agente del caos",
+        "devName": "[VIRTUAL]1 x Chaos Agent, 1 x Ooze Chamber, 1 x Chaos Scythe, 1 x Black Ooze for -1 MtxCurrency",
+        "itemNames": [
+          "Agente del caos",
+          "Cámara de goteo",
+          "Guadaña del caos",
+          "Goteo negro"
+        ],
+        "finalPrice": 2000,
+        "regularPrice": 2800,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0891bbdab9a96109/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/b9ae98456b5616ed57af839be90bff955ff6ebe732a16de1aed1ce520dc36714",
+        "section": "Cazatesoros ",
+        "name": "Atleta alborotador",
+        "devName": "[VIRTUAL]1 x Sporty Skirmisher for 1500 MtxCurrency",
+        "itemNames": [
+          "Atleta alborotador"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d018e06ffd339b03/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/3ac50b8bf4afd5edd69f2510eee8c2f0b1cdef62141506376a7f387cae7b7c1e",
+        "section": "alc.0",
+        "name": "Cámara de goteo",
+        "devName": "[VIRTUAL]1 x Ooze Chamber for 400 MtxCurrency",
+        "itemNames": [
+          "Cámara de goteo"
+        ],
+        "finalPrice": 400,
+        "regularPrice": 400,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_394_mastermind/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/f08aa4c5434bfa41ee1576b69c47830218ed1274b754c9c7504936c9f9aa0aed",
+        "section": "Cazatesoros ",
+        "name": "Cuchillas colegiales",
+        "devName": "[VIRTUAL]1 x Scholar Slashers for 800 MtxCurrency",
+        "itemNames": [
+          "Cuchillas colegiales"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/071f389ca9066cd8/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/11e801ef0ba05b0138f1c4ea1adbb187fcfb93b2c50ef7e93475bc16ae36dd30",
+        "section": "Cazatesoros ",
+        "name": "Prefecto patrullero",
+        "devName": "[VIRTUAL]1 x Prefect Patroller for 1500 MtxCurrency",
+        "itemNames": [
+          "Prefecto patrullero"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a12262eebec89aff/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/0a7810d52c19945bf81dea6c0c9a5c4deab208ef0f9ef3d23a189bfd4580af44",
+        "section": "Día de Muertos",
+        "name": "Lote de Fiesta espectral",
+        "devName": "[VIRTUAL]1 x Salvador, 1 x Vihuela de los Muertos, 1 x Baleful Bellow, 1 x Sugar Skull for -1 MtxCurrency",
+        "itemNames": [
+          "Salvador",
+          "Vihuela de los muertos",
+          "Melodía del más allá",
+          "Calaverita"
+        ],
+        "finalPrice": 1800,
+        "regularPrice": 2800,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/36812f26ba28b359/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/4d50e37fb19b8318a7e96be7c9377075acd046dbbadcc9808466d78da4be30ba",
+        "section": "Cazatesoros ",
+        "name": "As académica",
+        "devName": "[VIRTUAL]1 x Ace Academic for 1500 MtxCurrency",
+        "itemNames": [
+          "As académica"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/98758629dc6009ad/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/92a9b30e8423bb4fbd71ecfa4ce2cee5a1d958d484f8ad3b6e73551bc98c1be2",
+        "section": "Cazatesoros ",
+        "name": "Comandante del club cultural",
+        "devName": "[VIRTUAL]1 x Culture Club Commander for 1500 MtxCurrency",
+        "itemNames": [
+          "Comandante del club cultural"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b96b0888c16d8160/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/9559a2b9dc4402e02ade41f8186e30cee8116ee240d5991da2945329bac47009",
+        "section": "Predator",
+        "name": "Dek",
+        "devName": "[VIRTUAL]1 x Dek, 1 x Predator's Sword Slash for -1 MtxCurrency",
+        "itemNames": [
+          "Dek",
+          "Corte de espada de depredador"
+        ],
+        "finalPrice": 1500,
+        "regularPrice": 1500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/321c049d851f423b/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/5feee243fef2d9af264e773a3a30c0b234d13d1c331d66f57a80a74179d4ab75",
+        "section": "Potenciador de señal",
+        "name": "Lote de Miasma",
+        "devName": "[VIRTUAL]1 x Miasma, 1 x Pestilent Parasol, 1 x Poisoned Heart for -1 MtxCurrency",
+        "itemNames": [
+          "Miasma",
+          "Parasol pestilente",
+          "Corazón envenenado"
+        ],
+        "finalPrice": 1600,
+        "regularPrice": 2500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e942e6639be1e9b4/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/2920af4a4d3399691aeb0edcc52a7aac01fac1369137d1bfe86a41f79eec6fe1",
+        "section": "Predator",
+        "name": "Espada de plasma de Dek",
+        "devName": "[VIRTUAL]1 x Dek's Plasma Sword for 800 MtxCurrency",
+        "itemNames": [
+          "Espada de plasma de Dek"
+        ],
+        "finalPrice": 800,
+        "regularPrice": 800,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1ceb88cdf2588f46/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/3f79432ab1f617561e648c9ccd17ca538f78dbbbae24b6611c4a79e69b050910",
+        "section": "alc.0",
+        "name": "Calavera festiva",
+        "devName": "[VIRTUAL]1 x Calavera Case for 200 MtxCurrency",
+        "itemNames": [
+          "Calavera festiva"
+        ],
+        "finalPrice": 200,
+        "regularPrice": 200,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_rainbowsplash/featured.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/b820465b5af92b7e5ec937144a824d667b3e7ff9955c708caff7cbe97067cdbf",
+        "section": "Escuadrón del subidón",
+        "name": "Humble",
+        "devName": "[VIRTUAL]1 x HUMBLE for 500 MtxCurrency",
+        "itemNames": [
+          "Humble"
+        ],
+        "finalPrice": 500,
+        "regularPrice": 500,
+        "outDate": "2026-11-04T23:59:59.999Z",
+        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/23bfa6d58834d0de/renderimage_0.png",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/e5c4a10d248d443e88124333c8ce7e1a6083b56e59d63e9ac3b105b76af1552b",
+        "section": "Accesorios de vehículo",
+        "name": "Electrólico",
+        "devName": "[VIRTUAL]1 x Electrolic for 600 MtxCurrency",
+        "itemNames": [
+          "Electrólico"
+        ],
+        "finalPrice": 600,
+        "regularPrice": 600,
+        "outDate": "2026-11-06T23:59:59.999Z",
+        "imageUrl": "https://ucs-images.fortnite.com/blobs/4a/f5/05dc-0e17-479e-98e7-aea9c83dca74?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA2SBBZFECCYQWRK6G%2F20261104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261104T001101Z&X-Amz-Expires=90000&X-Amz-Signature=43552ae030c23e118759ac7967d5e12b90869e6545939e84264e5a715b1af91e&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3D%22file.png%22%3Bfilename%2A%3DUTF-8%27%27cap-512x512.png&x-id=GetObject",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/28c319871ff2979d772c672066b366c379b7a6e10dd09518fbcb7b8e0e4ef3be",
+        "section": "Accesorios de vehículo",
+        "name": "Incantor",
+        "devName": "[VIRTUAL]1 x Incantor for 250 MtxCurrency",
+        "itemNames": [
+          "Incantor"
+        ],
+        "finalPrice": 250,
+        "regularPrice": 250,
+        "outDate": "2026-11-06T23:59:59.999Z",
+        "imageUrl": "https://ucs-images.fortnite.com/blobs/21/1f/5ac1-0c7e-4a50-93f8-d9bd8bfc1882?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA2SBBZFECCYQWRK6G%2F20261104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261104T001059Z&X-Amz-Expires=90000&X-Amz-Signature=443c4a4125ee8fcc366d112531c96920af12d9ef1d8086653046296e43df7e9c&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3D%22file.png%22%3Bfilename%2A%3DUTF-8%27%27cap-512x512.png&x-id=GetObject",
+        "currency": "MtxCurrency"
+      }
+    },
+    {
+      "kind": "removed",
+      "offer": {
+        "offerId": "v2:/90329410612be6f8d4030340d0cc482e7f8ebb405c38035487f6a195a56ad62a",
+        "section": "Accesorios de vehículo",
+        "name": "Masato",
+        "devName": "[VIRTUAL]1 x Masato for 400 MtxCurrency",
+        "itemNames": [
+          "Masato"
+        ],
+        "finalPrice": 400,
+        "regularPrice": 400,
+        "outDate": "2026-11-06T23:59:59.999Z",
+        "imageUrl": "https://ucs-images.fortnite.com/blobs/fd/d5/957e-db8b-4492-ae48-371533738b92?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA2SBBZFECCYQWRK6G%2F20261104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261104T001059Z&X-Amz-Expires=90000&X-Amz-Signature=fb27fcfe16950df46768a6da83921114e1f96e45c9ed48028c42066c90bc78c8&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3D%22file.png%22%3Bfilename%2A%3DUTF-8%27%27cap-512x512.png&x-id=GetObject",
+        "currency": "MtxCurrency"
+      }
+    }
+  ],
+  "excludedNonVbucks": [],
+  "excludedUnverified": []
+}
