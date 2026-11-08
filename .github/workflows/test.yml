@@ -19,6 +19,10 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt -r requirements-dev.txt
       - run: python -m pytest -q
+      - name: Dependency vulnerability audit
+        run: |
+          pip install pip-audit
+          pip-audit -r requirements.txt
 
   official-reconcile:
     runs-on: ubuntu-latest

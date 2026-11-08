@@ -24,6 +24,8 @@ Guarda el último estado en `data/shop-latest.json` y el reporte del día en `re
 
 Desde la pestaña Actions de GitHub: `daily-shop-watch` → `Run workflow`.
 
+Requiere Python 3.12 (el CI corre 3.12). Las dependencias usan rangos con piso y techo (no lockfile): pip resuelve la versión más nueva dentro del rango en cada instalación, y `pip-audit` corre en CI sobre la resolución real.
+
 ## Cruce con la web oficial
 
 El workflow puede fusionar el snapshot de la API con el catálogo de la web oficial (`python -m shopwatch.official`), pero solo cuando existe `data/official-latest.json` y su fecha de tienda coincide con la del snapshot; si no, el paso se salta y el reporte queda solo con datos de la API. Reglas de la fusión:

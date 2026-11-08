@@ -221,6 +221,17 @@ ALLOWED_IMAGE_HOSTS = frozenset(
 MAX_IMAGE_BYTES = 8 * 1024 * 1024
 
 
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    """Refuse every redirect: the allowlist must apply to the final host,
+    not just the first URL, so no hop is ever followed."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+
+_OPENER = urllib.request.build_opener(_NoRedirect)
+
+
 def fetch_thumb(url):
     if not url:
         return None
@@ -230,7 +241,12 @@ def fetch_thumb(url):
     for attempt in range(3):
         try:
             request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-            with urllib.request.urlopen(request, timeout=20) as response:
+            with _OPENER.open(request, timeout=20) as response:
+                # Bounded read: at most MAX+1 bytes come off the socket, never
+                # the whole body; Content-Length short-circuits when advertised.
+                length = response.headers.get("Content-Length")
+                if length and length.isdigit() and int(length) > MAX_IMAGE_BYTES:
+                    return None
                 payload = response.read(MAX_IMAGE_BYTES + 1)
             if len(payload) > MAX_IMAGE_BYTES:
                 return None
