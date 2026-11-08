@@ -5,9 +5,12 @@ Rules (kept conservative; nothing is removed without official confirmation):
 - Official-only PaVos tiles are appended with provenance="official-web". Their
   name is the official tile title; offers that exist in the API keep the API
   (Spanish) name.
-- Stale API duplicates (same item set, different offerId/price) are removed
-  only when the official catalog contains exactly one offerId of the group.
-  Without official data, nothing is removed.
+- Stale API duplicates with the SAME item set at a different price are
+  removed only when the official catalog contains exactly one offerId of the
+  group. Same-name variants with different contents are never auto-removed
+  (a partial official scrape could miss a legitimate variant); they are
+  reported as suspected_stale for human curation instead. Without official
+  data, nothing is removed.
 - When an official tile carries its bundle item list, items missing from the
   API offer are reported in the sidecar; the offer itself is never mutated.
 """
@@ -153,13 +156,14 @@ def _normalize_official_tile(tile: dict) -> dict[str, Any]:
 def _find_stale_duplicates(offers: list[Any], official_ids: set[str]) -> list[dict[str, Any]]:
     """Snapshot offers confirmed stale by the official catalog.
 
-    Groups offers by their exact item-name set and by their exact (casefolded)
-    display name: both signals catch API entries left behind at an old price
-    while a variant (same contents or same name) is live at a new price. A
-    group is only eligible when it has more than one offerId and at least two
-    distinct prices; the stale entries are removed only when the official
-    catalog confirms exactly one offerId of the group as current. Anything
-    ambiguous is kept, and without official data nothing is removed.
+    Groups offers by their exact item-name set: this catches API entries
+    left behind at an old price while the identical bundle is live at a new
+    price. A group is only eligible when it has more than one offerId and at
+    least two distinct prices; the stale entries are removed only when the
+    official catalog confirms exactly one offerId of the group as current.
+    Anything ambiguous is kept, and without official data nothing is removed.
+    Same-name variants with different contents are handled by
+    _find_suspected_stale and are never removed here.
     """
     if not official_ids:
         return []
@@ -167,10 +171,7 @@ def _find_stale_duplicates(offers: list[Any], official_ids: set[str]) -> list[di
     for offer in offers:
         item_names = _offer_item_names(offer)
         if item_names:
-            groups.setdefault(("items", frozenset(item_names)), []).append(offer)
-        name = _offer_name(offer)
-        if isinstance(name, str) and name.strip():
-            groups.setdefault(("name", name.strip().casefold()), []).append(offer)
+            groups.setdefault(frozenset(item_names), []).append(offer)
     stale_by_id: dict[str, dict[str, Any]] = {}
     for group in groups.values():
         offer_ids = {_offer_id(offer) for offer in group}
@@ -193,6 +194,39 @@ def _find_stale_duplicates(offers: list[Any], official_ids: set[str]) -> list[di
                 "keptOfferId": kept_id,
             }
     return list(stale_by_id.values())
+
+
+def _find_suspected_stale(offers: list[Any], official_ids: set[str]) -> list[dict[str, Any]]:
+    """Same-name offer groups at different prices: reported, never removed.
+
+    A partial official catalog can miss a legitimate variant, so code must
+    not delete these; the bridge (human curation) decides.
+    """
+    groups: dict[str, list[Any]] = {}
+    for offer in offers:
+        name = _offer_name(offer)
+        if isinstance(name, str) and name.strip():
+            groups.setdefault(name.strip().casefold(), []).append(offer)
+    suspected: list[dict[str, Any]] = []
+    for group in groups.values():
+        offer_ids = {_offer_id(offer) for offer in group}
+        offer_ids.discard(None)
+        prices = {_offer_price(offer) for offer in group}
+        if len(offer_ids) < 2 or len(prices) < 2:
+            continue
+        item_sets = {frozenset(_offer_item_names(offer)) for offer in group}
+        if len(item_sets) == 1:
+            continue  # identical content: handled (and possibly removed) by _find_stale_duplicates
+        confirmed = sorted(offer_ids & official_ids)
+        suspected.append(
+            {
+                "name": _offer_name(group[0]),
+                "offerIds": sorted(offer_ids),
+                "prices": sorted(price for price in prices if isinstance(price, (int, float))),
+                "officialConfirmedOfferIds": confirmed,
+            }
+        )
+    return suspected
 
 
 def _audit_bundle_items(snapshot_offers: list[Any], official_tiles: list[dict]) -> list[dict[str, Any]]:
@@ -266,6 +300,7 @@ def merge_official(snapshot: Any, official_tiles: list[dict]) -> tuple[Any, list
 
     extra = {
         "removed_stale": stale,
+        "suspected_stale": _find_suspected_stale(_snapshot_offers(snapshot), official_ids),
         "missing_items": _audit_bundle_items(_snapshot_offers(snapshot), official_tiles),
     }
     return augmented, merged_ids, extra
@@ -292,6 +327,7 @@ def run(snapshot_path: str, official_path: str, out_path: str) -> dict[str, Any]
         "official": len(tiles),
         "merged": len(merged_ids),
         "removed_stale": len(extra["removed_stale"]),
+        "suspected_stale": len(extra["suspected_stale"]),
         "missing_items": len(extra["missing_items"]),
         "skipped_non_vbucks": report["skipped_non_vbucks"],
         "augmented": len(_snapshot_offers(augmented)),
@@ -302,6 +338,7 @@ def run(snapshot_path: str, official_path: str, out_path: str) -> dict[str, Any]
     sidecar = {
         "merged": merged_ids,
         "removed_stale": extra["removed_stale"],
+        "suspected_stale": extra["suspected_stale"],
         "missing_items": extra["missing_items"],
         "provenance": PROVENANCE,
         "counts": counts,

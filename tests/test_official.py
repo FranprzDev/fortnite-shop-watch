@@ -78,17 +78,50 @@ def test_merge_removes_stale_duplicate_only_when_official_confirms_current():
     assert merged_ids == []
 
 
-def test_merge_removes_stale_by_same_name_with_different_item_sets():
-    # Real 2026-11-08 case: same bundle name, different sizes/prices; the
-    # official catalog shows only the current offerId.
-    stale = make_offer("old", 1000, ["Skin X"], name="Lote X")
+def test_same_name_variants_are_never_removed_only_reported():
+    # Real 2026-11-08 case: same bundle name, different sizes/prices. Even
+    # with the official catalog confirming one offerId, a partial scrape
+    # could be missing a legitimate variant, so code must keep both and
+    # report the group for human curation.
+    older = make_offer("old", 1000, ["Skin X"], name="Lote X")
     current = make_offer("new", 1500, ["Skin X", "Pickaxe X", "Glider X", "Wrap X"], name="Lote X")
-    snapshot = snapshot_with([stale, current])
+    snapshot = snapshot_with([older, current])
     augmented, _, extra = merge_official(snapshot, [make_tile("new", 1500)])
-    assert {offer["offerId"] for offer in augmented["offers"]} == {"new"}
-    assert extra["removed_stale"] == [
-        {"offerId": "old", "name": "Lote X", "finalPrice": 1000, "keptOfferId": "new"}
+    assert {offer["offerId"] for offer in augmented["offers"]} == {"old", "new"}
+    assert extra["removed_stale"] == []
+    assert extra["suspected_stale"] == [
+        {
+            "name": "Lote X",
+            "offerIds": ["new", "old"],
+            "prices": [1000, 1500],
+            "officialConfirmedOfferIds": ["new"],
+        }
     ]
+
+
+def test_partial_catalog_missing_variant_does_not_remove_it():
+    # Partial scrape: official shows only the cheap variant; the expensive
+    # one may still be live. Nothing is removed.
+    cheap = make_offer("cheap", 800, ["Skin Y"], name="Lote Y")
+    full = make_offer("full", 1600, ["Skin Y", "Glider Y"], name="Lote Y")
+    snapshot = snapshot_with([cheap, full])
+    augmented, _, extra = merge_official(snapshot, [make_tile("cheap", 800)])
+    assert {offer["offerId"] for offer in augmented["offers"]} == {"cheap", "full"}
+    assert extra["removed_stale"] == []
+    assert extra["suspected_stale"][0]["officialConfirmedOfferIds"] == ["cheap"]
+
+
+def test_partial_catalog_missing_jam_tracks_leaves_them_untouched():
+    # The official main page shows only a subset of jam tracks; API offers
+    # absent from the official catalog must survive the merge.
+    track_a = make_offer("t1", 500, ["Song A - Artist A"], name="Song A - Artist A")
+    track_b = make_offer("t2", 500, ["Song B - Artist B"], name="Song B - Artist B")
+    skin = make_offer("s1", 1200, ["Skin Z"], name="Skin Z")
+    snapshot = snapshot_with([track_a, track_b, skin])
+    augmented, _, extra = merge_official(snapshot, [make_tile("s1", 1200)])
+    assert {offer["offerId"] for offer in augmented["offers"]} == {"t1", "t2", "s1"}
+    assert extra["removed_stale"] == []
+    assert extra["suspected_stale"] == []
 
 
 def test_merge_keeps_same_name_group_when_official_shows_both():
