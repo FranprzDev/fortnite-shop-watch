@@ -1,4 +1,4 @@
-reportlab
-pillow
-scipy
-numpy
+reportlab>=4,<6
+pillow>=13.0.0,<14
+scipy>=1.15,<2
+numpy>=2.2,<3
