@@ -23,3 +23,14 @@ Guarda el último estado en `data/shop-latest.json` y el reporte del día en `re
 ## Disparar el workflow a mano
 
 Desde la pestaña Actions de GitHub: `daily-shop-watch` → `Run workflow`.
+
+## Cruce con la web oficial
+
+El workflow puede fusionar el snapshot de la API con el catálogo de la web oficial (`python -m shopwatch.official`), pero solo cuando existe `data/official-latest.json` y su fecha de tienda coincide con la del snapshot; si no, el paso se salta y el reporte queda solo con datos de la API. Reglas de la fusión:
+
+- Los tiles que no son PaVos (dinero real) se ignoran y solo se cuentan.
+- Duplicados viejos de la API (mismo set de artículos, otro offerId/precio) se quitan únicamente cuando el catálogo oficial confirma cuál es el offerId vigente; sin datos oficiales no se borra nada.
+- Si un tile oficial trae la lista de artículos del lote, los faltantes respecto de la API se registran en el reporte lateral (`<salida>.official-report.json`) sin modificar la oferta.
+- Nombres: para ofertas presentes en la API manda el nombre de la API (español); los tiles que solo existen en la web oficial entran con el título del tile y `provenance: official-web`.
+
+El scrape oficial necesita navegador en la nube (Cloudflare bloquea el fetch plano), así que hoy esa captura queda fuera de Actions como etapa puente; el merge en CI solo aplica cuando el catálogo oficial del día ya está en `data/`.
