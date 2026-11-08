@@ -307,24 +307,6 @@
     {
       "kind": "added",
       "offer": {
-        "offerId": "v2:/c91f78b1c4e5fc62568c0935da2e944b3b3fd9090b329d682cd7d33188afd416",
-        "section": "alc.0",
-        "name": "Lote de Combatiente del destino",
-        "devName": "[VIRTUAL]1 x Elowen, 1 x Carver of Fate for -1 MtxCurrency",
-        "itemNames": [
-          "Elowen",
-          "Talladora del destino"
-        ],
-        "finalPrice": 1000,
-        "regularPrice": 1000,
-        "outDate": "2026-11-09T23:59:59.999Z",
-        "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7b08a1d48afccd35/renderimage_0.png",
-        "currency": "MtxCurrency"
-      }
-    },
-    {
-      "kind": "added",
-      "offer": {
         "offerId": "v2:/1d114b879f80f65a7001b7f12d2ca3b4c097c9725f6e603fbdea1c8e337ca6e3",
         "section": "One Piece ",
         "name": "Tony Tony Chopper",
@@ -587,7 +569,8 @@
           "Llamas",
           "Alas",
           "Rayas",
-          "Rayos"
+          "Rayos",
+          "Ruedas Bugatti Centodieci (nombre oficial pendiente)"
         ],
         "finalPrice": 2800,
         "regularPrice": 2800,
@@ -1473,57 +1456,6 @@
         "regularPrice": 1500,
         "outDate": "2026-11-07T23:59:59.999Z",
         "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4384dbb6566f7c24/renderimage_0.png",
-        "currency": "MtxCurrency"
-      }
-    },
-    {
-      "kind": "removed",
-      "offer": {
-        "offerId": "v2:/7bf57cf95596c52621d1d53428be14aa565a0b32eb1d337c2a0bbc85ca91d946",
-        "section": "Accesorios de vehículo",
-        "name": "Twista",
-        "devName": "[VIRTUAL]1 x Twista for 400 MtxCurrency",
-        "itemNames": [
-          "Twista"
-        ],
-        "finalPrice": 400,
-        "regularPrice": 400,
-        "outDate": "2026-11-13T23:59:59.999Z",
-        "imageUrl": "https://ucs-images.fortnite.com/blobs/38/37/9c61-5a21-4bdd-8be3-f77e7031b7a8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA2SBBZFECCYQWRK6G%2F20261107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261107T001049Z&X-Amz-Expires=90000&X-Amz-Signature=c149444c4c8bd0518fbd19ea96fad658949ad0d104990404505f62ce69987bcc&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3D%22file.png%22%3Bfilename%2A%3DUTF-8%27%27cap-512x512.png&x-id=GetObject",
-        "currency": "MtxCurrency"
-      }
-    },
-    {
-      "kind": "removed",
-      "offer": {
-        "offerId": "v2:/4f45805b4479324d989063d975866763c817e5a6bb5761d8a593846f55509550",
-        "section": "Accesorios de vehículo",
-        "name": "Bell Saver",
-        "devName": "[VIRTUAL]1 x Bell Saver for 400 MtxCurrency",
-        "itemNames": [
-          "Bell Saver"
-        ],
-        "finalPrice": 400,
-        "regularPrice": 700,
-        "outDate": "2026-11-13T23:59:59.999Z",
-        "imageUrl": "https://ucs-images.fortnite.com/blobs/3b/0e/c900-a598-47cd-93cd-47e8d07fc845?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA2SBBZFECCYQWRK6G%2F20261107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261107T001049Z&X-Amz-Expires=90000&X-Amz-Signature=9d148e766f0597d1e32a2fe490faed03437185a9ab31c12881e00096574a121d&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3D%22file.png%22%3Bfilename%2A%3DUTF-8%27%27cap-512x512.png&x-id=GetObject",
-        "currency": "MtxCurrency"
-      }
-    },
-    {
-      "kind": "removed",
-      "offer": {
-        "offerId": "v2:/7ce7fa4cc74e9953fcb737fe8f64adf3d6ca4178d05abf304ba327075d84a646",
-        "section": "Accesorios de vehículo",
-        "name": "Toon Hydro",
-        "devName": "[VIRTUAL]1 x Toon Hydro for 300 MtxCurrency",
-        "itemNames": [
-          "Toon Hydro"
-        ],
-        "finalPrice": 300,
-        "regularPrice": 300,
-        "outDate": "2026-11-13T23:59:59.999Z",
-        "imageUrl": "https://ucs-images.fortnite.com/blobs/cd/79/555f-cb84-40fb-878a-aeea73ccd788?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA2SBBZFECCYQWRK6G%2F20261107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261107T001049Z&X-Amz-Expires=90000&X-Amz-Signature=54a05787bd662da7c3fc992fbe4346a680f34f883bc3992ffc1c6f947f0fc442&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3D%22file.png%22%3Bfilename%2A%3DUTF-8%27%27cap-512x512.png&x-id=GetObject",
         "currency": "MtxCurrency"
       }
     }
