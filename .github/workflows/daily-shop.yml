@@ -24,17 +24,12 @@ jobs:
       - run: python -m shopwatch
       - name: Merge official catalog when available for the same shop date
         run: |
+          SNAP=data/shop-latest.json
           OFFICIAL=data/official-latest.json
-          if [ -f "$OFFICIAL" ]; then
-            SNAP_DATE=$(jq -r '.date' data/shop-latest.json | cut -c1-10)
-            OFF_DATE=$(jq -r '.date // ""' "$OFFICIAL" | cut -c1-10)
-            if [ -n "$OFF_DATE" ] && [ "$OFF_DATE" = "$SNAP_DATE" ]; then
-              python -m shopwatch.official data/shop-latest.json "$OFFICIAL" --out data/shop-latest.json
-            else
-              echo "official catalog missing or date mismatch ($OFF_DATE vs $SNAP_DATE), skipping"
-            fi
+          if [ -f "$OFFICIAL" ] && python -m shopwatch.official "$SNAP" "$OFFICIAL" --check-date; then
+            python -m shopwatch.official "$SNAP" "$OFFICIAL" --out "$SNAP"
           else
-            echo "no official catalog, skipping"
+            echo "official catalog missing or different shop date, skipping"
           fi
       - name: Open PR with snapshot and report
         env:
