@@ -22,6 +22,20 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python -m shopwatch
+      - name: Merge official catalog when available for the same shop date
+        run: |
+          OFFICIAL=data/official-latest.json
+          if [ -f "$OFFICIAL" ]; then
+            SNAP_DATE=$(jq -r '.date' data/shop-latest.json | cut -c1-10)
+            OFF_DATE=$(jq -r '.date // ""' "$OFFICIAL" | cut -c1-10)
+            if [ -n "$OFF_DATE" ] && [ "$OFF_DATE" = "$SNAP_DATE" ]; then
+              python -m shopwatch.official data/shop-latest.json "$OFFICIAL" --out data/shop-latest.json
+            else
+              echo "official catalog missing or date mismatch ($OFF_DATE vs $SNAP_DATE), skipping"
+            fi
+          else
+            echo "no official catalog, skipping"
+          fi
       - name: Open PR with snapshot and report
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
