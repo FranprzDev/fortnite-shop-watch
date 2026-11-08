@@ -3,6 +3,7 @@ import os
 import re
 import sys
 import time
+import urllib.parse
 import urllib.request
 from io import BytesIO
 
@@ -209,15 +210,32 @@ def composite_rgba(rgba, background):
     return tile
 
 
+ALLOWED_IMAGE_HOSTS = frozenset(
+    {
+        "fortnite-api.com",
+        "cdn.fortnite-api.com",
+        "ucs-images.fortnite.com",
+        "cdn2.unrealengine.com",
+    }
+)
+MAX_IMAGE_BYTES = 8 * 1024 * 1024
+
+
 def fetch_thumb(url):
     if not url:
+        return None
+    parsed = urllib.parse.urlparse(url)
+    if parsed.scheme != "https" or parsed.netloc not in ALLOWED_IMAGE_HOSTS:
         return None
     for attempt in range(3):
         try:
             request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
             with urllib.request.urlopen(request, timeout=20) as response:
-                raw = Image.open(BytesIO(response.read()))
-                raw.load()
+                payload = response.read(MAX_IMAGE_BYTES + 1)
+            if len(payload) > MAX_IMAGE_BYTES:
+                return None
+            raw = Image.open(BytesIO(payload))
+            raw.load()
             if raw.mode in ("RGBA", "LA") or (raw.mode == "P" and "transparency" in raw.info):
                 rgba = raw.convert("RGBA")
                 composed = composite_rgba(rgba, DARK_TILE)
