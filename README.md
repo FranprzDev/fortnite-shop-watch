@@ -33,4 +33,9 @@ El workflow puede fusionar el snapshot de la API con el catálogo de la web ofic
 - Si un tile oficial trae la lista de artículos del lote, los faltantes respecto de la API se registran en el reporte lateral (`<salida>.official-report.json`) sin modificar la oferta.
 - Nombres: para ofertas presentes en la API manda el nombre de la API (español); los tiles que solo existen en la web oficial entran con el título del tile y `provenance: official-web`.
 
-El scrape oficial necesita navegador en la nube (Cloudflare bloquea el fetch plano), así que hoy esa captura queda fuera de Actions como etapa puente; el merge en CI solo aplica cuando el catálogo oficial del día ya está en `data/`.
+El scrape oficial necesita navegador en la nube (Cloudflare bloquea el acceso desde IPs de datacenter, verificado con Chromium headless en un runner de Actions), así que la captura queda fuera de Actions como etapa puente asistida: la captura diaria llega en el PR del día como `data/official-latest.json`.
+
+La reconciliación se valida en dos puntos, ambos con la misma lógica de fecha testeada (`--check-date`):
+
+- **Job programado** (`daily-shop.yml`): fusiona el snapshot con el catálogo oficial solo si ambos llevan la misma fecha de tienda; si no, se salta.
+- **Gate de PR** (`test.yml`, job `official-reconcile`): cuando el PR del día incluye `data/official-latest.json` con la fecha del snapshot, corre el merge en modo verificación y falla si hay `price_mismatches` (`--fail-on-price-mismatch`); el reporte lateral queda como artifact del run. Si el PR no trae captura de la misma fecha (PR solo-API o de código), el gate se salta sin fallar.

@@ -29,6 +29,21 @@ from .models import VBUCKS_CURRENCY
 PROVENANCE = "official-web"
 
 
+def shop_date(payload: Any) -> Optional[str]:
+    """Shop date (YYYY-MM-DD) carried by a snapshot or official catalog payload."""
+    if isinstance(payload, dict):
+        value = payload.get("date")
+        if isinstance(value, str) and len(value) >= 10:
+            return value[:10]
+    return None
+
+
+def same_shop_date(snapshot: Any, official: Any) -> bool:
+    """True only when both payloads carry the same shop date."""
+    snap_date = shop_date(snapshot)
+    return bool(snap_date) and snap_date == shop_date(official)
+
+
 def _snapshot_offers(snapshot: Any) -> list[Any]:
     if isinstance(snapshot, dict):
         return list(snapshot.get("offers") or [])
@@ -349,6 +364,11 @@ def run(snapshot_path: str, official_path: str, out_path: str) -> dict[str, Any]
     return sidecar
 
 
+def _load_json(path: str) -> Any:
+    with open(path, "r", encoding="utf-8") as handle:
+        return json.load(handle)
+
+
 def main(argv: Optional[list[str]] = None) -> int:
     parser = argparse.ArgumentParser(
         prog="shopwatch.official",
@@ -356,8 +376,37 @@ def main(argv: Optional[list[str]] = None) -> int:
     )
     parser.add_argument("snapshot", help="Snapshot JSON de la API")
     parser.add_argument("official", help="Catálogo JSON oficial (tiles del loaderData)")
-    parser.add_argument("--out", required=True, help="Ruta del snapshot aumentado")
+    parser.add_argument("--out", help="Ruta del snapshot aumentado")
+    parser.add_argument(
+        "--check-date",
+        action="store_true",
+        help="Solo verifica que ambas fechas de tienda coincidan (exit 0/1), sin fusionar",
+    )
+    parser.add_argument(
+        "--fail-on-price-mismatch",
+        action="store_true",
+        help="Falla (exit 2) si alguna oferta compartida difiere de precio entre API y catálogo oficial",
+    )
     args = parser.parse_args(argv)
+
+    if args.check_date:
+        try:
+            snapshot = _load_json(args.snapshot)
+            official = _load_json(args.official)
+        except Exception as exc:  # noqa: BLE001 - CLI failure reporting
+            print(f"[shop-watch] ERROR {exc}", file=__import__("sys").stderr)
+            return 1
+        if same_shop_date(snapshot, official):
+            print(f"[shop-watch] shop dates match ({shop_date(snapshot)})")
+            return 0
+        print(
+            "[shop-watch] shop date mismatch "
+            f"({shop_date(snapshot)} vs {shop_date(official)})"
+        )
+        return 1
+
+    if not args.out:
+        parser.error("--out is required unless --check-date is used")
 
     try:
         report = run(args.snapshot, args.official, args.out)
@@ -373,6 +422,12 @@ def main(argv: Optional[list[str]] = None) -> int:
         f"{report['counts']['missing_from_api']} price_mismatches="
         f"{report['counts']['price_mismatches']}"
     )
+    if args.fail_on_price_mismatch and report["counts"]["price_mismatches"]:
+        print(
+            f"[shop-watch] ERROR price_mismatches={report['counts']['price_mismatches']}",
+            file=__import__("sys").stderr,
+        )
+        return 2
     return 0
 
 
