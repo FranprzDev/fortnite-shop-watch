@@ -1,0 +1,40 @@
+{
+  "merged": [
+    "v2:/7bf57cf95596c52621d1d53428be14aa565a0b32eb1d337c2a0bbc85ca91d946",
+    "v2:/4f45805b4479324d989063d975866763c817e5a6bb5761d8a593846f55509550",
+    "v2:/7ce7fa4cc74e9953fcb737fe8f64adf3d6ca4178d05abf304ba327075d84a646"
+  ],
+  "removed_stale": [],
+  "suspected_stale": [
+    {
+      "name": "Soldado de asalto samurái",
+      "offerIds": [
+        "v2:/1e0a7464e616cfe5790ffd6821de1f9f923ea865d4f00ff4f3c3778cb93e8884",
+        "v2:/d55e0d0c11a81a9c6ef543228c54cba8442e3fb541c5036fab39f21359e2b01a"
+      ],
+      "prices": [
+        500,
+        1500
+      ],
+      "officialConfirmedOfferIds": [
+        "v2:/1e0a7464e616cfe5790ffd6821de1f9f923ea865d4f00ff4f3c3778cb93e8884",
+        "v2:/d55e0d0c11a81a9c6ef543228c54cba8442e3fb541c5036fab39f21359e2b01a"
+      ]
+    }
+  ],
+  "missing_items": [],
+  "provenance": "official-web",
+  "counts": {
+    "snapshot": 336,
+    "official": 359,
+    "merged": 3,
+    "removed_stale": 0,
+    "suspected_stale": 1,
+    "missing_items": 0,
+    "skipped_non_vbucks": 0,
+    "augmented": 339,
+    "missing_from_api": 3,
+    "missing_from_official": 0,
+    "price_mismatches": 0
+  }
+}
