@@ -1,0 +1,40 @@
+{
+  "merged": [
+    "v2:/7bf57cf95596c52621d1d53428be14aa565a0b32eb1d337c2a0bbc85ca91d946",
+    "v2:/21324578c68b58a7bd8d2fbb44bb863f6e985df324d237533bfbf646513b35a2",
+    "v2:/7ce7fa4cc74e9953fcb737fe8f64adf3d6ca4178d05abf304ba327075d84a646"
+  ],
+  "removed_stale": [],
+  "suspected_stale": [
+    {
+      "name": "Rivian R1S",
+      "offerIds": [
+        "v2:/ecab8d09be3ee9d091800014dfc35d8e1999eebb62ec91a6dd84fbeeb6ba6f83",
+        "v2:/f1a22849b54a908afce3a6ce555f9f3ef3919490dfd5c8af022a49e0f4a4f45a"
+      ],
+      "prices": [
+        400,
+        2000
+      ],
+      "officialConfirmedOfferIds": [
+        "v2:/ecab8d09be3ee9d091800014dfc35d8e1999eebb62ec91a6dd84fbeeb6ba6f83",
+        "v2:/f1a22849b54a908afce3a6ce555f9f3ef3919490dfd5c8af022a49e0f4a4f45a"
+      ]
+    }
+  ],
+  "missing_items": [],
+  "provenance": "official-web",
+  "counts": {
+    "snapshot": 323,
+    "official": 326,
+    "merged": 3,
+    "removed_stale": 0,
+    "suspected_stale": 1,
+    "missing_items": 0,
+    "skipped_non_vbucks": 0,
+    "augmented": 326,
+    "missing_from_api": 3,
+    "missing_from_official": 0,
+    "price_mismatches": 0
+  }
+}
