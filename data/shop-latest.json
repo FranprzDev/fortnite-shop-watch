@@ -1,6 +1,6 @@
 {
- "date": "2026-11-23T00:00:00Z",
- "hash": "98bc24bdb0db90e8",
+ "date": "2026-11-24T00:00:00Z",
+ "hash": "440a78dce4938b43",
  "offers": [
   {
    "offerId": "v2:/b87a75d06599244d5822d378251606acd3b621dfb7cf5324f8a41dc87b3f4d20",
@@ -25,28 +25,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/7da448c18979bb56f2b0abfa2a0ca2a06105702f661081e34f3dabc375b9bc89",
-   "section": "Regular Show",
-   "name": "Oooohhh!",
-   "devName": "[VIRTUAL]1 x Oooohhh! for 400 MtxCurrency",
-   "itemNames": [
-    "Oooohhh!"
-   ],
-   "finalPrice": 400,
-   "regularPrice": 400,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/09e514eabdc58994/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "EID_VouchTrig",
-     "name": "Oooohhh!",
-     "type": "emote"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/34c1de1acb6b74b99103ed15c0f46e0e1796fcd0385bc436a0c54d6bc1af6c82",
    "section": "Harvest Season",
    "name": "Gold Digger",
@@ -64,78 +42,6 @@
      "id": "Pickaxe_ID_169_Farmer",
      "name": "Gold Digger",
      "type": "pickaxe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/461be477d9fb17482129caa353e28b5c39d45dd288714d12e890b45ed3349b07",
-   "section": "No Sweat",
-   "name": "Victoria Saint",
-   "devName": "[VIRTUAL]1 x Victoria Saint, 1 x Slayer's Saddlebag for -1 MtxCurrency",
-   "itemNames": [
-    "Victoria Saint",
-    "Slayer's Saddlebag"
-   ],
-   "finalPrice": 1200,
-   "regularPrice": 1200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/025f2516b2a37ffc/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "CID_869_Athena_Commando_F_Cavalry",
-     "name": "Victoria Saint",
-     "type": "outfit"
-    },
-    {
-     "id": "BID_616_Cavalry",
-     "name": "Slayer's Saddlebag",
-     "type": "backpack"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/bdd40bf39244fc139be1cbb0fa72386e8be55f2b11eb995e0245765d1c6295da",
-   "section": "Regular Show",
-   "name": "Maximum Glove",
-   "devName": "[VIRTUAL]1 x Maximum Glove for 500 MtxCurrency",
-   "itemNames": [
-    "Maximum Glove"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b11155c00602344e/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Pickaxe_VouchTrig",
-     "name": "Maximum Glove",
-     "type": "pickaxe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/0bee7da1281939f46e8be691474aa2c30029f7384c22a78095dbf52605deb639",
-   "section": "Harvest Season",
-   "name": "Autumn",
-   "devName": "[VIRTUAL]1 x Autumn for 800 MtxCurrency",
-   "itemNames": [
-    "Autumn"
-   ],
-   "finalPrice": 800,
-   "regularPrice": 800,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/084b2ed615adaca9/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Character_OakWeld",
-     "name": "Autumn",
-     "type": "outfit"
     }
    ],
    "namedBundle": false
@@ -223,6 +129,28 @@
    "namedBundle": true
   },
   {
+   "offerId": "v2:/0bee7da1281939f46e8be691474aa2c30029f7384c22a78095dbf52605deb639",
+   "section": "Harvest Season",
+   "name": "Autumn",
+   "devName": "[VIRTUAL]1 x Autumn for 800 MtxCurrency",
+   "itemNames": [
+    "Autumn"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/084b2ed615adaca9/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_OakWeld",
+     "name": "Autumn",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/63e8915b99ee86cda3f556b28718e4501042aea0738c71e6f935d23ae06c17f9",
    "section": "Overwatch",
    "name": "Ryū Ichimonji",
@@ -279,28 +207,6 @@
    "namedBundle": true
   },
   {
-   "offerId": "v2:/ef27fc2555667387a205edc6a905f9eb2831ef55f7f98a9986684435bf15fbd9",
-   "section": "Harvest Season",
-   "name": "Smashrooms",
-   "devName": "[VIRTUAL]1 x Smashrooms for 800 MtxCurrency",
-   "itemNames": [
-    "Smashrooms"
-   ],
-   "finalPrice": 800,
-   "regularPrice": 800,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/450f80387ea697da/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Pickaxe_ID_321_ForestQueenFemale1H",
-     "name": "Smashrooms",
-     "type": "pickaxe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/eb0cbf02511bf4265f3d44ebe3fd0b7e5eb31ac734da3b008accd71cad5798fc",
    "section": "alc.0",
    "name": "Auric",
@@ -318,6 +224,28 @@
      "id": "BID_639_BabaYaga",
      "name": "Auric",
      "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/ef27fc2555667387a205edc6a905f9eb2831ef55f7f98a9986684435bf15fbd9",
+   "section": "Harvest Season",
+   "name": "Smashrooms",
+   "devName": "[VIRTUAL]1 x Smashrooms for 800 MtxCurrency",
+   "itemNames": [
+    "Smashrooms"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/450f80387ea697da/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Pickaxe_ID_321_ForestQueenFemale1H",
+     "name": "Smashrooms",
+     "type": "pickaxe"
     }
    ],
    "namedBundle": false
@@ -461,6 +389,28 @@
    "namedBundle": true
   },
   {
+   "offerId": "v2:/eec5cad3f725532b013c804af81bda2edea35171d72a9e41d6792eab093f2948",
+   "section": "A$AP Rocky",
+   "name": "A$AP's Gauntlets",
+   "devName": "[VIRTUAL]1 x A$AP's Gauntlets for 800 MtxCurrency",
+   "itemNames": [
+    "A$AP's Gauntlets"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-12-06T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/753cb647f77b84a0/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Pickaxe_TonicMailYam",
+     "name": "A$AP's Gauntlets",
+     "type": "pickaxe"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/9c4e42fc0c839bc89fd26128e447df28e849a007aeed77ca7919db93593a78fa",
    "section": "Harvest Season",
    "name": "Terns",
@@ -484,28 +434,6 @@
      "id": "BID_414_ForestDwellerMale",
      "name": "Hollow Horn",
      "type": "backpack"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/eec5cad3f725532b013c804af81bda2edea35171d72a9e41d6792eab093f2948",
-   "section": "A$AP Rocky",
-   "name": "A$AP's Gauntlets",
-   "devName": "[VIRTUAL]1 x A$AP's Gauntlets for 800 MtxCurrency",
-   "itemNames": [
-    "A$AP's Gauntlets"
-   ],
-   "finalPrice": 800,
-   "regularPrice": 800,
-   "outDate": "2026-12-06T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/753cb647f77b84a0/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Pickaxe_TonicMailYam",
-     "name": "A$AP's Gauntlets",
-     "type": "pickaxe"
     }
    ],
    "namedBundle": false
@@ -585,28 +513,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/31500b4ea842be504276ffd87d165ce88be2314b26a65e8f1addfa92f1c79532",
-   "section": "Main Character Energy ",
-   "name": "Nine Lives Remaining",
-   "devName": "[VIRTUAL]1 x Nine Lives Remaining for 500 MtxCurrency",
-   "itemNames": [
-    "Nine Lives Remaining"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2a2310e5923f2de6/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Wrap_BionicKitty",
-     "name": "Nine Lives Remaining",
-     "type": "wrap"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/f7dc51160db6326a32387e06f13b086106c8a6a987707a0a3d63edf509077d38",
    "section": "Jam Tracks",
    "name": "As Alive As You Need Me To Be - Nine Inch Nails",
@@ -667,28 +573,6 @@
     {
      "id": "Pickaxe_SpruceBark",
      "name": "Crash's Wumpa Mace",
-     "type": "pickaxe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/dc659f614f3868f64efbe346ab1b57e3b65aaa030fe3c88e477d4116eea25154",
-   "section": "Cowboy Bebop",
-   "name": "Red Tail Reaver",
-   "devName": "[VIRTUAL]1 x Red Tail Reaver for 800 MtxCurrency",
-   "itemNames": [
-    "Red Tail Reaver"
-   ],
-   "finalPrice": 800,
-   "regularPrice": 800,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0a5d429449925dce/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Pickaxe_KneeLens",
-     "name": "Red Tail Reaver",
      "type": "pickaxe"
     }
    ],
@@ -837,6 +721,28 @@
    "namedBundle": true
   },
   {
+   "offerId": "v2:/b23d2569f49b86b73a360a2a46a78b97677922bcc739d8bd9d7a6847b7e6b019",
+   "section": "One-Punch Man",
+   "name": "Psychokinesis",
+   "devName": "[VIRTUAL]1 x Psychokinesis for 300 MtxCurrency",
+   "itemNames": [
+    "Psychokinesis"
+   ],
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a22418eec81fa8bb/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "EID_IvyStub",
+     "name": "Psychokinesis",
+     "type": "emote"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/df9f9771810ae572897a0dc7f6774784027b8fba7023d28bdbe1fc0c8caf5070",
    "section": "Get Your Kicks",
    "name": "Hippo Stompers",
@@ -854,28 +760,6 @@
      "id": "Shoes_HeavyPlunge",
      "name": "Hippo Stompers",
      "type": "shoe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/428bd0dc83d4f6222d0c40f5e12ef00d3712a099e9f399d08528a9b239c06d2e",
-   "section": "The Sidekick Squad",
-   "name": "Stone Gryphon",
-   "devName": "[VIRTUAL]1 x Stone Gryphon for 1200 MtxCurrency",
-   "itemNames": [
-    "Stone Gryphon"
-   ],
-   "finalPrice": 1200,
-   "regularPrice": 1200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5f56aa99b785ffd2/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Companion_RockCrest",
-     "name": "Stone Gryphon",
-     "type": "sidekick"
     }
    ],
    "namedBundle": false
@@ -1065,6 +949,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/8b2bccd9026c84a75b31f6dbc309e4e4599177e196652cb23de9f713b4b6e714",
+   "section": "Main Character Energy ",
+   "name": "2-Ball",
+   "devName": "[VIRTUAL]1 x 2-Ball for 800 MtxCurrency",
+   "itemNames": [
+    "2-Ball"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-25T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0996551f69f5fb49/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_ShortRack",
+     "name": "2-Ball",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/d2a5c76f2a52967f611e3302cff1d66875a49f4080d6b406c55f7dbbb502cd32",
    "section": "Jam Tracks",
    "name": "Say It Ain't So - Weezer",
@@ -1225,28 +1131,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/fbd8a605ad74070909f0df7e343563a28a76fb91b0bd20820bd4a677f30b5be2",
-   "section": "Jam Tracks",
-   "name": "Break From Toronto - PARTYNEXTDOOR",
-   "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_425) for 500 MtxCurrency",
-   "itemNames": [
-    "Break From Toronto - PARTYNEXTDOOR"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://cdn.fortnite-api.com/tracks/a0ed31a5b6470282.jpg",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "sid_placeholder_425",
-     "name": "Break From Toronto",
-     "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/73a3d394de0ffac0c6f76e56226d2ddf556caedfd22740d8a600955cf51449b4",
    "section": "Jam Tracks",
    "name": "Blitzkrieg Bop - Ramones",
@@ -1263,6 +1147,28 @@
     {
      "id": "sid_placeholder_244",
      "name": "Blitzkrieg Bop",
+     "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/fbd8a605ad74070909f0df7e343563a28a76fb91b0bd20820bd4a677f30b5be2",
+   "section": "Jam Tracks",
+   "name": "Break From Toronto - PARTYNEXTDOOR",
+   "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_425) for 500 MtxCurrency",
+   "itemNames": [
+    "Break From Toronto - PARTYNEXTDOOR"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://cdn.fortnite-api.com/tracks/a0ed31a5b6470282.jpg",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "sid_placeholder_425",
+     "name": "Break From Toronto",
      "type": "track"
     }
    ],
@@ -1347,28 +1253,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/02b609199571e6527a4d7dacddbaead88be2e684a101a57b42c38147f8ebd637",
-   "section": "The Sidekick Squad",
-   "name": "Kitsune",
-   "devName": "[VIRTUAL]1 x Kitsune for 1200 MtxCurrency",
-   "itemNames": [
-    "Kitsune"
-   ],
-   "finalPrice": 1200,
-   "regularPrice": 1200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/900ce64c3707a381/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Companion_MuzzleSwish",
-     "name": "Kitsune",
-     "type": "sidekick"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/56b0805d73a6954f947bd7b9b227afb7fb99d33b86ea482f08d9575fdc773b82",
    "section": "Jam Tracks",
    "name": "Basket Case - Green Day",
@@ -1435,6 +1319,40 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/19052ceed030cf139e6a74aab052c8b11e728ba4d61e504c9532c50be3ce5c9d",
+   "section": "Ferrari",
+   "name": "Ferrari Bundle",
+   "devName": "[VIRTUAL]1 x Modena Icon, 1 x Maranello Racer, 1 x Ferrari Turbo for -1 MtxCurrency",
+   "itemNames": [
+    "Modena Icon",
+    "Maranello Racer",
+    "Ferrari Turbo"
+   ],
+   "finalPrice": 1400,
+   "regularPrice": 2000,
+   "outDate": "2026-11-28T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4d3663d5e71bfcf7/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "CID_A_138_Athena_Commando_F_Foray_YQPB0",
+     "name": "Modena Icon",
+     "type": "outfit"
+    },
+    {
+     "id": "CID_A_139_Athena_Commando_M_Foray_SD8AA",
+     "name": "Maranello Racer",
+     "type": "outfit"
+    },
+    {
+     "id": "BID_806_Foray_WG30D",
+     "name": "Ferrari Turbo",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": true
+  },
+  {
    "offerId": "v2:/1cd2ba088cba9b83cb2ba2700911a885bf69596d492158ab4bb85eabe7f3c4a2",
    "section": "Save The World",
    "name": "Inline Impactor",
@@ -1452,28 +1370,6 @@
      "id": "Pickaxe_ID_805_GlareMale",
      "name": "Inline Impactor",
      "type": "pickaxe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/13b56878ec3852285000317a5a32eac17cfd40f5bf162f7e15125f3d37e62c7f",
-   "section": "Jam Tracks",
-   "name": "THE DINER - Billie Eilish",
-   "devName": "[VIRTUAL]1 x THE DINER for 500 MtxCurrency",
-   "itemNames": [
-    "THE DINER - Billie Eilish"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://cdn.fortnite-api.com/tracks/f8f1d43489cafdf3.jpg",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "sid_placeholder_220",
-     "name": "THE DINER",
-     "type": "track"
     }
    ],
    "namedBundle": false
@@ -1501,29 +1397,45 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/5f14b4fe4a7ff690abcd3a7515eebfb6fe31d816bc5acd1e915bdbff34273d9e",
-   "section": "No Sweat",
-   "name": "Disco Tek Manic",
-   "devName": "[VIRTUAL]1 x Disco Tek Manic, 1 x Mirrorball for -1 MtxCurrency",
+   "offerId": "v2:/13b56878ec3852285000317a5a32eac17cfd40f5bf162f7e15125f3d37e62c7f",
+   "section": "Jam Tracks",
+   "name": "THE DINER - Billie Eilish",
+   "devName": "[VIRTUAL]1 x THE DINER for 500 MtxCurrency",
    "itemNames": [
-    "Disco Tek Manic",
-    "Mirrorball"
+    "THE DINER - Billie Eilish"
    ],
-   "finalPrice": 1200,
-   "regularPrice": 1200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/24580784a9f7b7b0/renderimage_0.png",
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://cdn.fortnite-api.com/tracks/f8f1d43489cafdf3.jpg",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "Character_TacticalRed_Disco",
-     "name": "Disco Tek Manic",
-     "type": "outfit"
-    },
+     "id": "sid_placeholder_220",
+     "name": "THE DINER",
+     "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/2f1eaabbf0da879f0c8027220d066f2de342bcd919dc82a7dcf5831c5bcec962",
+   "section": "The Sidekick Squad",
+   "name": "Lil' Lootie",
+   "devName": "[VIRTUAL]1 x Lil' Lootie for 1500 MtxCurrency",
+   "itemNames": [
+    "Lil' Lootie"
+   ],
+   "finalPrice": 1500,
+   "regularPrice": 1500,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1f74632b3270dbfe/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
     {
-     "id": "Backpack_DiscoBall",
-     "name": "Mirrorball",
-     "type": "backpack"
+     "id": "Companion_BurrBaby",
+     "name": "Lil' Lootie",
+     "type": "sidekick"
     }
    ],
    "namedBundle": false
@@ -1551,34 +1463,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/f8ce513914ffe404415726817f801d30688f3fdb99a312de67e0495a94ffaab7",
-   "section": "Regular Show",
-   "name": "Skips",
-   "devName": "[VIRTUAL]1 x Skips, 1 x Fists of Justice for -1 MtxCurrency",
-   "itemNames": [
-    "Skips",
-    "Fists of Justice"
-   ],
-   "finalPrice": 1500,
-   "regularPrice": 1500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8f07dc6665cbe0c2/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Character_RobustTorn",
-     "name": "Skips",
-     "type": "outfit"
-    },
-    {
-     "id": "Pickaxe_RobustTorn",
-     "name": "Fists of Justice",
-     "type": "pickaxe"
-    }
-   ],
-   "namedBundle": true
-  },
-  {
    "offerId": "v2:/fd457024bf58dafa9edaadf88051b47e7de9b161b2d6a1afc1e8fbf36bd50844",
    "section": "Jam Tracks",
    "name": "Firework - Katy Perry",
@@ -1596,28 +1480,6 @@
      "id": "sid_placeholder_143",
      "name": "Firework",
      "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/2f1eaabbf0da879f0c8027220d066f2de342bcd919dc82a7dcf5831c5bcec962",
-   "section": "The Sidekick Squad",
-   "name": "Lil' Lootie",
-   "devName": "[VIRTUAL]1 x Lil' Lootie for 1500 MtxCurrency",
-   "itemNames": [
-    "Lil' Lootie"
-   ],
-   "finalPrice": 1500,
-   "regularPrice": 1500,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1f74632b3270dbfe/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Companion_BurrBaby",
-     "name": "Lil' Lootie",
-     "type": "sidekick"
     }
    ],
    "namedBundle": false
@@ -1873,34 +1735,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/ae696a050b843832b35bb785bc090caef33d4a52f8d4e4e6b3331dcbf6fd6c35",
-   "section": "No Sweat",
-   "name": "Scoundrel",
-   "devName": "[VIRTUAL]1 x Scoundrel, 1 x Strongbox for -1 MtxCurrency",
-   "itemNames": [
-    "Scoundrel",
-    "Strongbox"
-   ],
-   "finalPrice": 1500,
-   "regularPrice": 1500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e0f4035c3db5755a/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "CID_134_Athena_Commando_M_Jailbird",
-     "name": "Scoundrel",
-     "type": "outfit"
-    },
-    {
-     "id": "BID_053_JailbirdMale",
-     "name": "Strongbox",
-     "type": "backpack"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/bdc931a1392075d03ab5c65b585afc74da35708cc2745d0c8ba682b39fe28055",
    "section": "Battle Beats",
    "name": "EVIL J0RDAN",
@@ -1918,28 +1752,6 @@
      "id": "EID_SummitReedGrit",
      "name": "EVIL J0RDAN",
      "type": "emote"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/e4c1817e54da7243845f5398a0343b2377c46d0d0cd5f29cdb2cfe65eb589bc4",
-   "section": "No Sweat",
-   "name": "B.R.U.T.E. Navigator",
-   "devName": "[VIRTUAL]1 x B.R.U.T.E. Navigator for 800 MtxCurrency",
-   "itemNames": [
-    "B.R.U.T.E. Navigator"
-   ],
-   "finalPrice": 800,
-   "regularPrice": 800,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/23b8ac0495708546/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "CID_494_Athena_Commando_M_MechPilotShark",
-     "name": "B.R.U.T.E. Navigator",
-     "type": "outfit"
     }
    ],
    "namedBundle": false
@@ -2075,6 +1887,34 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/82fc8816ef779fec54eee926d909f1f6be1282672b72f6082ebf021e32010899",
+   "section": "Main Character Energy ",
+   "name": "Free Range Bundle",
+   "devName": "[VIRTUAL]1 x Hensey, 1 x Chicken Chonkers for -1 MtxCurrency",
+   "itemNames": [
+    "Hensey",
+    "Chicken Chonkers"
+   ],
+   "finalPrice": 1600,
+   "regularPrice": 1800,
+   "outDate": "2026-11-25T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ca2ca145a14d93d5/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_OmelettePop",
+     "name": "Hensey",
+     "type": "outfit"
+    },
+    {
+     "id": "Shoes_BarnCourt",
+     "name": "Chicken Chonkers",
+     "type": "shoe"
+    }
+   ],
+   "namedBundle": true
+  },
+  {
    "offerId": "v2:/bb075fec94b2c6fb20e50d134796402f88695a9365a03c9fe4a125849ed297d8",
    "section": "A$AP Rocky",
    "name": "A$AP ROCKY X PUMA Straycat V6 ‘Red Flash/Black’",
@@ -2092,28 +1932,6 @@
      "id": "Shoes_TonicMailLetter",
      "name": "A$AP ROCKY X PUMA Straycat V6 ‘Red Flash/Black’",
      "type": "shoe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/107bae92055726a5555ad42dac73b315899e1c115ec78aff5f43b39ac769eb97",
-   "section": "alc.0",
-   "name": "Red Alert",
-   "devName": "[VIRTUAL]1 x Red Alert for 300 MtxCurrency",
-   "itemNames": [
-    "Red Alert"
-   ],
-   "finalPrice": 300,
-   "regularPrice": 300,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_354_streetfashionred/featured.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "BID_354_StreetFashionRed",
-     "name": "Red Alert",
-     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -2251,28 +2069,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/85fa442811bb196364a2ec03a0b929dce2cf85ae1021234801a6c1766a6ec389",
-   "section": "Cowboy Bebop",
-   "name": "Spike Spiegel",
-   "devName": "[VIRTUAL]1 x Spike Spiegel for 1500 MtxCurrency",
-   "itemNames": [
-    "Spike Spiegel"
-   ],
-   "finalPrice": 1500,
-   "regularPrice": 1500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f4dff1f825584ec0/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Character_StudyBench",
-     "name": "Spike Spiegel",
-     "type": "outfit"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/abc4352e6676e3f8f3598dc1471ff4690d8c113d69a1ada0361ee591a617d2d2",
    "section": "Jam Tracks",
    "name": "Wolves - Selena Gomez w/ Marshmello",
@@ -2317,28 +2113,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/58367efdc4d4fe113632f735198326bac8161a71b8fb9338fd7bcd9b1ae25b66",
-   "section": "Jam Tracks",
-   "name": "Nonsense - Sabrina Carpenter",
-   "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_551) for 500 MtxCurrency",
-   "itemNames": [
-    "Nonsense - Sabrina Carpenter"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://cdn.fortnite-api.com/tracks/a6915404f1c3bbb4.jpg",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "sid_placeholder_551",
-     "name": "Nonsense",
-     "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/0d0027031ca3e1a774d1d80b2287aa1507c374f66b0f7e13ad6302d391969cf8",
    "section": "Main Character Energy ",
    "name": "Cade",
@@ -2362,6 +2136,28 @@
      "id": "BID_829_ColorBlock",
      "name": "Tower of Power",
      "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/58367efdc4d4fe113632f735198326bac8161a71b8fb9338fd7bcd9b1ae25b66",
+   "section": "Jam Tracks",
+   "name": "Nonsense - Sabrina Carpenter",
+   "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_551) for 500 MtxCurrency",
+   "itemNames": [
+    "Nonsense - Sabrina Carpenter"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://cdn.fortnite-api.com/tracks/a6915404f1c3bbb4.jpg",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "sid_placeholder_551",
+     "name": "Nonsense",
+     "type": "track"
     }
    ],
    "namedBundle": false
@@ -2423,6 +2219,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/02791917d4d206ed075cf5d710036a3b81a18387a954ffdb3c5523cd6f638626",
+   "section": "Birds of a Feather",
+   "name": "Don Eggcracker",
+   "devName": "[VIRTUAL]1 x Don Eggcracker for 1200 MtxCurrency",
+   "itemNames": [
+    "Don Eggcracker"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4d691454db5a68f6/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_RoosterRoast",
+     "name": "Don Eggcracker",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/77f231fa50253e47273db6c683c38e1b367978dd6cddd3942758e57dfbdf11c7",
    "section": "Hatsune Miku",
    "name": "Miku's Anchor Floatie",
@@ -2440,28 +2258,6 @@
      "id": "Pickaxe_PeonyPizza",
      "name": "Miku's Anchor Floatie",
      "type": "pickaxe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/d67c6da5dee2c2c7809fe51ffa0276cdb66d89a391b2ec5e9faa9fb63d109fc4",
-   "section": "Get Your Kicks",
-   "name": "Air Jordan 4 Retro SE 'What The'",
-   "devName": "[VIRTUAL]1 x Air Jordan 4 Retro SE 'What The' for 800 MtxCurrency",
-   "itemNames": [
-    "Air Jordan 4 Retro SE 'What The'"
-   ],
-   "finalPrice": 800,
-   "regularPrice": 800,
-   "outDate": "2026-11-24T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/abf4e80a652dfd90/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Shoes_ChoreNoodlePebble",
-     "name": "Air Jordan 4 Retro SE 'What The'",
-     "type": "shoe"
     }
    ],
    "namedBundle": false
@@ -2489,23 +2285,95 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/1338627d1b83951fd8b2aa30140ed6c796f9cbfe5553b74defa499d7ad51f9d7",
-   "section": "Regular Show",
-   "name": "Skips' Skip",
-   "devName": "[VIRTUAL]1 x Skips' Skip for 400 MtxCurrency",
+   "offerId": "v2:/d67c6da5dee2c2c7809fe51ffa0276cdb66d89a391b2ec5e9faa9fb63d109fc4",
+   "section": "Get Your Kicks",
+   "name": "Air Jordan 4 Retro SE 'What The'",
+   "devName": "[VIRTUAL]1 x Air Jordan 4 Retro SE 'What The' for 800 MtxCurrency",
    "itemNames": [
-    "Skips' Skip"
+    "Air Jordan 4 Retro SE 'What The'"
    ],
-   "finalPrice": 400,
-   "regularPrice": 400,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/98785736cd1a69cb/renderimage_0.png",
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/abf4e80a652dfd90/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "EID_RobustTorn",
-     "name": "Skips' Skip",
-     "type": "emote"
+     "id": "Shoes_ChoreNoodlePebble",
+     "name": "Air Jordan 4 Retro SE 'What The'",
+     "type": "shoe"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/5f9772340b1174f6249c5679a29efefd2956a51af11ceb4bc03da7b896e566ee",
+   "section": "Birds of a Feather",
+   "name": "Fal-Corps Field Axe",
+   "devName": "[VIRTUAL]1 x Fal-Corps Field Axe for 500 MtxCurrency",
+   "itemNames": [
+    "Fal-Corps Field Axe"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cd5d7f49c60b0571/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Pickaxe_SwiftKestrel",
+     "name": "Fal-Corps Field Axe",
+     "type": "pickaxe"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/8881e3038466040366bfd7ba1a62dd8a4c3cd971f7e680a95c3683f794dd3bbb",
+   "section": "Birds of a Feather",
+   "name": "The Pellet of Prophecy",
+   "devName": "[VIRTUAL]1 x The Pellet of Prophecy for 400 MtxCurrency",
+   "itemNames": [
+    "The Pellet of Prophecy"
+   ],
+   "finalPrice": 400,
+   "regularPrice": 400,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e4afd092398f6938/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Backpack_WiseBarn",
+     "name": "The Pellet of Prophecy",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/0ed4f2ca1c5e7e6cd48c2a46dd9c2dc8f2a889e46dc1bf02678557d43dbe8fbe",
+   "section": "Main Character Energy ",
+   "name": "Deca-Flail",
+   "devName": "[VIRTUAL]1 x Deca-Flail, 1 x Rackpack for 800 MtxCurrency",
+   "itemNames": [
+    "Deca-Flail",
+    "Rackpack"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-25T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d204f92f47d57fcc/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Pickaxe_DecaSphere",
+     "name": "Deca-Flail",
+     "type": "pickaxe"
+    },
+    {
+     "id": "Backpack_DecaSphere",
+     "name": "Rackpack",
+     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -2533,26 +2401,80 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/cdb6f5fe5aa25d058a16ae61f7d91d614226d75d03e83a40bfa0c2dc5cb162f0",
-   "section": "alc.0",
-   "name": "Mirrorball",
-   "devName": "[VIRTUAL]1 x Mirrorball for 300 MtxCurrency",
+   "offerId": "v2:/53555c612abdd09d1452222ffa396c97ebbb096b239f1e5c72793f325bfeb117",
+   "section": "Birds of a Feather",
+   "name": "Get Flocked Bundle",
+   "devName": "[VIRTUAL]1 x Don Eggcracker, 1 x BarnDoor Point of Sale Machine, 1 x Roaster's Dozen, 1 x Ken Kestrel, 1 x Raptorstriker Bag, 1 x Fal-Corps Field Axe, 1 x Ural the Sage, 1 x The Pellet of Prophecy, 1 x Talon of Night, 1 x Curse of the Flock for -1 MtxCurrency",
    "itemNames": [
-    "Mirrorball"
+    "Don Eggcracker",
+    "BarnDoor Point of Sale Machine",
+    "Roaster's Dozen",
+    "Ken Kestrel",
+    "Raptorstriker Bag",
+    "Fal-Corps Field Axe",
+    "Ural the Sage",
+    "The Pellet of Prophecy",
+    "Talon of Night",
+    "Curse of the Flock"
    ],
-   "finalPrice": 300,
-   "regularPrice": 300,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_discoball/featured.png",
+   "finalPrice": 2800,
+   "regularPrice": 6500,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d6dfaba2343c5ffa/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "Backpack_DiscoBall",
-     "name": "Mirrorball",
+     "id": "Character_RoosterRoast",
+     "name": "Don Eggcracker",
+     "type": "outfit"
+    },
+    {
+     "id": "Backpack_RoosterRoast",
+     "name": "BarnDoor Point of Sale Machine",
      "type": "backpack"
+    },
+    {
+     "id": "Pickaxe_RoosterRoast",
+     "name": "Roaster's Dozen",
+     "type": "pickaxe"
+    },
+    {
+     "id": "Character_SwiftKestrel",
+     "name": "Ken Kestrel",
+     "type": "outfit"
+    },
+    {
+     "id": "Backpack_SwiftKestrel",
+     "name": "Raptorstriker Bag",
+     "type": "backpack"
+    },
+    {
+     "id": "Pickaxe_SwiftKestrel",
+     "name": "Fal-Corps Field Axe",
+     "type": "pickaxe"
+    },
+    {
+     "id": "Character_WiseBarn",
+     "name": "Ural the Sage",
+     "type": "outfit"
+    },
+    {
+     "id": "Backpack_WiseBarn",
+     "name": "The Pellet of Prophecy",
+     "type": "backpack"
+    },
+    {
+     "id": "Pickaxe_WiseBarn",
+     "name": "Talon of Night",
+     "type": "pickaxe"
+    },
+    {
+     "id": "Wrap_WiseBarn",
+     "name": "Curse of the Flock",
+     "type": "wrap"
     }
    ],
-   "namedBundle": false
+   "namedBundle": true
   },
   {
    "offerId": "v2:/03634bbefa2bd180710972ee5486a89b4367c69e60d83f83ab46e573a389709f",
@@ -2577,28 +2499,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/3cabf5c10fe5d09b01507fb2961d00c8c3a1761ff9162a60d3c4f1acb6134310",
-   "section": "Get Your Kicks",
-   "name": "Air Jordan 3 SE Co.JP 'Denim'",
-   "devName": "[VIRTUAL]1 x Air Jordan 3 SE Co.JP 'Denim' for 1000 MtxCurrency",
-   "itemNames": [
-    "Air Jordan 3 SE Co.JP 'Denim'"
-   ],
-   "finalPrice": 1000,
-   "regularPrice": 1000,
-   "outDate": "2026-11-26T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/535e0f57621c72f1/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Shoes_TunaCabinLard",
-     "name": "Air Jordan 3 SE Co.JP 'Denim'",
-     "type": "shoe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/159a082b93f470eca1cea54e9a718df5460a89d707748bfe5f177c46be0ee7a5",
    "section": "Treasure Hunters ",
    "name": "Year of the Beast - Epic Games",
@@ -2616,6 +2516,28 @@
      "id": "sid_placeholder_956",
      "name": "Year of the Beast",
      "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/3cabf5c10fe5d09b01507fb2961d00c8c3a1761ff9162a60d3c4f1acb6134310",
+   "section": "Get Your Kicks",
+   "name": "Air Jordan 3 SE Co.JP 'Denim'",
+   "devName": "[VIRTUAL]1 x Air Jordan 3 SE Co.JP 'Denim' for 1000 MtxCurrency",
+   "itemNames": [
+    "Air Jordan 3 SE Co.JP 'Denim'"
+   ],
+   "finalPrice": 1000,
+   "regularPrice": 1000,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/535e0f57621c72f1/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Shoes_TunaCabinLard",
+     "name": "Air Jordan 3 SE Co.JP 'Denim'",
+     "type": "shoe"
     }
    ],
    "namedBundle": false
@@ -2751,6 +2673,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/0c0ced2ae76eae1ef165c43e01f07389251676e8e8bd35e4da2d35594e3bf4c7",
+   "section": "Birds of a Feather",
+   "name": "Curse of the Flock",
+   "devName": "[VIRTUAL]1 x Curse of the Flock for 500 MtxCurrency",
+   "itemNames": [
+    "Curse of the Flock"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6a298f8b03f96862/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Wrap_WiseBarn",
+     "name": "Curse of the Flock",
+     "type": "wrap"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/398341c90888de2c1277f0f40ca2c29241be226d073f2573a0c6c5dafc63d75d",
    "section": "Harvest Season",
    "name": "Rootcarver",
@@ -2768,6 +2712,50 @@
      "id": "Pickaxe_PatronPoppet",
      "name": "Rootcarver",
      "type": "pickaxe"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/5d93c29d5f386d70a8bd64df7d389f8b5cb628fd2c4e85a5e4507c895e500135",
+   "section": "Rubius",
+   "name": "Rubius",
+   "devName": "[VIRTUAL]1 x Rubius for 1500 MtxCurrency",
+   "itemNames": [
+    "Rubius"
+   ],
+   "finalPrice": 1500,
+   "regularPrice": 1500,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5e2ac86a7989eb05/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_LivelyDomino",
+     "name": "Rubius",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/0b07272060a0aa655be1459ced69e6bcaf6413ca686560e7a5b24fba4b2dbb5b",
+   "section": "The Sidekick Squad",
+   "name": "Mothman Jr.",
+   "devName": "[VIRTUAL]1 x Mothman Jr. for 1200 MtxCurrency",
+   "itemNames": [
+    "Mothman Jr."
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-12-07T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/fb1e008deb625994/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Companion_DustyWing",
+     "name": "Mothman Jr.",
+     "type": "sidekick"
     }
    ],
    "namedBundle": false
@@ -2801,28 +2789,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/5d93c29d5f386d70a8bd64df7d389f8b5cb628fd2c4e85a5e4507c895e500135",
-   "section": "Rubius",
-   "name": "Rubius",
-   "devName": "[VIRTUAL]1 x Rubius for 1500 MtxCurrency",
-   "itemNames": [
-    "Rubius"
-   ],
-   "finalPrice": 1500,
-   "regularPrice": 1500,
-   "outDate": "2026-11-24T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5e2ac86a7989eb05/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Character_LivelyDomino",
-     "name": "Rubius",
-     "type": "outfit"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/9092609c9540d03c2d3fc5372e34f12e42dec6b2be7a66c3f2a10035cf4e17e4",
    "section": "Jam Tracks",
    "name": "The Middle - Zedd, Maren Morris & Grey",
@@ -2840,28 +2806,6 @@
      "id": "sid_placeholder_43",
      "name": "The Middle",
      "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/e09bbf31a631b5a3fc927e224ad38bab2d4a295359fb14fa5c4143660c5d093c",
-   "section": "Regular Show",
-   "name": "Rattle & Mace",
-   "devName": "[VIRTUAL]1 x Rattle & Mace for 400 MtxCurrency",
-   "itemNames": [
-    "Rattle & Mace"
-   ],
-   "finalPrice": 400,
-   "regularPrice": 400,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/fd967055874765b4/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Backpack_RobustTorn",
-     "name": "Rattle & Mace",
-     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -3041,22 +2985,22 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/38e18cf038ee7748cd0e74aa1c16cbb217d96f4c43314430fb6c10d3c6b0b494",
-   "section": "Pirates of the Caribbean",
-   "name": "Skull and Crossed Swords",
-   "devName": "[VIRTUAL]1 x Skull and Crossed Swords for 200 MtxCurrency",
+   "offerId": "v2:/558c9f2c1bedfe10b4776ad4f7b66cbe5faf13afcd06c24aebb01073caec9fe4",
+   "section": "alc.0",
+   "name": "Lil Louie",
+   "devName": "[VIRTUAL]1 x Lil Louie for 400 MtxCurrency",
    "itemNames": [
-    "Skull and Crossed Swords"
+    "Lil Louie"
    ],
-   "finalPrice": 200,
-   "regularPrice": 200,
-   "outDate": "2026-11-26T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2b504a78bbe59227/renderimage_0.png",
+   "finalPrice": 400,
+   "regularPrice": 400,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_sparrow/featured.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "Backpack_SpringBreakStraw",
-     "name": "Skull and Crossed Swords",
+     "id": "Backpack_Sparrow",
+     "name": "Lil Louie",
      "type": "backpack"
     }
    ],
@@ -3085,6 +3029,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/38e18cf038ee7748cd0e74aa1c16cbb217d96f4c43314430fb6c10d3c6b0b494",
+   "section": "Pirates of the Caribbean",
+   "name": "Skull and Crossed Swords",
+   "devName": "[VIRTUAL]1 x Skull and Crossed Swords for 200 MtxCurrency",
+   "itemNames": [
+    "Skull and Crossed Swords"
+   ],
+   "finalPrice": 200,
+   "regularPrice": 200,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2b504a78bbe59227/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Backpack_SpringBreakStraw",
+     "name": "Skull and Crossed Swords",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/aca311d89d15c857af0127cf988a093549646716677be7028f26012fcc9e10ed",
    "section": "Harvest Season",
    "name": "Pumpkin Season",
@@ -3102,6 +3068,28 @@
      "id": "Wrap_PatronPoppet",
      "name": "Pumpkin Season",
      "type": "wrap"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/35e7e0e6dd298410938c0a6641df84d2bd04dc5c15c61bbbaacbb95088495f96",
+   "section": "Hatsune Miku",
+   "name": "Miku's Treasure",
+   "devName": "[VIRTUAL]1 x Miku's Treasure for 400 MtxCurrency",
+   "itemNames": [
+    "Miku's Treasure"
+   ],
+   "finalPrice": 400,
+   "regularPrice": 400,
+   "outDate": "2026-12-14T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_peonypizza/featured.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Backpack_PeonyPizza",
+     "name": "Miku's Treasure",
+     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -3136,28 +3124,6 @@
      "id": "Sparks_GatorCeladon_Bass",
      "name": "Murdoc's Bass",
      "type": "instrument"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/35e7e0e6dd298410938c0a6641df84d2bd04dc5c15c61bbbaacbb95088495f96",
-   "section": "Hatsune Miku",
-   "name": "Miku's Treasure",
-   "devName": "[VIRTUAL]1 x Miku's Treasure for 400 MtxCurrency",
-   "itemNames": [
-    "Miku's Treasure"
-   ],
-   "finalPrice": 400,
-   "regularPrice": 400,
-   "outDate": "2026-12-14T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_peonypizza/featured.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Backpack_PeonyPizza",
-     "name": "Miku's Treasure",
-     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -3245,6 +3211,28 @@
     {
      "id": "Backpack_SpruceBark",
      "name": "Aku Aku",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/8e5027b4835be203c1053e70989df87b921205f8d62304da8525fb9abe84b306",
+   "section": "Birds of a Feather",
+   "name": "Raptorstriker Bag",
+   "devName": "[VIRTUAL]1 x Raptorstriker Bag for 200 MtxCurrency",
+   "itemNames": [
+    "Raptorstriker Bag"
+   ],
+   "finalPrice": 200,
+   "regularPrice": 200,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a42c67da11c81986/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Backpack_SwiftKestrel",
+     "name": "Raptorstriker Bag",
      "type": "backpack"
     }
    ],
@@ -3393,6 +3381,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/7f00df99a073188a4517eae45772a425405fa27e8493a028105b3f6384e510bc",
+   "section": "One-Punch Man",
+   "name": "Ok",
+   "devName": "[VIRTUAL]1 x Ok for 200 MtxCurrency",
+   "itemNames": [
+    "Ok"
+   ],
+   "finalPrice": 200,
+   "regularPrice": 200,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1e51187f95c90528/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "EID_IgniteEgg_Jab",
+     "name": "Ok",
+     "type": "emote"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/53d464c3ed8380206bf06f2e1ab1ae5f382a001335d51395ec56d3fdb40dadc3",
    "section": "Jam Tracks",
    "name": "Love Me Not - Ravyn Lenae",
@@ -3503,6 +3513,56 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/8a345215b6bde7f12ffa55eae6c6ef85182174e4d0dd995863734bfd4c945af5",
+   "section": "One-Punch Man",
+   "name": "Mechanical Fist Hammer",
+   "devName": "[VIRTUAL]1 x Mechanical Fist Hammer for 800 MtxCurrency",
+   "itemNames": [
+    "Mechanical Fist Hammer"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/268885897155e4ae/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Pickaxe_ArmyFlour",
+     "name": "Mechanical Fist Hammer",
+     "type": "pickaxe"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/10c507258267c4047cc4ed880bb881d283f666c6ad564197bbbe9c531393bd8e",
+   "section": "Birds of a Feather",
+   "name": "Budge",
+   "devName": "[VIRTUAL]1 x Budge, 1 x Squawk Sack for -1 MtxCurrency",
+   "itemNames": [
+    "Budge",
+    "Squawk Sack"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c44b982e7af9af5d/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_CosmicSquatter",
+     "name": "Budge",
+     "type": "outfit"
+    },
+    {
+     "id": "Backpack_CosmicSquatter",
+     "name": "Squawk Sack",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/e9278708e4e0c0c0b49b55aa56c15817fa541886b05a8c57cf874748b3eb566f",
    "section": "Jam Tracks",
    "name": "Best of You - Foo Fighters",
@@ -3547,6 +3607,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/68b42abc6e3971d2daf84d94b3a2fac2e3748ddd4a8cc7704c18c0ea695e970a",
+   "section": "alc.0",
+   "name": "Autumn's Mantle",
+   "devName": "[VIRTUAL]1 x Autumn's Mantle for 300 MtxCurrency",
+   "itemNames": [
+    "Autumn's Mantle"
+   ],
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_413_forestqueen/featured.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "BID_413_ForestQueen",
+     "name": "Autumn's Mantle",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/33ea4a8b5f1ff4a18677a2cae70a4244b4209c10919bea128b1923443d2ed0e3",
    "section": "Gorillaz",
    "name": "2D's Mic",
@@ -3581,23 +3663,23 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/68b42abc6e3971d2daf84d94b3a2fac2e3748ddd4a8cc7704c18c0ea695e970a",
-   "section": "alc.0",
-   "name": "Autumn's Mantle",
-   "devName": "[VIRTUAL]1 x Autumn's Mantle for 300 MtxCurrency",
+   "offerId": "v2:/caffa480b772643f24fea7122e807446f6d6831556cb2a4f384ac2ec36dbce76",
+   "section": "Overwatch",
+   "name": "Caduceus Pickaxe",
+   "devName": "[VIRTUAL]1 x Caduceus Pickaxe for 800 MtxCurrency",
    "itemNames": [
-    "Autumn's Mantle"
+    "Caduceus Pickaxe"
    ],
-   "finalPrice": 300,
-   "regularPrice": 300,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_413_forestqueen/featured.png",
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-12-04T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d37ba55e54eac5b1/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "BID_413_ForestQueen",
-     "name": "Autumn's Mantle",
-     "type": "backpack"
+     "id": "Pickaxe_TrackWaver",
+     "name": "Caduceus Pickaxe",
+     "type": "pickaxe"
     }
    ],
    "namedBundle": false
@@ -3677,28 +3759,6 @@
     }
    ],
    "namedBundle": true
-  },
-  {
-   "offerId": "v2:/caffa480b772643f24fea7122e807446f6d6831556cb2a4f384ac2ec36dbce76",
-   "section": "Overwatch",
-   "name": "Caduceus Pickaxe",
-   "devName": "[VIRTUAL]1 x Caduceus Pickaxe for 800 MtxCurrency",
-   "itemNames": [
-    "Caduceus Pickaxe"
-   ],
-   "finalPrice": 800,
-   "regularPrice": 800,
-   "outDate": "2026-12-04T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d37ba55e54eac5b1/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Pickaxe_TrackWaver",
-     "name": "Caduceus Pickaxe",
-     "type": "pickaxe"
-    }
-   ],
-   "namedBundle": false
   },
   {
    "offerId": "v2:/f3f8a5bc68ecec3e6ad073e3291dcfca25c210a899c46fc7a6e5579780774e72",
@@ -3895,28 +3955,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/6a32d3c5c97eff4bcb08b9985b5612f8083d5a10ba30cb688b4c5308b957fe56",
-   "section": "Get Your Kicks",
-   "name": "Piggy Slippies",
-   "devName": "[VIRTUAL]1 x Piggy Slippies for 600 MtxCurrency",
-   "itemNames": [
-    "Piggy Slippies"
-   ],
-   "finalPrice": 600,
-   "regularPrice": 600,
-   "outDate": "2026-11-24T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/bf23d13490ed1ac8/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Shoes_ButtonMud",
-     "name": "Piggy Slippies",
-     "type": "shoe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/2eabf862d4a3698efc65d79c7279ac0af60c22fd3dc612c389242818e39ee364",
    "section": "Kim Kardashian",
    "name": "Kim Kardashian",
@@ -3943,6 +3981,28 @@
     }
    ],
    "namedBundle": true
+  },
+  {
+   "offerId": "v2:/6a32d3c5c97eff4bcb08b9985b5612f8083d5a10ba30cb688b4c5308b957fe56",
+   "section": "Get Your Kicks",
+   "name": "Piggy Slippies",
+   "devName": "[VIRTUAL]1 x Piggy Slippies for 600 MtxCurrency",
+   "itemNames": [
+    "Piggy Slippies"
+   ],
+   "finalPrice": 600,
+   "regularPrice": 600,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/bf23d13490ed1ac8/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Shoes_ButtonMud",
+     "name": "Piggy Slippies",
+     "type": "shoe"
+    }
+   ],
+   "namedBundle": false
   },
   {
    "offerId": "v2:/b0ed3b1f215089475b411915969e8304a1c060cdc96b9c8ce278659468ef52cf",
@@ -3984,6 +4044,28 @@
      "id": "sid_placeholder_322",
      "name": "Fly",
      "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/266fc139616ba8ea59212003a77f67e2ada7ce8e46ec4f7f16f0998f8e383d67",
+   "section": "Main Character Energy ",
+   "name": "Chicken Chonkers",
+   "devName": "[VIRTUAL]1 x Chicken Chonkers for 600 MtxCurrency",
+   "itemNames": [
+    "Chicken Chonkers"
+   ],
+   "finalPrice": 600,
+   "regularPrice": 600,
+   "outDate": "2026-11-25T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6fd7d7b00ab4cb0d/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Shoes_BarnCourt",
+     "name": "Chicken Chonkers",
+     "type": "shoe"
     }
    ],
    "namedBundle": false
@@ -4094,6 +4176,34 @@
      "id": "sid_placeholder_66",
      "name": "Kids",
      "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/b7a85847e7d8e4313e1f306ec0a2249d4220ed8a4a14bb6afba71e514cbce3a6",
+   "section": "No Sweat",
+   "name": "Sica",
+   "devName": "[VIRTUAL]1 x Sica, 1 x Arena Elite for -1 MtxCurrency",
+   "itemNames": [
+    "Sica",
+    "Arena Elite"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ef22ae608f7ea1e9/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "CID_A_028_Athena_Commando_F_AncientGladiator",
+     "name": "Sica",
+     "type": "outfit"
+    },
+    {
+     "id": "BID_705_AncientGladiatorFemale",
+     "name": "Arena Elite",
+     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -4253,28 +4363,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/5c222993a2cff58a84765125425ebacb438ce180336bec8896d9f9aa36c3c534",
-   "section": "Main Character Energy ",
-   "name": "Mad Mochi",
-   "devName": "[VIRTUAL]1 x Mad Mochi for 1400 MtxCurrency",
-   "itemNames": [
-    "Mad Mochi"
-   ],
-   "finalPrice": 1400,
-   "regularPrice": 1400,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4efa5624f4cc3baf/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Character_Mochi",
-     "name": "Mad Mochi",
-     "type": "outfit"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/607da1eb42f6ae2a95f98d2d91fdfda48bce765add5f1f887f6af46587eb4ea5",
    "section": "Jam Tracks",
    "name": "I Wanna Get Better - Bleachers",
@@ -4397,6 +4485,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/d5979f3e751d708ef1363d0aa80922d53097d8385db552e22569442be800ff1b",
+   "section": "alc.0",
+   "name": "Bao Basket",
+   "devName": "[VIRTUAL]1 x Bao Basket for 300 MtxCurrency",
+   "itemNames": [
+    "Bao Basket"
+   ],
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_207_dumplingman/featured.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "BID_207_DumplingMan",
+     "name": "Bao Basket",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/ca64c01187c1b799bbb2f1ef62c5744b960d3f569de9ff295441cdd2fd8288b8",
    "section": "alc.0",
    "name": "Cursed Jack Sparrow",
@@ -4441,6 +4551,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/8db9cfc84465bcf9b4d5d6307d3217f54cb472f021716d45b960002af77f2b77",
+   "section": "Ferrari",
+   "name": "Ferrari Turbo",
+   "devName": "[VIRTUAL]1 x Ferrari Turbo for 400 MtxCurrency",
+   "itemNames": [
+    "Ferrari Turbo"
+   ],
+   "finalPrice": 400,
+   "regularPrice": 400,
+   "outDate": "2026-11-28T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_806_foray_wg30d/featured.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "BID_806_Foray_WG30D",
+     "name": "Ferrari Turbo",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/c904e861da072c8088847a39c74afcfd43698459f0a3dab5745bd42a6259f455",
    "section": "Jam Tracks",
    "name": "Somebody That I Used To Know - Gotye ft. Kimbra",
@@ -4458,28 +4590,6 @@
      "id": "sid_placeholder_450",
      "name": "Somebody That I Used To Know",
      "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/3529188ada7f0d81a3ec7c0f8766d2d27a8ce82aff58f531f01570fa45708c56",
-   "section": "alc.0",
-   "name": "Volkswagen Golf II GTI",
-   "devName": "[VIRTUAL]1 x Blank for 400 MtxCurrency",
-   "itemNames": [
-    "Volkswagen Golf II GTI"
-   ],
-   "finalPrice": 400,
-   "regularPrice": 400,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/cars/wheel_dubt1/large.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Wheel_DubT1",
-     "name": "Volkswagen Golf II GTI",
-     "type": "car"
     }
    ],
    "namedBundle": false
@@ -4529,67 +4639,51 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/0b06447ab381538baa1f69e3fb6903a429f04bb570aaa0b9e510295f63e2fc64",
-   "section": "Main Character Energy ",
-   "name": "Cybertech Claws",
-   "devName": "[VIRTUAL]1 x Cybertech Claws for 500 MtxCurrency",
+   "offerId": "v2:/0128b7e07afa1acd98de8e0a4e147325eaf607dcc7e7270f0ba7af6672b55a58",
+   "section": "No Sweat",
+   "name": "Blockade Runner",
+   "devName": "[VIRTUAL]1 x Blockade Runner, 1 x Angled Intercept for -1 MtxCurrency",
    "itemNames": [
-    "Cybertech Claws"
+    "Blockade Runner",
+    "Angled Intercept"
    ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7ca4b5a63d690116/renderimage_0.png",
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/089052da6cefd742/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "Pickaxe_BionicKitty",
-     "name": "Cybertech Claws",
-     "type": "pickaxe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/e58be8d722ca388c773cd9859b8503f881f5c74fb0e592f0bb2e0044ff25873b",
-   "section": "alc.0",
-   "name": "Strongbox",
-   "devName": "[VIRTUAL]1 x Strongbox for 300 MtxCurrency",
-   "itemNames": [
-    "Strongbox"
-   ],
-   "finalPrice": 300,
-   "regularPrice": 300,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_053_jailbirdmale/featured.png",
-   "currency": "MtxCurrency",
-   "items": [
+     "id": "CID_723_Athena_Commando_F_SpyTech",
+     "name": "Blockade Runner",
+     "type": "outfit"
+    },
     {
-     "id": "BID_053_JailbirdMale",
-     "name": "Strongbox",
+     "id": "BID_501_SpyTechFemale",
+     "name": "Angled Intercept",
      "type": "backpack"
     }
    ],
    "namedBundle": false
   },
   {
-   "offerId": "v2:/770a9ecdc3f2965fcfd983f3b415d0a31845d48da2d10b82b9b2d732706cb299",
-   "section": "Regular Show",
-   "name": "Fists of Justice",
-   "devName": "[VIRTUAL]1 x Fists of Justice for 800 MtxCurrency",
+   "offerId": "v2:/96b2211a8890aba75af7c16161a6f923a3ce017f4eddfa5c18bd859b2df23804",
+   "section": "Ferrari",
+   "name": "Maranello Racer",
+   "devName": "[VIRTUAL]1 x Maranello Racer for 800 MtxCurrency",
    "itemNames": [
-    "Fists of Justice"
+    "Maranello Racer"
    ],
    "finalPrice": 800,
    "regularPrice": 800,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/054f725ac846c9b1/renderimage_0.png",
+   "outDate": "2026-11-28T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5db522ea8b7398fc/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "Pickaxe_RobustTorn",
-     "name": "Fists of Justice",
-     "type": "pickaxe"
+     "id": "CID_A_139_Athena_Commando_M_Foray_SD8AA",
+     "name": "Maranello Racer",
+     "type": "outfit"
     }
    ],
    "namedBundle": false
@@ -4809,6 +4903,150 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/f8b2df1bc6cf49385516172da0b48608c412967a18a9dbbc853e8565dfae6003",
+   "section": "One-Punch Man",
+   "name": "Centichoro",
+   "devName": "[VIRTUAL]1 x Centichoro for 1200 MtxCurrency",
+   "itemNames": [
+    "Centichoro"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6d9ee82c7f9423d6/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Glider_IgniteEgg",
+     "name": "Centichoro",
+     "type": "glider"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/494e0b4e63a4ea40d1d82404b706c39f5da46ea67960ec3214ba1daf6411f13a",
+   "section": "One-Punch Man",
+   "name": "Saitama's Routine",
+   "devName": "[VIRTUAL]1 x Saitama's Routine for 300 MtxCurrency",
+   "itemNames": [
+    "Saitama's Routine"
+   ],
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a28628242d41bbc4/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "EID_IgniteEgg",
+     "name": "Saitama's Routine",
+     "type": "emote"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/0b853048e0a37d458226802fc2c1fb9771860f31f042c611c1f9aa54a2a463c3",
+   "section": "Ferrari",
+   "name": "Air Jordan 14 Retro 'Challenge Red'",
+   "devName": "[VIRTUAL]1 x Air Jordan 14 Retro 'Challenge Red' for 1000 MtxCurrency",
+   "itemNames": [
+    "Air Jordan 14 Retro 'Challenge Red'"
+   ],
+   "finalPrice": 1000,
+   "regularPrice": 1000,
+   "outDate": "2026-11-28T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/fbf67438363e7a5a/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Shoes_FuseBrookRib",
+     "name": "Air Jordan 14 Retro 'Challenge Red'",
+     "type": "shoe"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/0c7cc6d633160aacedb9cbe70f8faea4bdba9371696216554812853915019e1c",
+   "section": "alc.0",
+   "name": "Arena Elite",
+   "devName": "[VIRTUAL]1 x Arena Elite for 200 MtxCurrency",
+   "itemNames": [
+    "Arena Elite"
+   ],
+   "finalPrice": 200,
+   "regularPrice": 200,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_705_ancientgladiatorfemale/featured.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "BID_705_AncientGladiatorFemale",
+     "name": "Arena Elite",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/2886c5cb8c221c406b0e510d1161e0f5c8a530a2540d6558639ff815708d5c9d",
+   "section": "One-Punch Man",
+   "name": "Psychokinesis Mic",
+   "devName": "[VIRTUAL]1 x Psychokinesis Mic, 1 x Psychokinesis Mic, 1 x Psychokinesis Mic for 800 MtxCurrency",
+   "itemNames": [
+    "Psychokinesis Mic",
+    "Psychokinesis Mic",
+    "Psychokinesis Mic"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/65b0cd79d6525eb5/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Backpack_IvyStub_Mic",
+     "name": "Psychokinesis Mic",
+     "type": "backpack"
+    },
+    {
+     "id": "Pickaxe_IvyStub_Mic",
+     "name": "Psychokinesis Mic",
+     "type": "pickaxe"
+    },
+    {
+     "id": "Sparks_IvyStub_Mic",
+     "name": "Psychokinesis Mic",
+     "type": "instrument"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/8029ad6094b775cf63456b3384feccb51110c8c4f782330f9f719b5d718c6e77",
+   "section": "The Sidekick Squad",
+   "name": "Teacup Chi-Pup",
+   "devName": "[VIRTUAL]1 x Teacup Chi-Pup for 1200 MtxCurrency",
+   "itemNames": [
+    "Teacup Chi-Pup"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-12-07T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2fba023ce8b7ddb9/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Companion_TeaPup",
+     "name": "Teacup Chi-Pup",
+     "type": "sidekick"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/1583c33c19b34460b27762dfdf540874a57b574e4b1a699197c01868ffd1e5bb",
    "section": "Battle Beats",
    "name": "Surf the Soundwaves",
@@ -4887,6 +5125,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/c1bc1b07a5fcb23435ab013d3ad6806b9b209841f50802b649cb619ba5e4eaeb",
+   "section": "alc.0",
+   "name": "Ferrari F40",
+   "devName": "[VIRTUAL]1 x Ferrari F40 for 700 MtxCurrency",
+   "itemNames": [
+    "Ferrari F40"
+   ],
+   "finalPrice": 700,
+   "regularPrice": 700,
+   "outDate": "2026-11-28T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/cars/wheel_garage01/large.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Wheel_Garage01",
+     "name": "Ferrari F40",
+     "type": "car"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/481f17d50bba6c71ab9ca256feb57dc016904028eaef7acac7faaf1e3d9867c3",
    "section": "Get Your Kicks",
    "name": "Air Jordan 4 OG 'White Cement'",
@@ -4909,6 +5169,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/08eac204f8b877f5bf5990e64d69df663ef64f7db9aeea30a2ffa7a31bfb73da",
+   "section": "The Sidekick Squad",
+   "name": "Beebo",
+   "devName": "[VIRTUAL]1 x Beebo for 1200 MtxCurrency",
+   "itemNames": [
+    "Beebo"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-12-07T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/faceb9902b0e0a2b/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Companion_HoneySting",
+     "name": "Beebo",
+     "type": "sidekick"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/7df7d1b95e14b049dda130cd61113fd65be748bd0d4786a4b630f0a06facce17",
    "section": "The Kid LAROI",
    "name": "LAROI Free Style",
@@ -4926,28 +5208,6 @@
      "id": "Wrap_SunBurst",
      "name": "LAROI Free Style",
      "type": "wrap"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/e7aba4da205e35e99bfd4c89382a18847d10e62b4be9b1b29426d360a16be5b2",
-   "section": "Main Character Energy ",
-   "name": "Neko-RX1",
-   "devName": "[VIRTUAL]1 x Neko-RX1 for 1200 MtxCurrency",
-   "itemNames": [
-    "Neko-RX1"
-   ],
-   "finalPrice": 1200,
-   "regularPrice": 1200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8ff0ce11f994edaf/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Character_BionicKitty",
-     "name": "Neko-RX1",
-     "type": "outfit"
     }
    ],
    "namedBundle": false
@@ -4981,6 +5241,34 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/0c5a57836b59a83c45f7bec091f9776d3732439553031a6f463a83be0c759697",
+   "section": "Main Character Energy ",
+   "name": "Lucien West",
+   "devName": "[VIRTUAL]1 x Lucien West, 1 x Lil Louie for -1 MtxCurrency",
+   "itemNames": [
+    "Lucien West",
+    "Lil Louie"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8d0cacca810e71a5/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_Sparrow",
+     "name": "Lucien West",
+     "type": "outfit"
+    },
+    {
+     "id": "Backpack_Sparrow",
+     "name": "Lil Louie",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/5f2f53911c2820fbecbb4eb6c05c395dae61da6f29ab0a4f75242f0ddc2c436a",
    "section": "Phineas and Ferb",
    "name": "Doof's High Kicks",
@@ -5003,6 +5291,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/13a65eae9c7fbea24693d6fb10897ddf8e72a4b06a6ec2192e5b060b8c1016ad",
+   "section": "alc.0",
+   "name": "Angled Intercept",
+   "devName": "[VIRTUAL]1 x Angled Intercept for 200 MtxCurrency",
+   "itemNames": [
+    "Angled Intercept"
+   ],
+   "finalPrice": 200,
+   "regularPrice": 200,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_501_spytechfemale/featured.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "BID_501_SpyTechFemale",
+     "name": "Angled Intercept",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/23837f78b8260bee091204d40c21a2c720e5926387c32ea765293fae8b63b00d",
    "section": "Battle Beats",
    "name": "Boom Boom Bass",
@@ -5020,28 +5330,6 @@
      "id": "EID_FenderJazz",
      "name": "Boom Boom Bass",
      "type": "emote"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/2bb322a8335dd5a0344fdafae69786c0815916a2eff80ef6c3d725cdcd750e28",
-   "section": "No Sweat",
-   "name": "Branded Brigadier",
-   "devName": "[VIRTUAL]1 x Branded Brigadier for 800 MtxCurrency",
-   "itemNames": [
-    "Branded Brigadier"
-   ],
-   "finalPrice": 800,
-   "regularPrice": 800,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f28d9c7d9d299059/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "CID_444_Athena_Commando_F_BannerC",
-     "name": "Branded Brigadier",
-     "type": "outfit"
     }
    ],
    "namedBundle": false
@@ -5213,28 +5501,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/6b7e98d9141e23aa298c65ad3e76e3c507764125141f5e6892e2b115c6542233",
-   "section": "alc.0",
-   "name": "Clockworks",
-   "devName": "[VIRTUAL]1 x Clockworks for 300 MtxCurrency",
-   "itemNames": [
-    "Clockworks"
-   ],
-   "finalPrice": 300,
-   "regularPrice": 300,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_117_octoberfestmale/featured.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "BID_117_OctoberfestMale",
-     "name": "Clockworks",
-     "type": "backpack"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/bba959166b14246f2d4f86d3583479b914e49a1105e920a6c160c4939aa1565b",
    "section": "One Piece ",
    "name": "Straw Hat Guitar",
@@ -5264,6 +5530,28 @@
      "id": "Sparks_CeleryStitch_Guitar",
      "name": "Straw Hat Guitar",
      "type": "instrument"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/6b7e98d9141e23aa298c65ad3e76e3c507764125141f5e6892e2b115c6542233",
+   "section": "alc.0",
+   "name": "Clockworks",
+   "devName": "[VIRTUAL]1 x Clockworks for 300 MtxCurrency",
+   "itemNames": [
+    "Clockworks"
+   ],
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_117_octoberfestmale/featured.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "BID_117_OctoberfestMale",
+     "name": "Clockworks",
+     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -5379,68 +5667,48 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/ca1b447468da0055616c833bd944faf76725874c2c5ce6c168b567ee77ef30ec",
-   "section": "Volkswagen Golf GTI ",
-   "name": "Volkswagen Golf GTI",
-   "devName": "[VIRTUAL]1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank for -1 MtxCurrency",
+   "offerId": "v2:/ec473cdcdd3ee5a08c7c0f1b0773b5ea1eaeaabbdbc1c781e9fca3b087adc676",
+   "section": "alc.0",
+   "name": "Squawk Sack",
+   "devName": "[VIRTUAL]1 x Squawk Sack for 300 MtxCurrency",
    "itemNames": [
-    "Huntress",
-    "Wings",
-    "Track Ready",
-    "Stripes",
-    "Lightning",
-    "Team Kingsnake",
-    "Flames",
-    "Volkswagen Golf II GTI"
+    "Squawk Sack"
    ],
-   "finalPrice": 2000,
-   "regularPrice": 2000,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d8b01bb813dab09a/renderimage_0.png",
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_cosmicsquatter/featured.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "CarSkin_DubT1Huntress",
-     "name": "Huntress",
-     "type": "car"
-    },
-    {
-     "id": "CarSkin_DubT1Wings",
-     "name": "Wings",
-     "type": "car"
-    },
-    {
-     "id": "CarSkin_DubT1Ten",
-     "name": "Track Ready",
-     "type": "car"
-    },
-    {
-     "id": "CarSkin_DubT1Stripes",
-     "name": "Stripes",
-     "type": "car"
-    },
-    {
-     "id": "CarSkin_DubT1Lightning",
-     "name": "Lightning",
-     "type": "car"
-    },
-    {
-     "id": "CarSkin_DubT1Kingsnake",
-     "name": "Team Kingsnake",
-     "type": "car"
-    },
-    {
-     "id": "CarSkin_DubT1Flames",
-     "name": "Flames",
-     "type": "car"
-    },
-    {
-     "id": "Wheel_DubT1",
-     "name": "Volkswagen Golf II GTI",
-     "type": "car"
+     "id": "Backpack_CosmicSquatter",
+     "name": "Squawk Sack",
+     "type": "backpack"
     }
    ],
-   "namedBundle": true
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/f856c09bc60ca40f001c57bb8ae66656e722e55d01c96b8006bb420e66774ec8",
+   "section": "Main Character Energy ",
+   "name": "Burning Axe",
+   "devName": "[VIRTUAL]1 x Burning Axe for 1200 MtxCurrency",
+   "itemNames": [
+    "Burning Axe"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/89ccfd4abd7425f7/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Pickaxe_ID_176_DevilRock",
+     "name": "Burning Axe",
+     "type": "pickaxe"
+    }
+   ],
+   "namedBundle": false
   },
   {
    "offerId": "v2:/f3aab314d09d6a4f2b25b377f8f4115ee6e066098dc43be5063be21f193757fe",
@@ -5529,28 +5797,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/c9b94fc7bee35da8d56476c2827fc2d7d5d97df54b21107fc8657d1ee8cfb52a",
-   "section": "Regular Show",
-   "name": "BABY DUCKS",
-   "devName": "[VIRTUAL]1 x BABY DUCKS for 400 MtxCurrency",
-   "itemNames": [
-    "BABY DUCKS"
-   ],
-   "finalPrice": 400,
-   "regularPrice": 400,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/532195d87b9b5d80/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Backpack_VouchTrig",
-     "name": "BABY DUCKS",
-     "type": "backpack"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/b4f55bf19987ab930a9407523dd994953b1fd11092fa3444104c77210e6d3693",
    "section": "Jam Tracks",
    "name": "Hot Blooded - New Constellations",
@@ -5568,6 +5814,28 @@
      "id": "sid_placeholder_909",
      "name": "Hot Blooded",
      "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/3eb3410903b5050abf5982972158e82835c6aa78e3b916ec06a377d1cc5b9b3a",
+   "section": "One-Punch Man",
+   "name": "Genos' Core",
+   "devName": "[VIRTUAL]1 x Genos' Core for 300 MtxCurrency",
+   "itemNames": [
+    "Genos' Core"
+   ],
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b523995dda2863e1/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Backpack_ArmyFlour",
+     "name": "Genos' Core",
+     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -5639,23 +5907,29 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/2ef871822e43ba99c11a18a0da8f8644cc981278ddf23f8ccc626c09560d09a3",
-   "section": "Jam Tracks",
-   "name": "PPAP (Pen Pineapple Apple Pen) [Long Version] - Pikotaro",
-   "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_673) for 500 MtxCurrency",
+   "offerId": "v2:/d1a328497576093f3a1b8820b54b8514251af074ebee11d939b730be7b86b66e",
+   "section": "No Sweat",
+   "name": "Splatterella",
+   "devName": "[VIRTUAL]1 x Splatterella, 1 x Llama Buster for -1 MtxCurrency",
    "itemNames": [
-    "PPAP (Pen Pineapple Apple Pen) [Long Version] - Pikotaro"
+    "Splatterella",
+    "Llama Buster"
    ],
-   "finalPrice": 500,
-   "regularPrice": 500,
+   "finalPrice": 1200,
+   "regularPrice": 1200,
    "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://cdn.fortnite-api.com/tracks/8e9a41a387b530af.jpg",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f1323d3bbe7071e8/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "sid_placeholder_673",
-     "name": "PPAP (Pen Pineapple Apple Pen) [Long Version]",
-     "type": "track"
+     "id": "CID_832_Athena_Commando_F_AntiLlama",
+     "name": "Splatterella",
+     "type": "outfit"
+    },
+    {
+     "id": "BID_584_AntiLlama",
+     "name": "Llama Buster",
+     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -5677,6 +5951,28 @@
     {
      "id": "sid_placeholder_500",
      "name": "The Emptiness Machine",
+     "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/2ef871822e43ba99c11a18a0da8f8644cc981278ddf23f8ccc626c09560d09a3",
+   "section": "Jam Tracks",
+   "name": "PPAP (Pen Pineapple Apple Pen) [Long Version] - Pikotaro",
+   "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_673) for 500 MtxCurrency",
+   "itemNames": [
+    "PPAP (Pen Pineapple Apple Pen) [Long Version] - Pikotaro"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://cdn.fortnite-api.com/tracks/8e9a41a387b530af.jpg",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "sid_placeholder_673",
+     "name": "PPAP (Pen Pineapple Apple Pen) [Long Version]",
      "type": "track"
     }
    ],
@@ -5805,6 +6101,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/be874f064079aef0101cb0350a029375187e18f28b96259f327184cbc784f731",
+   "section": "Birds of a Feather",
+   "name": "Ural the Sage",
+   "devName": "[VIRTUAL]1 x Ural the Sage for 1200 MtxCurrency",
+   "itemNames": [
+    "Ural the Sage"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/013510f5d05516c5/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_WiseBarn",
+     "name": "Ural the Sage",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/d26642370009aa4d75ddf4f5470607edc6275e5d918b076c5f0fa77992b033e2",
    "section": "Save The World",
    "name": "Toni",
@@ -5872,6 +6190,28 @@
      "id": "sid_placeholder_219",
      "name": "LUNCH",
      "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/87f838cf32a0a73a791c21d45eadbbf14d09ac1239739ccb2ab099555a8dbfe0",
+   "section": "Birds of a Feather",
+   "name": "Roaster's Dozen",
+   "devName": "[VIRTUAL]1 x Roaster's Dozen for 500 MtxCurrency",
+   "itemNames": [
+    "Roaster's Dozen"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c0624fff8d20d9d5/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Pickaxe_RoosterRoast",
+     "name": "Roaster's Dozen",
+     "type": "pickaxe"
     }
    ],
    "namedBundle": false
@@ -5956,6 +6296,28 @@
      "id": "Backpack_AccentWall",
      "name": "Lil Kraken",
      "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/61e47ca76b5d024b9b8d228d819f818f922ff12ed488d8aa783a93245f1b3143",
+   "section": "Main Character Energy ",
+   "name": "Kabuto",
+   "devName": "[VIRTUAL]1 x Kabuto for 800 MtxCurrency",
+   "itemNames": [
+    "Kabuto"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/106b99e902ba8a2c/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Glider_ID_094_SamuraiUltra",
+     "name": "Kabuto",
+     "type": "glider"
     }
    ],
    "namedBundle": false
@@ -6161,45 +6523,29 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/11b177dbceba44547f04dbdfd873fa684112362ab646768c845ebd9dc6be23ef",
-   "section": "alc.0",
-   "name": "Impact Green",
-   "devName": "[VIRTUAL]1 x Impact Green for 200 MtxCurrency",
+   "offerId": "v2:/1dbc6c7b579b19b37a02bd58b1e451a232706bb58ae6684734e2fde8fc61287a",
+   "section": "No Sweat",
+   "name": "Tigress",
+   "devName": "[VIRTUAL]1 x Tigress, 1 x Cybertooth Tiger for -1 MtxCurrency",
    "itemNames": [
-    "Impact Green"
+    "Tigress",
+    "Cybertooth Tiger"
    ],
-   "finalPrice": 200,
-   "regularPrice": 200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_559_greenjacket/featured.png",
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e0ebb7db250e8f48/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "BID_559_GreenJacket",
-     "name": "Impact Green",
+     "id": "Character_CoyoTear",
+     "name": "Tigress",
+     "type": "outfit"
+    },
+    {
+     "id": "Backpack_CoyoTear",
+     "name": "Cybertooth Tiger",
      "type": "backpack"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/f3eb37403a0c630b57322ca08e8644f4c11074bf6b563bad603f7e80edae14d8",
-   "section": "Cowboy Bebop",
-   "name": "Lil' Swordfish II",
-   "devName": "[VIRTUAL]1 x Lil' Swordfish II for 500 MtxCurrency",
-   "itemNames": [
-    "Lil' Swordfish II"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/227b1fb452e74cb7/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "EID_StudyBench",
-     "name": "Lil' Swordfish II",
-     "type": "emote"
     }
    ],
    "namedBundle": false
@@ -6249,28 +6595,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/1664eef7d3397bb0ee8b469a260ff6cc0013c175617de95d5f86bb2e04c4d636",
-   "section": "Jam Tracks",
-   "name": "Tusa - Karol G ft. Nicki Minaj",
-   "devName": "[VIRTUAL]1 x Tusa for 500 MtxCurrency",
-   "itemNames": [
-    "Tusa - Karol G ft. Nicki Minaj"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-26T23:59:59.999Z",
-   "imageUrl": "https://cdn.fortnite-api.com/tracks/7064f4ebd83d331b.jpg",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "sid_placeholder_45",
-     "name": "Tusa",
-     "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/3627ae28767a22ccfe63ad2560854eb7d839ca1ada5344aae91e0734ffd93581",
    "section": "Jam Tracks",
    "name": "Young, Wild & Free - Snoop Dogg & Wiz Khalifa ft. Bruno Mars",
@@ -6293,23 +6617,23 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/8786ac6c4767425ac078a93b0aa57bcb858809feed2067200c455f7576a9a511",
-   "section": "alc.0",
-   "name": "Hollow Horn",
-   "devName": "[VIRTUAL]1 x Hollow Horn for 400 MtxCurrency",
+   "offerId": "v2:/1664eef7d3397bb0ee8b469a260ff6cc0013c175617de95d5f86bb2e04c4d636",
+   "section": "Jam Tracks",
+   "name": "Tusa - Karol G ft. Nicki Minaj",
+   "devName": "[VIRTUAL]1 x Tusa for 500 MtxCurrency",
    "itemNames": [
-    "Hollow Horn"
+    "Tusa - Karol G ft. Nicki Minaj"
    ],
-   "finalPrice": 400,
-   "regularPrice": 400,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_414_forestdwellermale/featured.png",
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://cdn.fortnite-api.com/tracks/7064f4ebd83d331b.jpg",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "BID_414_ForestDwellerMale",
-     "name": "Hollow Horn",
-     "type": "backpack"
+     "id": "sid_placeholder_45",
+     "name": "Tusa",
+     "type": "track"
     }
    ],
    "namedBundle": false
@@ -6344,6 +6668,28 @@
      "id": "Sparks_PeonyPizza_Mic",
      "name": "Miku's Mic",
      "type": "instrument"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/8786ac6c4767425ac078a93b0aa57bcb858809feed2067200c455f7576a9a511",
+   "section": "alc.0",
+   "name": "Hollow Horn",
+   "devName": "[VIRTUAL]1 x Hollow Horn for 400 MtxCurrency",
+   "itemNames": [
+    "Hollow Horn"
+   ],
+   "finalPrice": 400,
+   "regularPrice": 400,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_414_forestdwellermale/featured.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "BID_414_ForestDwellerMale",
+     "name": "Hollow Horn",
+     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -6397,6 +6743,50 @@
     }
    ],
    "namedBundle": true
+  },
+  {
+   "offerId": "v2:/604e855b870d3565ae3ffb2d9c25faba555dc8a290852e8ed08ed67c71bfb222",
+   "section": "One-Punch Man",
+   "name": "Tiny Terrible Tornado",
+   "devName": "[VIRTUAL]1 x Tiny Terrible Tornado for 300 MtxCurrency",
+   "itemNames": [
+    "Tiny Terrible Tornado"
+   ],
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/71a98a7354bd909e/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Backpack_IvyStub",
+     "name": "Tiny Terrible Tornado",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/cb2721ba5324f9cf101c9b5f0b0a7c792f7a7bbb1c73de21280352e5e748263c",
+   "section": "alc.0",
+   "name": "Porta-Panopticon",
+   "devName": "[VIRTUAL]1 x Porta-Panopticon for 400 MtxCurrency",
+   "itemNames": [
+    "Porta-Panopticon"
+   ],
+   "finalPrice": 400,
+   "regularPrice": 400,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_strontiumspark/featured.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Backpack_StrontiumSpark",
+     "name": "Porta-Panopticon",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
   },
   {
    "offerId": "v2:/e06c2419a161bee1d483fca31346ab243d0f616cc13a762ae8fde5649337b3ed",
@@ -6487,28 +6877,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/edb959c97ac61d2f1ca9e0cf34c99f0f8ae1db33ddb3a167de0bd890387ea502",
-   "section": "alc.0",
-   "name": "Black Stripe",
-   "devName": "[VIRTUAL]1 x Black Stripe for 300 MtxCurrency",
-   "itemNames": [
-    "Black Stripe"
-   ],
-   "finalPrice": 300,
-   "regularPrice": 300,
-   "outDate": "2026-11-24T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_412_cavalrybandit/featured.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "BID_412_CavalryBandit",
-     "name": "Black Stripe",
-     "type": "backpack"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/8dcfcc18a936c86384d6b03544a0f996194380cbbf55e490f3f532848f57c57a",
    "section": "Pirates of the Caribbean",
    "name": "Pirates of the Caribbean Bundle",
@@ -6577,6 +6945,28 @@
     }
    ],
    "namedBundle": true
+  },
+  {
+   "offerId": "v2:/edb959c97ac61d2f1ca9e0cf34c99f0f8ae1db33ddb3a167de0bd890387ea502",
+   "section": "alc.0",
+   "name": "Black Stripe",
+   "devName": "[VIRTUAL]1 x Black Stripe for 300 MtxCurrency",
+   "itemNames": [
+    "Black Stripe"
+   ],
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_412_cavalrybandit/featured.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "BID_412_CavalryBandit",
+     "name": "Black Stripe",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
   },
   {
    "offerId": "v2:/aea34867a7b388edbc8dcddc0c6118fa5cea810a4cd0dea332c681d271183d15",
@@ -6717,26 +7107,62 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/797e5b01dda2f9dedcce865e142723d3b1158a24da16b7432a39d0cc53efe1fc",
-   "section": "No Sweat",
-   "name": "Pop Prodigy",
-   "devName": "[VIRTUAL]1 x Pop Prodigy for 1200 MtxCurrency",
+   "offerId": "v2:/62f4d55a5ff0ca5e6f2dcbc979cdfd4d955239c35c1968bfbe05452e836f7151",
+   "section": "Birds of a Feather",
+   "name": "Birds of a Feather Bundle",
+   "devName": "[VIRTUAL]1 x Tex Flamingo, 1 x Flambago, 1 x Sgt. Drake, 1 x Duck Duffle, 1 x Budge, 1 x Squawk Sack, 1 x Cosmic Peck Axe for -1 MtxCurrency",
    "itemNames": [
-    "Pop Prodigy"
+    "Tex Flamingo",
+    "Flambago",
+    "Sgt. Drake",
+    "Duck Duffle",
+    "Budge",
+    "Squawk Sack",
+    "Cosmic Peck Axe"
    ],
-   "finalPrice": 1200,
-   "regularPrice": 1200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8e47cc24a8db6b78/renderimage_0.png",
+   "finalPrice": 2600,
+   "regularPrice": 4400,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/536a0a53a918ec8c/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "CID_A_172_Athena_Commando_F_Stands_E",
-     "name": "Pop Prodigy",
+     "id": "Character_FlamingoCountry",
+     "name": "Tex Flamingo",
      "type": "outfit"
+    },
+    {
+     "id": "Backpack_FlamingoCountry",
+     "name": "Flambago",
+     "type": "backpack"
+    },
+    {
+     "id": "Character_MallardVantage",
+     "name": "Sgt. Drake",
+     "type": "outfit"
+    },
+    {
+     "id": "Backpack_MallardVantage",
+     "name": "Duck Duffle",
+     "type": "backpack"
+    },
+    {
+     "id": "Character_CosmicSquatter",
+     "name": "Budge",
+     "type": "outfit"
+    },
+    {
+     "id": "Backpack_CosmicSquatter",
+     "name": "Squawk Sack",
+     "type": "backpack"
+    },
+    {
+     "id": "Pickaxe_CosmicSquatter",
+     "name": "Cosmic Peck Axe",
+     "type": "pickaxe"
     }
    ],
-   "namedBundle": false
+   "namedBundle": true
   },
   {
    "offerId": "v2:/0a945323f26f544d6dbd3d4d508df2296fd474b57c19043da7563badd2a4c796",
@@ -6756,28 +7182,6 @@
      "id": "sid_placeholder_947",
      "name": "GRIM FREESTYLE",
      "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/ffad601661f654c2fb86d0ccb231db5b692dd2c345282bbf04319e5450c660e0",
-   "section": "Main Character Energy ",
-   "name": "Phew!",
-   "devName": "[VIRTUAL]1 x Phew! for 200 MtxCurrency",
-   "itemNames": [
-    "Phew!"
-   ],
-   "finalPrice": 200,
-   "regularPrice": 200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3b8e5f874057f6e6/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "EID_Phew",
-     "name": "Phew!",
-     "type": "emote"
     }
    ],
    "namedBundle": false
@@ -7065,28 +7469,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/4bf0f71dcdde4b41cbe19adedb9632aace687dc42aa0be49f51eadb138ce2248",
-   "section": "Cowboy Bebop",
-   "name": "Valentine Blue",
-   "devName": "[VIRTUAL]1 x Valentine Blue for 500 MtxCurrency",
-   "itemNames": [
-    "Valentine Blue"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/bedcef22ad26594e/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Wrap_KneeLens",
-     "name": "Valentine Blue",
-     "type": "wrap"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/ec63ef5735d6b2efb6f76d8cec029397d0dc9fdcfa4297bfc29e4c8c795e03de",
    "section": "Gorillaz",
    "name": "2D's Megaphone",
@@ -7126,6 +7508,50 @@
      "id": "EID_FightNight",
      "name": "Shape Up",
      "type": "emote"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/83778bb9c4d689a4a4e25a4b6fc839c256263be40dabe80d10435bbdb6a6be08",
+   "section": "One-Punch Man",
+   "name": "Genos",
+   "devName": "[VIRTUAL]1 x Genos for 1500 MtxCurrency",
+   "itemNames": [
+    "Genos"
+   ],
+   "finalPrice": 1500,
+   "regularPrice": 1500,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1b2d48d103452f47/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_ArmyFlour",
+     "name": "Genos",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": true
+  },
+  {
+   "offerId": "v2:/82fa4af938fdb4c4224a3828338cff9d0d27e2f42b19b60d676f6b08bed95ef7",
+   "section": "alc.0",
+   "name": "Llama Buster",
+   "devName": "[VIRTUAL]1 x Llama Buster for 200 MtxCurrency",
+   "itemNames": [
+    "Llama Buster"
+   ],
+   "finalPrice": 200,
+   "regularPrice": 200,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_584_antillama/featured.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "BID_584_AntiLlama",
+     "name": "Llama Buster",
+     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -7291,28 +7717,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/056c4dbed8dbd6e1fd035764b6af7616a040c99e728cdc77e5148f568f39b8f0",
-   "section": "Cowboy Bebop",
-   "name": "Faye Valentine",
-   "devName": "[VIRTUAL]1 x Faye Valentine for 1500 MtxCurrency",
-   "itemNames": [
-    "Faye Valentine"
-   ],
-   "finalPrice": 1500,
-   "regularPrice": 1500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cfdc78e334c51a2f/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Character_KneeLens",
-     "name": "Faye Valentine",
-     "type": "outfit"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/7c6c82d544e8bec6111046ff79f362bb090bb636ce8c2f1264a6e0ca1101d031",
    "section": "A$AP Rocky",
    "name": "Rocky's BOOM Mic",
@@ -7413,28 +7817,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/9dba7ac842566a12c66a11ae52f428e5b790aadf81593b45109b7066cbaa8d2f",
-   "section": "Jam Tracks",
-   "name": "Battery - Metallica",
-   "devName": "[VIRTUAL]1 x Battery for 500 MtxCurrency",
-   "itemNames": [
-    "Battery - Metallica"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://cdn.fortnite-api.com/tracks/33917ae3de42b0c3.jpg",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "sid_placeholder_239",
-     "name": "Battery",
-     "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/888bf0778b2a6503c164ec180eeca42a4303cfefb0d83ab02544165405096b05",
    "section": "Jam Tracks",
    "name": "Less Than - Nine Inch Nails",
@@ -7451,6 +7833,28 @@
     {
      "id": "sid_placeholder_104",
      "name": "Less Than",
+     "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/9dba7ac842566a12c66a11ae52f428e5b790aadf81593b45109b7066cbaa8d2f",
+   "section": "Jam Tracks",
+   "name": "Battery - Metallica",
+   "devName": "[VIRTUAL]1 x Battery for 500 MtxCurrency",
+   "itemNames": [
+    "Battery - Metallica"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://cdn.fortnite-api.com/tracks/33917ae3de42b0c3.jpg",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "sid_placeholder_239",
+     "name": "Battery",
      "type": "track"
     }
    ],
@@ -7605,6 +8009,58 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/c97159539c4bde7b145b6e1caab86114534c91ff1c14936a15900e2d52fd8350",
+   "section": "Ferrari",
+   "name": "Ferrari F40",
+   "devName": "[VIRTUAL]1 x Ferrari F40, 1 x Rosso Corsa, 1 x GT Solar, 1 x GT Go, 1 x GT Prototype, 1 x Ferrari F40 for -1 MtxCurrency",
+   "itemNames": [
+    "Ferrari F40",
+    "Rosso Corsa",
+    "GT Solar",
+    "GT Go",
+    "GT Prototype",
+    "Ferrari F40"
+   ],
+   "finalPrice": 2800,
+   "regularPrice": 2800,
+   "outDate": "2026-11-28T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0742f3b1df0ba8c9/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "CarBody_Garage",
+     "name": "Ferrari F40",
+     "type": "car"
+    },
+    {
+     "id": "CarSkin_Garage01",
+     "name": "Rosso Corsa",
+     "type": "car"
+    },
+    {
+     "id": "CarSkin_Garage02",
+     "name": "GT Solar",
+     "type": "car"
+    },
+    {
+     "id": "CarSkin_Garage03",
+     "name": "GT Go",
+     "type": "car"
+    },
+    {
+     "id": "CarSkin_Garage04",
+     "name": "GT Prototype",
+     "type": "car"
+    },
+    {
+     "id": "Wheel_Garage01",
+     "name": "Ferrari F40",
+     "type": "car"
+    }
+   ],
+   "namedBundle": true
+  },
+  {
    "offerId": "v2:/d49045dedfec1e09c0e65356d3982eb4fd75957a170988ca1f74fd583f692357",
    "section": "Phineas and Ferb",
    "name": "Dr. Doofenshmirtz",
@@ -7711,28 +8167,6 @@
     }
    ],
    "namedBundle": true
-  },
-  {
-   "offerId": "v2:/3671edb8bba7b0d4711937ce6265d8298f81ac4e1ea413c08a9dd6c7f683c6d7",
-   "section": "alc.0",
-   "name": "Kappa Back-a Pack-a",
-   "devName": "[VIRTUAL]1 x Kappa Back-a Pack-a for 400 MtxCurrency",
-   "itemNames": [
-    "Kappa Back-a Pack-a"
-   ],
-   "finalPrice": 400,
-   "regularPrice": 400,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_pocketscrunchie/featured.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Backpack_PocketScrunchie",
-     "name": "Kappa Back-a Pack-a",
-     "type": "backpack"
-    }
-   ],
-   "namedBundle": false
   },
   {
    "offerId": "v2:/07db242397afa95a9066601dff6b297d686556777d9b553d0c54177058758f13",
@@ -7893,6 +8327,50 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/570dd8f6b2e2512c026d90b8491c17b8555eec6a6e846420368693a696226920",
+   "section": "Main Character Energy ",
+   "name": "Hensey",
+   "devName": "[VIRTUAL]1 x Hensey for 1200 MtxCurrency",
+   "itemNames": [
+    "Hensey"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-25T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ae4d3833c0370983/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_OmelettePop",
+     "name": "Hensey",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/adaf77f5793df71ead1d3fc2e842aac38f6b8f5a6b2e2257af48c077b0ee692b",
+   "section": "Birds of a Feather",
+   "name": "Talon of Night",
+   "devName": "[VIRTUAL]1 x Talon of Night for 500 MtxCurrency",
+   "itemNames": [
+    "Talon of Night"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/bdcf132b00e3edec/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Pickaxe_WiseBarn",
+     "name": "Talon of Night",
+     "type": "pickaxe"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/ed7ae409bc597a5f01050add834068c3b77b6324e8da6d898172f60a9f1537b7",
    "section": "A$AP Rocky",
    "name": "Flacko's Chopper",
@@ -7937,6 +8415,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/472459ccc789faf337d92aa948cc9db22eca89bfbcdf053ebe343723c2425a2e",
+   "section": "Gorillaz",
+   "name": "2D",
+   "devName": "[VIRTUAL]1 x 2D for 1500 MtxCurrency",
+   "itemNames": [
+    "2D"
+   ],
+   "finalPrice": 1500,
+   "regularPrice": 1500,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/680122f52d8fe7e9/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_PajamaSoar",
+     "name": "2D",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/117f42f89b68390c4c34cbf2f9d9d0dfc4335e004861a47a7de11f92fbd65b62",
    "section": "Crash Bandicoot & Spyro the Dragon",
    "name": "Crash Bandicoot",
@@ -7960,50 +8460,6 @@
      "id": "Wrap_SpruceBark",
      "name": "Bandicoot",
      "type": "wrap"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/472459ccc789faf337d92aa948cc9db22eca89bfbcdf053ebe343723c2425a2e",
-   "section": "Gorillaz",
-   "name": "2D",
-   "devName": "[VIRTUAL]1 x 2D for 1500 MtxCurrency",
-   "itemNames": [
-    "2D"
-   ],
-   "finalPrice": 1500,
-   "regularPrice": 1500,
-   "outDate": "2026-11-24T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/680122f52d8fe7e9/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Character_PajamaSoar",
-     "name": "2D",
-     "type": "outfit"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/fd03705b54903cf1f029d234cf2b67fa59597893fe05237d4a2c22c1d3647ffe",
-   "section": "Cowboy Bebop",
-   "name": "Multi-Purpose Phone",
-   "devName": "[VIRTUAL]1 x Multi-Purpose Phone for 300 MtxCurrency",
-   "itemNames": [
-    "Multi-Purpose Phone"
-   ],
-   "finalPrice": 300,
-   "regularPrice": 300,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/61d2a4b48d222c32/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Backpack_KneeLens",
-     "name": "Multi-Purpose Phone",
-     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -8060,6 +8516,56 @@
      "id": "Pickaxe_BoastJoint",
      "name": "Climate Baton",
      "type": "pickaxe"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/6773e5c456b2fafba6dc4d9ecc1ca0d98a3d7bf735ee07909516f5165e09bb4e",
+   "section": "No Sweat",
+   "name": "Killian",
+   "devName": "[VIRTUAL]1 x Killian, 1 x Porta-Panopticon for -1 MtxCurrency",
+   "itemNames": [
+    "Killian",
+    "Porta-Panopticon"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cad91683f60e330f/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_StrontiumSpark",
+     "name": "Killian",
+     "type": "outfit"
+    },
+    {
+     "id": "Backpack_StrontiumSpark",
+     "name": "Porta-Panopticon",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/f123901bac03f48c5f54fd2759bdf7c2092437cade4790071bc4254eabb82882",
+   "section": "Birds of a Feather",
+   "name": "Ken Kestrel",
+   "devName": "[VIRTUAL]1 x Ken Kestrel for 1200 MtxCurrency",
+   "itemNames": [
+    "Ken Kestrel"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6969842e680414c9/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_SwiftKestrel",
+     "name": "Ken Kestrel",
+     "type": "outfit"
     }
    ],
    "namedBundle": false
@@ -8127,23 +8633,45 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/7ee09d1f693d4e71c90921aef75891bf8188b2558db8d89e5e88adeb0d2a99c3",
-   "section": "Jam Tracks",
-   "name": "Stick Season - Noah Kahan",
-   "devName": "[VIRTUAL]1 x Stick Season for 500 MtxCurrency",
+   "offerId": "v2:/dcc65539e9937ed9d6ff5ea02a0a5dacf5aafe5f8844b1292b6c5f360967a07d",
+   "section": "The Sidekick Squad",
+   "name": "Bobomi",
+   "devName": "[VIRTUAL]1 x Bobomi for 1200 MtxCurrency",
    "itemNames": [
-    "Stick Season - Noah Kahan"
+    "Bobomi"
    ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://cdn.fortnite-api.com/tracks/9f50a7282c82ed20.jpg",
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-12-07T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7b609ffdc6a33a21/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "sid_placeholder_321",
-     "name": "Stick Season",
-     "type": "track"
+     "id": "Companion_TapiTime",
+     "name": "Bobomi",
+     "type": "sidekick"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/c12b8ffcc427fa687761958eed0698fd3678e07f6b13dc561ef4baf5a2880b91",
+   "section": "Birds of a Feather",
+   "name": "BarnDoor Point of Sale Machine",
+   "devName": "[VIRTUAL]1 x BarnDoor Point of Sale Machine for 300 MtxCurrency",
+   "itemNames": [
+    "BarnDoor Point of Sale Machine"
+   ],
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9c6749af901676b6/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Backpack_RoosterRoast",
+     "name": "BarnDoor Point of Sale Machine",
+     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -8171,6 +8699,28 @@
    "namedBundle": true
   },
   {
+   "offerId": "v2:/7ee09d1f693d4e71c90921aef75891bf8188b2558db8d89e5e88adeb0d2a99c3",
+   "section": "Jam Tracks",
+   "name": "Stick Season - Noah Kahan",
+   "devName": "[VIRTUAL]1 x Stick Season for 500 MtxCurrency",
+   "itemNames": [
+    "Stick Season - Noah Kahan"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://cdn.fortnite-api.com/tracks/9f50a7282c82ed20.jpg",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "sid_placeholder_321",
+     "name": "Stick Season",
+     "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/ddd43fd6bb547df5afd4a594071e1501ff8e4da7182b8b204f108c4c0993ac2c",
    "section": "Jam Tracks",
    "name": "Take Over Control - Afrojack ft. Eva Simons",
@@ -8193,76 +8743,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/2da8e4249a3a63dd50b25911c408e5be83da9160cfbe021dcf25bcd9740a1a1e",
-   "section": "Regular Show",
-   "name": "Regular Show Bundle",
-   "devName": "[VIRTUAL]1 x Rigby, 1 x Mordecai, 1 x Maximum Glove, 1 x Skips, 1 x Fists of Justice, 1 x Oooohhh!, 1 x Skips' Skip, 1 x BABY DUCKS, 1 x Rattle & Mace for -1 MtxCurrency",
-   "itemNames": [
-    "Rigby",
-    "Mordecai",
-    "Maximum Glove",
-    "Skips",
-    "Fists of Justice",
-    "Oooohhh!",
-    "Skips' Skip",
-    "BABY DUCKS",
-    "Rattle & Mace"
-   ],
-   "finalPrice": 3400,
-   "regularPrice": 6100,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1d934aa6ba832556/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Companion_PromDutch",
-     "name": "Rigby",
-     "type": "sidekick"
-    },
-    {
-     "id": "Character_VouchTrig",
-     "name": "Mordecai",
-     "type": "outfit"
-    },
-    {
-     "id": "Pickaxe_VouchTrig",
-     "name": "Maximum Glove",
-     "type": "pickaxe"
-    },
-    {
-     "id": "Character_RobustTorn",
-     "name": "Skips",
-     "type": "outfit"
-    },
-    {
-     "id": "Pickaxe_RobustTorn",
-     "name": "Fists of Justice",
-     "type": "pickaxe"
-    },
-    {
-     "id": "EID_VouchTrig",
-     "name": "Oooohhh!",
-     "type": "emote"
-    },
-    {
-     "id": "EID_RobustTorn",
-     "name": "Skips' Skip",
-     "type": "emote"
-    },
-    {
-     "id": "Backpack_VouchTrig",
-     "name": "BABY DUCKS",
-     "type": "backpack"
-    },
-    {
-     "id": "Backpack_RobustTorn",
-     "name": "Rattle & Mace",
-     "type": "backpack"
-    }
-   ],
-   "namedBundle": true
-  },
-  {
    "offerId": "v2:/87a901b668f717aae37c69f95c2d2160ab8872641b04ecb9e2de2cdccb040c8a",
    "section": "Jam Tracks",
    "name": "Bang Bang - Jessie J, Nicki Minaj, Ariana Grande",
@@ -8280,56 +8760,6 @@
      "id": "sid_placeholder_447",
      "name": "Bang Bang",
      "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/1c5aeb33cfebcf90b64e35e0faba67924ec928f37df13783504a8e26ff365fd2",
-   "section": "Cowboy Bebop",
-   "name": "Swordfish II Slasher",
-   "devName": "[VIRTUAL]1 x Swordfish II Slasher for 800 MtxCurrency",
-   "itemNames": [
-    "Swordfish II Slasher"
-   ],
-   "finalPrice": 800,
-   "regularPrice": 800,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9191b3beefe1005d/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Pickaxe_StudyBench",
-     "name": "Swordfish II Slasher",
-     "type": "pickaxe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/71b2fda5558398b6b01003e9547387ed4f669858f4dbf82bb0946c9ca8959eb5",
-   "section": "No Sweat",
-   "name": "Ruby",
-   "devName": "[VIRTUAL]1 x Ruby, 1 x Red Alert for -1 MtxCurrency",
-   "itemNames": [
-    "Ruby",
-    "Red Alert"
-   ],
-   "finalPrice": 1200,
-   "regularPrice": 1200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2a40ac0323d7937d/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "CID_527_Athena_Commando_F_StreetFashionRed",
-     "name": "Ruby",
-     "type": "outfit"
-    },
-    {
-     "id": "BID_354_StreetFashionRed",
-     "name": "Red Alert",
-     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -8379,23 +8809,23 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/064e67ebb075ac6776fb00f67e1273f16a833f9bdd7b715c94615c0965ed1208",
-   "section": "The Sidekick Squad",
-   "name": "Empress",
-   "devName": "[VIRTUAL]1 x Empress for 1200 MtxCurrency",
+   "offerId": "v2:/847d0375800b4f02e765cb63386c43cef806ec2413919469106455d3131b7f2c",
+   "section": "One-Punch Man",
+   "name": "Telekinetic Edge",
+   "devName": "[VIRTUAL]1 x Telekinetic Edge for 800 MtxCurrency",
    "itemNames": [
-    "Empress"
+    "Telekinetic Edge"
    ],
-   "finalPrice": 1200,
-   "regularPrice": 1200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/296182ba298515fa/renderimage_0.png",
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/353e34d71533053f/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "Companion_CarrierShade",
-     "name": "Empress",
-     "type": "sidekick"
+     "id": "Pickaxe_IvyStub",
+     "name": "Telekinetic Edge",
+     "type": "pickaxe"
     }
    ],
    "namedBundle": false
@@ -8441,28 +8871,6 @@
    "namedBundle": true
   },
   {
-   "offerId": "v2:/fa1d6106ac6340834c57f2f682df2579a88a17d2638702b39fc2e1bba70e6ae0",
-   "section": "Harvest Season",
-   "name": "Choppin'",
-   "devName": "[VIRTUAL]1 x Choppin' for 200 MtxCurrency",
-   "itemNames": [
-    "Choppin'"
-   ],
-   "finalPrice": 200,
-   "regularPrice": 200,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/343111752105fc7c/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "EID_ChopChop",
-     "name": "Choppin'",
-     "type": "emote"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/d412ac41babbc1d2ae12183d41ba8df1829794046fcd9edf3e57ab511d74f889",
    "section": "Jam Tracks",
    "name": "Maps - Maroon 5",
@@ -8480,6 +8888,56 @@
      "id": "sid_placeholder_65",
      "name": "Maps",
      "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/0dedfa04062b7c87b0bd1996a6eff5f6bcf62e3290b0b6b7e6ea82c546c9e5a8",
+   "section": "No Sweat",
+   "name": "Sklaxis",
+   "devName": "[VIRTUAL]1 x Sklaxis, 1 x Spinal Blade for -1 MtxCurrency",
+   "itemNames": [
+    "Sklaxis",
+    "Spinal Blade"
+   ],
+   "finalPrice": 1500,
+   "regularPrice": 1500,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/95ecc7c8895abe7b/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "CID_621_Athena_Commando_M_BoneSnake",
+     "name": "Sklaxis",
+     "type": "outfit"
+    },
+    {
+     "id": "BID_417_BoneSnake",
+     "name": "Spinal Blade",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/fa1d6106ac6340834c57f2f682df2579a88a17d2638702b39fc2e1bba70e6ae0",
+   "section": "Harvest Season",
+   "name": "Choppin'",
+   "devName": "[VIRTUAL]1 x Choppin' for 200 MtxCurrency",
+   "itemNames": [
+    "Choppin'"
+   ],
+   "finalPrice": 200,
+   "regularPrice": 200,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/343111752105fc7c/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "EID_ChopChop",
+     "name": "Choppin'",
+     "type": "emote"
     }
    ],
    "namedBundle": false
@@ -8575,6 +9033,34 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/2f075cb2b907be126dc947fd39dce51b65905d66f95656eccd67b7ff60522dc7",
+   "section": "Birds of a Feather",
+   "name": "Tex Flamingo",
+   "devName": "[VIRTUAL]1 x Tex Flamingo, 1 x Flambago for -1 MtxCurrency",
+   "itemNames": [
+    "Tex Flamingo",
+    "Flambago"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e8890cffa87fea4a/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_FlamingoCountry",
+     "name": "Tex Flamingo",
+     "type": "outfit"
+    },
+    {
+     "id": "Backpack_FlamingoCountry",
+     "name": "Flambago",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/3a1b6276663af061373c0210d163c53905e1f80f06150ef46ae1188993a266ae",
    "section": "Harvest Season",
    "name": "Lexa Hexbringer",
@@ -8625,6 +9111,142 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/67bd0df622ccce9507580af09757e5cb7f628ea6bdfb819e0221a80d2aab6447",
+   "section": "One-Punch Man",
+   "name": "One-Punch Man Bundle",
+   "devName": "[VIRTUAL]1 x Saitama, 1 x Genos, 1 x Terrible Tornado, 1 x Centichoro, 1 x Mechanical Fist Hammer, 1 x Supermarket's Shopping Bag, 1 x Telekinetic Edge, 1 x Saitama's Routine, 1 x Ok, 1 x Psychokinesis, 1 x Genos' Core, 1 x Saitama's Alarm Clock, 1 x Tiny Terrible Tornado, 1 x One-Punch Man, 1 x One Punch Kit, 1 x Psychokinesis Mic, 1 x One Punch Kit, 1 x Psychokinesis Mic, 1 x One Punch Kit, 1 x Psychokinesis Mic for -1 MtxCurrency",
+   "itemNames": [
+    "Saitama",
+    "Genos",
+    "Terrible Tornado",
+    "Centichoro",
+    "Mechanical Fist Hammer",
+    "Supermarket's Shopping Bag",
+    "Telekinetic Edge",
+    "Saitama's Routine",
+    "Ok",
+    "Psychokinesis",
+    "Genos' Core",
+    "Saitama's Alarm Clock",
+    "Tiny Terrible Tornado",
+    "One-Punch Man",
+    "One Punch Kit",
+    "Psychokinesis Mic",
+    "One Punch Kit",
+    "Psychokinesis Mic",
+    "One Punch Kit",
+    "Psychokinesis Mic"
+   ],
+   "finalPrice": 3800,
+   "regularPrice": 11900,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a4587aea2385f735/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_IgniteEgg",
+     "name": "Saitama",
+     "type": "outfit"
+    },
+    {
+     "id": "Character_ArmyFlour",
+     "name": "Genos",
+     "type": "outfit"
+    },
+    {
+     "id": "Character_IvyStub",
+     "name": "Terrible Tornado",
+     "type": "outfit"
+    },
+    {
+     "id": "Glider_IgniteEgg",
+     "name": "Centichoro",
+     "type": "glider"
+    },
+    {
+     "id": "Pickaxe_ArmyFlour",
+     "name": "Mechanical Fist Hammer",
+     "type": "pickaxe"
+    },
+    {
+     "id": "Pickaxe_IgniteEgg",
+     "name": "Supermarket's Shopping Bag",
+     "type": "pickaxe"
+    },
+    {
+     "id": "Pickaxe_IvyStub",
+     "name": "Telekinetic Edge",
+     "type": "pickaxe"
+    },
+    {
+     "id": "EID_IgniteEgg",
+     "name": "Saitama's Routine",
+     "type": "emote"
+    },
+    {
+     "id": "EID_IgniteEgg_Jab",
+     "name": "Ok",
+     "type": "emote"
+    },
+    {
+     "id": "EID_IvyStub",
+     "name": "Psychokinesis",
+     "type": "emote"
+    },
+    {
+     "id": "Backpack_ArmyFlour",
+     "name": "Genos' Core",
+     "type": "backpack"
+    },
+    {
+     "id": "Backpack_IgniteEgg",
+     "name": "Saitama's Alarm Clock",
+     "type": "backpack"
+    },
+    {
+     "id": "Backpack_IvyStub",
+     "name": "Tiny Terrible Tornado",
+     "type": "backpack"
+    },
+    {
+     "id": "Wrap_IgniteEgg",
+     "name": "One-Punch Man",
+     "type": "wrap"
+    },
+    {
+     "id": "Backpack_IgniteEgg_DrumStick",
+     "name": "One Punch Kit",
+     "type": "backpack"
+    },
+    {
+     "id": "Backpack_IvyStub_Mic",
+     "name": "Psychokinesis Mic",
+     "type": "backpack"
+    },
+    {
+     "id": "Pickaxe_IgniteEgg_DrumStick",
+     "name": "One Punch Kit",
+     "type": "pickaxe"
+    },
+    {
+     "id": "Pickaxe_IvyStub_Mic",
+     "name": "Psychokinesis Mic",
+     "type": "pickaxe"
+    },
+    {
+     "id": "Sparks_IgniteEgg_DrumKit",
+     "name": "One Punch Kit",
+     "type": "instrument"
+    },
+    {
+     "id": "Sparks_IvyStub_Mic",
+     "name": "Psychokinesis Mic",
+     "type": "instrument"
+    }
+   ],
+   "namedBundle": true
+  },
+  {
    "offerId": "v2:/04ef72eefade2dea42dd5d60a268fc1e4a4582b9cef5010502eeb7486bfa1ce3",
    "section": "Overwatch",
    "name": "Tracer's Pulse Knives",
@@ -8669,28 +9291,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/984d3566107e6111ef20d0e63932a9fcd0901c5e037a6b21589aee5bb16e6910",
-   "section": "Jam Tracks",
-   "name": "abcdefu - GAYLE",
-   "devName": "[VIRTUAL]1 x abcdefu for 500 MtxCurrency",
-   "itemNames": [
-    "abcdefu - GAYLE"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://cdn.fortnite-api.com/tracks/ef685e81f15802e7.jpg",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "sid_placeholder_63",
-     "name": "abcdefu",
-     "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/ab8f65e59839fb5763ee2daa8a828ce499db48833469f3877137d4d093d31044",
    "section": "Jam Tracks",
    "name": "Big Dawgs - Hanumankind ft. Kalmi",
@@ -8713,23 +9313,23 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/879f82d4170fd892b117589f24f32e62bfca626ab1451e30ecf2a57e21ffb679",
-   "section": "Treasure Hunters ",
-   "name": "Brawler's Bounty Blades",
-   "devName": "[VIRTUAL]1 x Brawler's Bounty Blades for 500 MtxCurrency",
+   "offerId": "v2:/984d3566107e6111ef20d0e63932a9fcd0901c5e037a6b21589aee5bb16e6910",
+   "section": "Jam Tracks",
+   "name": "abcdefu - GAYLE",
+   "devName": "[VIRTUAL]1 x abcdefu for 500 MtxCurrency",
    "itemNames": [
-    "Brawler's Bounty Blades"
+    "abcdefu - GAYLE"
    ],
    "finalPrice": 500,
    "regularPrice": 500,
-   "outDate": "2026-11-28T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4600db4872338da2/renderimage_0.png",
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://cdn.fortnite-api.com/tracks/ef685e81f15802e7.jpg",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "Pickaxe_FierceStripe",
-     "name": "Brawler's Bounty Blades",
-     "type": "pickaxe"
+     "id": "sid_placeholder_63",
+     "name": "abcdefu",
+     "type": "track"
     }
    ],
    "namedBundle": false
@@ -8764,6 +9364,28 @@
      "id": "Sparks_RookGeckoRye_Guitar",
      "name": "Uzi's Tour Guitar",
      "type": "instrument"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/879f82d4170fd892b117589f24f32e62bfca626ab1451e30ecf2a57e21ffb679",
+   "section": "Treasure Hunters ",
+   "name": "Brawler's Bounty Blades",
+   "devName": "[VIRTUAL]1 x Brawler's Bounty Blades for 500 MtxCurrency",
+   "itemNames": [
+    "Brawler's Bounty Blades"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-28T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4600db4872338da2/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Pickaxe_FierceStripe",
+     "name": "Brawler's Bounty Blades",
+     "type": "pickaxe"
     }
    ],
    "namedBundle": false
@@ -8813,76 +9435,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/d1457119b8331bbe79b21eca7033b036cf4ca7076cfa1f22985b279a5d12f715",
-   "section": "Cowboy Bebop",
-   "name": "Cowboy Bebop Bundle",
-   "devName": "[VIRTUAL]1 x Faye Valentine, 1 x Spike Spiegel, 1 x Jukebox Bop, 1 x Lil' Swordfish II, 1 x Red Tail Reaver, 1 x Swordfish II Slasher, 1 x Multi-Purpose Phone, 1 x Roses For Julia, 1 x Valentine Blue for -1 MtxCurrency",
-   "itemNames": [
-    "Faye Valentine",
-    "Spike Spiegel",
-    "Jukebox Bop",
-    "Lil' Swordfish II",
-    "Red Tail Reaver",
-    "Swordfish II Slasher",
-    "Multi-Purpose Phone",
-    "Roses For Julia",
-    "Valentine Blue"
-   ],
-   "finalPrice": 3400,
-   "regularPrice": 6600,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/68e33d6957e3dba5/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Character_KneeLens",
-     "name": "Faye Valentine",
-     "type": "outfit"
-    },
-    {
-     "id": "Character_StudyBench",
-     "name": "Spike Spiegel",
-     "type": "outfit"
-    },
-    {
-     "id": "EID_KneeLens",
-     "name": "Jukebox Bop",
-     "type": "emote"
-    },
-    {
-     "id": "EID_StudyBench",
-     "name": "Lil' Swordfish II",
-     "type": "emote"
-    },
-    {
-     "id": "Pickaxe_KneeLens",
-     "name": "Red Tail Reaver",
-     "type": "pickaxe"
-    },
-    {
-     "id": "Pickaxe_StudyBench",
-     "name": "Swordfish II Slasher",
-     "type": "pickaxe"
-    },
-    {
-     "id": "Backpack_KneeLens",
-     "name": "Multi-Purpose Phone",
-     "type": "backpack"
-    },
-    {
-     "id": "Backpack_StudyBench",
-     "name": "Roses For Julia",
-     "type": "backpack"
-    },
-    {
-     "id": "Wrap_KneeLens",
-     "name": "Valentine Blue",
-     "type": "wrap"
-    }
-   ],
-   "namedBundle": true
-  },
-  {
    "offerId": "v2:/f59b2695402e64a7e0abc71fecb2843a9d139484bcaa3ab1e2c305929c33ac09",
    "section": "Overwatch",
    "name": "Widowmaker's Salute",
@@ -8900,28 +9452,6 @@
      "id": "Wrap_ShoneStays",
      "name": "Widowmaker's Salute",
      "type": "wrap"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/8fb03ee2c339068e1eab31ee7a6cb0543ecedfdfb0d027396a2036a1b362bb5b",
-   "section": "Main Character Energy ",
-   "name": "Purrfect",
-   "devName": "[VIRTUAL]1 x Purrfect for 500 MtxCurrency",
-   "itemNames": [
-    "Purrfect"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9bcaf3e54a80d7de/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Glider_ID_066_SamuraiBlue",
-     "name": "Purrfect",
-     "type": "glider"
     }
    ],
    "namedBundle": false
@@ -8949,6 +9479,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/6d26d409e990b36336fcec9fd5cd7a766e3655038a355b855f80477f24f7d973",
+   "section": "Hatsune Miku",
+   "name": "CONNECT:COMMUNE - FLAVOR FOLEY ft. Hatsune Miku",
+   "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_991) for 500 MtxCurrency",
+   "itemNames": [
+    "CONNECT:COMMUNE - FLAVOR FOLEY ft. Hatsune Miku"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-12-14T23:59:59.999Z",
+   "imageUrl": "https://cdn.fortnite-api.com/tracks/b0a043a9cc2b61f9.jpg",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "sid_placeholder_991",
+     "name": "CONNECT:COMMUNE",
+     "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/da65787233853fb385666c803aca9b9572eeea0c7b5a8930f427fb5377455f78",
    "section": "Jam Tracks",
    "name": "Monster - YOASOBI",
@@ -8971,22 +9523,22 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/6d26d409e990b36336fcec9fd5cd7a766e3655038a355b855f80477f24f7d973",
-   "section": "Hatsune Miku",
-   "name": "CONNECT:COMMUNE - FLAVOR FOLEY ft. Hatsune Miku",
-   "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_991) for 500 MtxCurrency",
+   "offerId": "v2:/465c5f816908ee726245731d693572264af488b4d69788b2706cf68ea135ae21",
+   "section": "Jam Tracks",
+   "name": "PROVENZA (REMIX) - Karol G ft. Tiësto",
+   "devName": "[VIRTUAL]1 x PROVENZA (REMIX) for 500 MtxCurrency",
    "itemNames": [
-    "CONNECT:COMMUNE - FLAVOR FOLEY ft. Hatsune Miku"
+    "PROVENZA (REMIX) - Karol G ft. Tiësto"
    ],
    "finalPrice": 500,
    "regularPrice": 500,
-   "outDate": "2026-12-14T23:59:59.999Z",
-   "imageUrl": "https://cdn.fortnite-api.com/tracks/b0a043a9cc2b61f9.jpg",
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://cdn.fortnite-api.com/tracks/a7ee9312ee568df6.jpg",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "sid_placeholder_991",
-     "name": "CONNECT:COMMUNE",
+     "id": "sid_placeholder_276",
+     "name": "PROVENZA (REMIX)",
      "type": "track"
     }
    ],
@@ -9015,23 +9567,23 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/465c5f816908ee726245731d693572264af488b4d69788b2706cf68ea135ae21",
-   "section": "Jam Tracks",
-   "name": "PROVENZA (REMIX) - Karol G ft. Tiësto",
-   "devName": "[VIRTUAL]1 x PROVENZA (REMIX) for 500 MtxCurrency",
+   "offerId": "v2:/f2d899177157f6b442c2fbb1a2eb0d752950ff540c527052f16836b34f78ac83",
+   "section": "One-Punch Man",
+   "name": "Terrible Tornado",
+   "devName": "[VIRTUAL]1 x Terrible Tornado for 1500 MtxCurrency",
    "itemNames": [
-    "PROVENZA (REMIX) - Karol G ft. Tiësto"
+    "Terrible Tornado"
    ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://cdn.fortnite-api.com/tracks/a7ee9312ee568df6.jpg",
+   "finalPrice": 1500,
+   "regularPrice": 1500,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/25cfbdc2d75e35e0/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "sid_placeholder_276",
-     "name": "PROVENZA (REMIX)",
-     "type": "track"
+     "id": "Character_IvyStub",
+     "name": "Terrible Tornado",
+     "type": "outfit"
     }
    ],
    "namedBundle": false
@@ -9261,28 +9813,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/0a0d3c349388cdb41bf82ffdcdd6ce5af858b74c1554f5ad8100a8ad5fd64c46",
-   "section": "Jam Tracks",
-   "name": "Gangnam Style - PSY",
-   "devName": "[VIRTUAL]1 x Gangnam Style for 500 MtxCurrency",
-   "itemNames": [
-    "Gangnam Style - PSY"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://cdn.fortnite-api.com/tracks/d74499515df37724.jpg",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "sid_placeholder_91",
-     "name": "Gangnam Style",
-     "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/049f1c000993c05d0587ee5d059000ba2f586451cdb1e9f61dac84fef8a9cb02",
    "section": "The Sidekick Squad",
    "name": "Cupid Kitty",
@@ -9300,6 +9830,28 @@
      "id": "Companion_FondCuddles",
      "name": "Cupid Kitty",
      "type": "sidekick"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/0a0d3c349388cdb41bf82ffdcdd6ce5af858b74c1554f5ad8100a8ad5fd64c46",
+   "section": "Jam Tracks",
+   "name": "Gangnam Style - PSY",
+   "devName": "[VIRTUAL]1 x Gangnam Style for 500 MtxCurrency",
+   "itemNames": [
+    "Gangnam Style - PSY"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://cdn.fortnite-api.com/tracks/d74499515df37724.jpg",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "sid_placeholder_91",
+     "name": "Gangnam Style",
+     "type": "track"
     }
    ],
    "namedBundle": false
@@ -9355,28 +9907,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/64cb0ef45952b00e793490bad5ab92ce2ca34e3047a5958bfcb89dbf12893c78",
-   "section": "One Piece ",
-   "name": "Climate Baton",
-   "devName": "[VIRTUAL]1 x Climate Baton for 500 MtxCurrency",
-   "itemNames": [
-    "Climate Baton"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-12-05T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3ae6b56d744af2d6/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Pickaxe_BoastJoint",
-     "name": "Climate Baton",
-     "type": "pickaxe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/e5803144dd782ddc2553fb3d6a18dd013db3f8281ded3bface13f2c7f972e214",
    "section": "Overwatch",
    "name": "Genji",
@@ -9411,6 +9941,28 @@
    "namedBundle": true
   },
   {
+   "offerId": "v2:/64cb0ef45952b00e793490bad5ab92ce2ca34e3047a5958bfcb89dbf12893c78",
+   "section": "One Piece ",
+   "name": "Climate Baton",
+   "devName": "[VIRTUAL]1 x Climate Baton for 500 MtxCurrency",
+   "itemNames": [
+    "Climate Baton"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-12-05T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3ae6b56d744af2d6/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Pickaxe_BoastJoint",
+     "name": "Climate Baton",
+     "type": "pickaxe"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/08b99a8bc6e9118d4e9b4930ed8399d9247a61e284fd6a1e8bc625a6cb5ba577",
    "section": "Jam Tracks",
    "name": "March Of The Pigs - Nine Inch Nails",
@@ -9428,34 +9980,6 @@
      "id": "sid_placeholder_103",
      "name": "March Of The Pigs",
      "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/703362f4057e2e0c8875bd916228aa6b3190e29bcc0774179d5d19b16ef19919",
-   "section": "Main Character Energy ",
-   "name": "Nemia",
-   "devName": "[VIRTUAL]1 x Nemia, 1 x Kappa Back-a Pack-a for -1 MtxCurrency",
-   "itemNames": [
-    "Nemia",
-    "Kappa Back-a Pack-a"
-   ],
-   "finalPrice": 1200,
-   "regularPrice": 1200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/515557820db4e8f6/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Character_PocketScrunchie",
-     "name": "Nemia",
-     "type": "outfit"
-    },
-    {
-     "id": "Backpack_PocketScrunchie",
-     "name": "Kappa Back-a Pack-a",
-     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -9505,23 +10029,23 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/e362e722769146b40b41e463da1d90bd5bcd48f0bb69aad6395548f40c568454",
-   "section": "Save The World",
-   "name": "Dara",
-   "devName": "[VIRTUAL]1 x Dara for 1200 MtxCurrency",
+   "offerId": "v2:/ca898acf03cbf47db1a1303565bcf67ae5d6fb7b134f836ed53ddf5d4474c1d7",
+   "section": "Pirates of the Caribbean",
+   "name": "Davy's Pipe Organ",
+   "devName": "[VIRTUAL]1 x Davy's Pipe Organ for 500 MtxCurrency",
    "itemNames": [
-    "Dara"
+    "Davy's Pipe Organ"
    ],
-   "finalPrice": 1200,
-   "regularPrice": 1200,
+   "finalPrice": 500,
+   "regularPrice": 500,
    "outDate": "2026-11-26T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5663a942feb46a85/renderimage_0.png",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/259d54b18a69b73e/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "Character_GoldenPleats",
-     "name": "Dara",
-     "type": "outfit"
+     "id": "EID_AccentWall",
+     "name": "Davy's Pipe Organ",
+     "type": "emote"
     }
    ],
    "namedBundle": false
@@ -9549,23 +10073,45 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/ca898acf03cbf47db1a1303565bcf67ae5d6fb7b134f836ed53ddf5d4474c1d7",
-   "section": "Pirates of the Caribbean",
-   "name": "Davy's Pipe Organ",
-   "devName": "[VIRTUAL]1 x Davy's Pipe Organ for 500 MtxCurrency",
+   "offerId": "v2:/e362e722769146b40b41e463da1d90bd5bcd48f0bb69aad6395548f40c568454",
+   "section": "Save The World",
+   "name": "Dara",
+   "devName": "[VIRTUAL]1 x Dara for 1200 MtxCurrency",
    "itemNames": [
-    "Davy's Pipe Organ"
+    "Dara"
    ],
-   "finalPrice": 500,
-   "regularPrice": 500,
+   "finalPrice": 1200,
+   "regularPrice": 1200,
    "outDate": "2026-11-26T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/259d54b18a69b73e/renderimage_0.png",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5663a942feb46a85/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "EID_AccentWall",
-     "name": "Davy's Pipe Organ",
-     "type": "emote"
+     "id": "Character_GoldenPleats",
+     "name": "Dara",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/992a2a39174f170c88b9dc89c79ee973ada3a5e03cd054aeac4ec381e53e7354",
+   "section": "Ferrari",
+   "name": "Modena Icon",
+   "devName": "[VIRTUAL]1 x Modena Icon for 800 MtxCurrency",
+   "itemNames": [
+    "Modena Icon"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-28T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/958d018277fa8011/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "CID_A_138_Athena_Commando_F_Foray_YQPB0",
+     "name": "Modena Icon",
+     "type": "outfit"
     }
    ],
    "namedBundle": false
@@ -9615,28 +10161,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/263f541ae72138a8d3baac175c3104840a2e634ef30c94168712c147d6fdef87",
-   "section": "Phineas and Ferb",
-   "name": "Today is Gonna be a Great Day  - Bowling For Soup",
-   "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_777) for 500 MtxCurrency",
-   "itemNames": [
-    "Today is Gonna be a Great Day  - Bowling For Soup"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-26T23:59:59.999Z",
-   "imageUrl": "https://cdn.fortnite-api.com/tracks/68e34b52f7f16b6e.jpg",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "sid_placeholder_777",
-     "name": "Today is Gonna be a Great Day ",
-     "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/fdbff4460b7e46793bf63afac07259f248b7206ae4c49a6a11571989b7d88eaf",
    "section": "Jam Tracks",
    "name": "I Wish - Skee-Lo",
@@ -9653,6 +10177,28 @@
     {
      "id": "sid_placeholder_178",
      "name": "I Wish",
+     "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/263f541ae72138a8d3baac175c3104840a2e634ef30c94168712c147d6fdef87",
+   "section": "Phineas and Ferb",
+   "name": "Today is Gonna be a Great Day  - Bowling For Soup",
+   "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_777) for 500 MtxCurrency",
+   "itemNames": [
+    "Today is Gonna be a Great Day  - Bowling For Soup"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://cdn.fortnite-api.com/tracks/68e34b52f7f16b6e.jpg",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "sid_placeholder_777",
+     "name": "Today is Gonna be a Great Day ",
      "type": "track"
     }
    ],
@@ -9681,28 +10227,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/76d138b0e2227a810c43356d7cb4faabf836e92aea2374dea264673c9d28d30d",
-   "section": "Crash Bandicoot & Spyro the Dragon",
-   "name": "Bandicoot",
-   "devName": "[VIRTUAL]1 x Bandicoot for 500 MtxCurrency",
-   "itemNames": [
-    "Bandicoot"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-26T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/56855aa0ee9d9743/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Wrap_SpruceBark",
-     "name": "Bandicoot",
-     "type": "wrap"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/2ea1f0c34f5344faccf2c7422dce1c06d342cc564437d90c5a820aed5f98b35d",
    "section": "Treasure Hunters ",
    "name": "Privateer Oscar",
@@ -9726,6 +10250,28 @@
      "id": "Backpack_FierceStripe",
      "name": "Privateer's Pistols",
      "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/76d138b0e2227a810c43356d7cb4faabf836e92aea2374dea264673c9d28d30d",
+   "section": "Crash Bandicoot & Spyro the Dragon",
+   "name": "Bandicoot",
+   "devName": "[VIRTUAL]1 x Bandicoot for 500 MtxCurrency",
+   "itemNames": [
+    "Bandicoot"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/56855aa0ee9d9743/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Wrap_SpruceBark",
+     "name": "Bandicoot",
+     "type": "wrap"
     }
    ],
    "namedBundle": false
@@ -9792,56 +10338,6 @@
      "id": "sid_placeholder_967",
      "name": "Say It Was",
      "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/732b786a282c6bd0fe08fff4904ee6c55dd165f0c0534c647a9279a646493ac1",
-   "section": "Regular Show",
-   "name": "Mordecai",
-   "devName": "[VIRTUAL]1 x Mordecai, 1 x Maximum Glove for -1 MtxCurrency",
-   "itemNames": [
-    "Mordecai",
-    "Maximum Glove"
-   ],
-   "finalPrice": 1500,
-   "regularPrice": 1500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/78ceb55992c8349f/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Character_VouchTrig",
-     "name": "Mordecai",
-     "type": "outfit"
-    },
-    {
-     "id": "Pickaxe_VouchTrig",
-     "name": "Maximum Glove",
-     "type": "pickaxe"
-    }
-   ],
-   "namedBundle": true
-  },
-  {
-   "offerId": "v2:/89451bda78c721a72468c631730bbec2ac84bd94ed5938170069602d031aaa82",
-   "section": "Cowboy Bebop",
-   "name": "Roses For Julia",
-   "devName": "[VIRTUAL]1 x Roses For Julia for 300 MtxCurrency",
-   "itemNames": [
-    "Roses For Julia"
-   ],
-   "finalPrice": 300,
-   "regularPrice": 300,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/84a4903b5522f68d/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Backpack_StudyBench",
-     "name": "Roses For Julia",
-     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -9931,56 +10427,26 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/e30b9910f9e3826de9c50d45f46fd633dbf20d5880487cb37ddfb4ee45d91009",
-   "section": "Crash Bandicoot & Spyro the Dragon",
-   "name": "Crash Bandicoot & Spyro the Dragon Bundle",
-   "devName": "[VIRTUAL]1 x Crash Bandicoot, 1 x Bandicoot, 1 x Spyro the Dragon, 1 x Aku Aku, 1 x Crash's Victory, 1 x Crash's Wumpa Mace for -1 MtxCurrency",
+   "offerId": "v2:/abc217a5e75ae10e87637e7b9f924adb7230c96b5fd9ebaeb969b0a82aa39b86",
+   "section": "Birds of a Feather",
+   "name": "Cosmic Peck Axe",
+   "devName": "[VIRTUAL]1 x Cosmic Peck Axe for 800 MtxCurrency",
    "itemNames": [
-    "Crash Bandicoot",
-    "Bandicoot",
-    "Spyro the Dragon",
-    "Aku Aku",
-    "Crash's Victory",
-    "Crash's Wumpa Mace"
+    "Cosmic Peck Axe"
    ],
-   "finalPrice": 3000,
-   "regularPrice": 4900,
+   "finalPrice": 800,
+   "regularPrice": 800,
    "outDate": "2026-11-26T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/50df3ec91772656e/renderimage_0.png",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/81cbfc2267808b3d/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "Character_SpruceBark",
-     "name": "Crash Bandicoot",
-     "type": "outfit"
-    },
-    {
-     "id": "Wrap_SpruceBark",
-     "name": "Bandicoot",
-     "type": "wrap"
-    },
-    {
-     "id": "Companion_SandyInland",
-     "name": "Spyro the Dragon",
-     "type": "sidekick"
-    },
-    {
-     "id": "Backpack_SpruceBark",
-     "name": "Aku Aku",
-     "type": "backpack"
-    },
-    {
-     "id": "EID_SpruceBark",
-     "name": "Crash's Victory",
-     "type": "emote"
-    },
-    {
-     "id": "Pickaxe_SpruceBark",
-     "name": "Crash's Wumpa Mace",
+     "id": "Pickaxe_CosmicSquatter",
+     "name": "Cosmic Peck Axe",
      "type": "pickaxe"
     }
    ],
-   "namedBundle": true
+   "namedBundle": false
   },
   {
    "offerId": "v2:/ec90ad43e5988096783782d40bdb9acbcc89434bc8b19dc96f88623195ad1fd6",
@@ -10083,32 +10549,56 @@
    "namedBundle": true
   },
   {
-   "offerId": "v2:/1854b424e1e43ffe59a856d7cd75f1a6b0b42ede8dabfd9a260c47704abb4d85",
-   "section": "No Sweat",
-   "name": "Kyra",
-   "devName": "[VIRTUAL]1 x Kyra, 1 x Impact Green for -1 MtxCurrency",
+   "offerId": "v2:/e30b9910f9e3826de9c50d45f46fd633dbf20d5880487cb37ddfb4ee45d91009",
+   "section": "Crash Bandicoot & Spyro the Dragon",
+   "name": "Crash Bandicoot & Spyro the Dragon Bundle",
+   "devName": "[VIRTUAL]1 x Crash Bandicoot, 1 x Bandicoot, 1 x Spyro the Dragon, 1 x Aku Aku, 1 x Crash's Victory, 1 x Crash's Wumpa Mace for -1 MtxCurrency",
    "itemNames": [
-    "Kyra",
-    "Impact Green"
+    "Crash Bandicoot",
+    "Bandicoot",
+    "Spyro the Dragon",
+    "Aku Aku",
+    "Crash's Victory",
+    "Crash's Wumpa Mace"
    ],
-   "finalPrice": 1200,
-   "regularPrice": 1200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d416004a362af80a/renderimage_0.png",
+   "finalPrice": 3000,
+   "regularPrice": 4900,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/50df3ec91772656e/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "CID_806_Athena_Commando_F_GreenJacket",
-     "name": "Kyra",
+     "id": "Character_SpruceBark",
+     "name": "Crash Bandicoot",
      "type": "outfit"
     },
     {
-     "id": "BID_559_GreenJacket",
-     "name": "Impact Green",
+     "id": "Wrap_SpruceBark",
+     "name": "Bandicoot",
+     "type": "wrap"
+    },
+    {
+     "id": "Companion_SandyInland",
+     "name": "Spyro the Dragon",
+     "type": "sidekick"
+    },
+    {
+     "id": "Backpack_SpruceBark",
+     "name": "Aku Aku",
      "type": "backpack"
+    },
+    {
+     "id": "EID_SpruceBark",
+     "name": "Crash's Victory",
+     "type": "emote"
+    },
+    {
+     "id": "Pickaxe_SpruceBark",
+     "name": "Crash's Wumpa Mace",
+     "type": "pickaxe"
     }
    ],
-   "namedBundle": false
+   "namedBundle": true
   },
   {
    "offerId": "v2:/0fc372e04cda07dcad11c7d4d2f1ff2a958e9696242acb32b468d3a0f6283339",
@@ -10128,6 +10618,28 @@
      "id": "Shoes_PeekTwine",
      "name": "Turkey Trompers",
      "type": "shoe"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/39cd98aaa84ea91e446d7f462e2f22d6df9c08e2e04463def3d338a59365b0b0",
+   "section": "alc.0",
+   "name": "Cybertooth Tiger",
+   "devName": "[VIRTUAL]1 x Cybertooth Tiger for 300 MtxCurrency",
+   "itemNames": [
+    "Cybertooth Tiger"
+   ],
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_coyotear/featured.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Backpack_CoyoTear",
+     "name": "Cybertooth Tiger",
+     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -10189,23 +10701,23 @@
    "namedBundle": true
   },
   {
-   "offerId": "v2:/b46678eca4f3d2a04b77d82d0f467a492b65c0c3885d00db72aee22d8b4a05a0",
-   "section": "Gorillaz",
-   "name": "Murdoc",
-   "devName": "[VIRTUAL]1 x Murdoc for 1500 MtxCurrency",
+   "offerId": "v2:/7c8d2384fd218a65f05eb4cb5aa3984019179bcd9078ad07857d1e93d890d1d7",
+   "section": "alc.0",
+   "name": "Spinal Blade",
+   "devName": "[VIRTUAL]1 x Spinal Blade for 400 MtxCurrency",
    "itemNames": [
-    "Murdoc"
+    "Spinal Blade"
    ],
-   "finalPrice": 1500,
-   "regularPrice": 1500,
-   "outDate": "2026-11-24T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1fb10734fac20638/renderimage_0.png",
+   "finalPrice": 400,
+   "regularPrice": 400,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_417_bonesnake/featured.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "Character_GatorCeladon",
-     "name": "Murdoc",
-     "type": "outfit"
+     "id": "BID_417_BoneSnake",
+     "name": "Spinal Blade",
+     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -10237,6 +10749,28 @@
     }
    ],
    "namedBundle": true
+  },
+  {
+   "offerId": "v2:/b46678eca4f3d2a04b77d82d0f467a492b65c0c3885d00db72aee22d8b4a05a0",
+   "section": "Gorillaz",
+   "name": "Murdoc",
+   "devName": "[VIRTUAL]1 x Murdoc for 1500 MtxCurrency",
+   "itemNames": [
+    "Murdoc"
+   ],
+   "finalPrice": 1500,
+   "regularPrice": 1500,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1fb10734fac20638/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_GatorCeladon",
+     "name": "Murdoc",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": false
   },
   {
    "offerId": "v2:/084edef40c0d6d4b77786df9f749b63104cc5c7eae87a80e8d89887e0fb5c32e",
@@ -10278,6 +10812,40 @@
      "id": "EID_FreezeFrame",
      "name": "Black Beatles",
      "type": "emote"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/5be18e5a5f1e6777647f5f2318ef4b931cb0a9da7ffa09910bfcc1d298083b67",
+   "section": "One-Punch Man",
+   "name": "One Punch Kit",
+   "devName": "[VIRTUAL]1 x One Punch Kit, 1 x One Punch Kit, 1 x One Punch Kit for 800 MtxCurrency",
+   "itemNames": [
+    "One Punch Kit",
+    "One Punch Kit",
+    "One Punch Kit"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/50edc985e5c38846/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Backpack_IgniteEgg_DrumStick",
+     "name": "One Punch Kit",
+     "type": "backpack"
+    },
+    {
+     "id": "Pickaxe_IgniteEgg_DrumStick",
+     "name": "One Punch Kit",
+     "type": "pickaxe"
+    },
+    {
+     "id": "Sparks_IgniteEgg_DrumKit",
+     "name": "One Punch Kit",
+     "type": "instrument"
     }
    ],
    "namedBundle": false
@@ -10349,6 +10917,50 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/0ba09c5e79c88e38978fc043b065666d69cd70352348a88f79742124b3e28019",
+   "section": "One-Punch Man",
+   "name": "Saitama",
+   "devName": "[VIRTUAL]1 x Saitama for 1500 MtxCurrency",
+   "itemNames": [
+    "Saitama"
+   ],
+   "finalPrice": 1500,
+   "regularPrice": 1500,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3cf5abe38889ea04/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_IgniteEgg",
+     "name": "Saitama",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/3df849da977fcc05bd81050c6a5170ae192011f1bc2e28c1bd90fcfb9f7974e6",
+   "section": "One-Punch Man",
+   "name": "One-Punch Man",
+   "devName": "[VIRTUAL]1 x One-Punch Man for 500 MtxCurrency",
+   "itemNames": [
+    "One-Punch Man"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4ec16f861cc35068/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Wrap_IgniteEgg",
+     "name": "One-Punch Man",
+     "type": "wrap"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/90ed2fd08a06294dac3bd953464ee9ea7b4cc0395bd6815d65390906bce4c36f",
    "section": "Overwatch",
    "name": "Travel Tokki Model",
@@ -10388,6 +11000,50 @@
      "id": "sid_placeholder_950",
      "name": "Lord Pretty Flacko Jodye 2 (LPFJ2)",
      "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/4652ab744fc73ce0e0001a457e594a0f42cf39d4e100b821dd618e591a9b7de8",
+   "section": "Birds of a Feather",
+   "name": "Budge Blaster",
+   "devName": "[VIRTUAL]1 x Budge Blaster for 500 MtxCurrency",
+   "itemNames": [
+    "Budge Blaster"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/61ab35595624c833/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Wrap_CosmicSquatter",
+     "name": "Budge Blaster",
+     "type": "wrap"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/f36cf1e194503966a4606c0e77de9bc51ef15423eb5cdb277a1f12b1712ac6a0",
+   "section": "No Sweat",
+   "name": "Snakepit",
+   "devName": "[VIRTUAL]1 x Snakepit for 800 MtxCurrency",
+   "itemNames": [
+    "Snakepit"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/16aeadb3e19cac8f/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "CID_548_Athena_Commando_M_YellowCamoA",
+     "name": "Snakepit",
+     "type": "outfit"
     }
    ],
    "namedBundle": false
@@ -10503,6 +11159,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/6f527325ceac9ad057feee505fc90f6e0de72b652a868c66053106149b43047c",
+   "section": "Main Character Energy ",
+   "name": "7-Ball",
+   "devName": "[VIRTUAL]1 x 7-Ball for 800 MtxCurrency",
+   "itemNames": [
+    "7-Ball"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-25T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/fa3d3083ec3488ff/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_LuckySeven",
+     "name": "7-Ball",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/80dbabcc41098edfa802d220eb4655e4ae6353c38b924095f8adae030dfa3507",
    "section": "Ice Spice",
    "name": "Ice Spice",
@@ -10609,6 +11287,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/5b488e9b353ffe776510c969f907c91edcb8080e7c72af2c8a61f6cd32de3a1e",
+   "section": "No Sweat",
+   "name": "Assault Trooper",
+   "devName": "[VIRTUAL]1 x Assault Trooper for 800 MtxCurrency",
+   "itemNames": [
+    "Assault Trooper"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a02bae1fb0c2c3c7/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "CID_015_Athena_Commando_F",
+     "name": "Assault Trooper",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/0bec588d5d08083350b5902557e3750a3929fb2a9ea91d95e42772149574e939",
    "section": "Jam Tracks",
    "name": "Ballin' - Mustard ft. Roddy Ricch",
@@ -10648,28 +11348,6 @@
      "id": "Pickaxe_DanderClay",
      "name": "Kiriko's Kunai",
      "type": "pickaxe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/0c822a7bba5f3927b7ee50b1827ff1c89e2d86e32406f02b186b5f29c1bd1571",
-   "section": "alc.0",
-   "name": "Slayer's Saddlebag",
-   "devName": "[VIRTUAL]1 x Slayer's Saddlebag for 200 MtxCurrency",
-   "itemNames": [
-    "Slayer's Saddlebag"
-   ],
-   "finalPrice": 200,
-   "regularPrice": 200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_616_cavalry/featured.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "BID_616_Cavalry",
-     "name": "Slayer's Saddlebag",
-     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -10763,28 +11441,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/8adc7457446d656cd5b972d56d4956087a772ad3dc58459fa58db860ce2db7d5",
-   "section": "Martoz's Locker ",
-   "name": "Wild Accent",
-   "devName": "[VIRTUAL]1 x Wild Accent for 500 MtxCurrency",
-   "itemNames": [
-    "Wild Accent"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-24T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6a5e8de40139d8f5/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Pickaxe_ID_339_CODSquadHoodie",
-     "name": "Wild Accent",
-     "type": "pickaxe"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/44338f94f4465869b07f9ee6b5edf14dc1b2963a2d25d01636fed0a3a99e4a36",
    "section": "Jam Tracks",
    "name": "Don't You Worry Child - Swedish House Mafia ft. John Martin",
@@ -10802,6 +11458,28 @@
      "id": "sid_placeholder_176",
      "name": "Don't You Worry Child",
      "type": "track"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/8adc7457446d656cd5b972d56d4956087a772ad3dc58459fa58db860ce2db7d5",
+   "section": "Martoz's Locker ",
+   "name": "Wild Accent",
+   "devName": "[VIRTUAL]1 x Wild Accent for 500 MtxCurrency",
+   "itemNames": [
+    "Wild Accent"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6a5e8de40139d8f5/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Pickaxe_ID_339_CODSquadHoodie",
+     "name": "Wild Accent",
+     "type": "pickaxe"
     }
    ],
    "namedBundle": false
@@ -10929,6 +11607,28 @@
    "namedBundle": true
   },
   {
+   "offerId": "v2:/d5d235b07889cd3db40b2062e58d8905942f6858f87218fc240618f516573e27",
+   "section": "Main Character Energy ",
+   "name": "10-Ball",
+   "devName": "[VIRTUAL]1 x 10-Ball for 800 MtxCurrency",
+   "itemNames": [
+    "10-Ball"
+   ],
+   "finalPrice": 800,
+   "regularPrice": 800,
+   "outDate": "2026-11-25T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9ab70791d0b423a4/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_DecaSphere",
+     "name": "10-Ball",
+     "type": "outfit"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/573e09d341b0f5df57bd1076fd306778f7ee25090b39df1fead467567a2db458",
    "section": "Battle Beats",
    "name": "The Airplane",
@@ -10951,22 +11651,22 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/8aa10acab19379abf341ebc54ae96bebc80fcb5593228731ff5012bfb4b69493",
-   "section": "Main Character Energy ",
-   "name": "Felina's Claw",
-   "devName": "[VIRTUAL]1 x Felina's Claw for 800 MtxCurrency",
+   "offerId": "v2:/1e1eae748282ee309ce090c058af7669cdd01b39ae48aea2f1cb29951573c6a4",
+   "section": "One-Punch Man",
+   "name": "Supermarket's Shopping Bag",
+   "devName": "[VIRTUAL]1 x Supermarket's Shopping Bag for 800 MtxCurrency",
    "itemNames": [
-    "Felina's Claw"
+    "Supermarket's Shopping Bag"
    ],
    "finalPrice": 800,
    "regularPrice": 800,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f3d40072c5e3cbc9/renderimage_0.png",
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b2da28cc216c2dea/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "Pickaxe_RankedScythe",
-     "name": "Felina's Claw",
+     "id": "Pickaxe_IgniteEgg",
+     "name": "Supermarket's Shopping Bag",
      "type": "pickaxe"
     }
    ],
@@ -10990,28 +11690,6 @@
      "id": "sid_placeholder_636",
      "name": "DARE",
      "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/f305df367a328d8a2fa113bd460522f1446ae8df032085060925dc7699261c19",
-   "section": "Main Character Energy ",
-   "name": "Felina",
-   "devName": "[VIRTUAL]1 x Felina for 1500 MtxCurrency",
-   "itemNames": [
-    "Felina"
-   ],
-   "finalPrice": 1500,
-   "regularPrice": 1500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/873c4ca890d8bc6b/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Character_RankedScythe",
-     "name": "Felina",
-     "type": "outfit"
     }
    ],
    "namedBundle": false
@@ -11105,28 +11783,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/acee9c1891fb5d7945f31f56c66428baa7dc2c1dc87a96ff57697ebda9a4b538",
-   "section": "Cowboy Bebop",
-   "name": "Jukebox Bop",
-   "devName": "[VIRTUAL]1 x Jukebox Bop for 400 MtxCurrency",
-   "itemNames": [
-    "Jukebox Bop"
-   ],
-   "finalPrice": 400,
-   "regularPrice": 400,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b84ceeae1d96b301/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "EID_KneeLens",
-     "name": "Jukebox Bop",
-     "type": "emote"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/57ecc62ed3e4f22ff47dd21c1a86eb7bd5b7be0b3aa0f181a350034daaee3ec1",
    "section": "alc.0",
    "name": "Void BUFFY",
@@ -11193,6 +11849,34 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/9bdb77616723905d430bc6f8f2c765f63cad17084b47e888db351638989ac452",
+   "section": "Main Character Energy ",
+   "name": "Bao Bros",
+   "devName": "[VIRTUAL]1 x Bao Bros, 1 x Bao Basket for -1 MtxCurrency",
+   "itemNames": [
+    "Bao Bros",
+    "Bao Basket"
+   ],
+   "finalPrice": 1500,
+   "regularPrice": 1500,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/8075b491c2c6ecd5/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "CID_338_Athena_Commando_M_DumplingMan",
+     "name": "Bao Bros",
+     "type": "outfit"
+    },
+    {
+     "id": "BID_207_DumplingMan",
+     "name": "Bao Basket",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/ef25b8d30b44047dc179ca96cbe1bda3f75b04eda2571788e635479e725c6d25",
    "section": "One Piece ",
    "name": "Roronoa Zoro",
@@ -11233,44 +11917,26 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/3362c97d7ab3b2e52db83d347d5bc05b20081b7dbf65da883ee298e5aa293dde",
-   "section": "Main Character Energy ",
-   "name": "M.E.O.W. Protocol Bundle",
-   "devName": "[VIRTUAL]1 x Neko-RX1, 1 x Cybertech Claws, 1 x Hack Cat, 1 x Nine Lives Remaining for -1 MtxCurrency",
+   "offerId": "v2:/d48547a4a7fdba7fd3a80a644a9b6971f855ae111735e701e165d4ec0ed736f7",
+   "section": "alc.0",
+   "name": "Flambago",
+   "devName": "[VIRTUAL]1 x Flambago for 300 MtxCurrency",
    "itemNames": [
-    "Neko-RX1",
-    "Cybertech Claws",
-    "Hack Cat",
-    "Nine Lives Remaining"
+    "Flambago"
    ],
-   "finalPrice": 1600,
-   "regularPrice": 2400,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3c9f3549296d1ad0/renderimage_0.png",
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_flamingocountry/featured.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "Character_BionicKitty",
-     "name": "Neko-RX1",
-     "type": "outfit"
-    },
-    {
-     "id": "Pickaxe_BionicKitty",
-     "name": "Cybertech Claws",
-     "type": "pickaxe"
-    },
-    {
-     "id": "Backpack_BionicKitty",
-     "name": "Hack Cat",
+     "id": "Backpack_FlamingoCountry",
+     "name": "Flambago",
      "type": "backpack"
-    },
-    {
-     "id": "Wrap_BionicKitty",
-     "name": "Nine Lives Remaining",
-     "type": "wrap"
     }
    ],
-   "namedBundle": true
+   "namedBundle": false
   },
   {
    "offerId": "v2:/6b6459236a932a749e437d2ae07ec351c2f0dcc59025c41abe5f2ecfc4ccf559",
@@ -11449,28 +12115,6 @@
    "namedBundle": true
   },
   {
-   "offerId": "v2:/6dc7b8b95a8559507fc11c8395ec5d14ae951f310c790541f4a01f748fe58e81",
-   "section": "alc.0",
-   "name": "McLaren P1",
-   "devName": "[VIRTUAL]1 x McLaren P1 for 700 MtxCurrency",
-   "itemNames": [
-    "McLaren P1"
-   ],
-   "finalPrice": 700,
-   "regularPrice": 700,
-   "outDate": "2026-11-24T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/cars/wheel_arrow/large.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Wheel_Arrow",
-     "name": "McLaren P1",
-     "type": "car"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/d8b7b207bdc7c4aadec611b2b7c672600dd26ee22ae3f1a349a53a957f444406",
    "section": "Phineas and Ferb",
    "name": "Balloony",
@@ -11493,6 +12137,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/6dc7b8b95a8559507fc11c8395ec5d14ae951f310c790541f4a01f748fe58e81",
+   "section": "alc.0",
+   "name": "McLaren P1",
+   "devName": "[VIRTUAL]1 x McLaren P1 for 700 MtxCurrency",
+   "itemNames": [
+    "McLaren P1"
+   ],
+   "finalPrice": 700,
+   "regularPrice": 700,
+   "outDate": "2026-11-24T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/cars/wheel_arrow/large.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Wheel_Arrow",
+     "name": "McLaren P1",
+     "type": "car"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/269ebc05ac5ba84ae2a5d79e3edaf8f447f01503af3909216a28f1ba3f64878a",
    "section": "Jam Tracks",
    "name": "Ruby Soho - Rancid",
@@ -11510,28 +12176,6 @@
      "id": "sid_placeholder_209",
      "name": "Ruby Soho",
      "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
-   "offerId": "v2:/8f182edd7d5941d8ddcdba01bc5885e4857678d38bc56bde7e2806bb620fed29",
-   "section": "Overwatch",
-   "name": "Shimada Spinners",
-   "devName": "[VIRTUAL]1 x Shimada Spinners for 400 MtxCurrency",
-   "itemNames": [
-    "Shimada Spinners"
-   ],
-   "finalPrice": 400,
-   "regularPrice": 400,
-   "outDate": "2026-12-04T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d7813b4af7bcc8bf/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Wheel_BlueTorque02",
-     "name": "Shimada Spinners",
-     "type": "car"
     }
    ],
    "namedBundle": false
@@ -11659,6 +12303,28 @@
     }
    ],
    "namedBundle": true
+  },
+  {
+   "offerId": "v2:/8f182edd7d5941d8ddcdba01bc5885e4857678d38bc56bde7e2806bb620fed29",
+   "section": "Overwatch",
+   "name": "Shimada Spinners",
+   "devName": "[VIRTUAL]1 x Shimada Spinners for 400 MtxCurrency",
+   "itemNames": [
+    "Shimada Spinners"
+   ],
+   "finalPrice": 400,
+   "regularPrice": 400,
+   "outDate": "2026-12-04T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d7813b4af7bcc8bf/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Wheel_BlueTorque02",
+     "name": "Shimada Spinners",
+     "type": "car"
+    }
+   ],
+   "namedBundle": false
   },
   {
    "offerId": "v2:/507db63f9ba40371b54ff43c56a3c504a1559b8d0ce70e8c46a37e02b55fce3e",
@@ -11905,6 +12571,28 @@
    "namedBundle": false
   },
   {
+   "offerId": "v2:/92495e2dce0770195e36f9ca818f8341e42e7c6dead205b3aa332c806ed99322",
+   "section": "alc.0",
+   "name": "Duck Duffle",
+   "devName": "[VIRTUAL]1 x Duck Duffle for 300 MtxCurrency",
+   "itemNames": [
+    "Duck Duffle"
+   ],
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_mallardvantage/featured.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Backpack_MallardVantage",
+     "name": "Duck Duffle",
+     "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
    "offerId": "v2:/7559d0737236bfa5f98929520abc4d86115d323cfba99caf1016b2bc1d1fe1d2",
    "section": "A$AP Rocky",
    "name": "RIOT (Rowdy Pipe'n)",
@@ -11922,6 +12610,34 @@
      "id": "EID_TonicMailYam",
      "name": "RIOT (Rowdy Pipe'n)",
      "type": "emote"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/dd129cd2f09495f1de37833401960c3dd36d6c8efca75973549183e5f4dc6051",
+   "section": "Birds of a Feather",
+   "name": "Sgt. Drake",
+   "devName": "[VIRTUAL]1 x Sgt. Drake, 1 x Duck Duffle for -1 MtxCurrency",
+   "itemNames": [
+    "Sgt. Drake",
+    "Duck Duffle"
+   ],
+   "finalPrice": 1200,
+   "regularPrice": 1200,
+   "outDate": "2026-11-26T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/da671bb21d3d0ae0/renderimage_0.png",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "Character_MallardVantage",
+     "name": "Sgt. Drake",
+     "type": "outfit"
+    },
+    {
+     "id": "Backpack_MallardVantage",
+     "name": "Duck Duffle",
+     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -11993,28 +12709,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/03c0187a3147f52cbf16f2c9cb449e584397540b45833f2692a009caed7b2007",
-   "section": "Main Character Energy ",
-   "name": "Hack Cat",
-   "devName": "[VIRTUAL]1 x Hack Cat for 200 MtxCurrency",
-   "itemNames": [
-    "Hack Cat"
-   ],
-   "finalPrice": 200,
-   "regularPrice": 200,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/946683264dd9224e/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Backpack_BionicKitty",
-     "name": "Hack Cat",
-     "type": "backpack"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/c8db30c15a5d3bacacc140ee3d34e77784162fc7aa3b8fc11921120fc1392904",
    "section": "Treasure Hunters ",
    "name": "Privateer Oscar Bundle",
@@ -12067,28 +12761,6 @@
    "namedBundle": true
   },
   {
-   "offerId": "v2:/c0b5399bc71412ce3af42b14ae72b1bc937a051ea6011b8eda3cd43ef744fa24",
-   "section": "Jam Tracks",
-   "name": "Your Love (9pm) - ATB, Topic, A7S",
-   "devName": "[VIRTUAL]1 x Your Love (9pm) for 500 MtxCurrency",
-   "itemNames": [
-    "Your Love (9pm) - ATB, Topic, A7S"
-   ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-30T23:59:59.999Z",
-   "imageUrl": "https://cdn.fortnite-api.com/tracks/e718e9d68a0845e2.jpg",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "sid_placeholder_149",
-     "name": "Your Love (9pm)",
-     "type": "track"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/14cecc01d010597eb2b4aff94b860872f01c19235ac3c12b13d9d29b5c3d2c9e",
    "section": "Save The World",
    "name": "Ivor",
@@ -12106,6 +12778,28 @@
      "id": "Backpack_WingedEye",
      "name": "Ivor",
      "type": "backpack"
+    }
+   ],
+   "namedBundle": false
+  },
+  {
+   "offerId": "v2:/c0b5399bc71412ce3af42b14ae72b1bc937a051ea6011b8eda3cd43ef744fa24",
+   "section": "Jam Tracks",
+   "name": "Your Love (9pm) - ATB, Topic, A7S",
+   "devName": "[VIRTUAL]1 x Your Love (9pm) for 500 MtxCurrency",
+   "itemNames": [
+    "Your Love (9pm) - ATB, Topic, A7S"
+   ],
+   "finalPrice": 500,
+   "regularPrice": 500,
+   "outDate": "2026-11-30T23:59:59.999Z",
+   "imageUrl": "https://cdn.fortnite-api.com/tracks/e718e9d68a0845e2.jpg",
+   "currency": "MtxCurrency",
+   "items": [
+    {
+     "id": "sid_placeholder_149",
+     "name": "Your Love (9pm)",
+     "type": "track"
     }
    ],
    "namedBundle": false
@@ -12133,23 +12827,23 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/c427b93a9b1cb2e92573582ca11c6bcf9812653ce13563fa1d2e149d87c85a62",
-   "section": "Main Character Energy ",
-   "name": "SLURP Hammer",
-   "devName": "[VIRTUAL]1 x SLURP Hammer for 500 MtxCurrency",
+   "offerId": "v2:/09d9852e7ada8df2362deacd2aef1fbc1982bac06f1943887c56497a8f57198a",
+   "section": "One-Punch Man",
+   "name": "Saitama's Alarm Clock",
+   "devName": "[VIRTUAL]1 x Saitama's Alarm Clock for 300 MtxCurrency",
    "itemNames": [
-    "SLURP Hammer"
+    "Saitama's Alarm Clock"
    ],
-   "finalPrice": 500,
-   "regularPrice": 500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/76aaad841a1efae6/renderimage_0.png",
+   "finalPrice": 300,
+   "regularPrice": 300,
+   "outDate": "2026-11-27T23:59:59.999Z",
+   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e5cb4f327d76a88d/renderimage_0.png",
    "currency": "MtxCurrency",
    "items": [
     {
-     "id": "Pickaxe_StrikinglyBright",
-     "name": "SLURP Hammer",
-     "type": "pickaxe"
+     "id": "Backpack_IgniteEgg",
+     "name": "Saitama's Alarm Clock",
+     "type": "backpack"
     }
    ],
    "namedBundle": false
@@ -12221,28 +12915,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/cc586e96bea7e4f9d66d093d0a21b2410211ac7ce9d95e89039833d1a6979929",
-   "section": "Regular Show",
-   "name": "Rigby",
-   "devName": "[VIRTUAL]1 x Rigby for 1500 MtxCurrency",
-   "itemNames": [
-    "Rigby"
-   ],
-   "finalPrice": 1500,
-   "regularPrice": 1500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/30f585ee2ed4998b/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Companion_PromDutch",
-     "name": "Rigby",
-     "type": "sidekick"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/c84cccea9ccebdcee680302f168d86f812ab09ba6aa5a6eda2c919480d66655f",
    "section": "The Sidekick Squad",
    "name": "Doodle-Doo",
@@ -12265,28 +12937,6 @@
    "namedBundle": false
   },
   {
-   "offerId": "v2:/f2066874ad14a2570aebbf7bde7f32f9a2a48b15026bee2be440493d501b7c83",
-   "section": "The Sidekick Squad",
-   "name": "Doggo Jr.",
-   "devName": "[VIRTUAL]1 x Doggo Jr. for 1500 MtxCurrency",
-   "itemNames": [
-    "Doggo Jr."
-   ],
-   "finalPrice": 1500,
-   "regularPrice": 1500,
-   "outDate": "2026-11-23T23:59:59.999Z",
-   "imageUrl": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/00aa92bccf2b150e/renderimage_0.png",
-   "currency": "MtxCurrency",
-   "items": [
-    {
-     "id": "Companion_WideSnore",
-     "name": "Doggo Jr.",
-     "type": "sidekick"
-    }
-   ],
-   "namedBundle": false
-  },
-  {
    "offerId": "v2:/6cf53096c727b062659e89b326cc107fb1dea818a6698cc271c56800c5a566de",
    "name": "Pophaze",
    "devName": "[VIRTUAL]1 x Pophaze for 400 MtxCurrency",
@@ -12297,7 +12947,7 @@
    "itemNames": [
     "Pophaze"
    ],
-   "imageUrl": "https://ucs-images.fortnite.com/blobs/a8/59/54cb-358b-4d71-8fb0-fb340dca3b6f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA2SBBZFECCYQWRK6G%2F20261123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261123T001050Z&X-Amz-Expires=90000&X-Amz-Signature=14f0ebf277c1630e4bde6d94effe271469a4e6b8326888756fe86ad853131a14&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3D%22file.png%22%3Bfilename%2A%3DUTF-8%27%27cap-512x512.png&x-id=GetObject",
+   "imageUrl": "https://ucs-images.fortnite.com/blobs/a8/59/54cb-358b-4d71-8fb0-fb340dca3b6f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA2SBBZFECCYQWRK6G%2F20261124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261124T001050Z&X-Amz-Expires=90000&X-Amz-Signature=767c4d6401f77f3987938ade7edd1dfa7b11858201d5c3ca805e08bd49f9e90e&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3D%22file.png%22%3Bfilename%2A%3DUTF-8%27%27cap-512x512.png&x-id=GetObject",
    "outDate": null,
    "items": [
     {
@@ -12321,7 +12971,7 @@
    "itemNames": [
     "Crooked Color"
    ],
-   "imageUrl": "https://ucs-images.fortnite.com/blobs/0f/21/91ef-6e3b-4fdf-8d8e-bc1f2864f42d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA2SBBZFECCYQWRK6G%2F20261123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261123T001050Z&X-Amz-Expires=90000&X-Amz-Signature=04aaafdeabe2f8262e0b364eaaf45b672f54586d4b00e37fb4588df28f4c9acd&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3D%22file.png%22%3Bfilename%2A%3DUTF-8%27%27cap-512x512.png&x-id=GetObject",
+   "imageUrl": "https://ucs-images.fortnite.com/blobs/0f/21/91ef-6e3b-4fdf-8d8e-bc1f2864f42d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA2SBBZFECCYQWRK6G%2F20261124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261124T001050Z&X-Amz-Expires=90000&X-Amz-Signature=819bf6badb0498fa868d5cefe0e1b5d44a70913ae802c98b47176423d9f5993c&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3D%22file.png%22%3Bfilename%2A%3DUTF-8%27%27cap-512x512.png&x-id=GetObject",
    "outDate": null,
    "items": [
     {
