@@ -1,0 +1,87 @@
+{
+  "merged": [
+    "v2:/5a61a9ace632c8f028b38d490fa2f10c5884f062d73af1c52cddf1fbaf60cba7",
+    "v2:/fae3c7584cbe8f0faf3adf5915c6d7ff90c8e8e5d20d098ac4800780cda6430a",
+    "v2:/28092c24d155e9c324b3be048cbb8148d7b62ce5ab13f665832f25be8e685c5a",
+    "v2:/4c770797cc21255d924c0215950008a2c47a8e8268cc1617f79a22d3228518b8",
+    "v2:/5f3ab14d685eddd06815215eba39f29c6792f0580d09ac582cd2aba73fbb144a"
+  ],
+  "removed_stale": [],
+  "suspected_stale": [
+    {
+      "name": "Oro",
+      "offerIds": [
+        "v2:/c877462b3c130f7502dfbe642f49fada844bd359d3899010ebc78defce76ca1a",
+        "v2:/eb0cbf02511bf4265f3d44ebe3fd0b7e5eb31ac734da3b008accd71cad5798fc"
+      ],
+      "prices": [
+        400,
+        2000
+      ],
+      "officialConfirmedOfferIds": [
+        "v2:/c877462b3c130f7502dfbe642f49fada844bd359d3899010ebc78defce76ca1a",
+        "v2:/eb0cbf02511bf4265f3d44ebe3fd0b7e5eb31ac734da3b008accd71cad5798fc"
+      ]
+    },
+    {
+      "name": "Monamóvil",
+      "offerIds": [
+        "v2:/120cf2bb6e5993401d8a35e334a21562a5660b7d1ac13d805961abf6e350f707",
+        "v2:/41f348edf53f6a633273d6faacca8be32d614309566032b5ca6d85f04bffe804"
+      ],
+      "prices": [
+        400,
+        2400
+      ],
+      "officialConfirmedOfferIds": [
+        "v2:/120cf2bb6e5993401d8a35e334a21562a5660b7d1ac13d805961abf6e350f707",
+        "v2:/41f348edf53f6a633273d6faacca8be32d614309566032b5ca6d85f04bffe804"
+      ]
+    },
+    {
+      "name": "Ferrari F40",
+      "offerIds": [
+        "v2:/c1bc1b07a5fcb23435ab013d3ad6806b9b209841f50802b649cb619ba5e4eaeb",
+        "v2:/c97159539c4bde7b145b6e1caab86114534c91ff1c14936a15900e2d52fd8350"
+      ],
+      "prices": [
+        700,
+        2800
+      ],
+      "officialConfirmedOfferIds": [
+        "v2:/c1bc1b07a5fcb23435ab013d3ad6806b9b209841f50802b649cb619ba5e4eaeb",
+        "v2:/c97159539c4bde7b145b6e1caab86114534c91ff1c14936a15900e2d52fd8350"
+      ]
+    },
+    {
+      "name": "BMW 1 Series",
+      "offerIds": [
+        "v2:/42789be9385bc773fcf43aa9ccf7cb9aeecf1b00e18fc41c4b614e2ecca6f257",
+        "v2:/4a4d0da0e71153905296d79a332ed2f9a36fdf29adb7044b4af3643dd257434b"
+      ],
+      "prices": [
+        400,
+        2000
+      ],
+      "officialConfirmedOfferIds": [
+        "v2:/42789be9385bc773fcf43aa9ccf7cb9aeecf1b00e18fc41c4b614e2ecca6f257",
+        "v2:/4a4d0da0e71153905296d79a332ed2f9a36fdf29adb7044b4af3643dd257434b"
+      ]
+    }
+  ],
+  "missing_items": [],
+  "provenance": "official-web",
+  "counts": {
+    "snapshot": 559,
+    "official": 570,
+    "merged": 5,
+    "removed_stale": 0,
+    "suspected_stale": 4,
+    "missing_items": 0,
+    "skipped_non_vbucks": 6,
+    "augmented": 564,
+    "missing_from_api": 5,
+    "missing_from_official": 0,
+    "price_mismatches": 0
+  }
+}
